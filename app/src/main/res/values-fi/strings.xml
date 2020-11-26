@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Drawer titles -->
+    <string name="Drawer_Title_Home">"Etusivu"</string>
+    <string name="Drawer_Title_Route_Planner">"Reittiopas"</string>
+    <string name="Drawer_Title_My_Trips">"Matkat"</string>
+
+    <!-- Translated as "Mobility data" because I assume that user cannot really modify settings through Dashboard (as they are in Profile), and the direct translation is very technical (Hallintapaneeli) -->
+    <string name="Drawer_Title_Dashboard">"Liikkumistiedot"</string>
+
+    <!-- Translated as "Mobility advice" since meaning of direct translation of "coach" is very much related to sports -->
+    <string name="Drawer_Title_Mobility_Coach">"Liikkumisvinkit"</string>
+    <string name="Drawer_Title_Profile">"Käyttäjätiedot"</string>
+    <string name="Drawer_Title_Settings">"Käyttäjätiedot"</string>
+
+    <!-- Translated as "Report on problems", since direct translation of "issue" is a too abstract and vague term -->
+    <string name="Drawer_Title_Report_Issue">"Ilmoita ongelmista"</string>
+    <string name="Drawer_Title_Finish_Log_Out">"Kirjaudu ulos"</string>
+    <string name="login_what_is_email_address">"Sähköpostiosoitteesi?"</string>
+    <string name="login_enter_your_password">"Anna salasanasi"</string>
+
+    <!-- Profile and settings options -->
+    <string name="Edit_Profile">"Muokkaa käyttäjätietoja"</string>
+    <string name="Set_Home_And_Work">"Aseta koti- ja työosoite"</string>
+
+    <!-- Translated as "Background information" since direct translation of "demograhic" is a too technical term -->
+    <string name="Demographic_Info">"Taustatietoja"</string>
+
+    <!-- Translated as "Mobility objectives" or "Mobility targets" since "worthwhileness" is not directly translatable into Finnish and using that with settings makes the meaning into something very different -->
+    <string name="Worthwhileness_Settings">"Liikkumistavoitteet"</string>
+    <string name="Tutorials">"Mitä on hyödyllinen matka-aika"</string>
+
+    <!-- Translated as "Mobility settings" since direct translation of "preferences" is too much like "wishes" and is not so well suited here -->
+    <string name="Transport_Preferences">"Liikkumisasetukset"</string>
+
+    <!-- <string name="APP_PERMISSIONS">App permissions</string> -->
+    <string name="App_Language">"Sovelluksen kieli"</string>
+    <string name="Change_Password">"Muuta salasana"</string>
+    <string name="Feedback">"Palaute"</string>
+
+    <!-- Translated as "End" or "Stop" since direct translation of "Log out" would be a too long word -->
+    <string name="Log_Out">"Lopeta"</string>
+
+    <!-- Education labels -->
+    <string name="Education_8th_Grade">"Peruskoulu"</string>
+    <string name="Education_Some_Highschool">"Toisen asteen opintoja"</string>
+
+    <!-- Fuzzy -->
+    <string name="Education_Highschool">"Lukio"</string>
+    <string name="Education_Some_College">"Korkeakouluopintoja"</string>
+    <string name="Education_Training">"Ammattitutkinto"</string>
+    <string name="Education_Bachelor">"Alempi korkeakoulututkinto"</string>
+    <string name="Education_Master">"Ylempi korkeakoulututkinto"</string>
+    <string name="Education_Professional">"Professional degree"</string>
+    <string name="Education_Doctorate">"Tohtorin tutkinto"</string>
+    <string name="Education_Associate">"Associate degree"</string>
+    <string name="Education_No_Schooling">"Ei virallista koulutusta"</string>
+
+    <!-- Demographic option -->
+    <string name="Demographic_Option_General">"Yleistä"</string>
+
+    <!-- <string name="DEMOGRAPHIC_OPTION_HOUSEHOLD_DATA">Household data</string>
+<string name="DEMOGRAPHIC_OPTION_MOBILITY_CAPABILITIES">Mobility capabilities</string>
+<string name="DEMOGRAPHIC_OPTION_MOBILITY_PREFERENCES">Mobility preferences</string>
+<string name="DEMOGRAPHIC_OPTION_EXPERIENCE_FACTORS">Experience factors</string>
+ General suboptions -->
+    <string name="Age">"Ikä"</string>
+
+    <!-- message: Gender -->
+    <string name="Gender">"Sukupuoli"</string>
+    <string name="Education">"Koulutus"</string>
+    <string name="Country">"Maa"</string>
+    <string name="City">"Kaupunki"</string>
+
+    <!-- Tutorial options -->
+    <string name="Tutorial_Option_What_Is_Worthwhileness">"Mitä on hyödyllinen matka-aika"</string>
+
+    <!-- Productivity -->
+    <string name="Productivity_Percentage">"Tehokkuus %1$s%%"</string>
+
+    <!-- Translated as "Comfort" because direct translation of "Enjoyment" is closer to "Pleasure", with its other connotations that we don't want to use here -->
+    <string name="Mind_Percentage">"Mukavuus %1$s%%"</string>
+
+    <!-- Translated with a word that is used to describe physical activity as in physical sports class at school or any leisurely sports hobby like jogging or even walking around (a broadly positive image), since "Fitness" is translated as "Fitness" and means the fitness sports that you see on TV or in gyms -->
+    <string name="Body_Percentage">"Liikunta %1$s%%"</string>
+
+    <!-- Main menu options
+<string name="NEW_INTERFACE_TEXT">New interface</string>
+ My trips module -->
+    <!-- Fuzzy -->
+    <string name="My_Trips">"Matkat"</string>
+    <string name="Start_Trip">"Aloita matka"</string>
+    <string name="End_Trip">"Lopeta matka"</string>
+    <string name="Trip_Being_Recorded">"Matkaa tallennetaan"</string>
+
+    <!-- Edit trips -->
+    <string name="Select_Trips_To_Merge">"Valitse listalta yhdistettävät matkat"</string>
+    <string name="Confirm_Trips_To_Merge">"Vahvista valitsemasi yhdistettävät matkat"</string>
+    <string name="Select_Trips_To_Split">"Valitse listalta jaettava matka"</string>
+    <string name="Move_The_Map_To_Split">"Siirrä karttaa jakautumiskohtaan"</string>
+    <string name="Select_Trips_To_Delete">"Valitse listalta poistettavat matkat"</string>
+    <string name="Split">"Jaa"</string>
+    <string name="Merge">"Yhdistä"</string>
+    <string name="Delete">"Poista"</string>
+
+    <!-- Both legs and transfers translated together as "trip parts" -->
+    <string name="Select_Legs_To_Split">"Valitse listalta jaettava matkan osa"</string>
+    <string name="Move_The_Map_To_Split_The_Leg">"Siirrä kartta jakautumiskohtaan"</string>
+    <string name="Edited">"Muokattu"</string>
+
+    <!-- Both legs and transfers translated together as "trip parts" -->
+    <string name="Select_Legs_To_Merge">"Valitse listalta yhdistettävät matkan osat"</string>
+
+    <!-- Both legs and transfers translated together as "trip parts" -->
+    <string name="Confirm_The_Legs_To_Merge">"Vahvista yhdistettävät matkan osat"</string>
+    <string name="Rate_Your_Edited_Trips">"Arvioi muokkaamasi matkat"</string>
+    <string name="Select_Legs_To_Delete">"Valitse poistettavat matkan osat"</string>
+
+    <!-- Both legs and transfers translated together as "trip parts" -->
+    <string name="Confirm_The_Legs_To_delete">"Vahvista valitsemasi poistettavat matkan osat"</string>
+
+    <!-- Leg validation -->
+    <string name="Validated">"Vahvistettu"</string>
+    <string name="How_Did_You_Travel">"Millä tavalla liikuit?"</string>
+
+    <!-- message: Public Transport -->
+    <string name="Public_Transport">"Bussi jne."</string>
+
+    <!-- Translated with the same generic word as in "Fitness" which has broad meaning describing any kind of physical exercise or movement (from light to heavy) -->
+    <string name="Active_Semi_Active">"Liikunta"</string>
+
+    <!-- Translated as "Car or similar" with the "or similar" abbreviated as  "yms." -->
+    <string name="Private_Motorised">"Auto jne."</string>
+    <string name="Not_Sure">"En tiedä"</string>
+    <string name="Lousy">"Surkea"</string>
+
+    <!-- Translated as "What was your generic feeling when you made the trip?" -->
+    <string name="Overall_Feel_About_Trip">"Mikä oli yleistunnelmasi matkaa tehdessäsi?"</string>
+    <string name="Great">"Mahtava"</string>
+    <string name="Travel_Time_Wasted_Min_Text">"Koko aika meni hukkaan"</string>
+    <string name="Travel_Time_Wasted_Question_Text">"Menikö matka-aikasi hukkaan vai oliko se hyödyllistä?"</string>
+    <string name="Travel_Time_Wasted_Max_Text">"Koko aika oli hyödyllistä"</string>
+
+    <!-- please update translation from new english text -->
+    <string name="Which_Factors_Most_Contributed">"Valitse tärkeimmät asiat, jotka vaikuttivat matka-aikasi laatuun"</string>
+    <string name="Unfold_All_That_Apply">" Merkitse (+) myönteisestä kokemuksesta tai (-) kielteisestä kokemuksesta"</string>
+
+    <!-- Factors -->
+    <string name="Infrastructure_And_Services">"Infrastruktuuri ja palvelut"</string>
+    <string name="Comfort_And_Pleasantness">"Mukavuus ja viihtyisyys"</string>
+
+    <!-- Translated as "Travelling" since direct translation of "Getting there" means being able to reach the destination (slightly different connotation) -->
+    <string name="Getting_There">"Matkan puitteet"</string>
+    <string name="Tables">"Pöytä"</string>
+    <string name="Toilets">"WC-tilat"</string>
+    <string name="Food_Drink_Allowed">"Ruoka/juoma sallittu"</string>
+    <string name="Food_Drink_Available">"Ruokaa/juomaa tarjolla"</string>
+
+    <!-- Translated as "Opportunity to shop" where "shop" has a broader meaning and is used in similar contexts as a generic word -->
+    <string name="Shopping_Retail">"Ostosmahdollisuudet"</string>
+    <string name="Entertainment">"Viihde"</string>
+
+    <!-- Translated as "Sound volume" because "noise" has only a negative meaning -->
+    <string name="Noise_Level">"Äänitaso"</string>
+    <string name="Cleanliness">"Siisteys"</string>
+    <string name="Scenery">"Luonto ja maisemat"</string>
+    <string name="Todays_Weather">"Päivän sää"</string>
+    <string name="Privacy">"Yksityisyys"</string>
+    <string name="Traffic_Signals_Crossings">"Liikennevalot/risteykset"</string>
+    <string name="Crowding_Congestion">"Tungos/väenpaljous"</string>
+    <string name="Traffic_Congestion_Delays">"Liikenneruuhkat/viiveet"</string>
+    <string name="Others_Comments">"Muuta/kommentteja"</string>
+
+    <!-- Activities -->
+    <string name="What_Did_You_Do_And_Value">"Teitkö jotain hyödyllistä matkan osan aikana?"</string>
+    <string name="Driving_Cycling_Walking">"Ajaminen/pyöräily/kävely"</string>
+    <string name="Relaxing_Sleeping">"Rentoutu- minen tai nukkuminen"</string>
+
+    <!-- Translated "Browsing" as "Internet" because direct translation of "browsing" is these days more associated with physical papers (maybe in early days of internet websites and pages it was more neutral) -->
+    <string name="Browsing_Social_Media">"Internet tai sosiaalinen media"</string>
+    <string name="Reading_Writing_Paper">"Lukeminen / kirjoitus (paperilla)"</string>
+    <string name="Reading_Writing_Device">"Lukeminen / kirjoitus (laitteella)"</string>
+
+    <!-- Translated as "Listening to music etc." -->
+    <string name="Listening_To_Audio">"Musiikin tms. kuuntelu"</string>
+    <string name="Walking_Video_Gaming">"Videon katselu tai pelaaminen"</string>
+    <string name="Talking_Including_Phone">"Puhuminen (myös puhelimella)"</string>
+    <string name="Accompanying_Someone">"Jonkun saattaminen"</string>
+    <string name="Eating_Drinking">"Syöminen / juominen"</string>
+    <string name="Personal_Caring">"Itsestä huolehtiminen"</string>
+    <string name="Thinking">"Ajattelu"</string>
+
+    <!-- Value this part of the trip -->
+    <string name="What_Value_Take_From_Part">"Teitkö tämän matkan osan aikana jotain hyödyllistä?"</string>
+
+    <!-- Translated as "Work tasks" -->
+    <string name="Paid_Work">"Työtehtävät"</string>
+
+    <!-- Translated as "My tasks" -->
+    <string name="Personal_Tasks">"Omat asiat"</string>
+
+    <!-- message: Enjoyment -->
+    <string name="Enjoyment">"Mukavaa"</string>
+
+    <!-- message: Fitness -->
+    <string name="Fitness">"Liikuntaa"</string>
+    <string name="None">"Ei yhtään"</string>
+    <string name="Some">"Vähän"</string>
+    <string name="High">"Paljon"</string>
+
+    <!-- Thinking about trip as a whole -->
+    <string name="Thinking_About_Your_Trip_Title">"Olisitko halunnut käyttää koko matkaan käyttämääsi aikaa johonkin muuhun hyödylliseen?"</string>
+
+    <!-- message: Productivity -->
+    <string name="Productivity">"Tehokkuus"</string>
+    <string name="Anything_Else_Like_To_Share">"Haluatko ilmoittaa ongelmista tai kertoa lisää matkastasi?"</string>
+
+    <!-- message: I would like to share... -->
+    <string name="Would_Like_To_Share">"Kirjoita tähän palautteesi
+"</string>
+    <string name="Today">"Tänään"</string>
+    <string name="Yesterday">"Eilen"</string>
+    <string name="Validate_Your_Trip">"Uusi matka tunnistettu! Vahvista ansaitaksesi %d pistettä!"</string>
+    <string name="What_Was_Purpose">"Mikä oli matkan tarkoitus?"</string>
+    <string name="Mark_All_That_Apply">"Valitse kaikki sopivat"</string>
+
+    <!-- Trip purposes -->
+    <string name="Work">"Työ"</string>
+    <string name="School_Education">"Koulu/opinnot"</string>
+    <string name="Home">"Koti"</string>
+    <string name="Everyday_Shopping">"Päivittäisostokset"</string>
+    <string name="Business_Trip">"Työmatka"</string>
+    <string name="Leisure_Hobby">"Vapaa-aika/harrastus"</string>
+
+    <!-- Translated as "Escorting" or "Accompanying" -->
+    <string name="Pick_Up_Drop_Off">"Hakeminen/vieminen"</string>
+    <string name="Personal_Tasks_Errands">"Omat tehtävät/asiointi"</string>
+    <string name="Trip_Itself">"Matka sinänsä"</string>
+
+    <!-- message: Other -->
+    <string name="Other">"Muu"</string>
+    <string name="Arrive_At_Fixed_Time">"Pitikö sinun saapua tiettyyn aikaan?"</string>
+    <string name="How_Often_Make_This_Trip">"Kuinka usein teet suunnilleen tämän matkan?"</string>
+    <string name="Regularly">"Säännöllisesti"</string>
+    <string name="Occasionally">"Satunnaisesti"</string>
+
+    <!-- Translated as "Once" -->
+    <string name="First_Time">"Kerran"</string>
+    <string name="Select_Part_Of_Trip_Feedback">"Valitse matkan osa, josta voit kertoa lisää"</string>
+
+    <!-- <string name="objective_other_hint">Where you travelled and why</string> -->
+    <string name="Confirm_Modes_Of_Your_Trips">"Vahvista matkan kulkumuodot"</string>
+
+    <!-- message: Transfer -->
+    <string name="Transfer">"Siirtyminen"</string>
+    <string name="Auto_Detected">"Tunnistettu"</string>
+
+    <!-- message: were you %s ? -->
+    <string name="Were_You_Walking_Or_Running">"Oliko kyseessä %s ?"</string>
+
+    <!-- message: Did you go by %s ? -->
+    <string name="Did_You_Go_The_Mode">"Oliko kulkuneuvosi %s ?"</string>
+
+    <!-- modes of transport -->
+    <string name="Walking">"Kävely"</string>
+    <string name="Jogging_Running">"Hölkkä/juoksu"</string>
+    <string name="Bicycle">"Polkupyörä"</string>
+    <string name="Car_Driver">"Auto (kuljettaja)"</string>
+    <string name="Bus_Trolley_Bus">"Bussi"</string>
+    <string name="Tram">"Raitiovaunu"</string>
+    <string name="Metro">"Metro"</string>
+    <string name="Urban_Train">"Paikallisjuna"</string>
+    <string name="Regional_Intercity_Train">"Pikajuna"</string>
+    <string name="Ferry_Boat">"Lautta/vene"</string>
+    <string name="Motorcycle">"Moottoripyörä"</string>
+    <string name="Moped">"Skootteri"</string>
+    <string name="Electric_Bike">"Sähköpyörä"</string>
+    <string name="Bike_Sharing">"Kaupunkipyörä"</string>
+    <string name="Car_Passenger">"Auto (matkustaja)"</string>
+
+    <!-- Translated as "Taxi etc." since translation of "ride-hailing" is a long sequence of words and also very technical -->
+    <string name="Taxi_Ride_Hailing">"Taxi tms."</string>
+
+    <!-- Translated as "Rental car" since words used for car sharing services are "Yhteiskäyttöauto" (very long word) or for P2P case translated as "Peer rental" -->
+    <string name="Car_Sharing_Rental_Driver">"Vuokra-auto (kuljettaja)"</string>
+    <string name="Car_Sharing_Rental_Passenger">"Vuokra-auto (matkustaja)"</string>
+    <string name="car_pooling">"Kimppakyyti"</string>
+    <string name="Plane">"Lentokone"</string>
+    <string name="high_speed_train">"Suurnopeusjuna"</string>
+    <string name="Coach_Long_Distance_Bus">"Pitkän matkan bussi"</string>
+    <string name="Micro_Scooter">"Potkulauta"</string>
+
+    <!-- Translated as "skateboard" (didn't see this used in the UI) -->
+    <string name="Skate">"Rullalauta"</string>
+    <string name="Electric_Wheelchair_Cart">"Sähköpyörätuoli"</string>
+    <string name="Wheelchair">"Pyörätuoli"</string>
+    <string name="Cargo_Bike">"Tavarapyörä"</string>
+    <string name="Other_Public_Transport">"Muu joukkoliikenne"</string>
+
+    <!-- See earlier translation for Active/Semi-Active -->
+    <string name="Other_Active_Semi_Active">"Muu liikunta"</string>
+
+    <!-- Translated as "Other vehicle" -->
+    <string name="Other_Private_Motorised">"Muu ajoneuvo"</string>
+
+    <!-- Misc -->
+    <string name="Yes">"Kyllä"</string>
+    <string name="No">"Ei"</string>
+    <string name="Save">"Tallenna"</string>
+    <string name="Confirm_All">"Vahvista kaikki"</string>
+
+    <!-- message text of \"Next\" button message: Next -->
+    <string name="Next">"Seuraava"</string>
+    <string name="Done">"Valmis"</string>
+
+    <!-- Translated as "Completed" since this is at the end of the MyTrips validation and details entry process, and when user presses this button the data entry is completed -->
+    <string name="End">"Valmis"</string>
+
+    <!-- Factors Wasted Time -->
+    <string name="Skip">"Ohita"</string>
+
+    <!-- title for the info pages message: A Little About You -->
+    <string name="A_Little_About_You">"Kerro itsestäsi"</string>
+
+    <!-- message: Active/Semi-active -->
+    <string name="Active_Semi_active">"Liikunta"</string>
+
+    <!-- message: Thanks! To record your trips we need your permission to let Woorti access to your location at all times.
+
+It should not excessively consume your battery. -->
+    <!-- Fuzzy -->
+    <string name="Ask_location_permission_String">"Kiitos! Tallentaakseen matkasi Woorti tarvitsee luvan sijaintitietosi jatkuvaan keräämiseen. Olemme yrittäneet tehdä tämän akkuasi säästäen."</string>
+
+    <!-- message: Sorry! For Woorti to function properly we really need that you allow it to access your location at all times. -->
+    <string name="Ask_location_permission_String_when_user_has_denied">"Anteeksi! Toimiakseen Woorti oikeasti tarvitsee lupasi sijaintitiedon keräämiseen."</string>
+
+    <!-- message: Lastly, we will be asking you questions regarding your experiences as you travel. Your opinion really matters to us! 
+
+ To do this we need to be able to send you notifications -->
+    <!-- Fuzzy -->
+    <string name="Ask_notification_permission_String">"Tulemme myös kysymään sinulta, mitä kokemuksia matkoihisi liittyy. Tätä varten tarvitsemme sinulta vielä luvan ilmoitusten esittämiseen."</string>
+
+    <!-- message: BACK TO LOGIN -->
+    <string name="Back_To_Login">"TAKAISIN KIRJAUTUMISEEN"</string>
+
+    <!-- change language screen title message: Change Language -->
+    <string name="Change_Language">"Vaihda kieli"</string>
+
+    <!-- message: Correct exams -->
+    <string name="Correct_Exams">"Oikeat kyselyt"</string>
+
+    <!-- title for the first onboarding pages message: Data Protection -->
+    <string name="Data_Protection">"Tietosuoja"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Didnt_sign_up_yet">"Unohtuiko salasana?"</string>
+
+    <!-- rating prefered modes of transport message: Doesn't improve my fitness -->
+    <string name="Doesnt_Improve_My_Fitness">"Ei edistä kuntoa"</string>
+
+    <!-- email message -->
+    <string name="Email">"Sähköposti"</string>
+
+    <!-- message shown when clcicking to reset a password message: If %s has an account with Woorti, you will be receiving an email to reset your password -->
+    <string name="Email_Has_Been_Sent">"Sähköposti on lähetetty"</string>
+
+    <!-- rating prefered modes of transport message: Enjoying -->
+    <string name="Enjoying">"Mukavaa"</string>
+
+    <!-- message: Relaxing or having fun; taking time to listen to music, rest or meditate; engaging in social media; observing the surroundings… -->
+    <string name="Enjoyment_Worthwhile_Description_Score">"Rentoudu tai pidä hauskaa; käytä aikaa musiikin kuunteluun tai somettamiseen; tarkkaile ympäristöäsi..."</string>
+
+    <!-- message: When I travel, 
+I chill -->
+    <!-- Fuzzy -->
+    <string name="Enjoyment_Worthwhile_High_Score">"Rentoudun matkalla"</string>
+
+    <!-- placeholder for email in login/register -->
+    <string name="Enter_Your_Email_Address">"Anna sähköpostiosoite"</string>
+
+    <!-- name Placeholder message: Enter your name -->
+    <string name="Enter_Your_Name">"Anna nimi"</string>
+
+    <!-- placeholder for password in login/register -->
+    <string name="Enter_Your_Password">"Anna salasana"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Enter_Your_Password_Again">"Anna salasana uudestaan"</string>
+
+    <!-- error shown to the user when log in failed -->
+    <string name="Error_Log_In">"Virhe sisäänkirjautumisessa. Yritä uudelleen tai vaihda salasanasi."</string>
+
+    <!-- message: Female -->
+    <string name="Female">"Nainen"</string>
+
+    <!-- message: Did you know that a person spends about 2 years of her whole life commuting?
+
+Woorti will help you explore your travel time! -->
+    <!-- Fuzzy -->
+    <string name="First_Onboarding_Screen_Welcome_Description_Text">"Tiesitkö, että työmatkoihin käytetään 2 vuotta elämästä?
+
+Woorti auttaa sinua tutkimaan matka-aikaasi!"</string>
+
+    <!-- message: Your travel time is an important part of your life! -->
+    <string name="First_Onboarding_Screen_Welcome_Title">"Matka-aikasi on tärkeä osa elämääsi!"</string>
+
+    <!-- message: message: Travelling is not at all relaxing -->
+    <!-- Fuzzy -->
+    <string name="FitnesEnjoyment_Worthwhile_Low_Scores">"Matkustus ei rentouta"</string>
+
+    <!-- message: When you walk, cycle, or even run on your travels, you’re getting exercise and staying in shape. -->
+    <string name="Fitness_Worthwhile_Description_Score">"Kun matkaat kävellen, pyöräillen tai vaikka juosten, saat samalla liikuntaa ja pysyt kunnossa."</string>
+
+    <!-- message: Travel time is a great way to feel the burn -->
+    <!-- Fuzzy -->
+    <string name="Fitness_Worthwhile_High_Score">"Matkalla saa hien pintaan"</string>
+
+    <!-- message: Exercise is in the gym/field -->
+    <string name="Fitness_Worthwhile_Low_Score">"Liikunta kuuluu salille/kentälle"</string>
+
+    <!-- Forgot Password -->
+    <!-- Fuzzy -->
+    <string name="Forgot_Password">"Salasana unohtunut"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Forgot_Your_Password">"Unohtuiko salasana?"</string>
+
+    <!-- message: Everyone defines what is a worthwhile travel time in his or her different way.
+
+Let's see what that means to you! -->
+    <string name="Fourth_Onboarding_Screen_Description">"Jokainen meistä arvioi matka-ajan hyödyllisyyden omalla tavallaan.
+
+Katsotaan mitä sinä ajattelet!"</string>
+
+    <!-- message: I accept MoTiV data protection conditions -->
+    <string name="GRPD_Accept">"Hyväksyn MoTiV -hankkeen tietosuojaehdot"</string>
+
+    <!-- message: For the European MoTiV project research on travel time, this app collects anonymised data on:
+1. Your trips (time, location and transport used)
+2. Your expressed preferences and searches within the app -->
+    <!-- Fuzzy -->
+    <string name="GRPD_Description">"Tämä sovellus kerää MoTiV -tutkimushankkeelle anonymisoitua tietoa: \n
+1. Matkoistasi (aika, paikka ja matkatapa) \n
+2. Sovelluksessa tekemistäsi valinnoista ja hauista"</string>
+
+    <!-- message: MoTiV privacy policy is compliant with EU GDPR. Read More -->
+    <string name="GRPD_Read_Policy">"MoTiV -hanke noudattaa EU:n tietosuoja-asetusta. Lue lisää"</string>
+
+    <!-- rating prefered modes of transport message: Improves my fitness -->
+    <string name="Improves_My_Fitness">"Kehittää kuntoani"</string>
+
+    <!-- splash screen start now button message -->
+    <string name="Log_In">"Jo rekisteröitynyt? Avaa tästä"</string>
+
+    <!-- login with google button message -->
+    <string name="Log_In_With_Google">"Kirjaudu Googlella"</string>
+
+    <!-- message: Male -->
+    <string name="Male">"Mies"</string>
+
+    <!-- message: No worries! Enter your email address below and we will send you a email to reset your password. -->
+    <string name="No_Worries_Message">"Ei hätää! Anna sähköpostiosoitteesi niin lähetämme sinulle sähköpostiviestin, jolla voit uusia salasanasi."</string>
+
+    <!-- rating prefered modes of transport message: Not Enjoying -->
+    <string name="Not_Enjoying">"Ei mukavaa"</string>
+
+    <!-- %s not filled -->
+    <string name="Not_Filled">"%s puuttuu"</string>
+
+    <!-- rating prefered modes of transport message: Not Productive -->
+    <string name="Not_Productive">"Ei tehokasta"</string>
+
+    <!-- message: NOW YOU! -->
+    <string name="Now_You">"SINUN VUOROSI!"</string>
+
+    <!-- message: Ok cool -->
+    <string name="Ok_Cool">"Ok hyvä"</string>
+
+    <!-- password message -->
+    <string name="Password">"salasana"</string>
+
+    <!-- register button message -->
+    <string name="Passwords_Dont_Match">"Rekisteröidy"</string>
+
+    <!-- title for the first onboarding pages message: Permissions -->
+    <string name="Permissions">"Käyttöoikeudet"</string>
+
+    <!-- message: Private Motirized -->
+    <string name="Private_Motirized">"Auto jne."</string>
+
+    <!-- message: Proceed to Enjoyment -->
+    <string name="Proceed_To_Enjoyment">"Jatka Mukavuus-osioon"</string>
+
+    <!-- message: Proceed to Fitness -->
+    <string name="Proceed_To_Fitness">"Jatka Liikunta-osioon"</string>
+
+    <!-- proceed to productivity button message: Proceed to Productivity -->
+    <string name="Proceed_To_Productivity">"Jatka Tehokkuus-osioon"</string>
+
+    <!-- rating prefered modes of transport message: Productive -->
+    <string name="Productive">"Tehokasta"</string>
+
+    <!-- message: Using travel time to get things done, not only for work or study, but also personal things like managing home or family stuff… -->
+    <string name="Productivity_Worthwhile_Description_Score">"Käytä matka-aikaa saadaksesi asioita hoidettua, ei vain töitä tai opintoja vaan myös omia tai kodin tai perheen asioita..."</string>
+
+    <!-- message: I used my  trip to get stuff done! -->
+    <!-- Fuzzy -->
+    <string name="Productivity_Worthwhile_High_Score">"Hoidan asioita matkalla"</string>
+
+    <!-- message: I don’t work when I travel -->
+    <!-- Fuzzy -->
+    <string name="Productivity_Worthwhile_Low_Score">"En hoida asioita matkalla"</string>
+
+    <!-- message: How important are the travel time worthwhileness elements for you, when you travel? -->
+    <string name="Rate_Worthwhileness_Screen_Title">"Kuinka tärkeitä matka-ajan hyödyllisyyden osa-alueet ovat sinulle?"</string>
+
+    <!-- message: How much enjoyment do you get from your your travel time by: -->
+    <string name="Rating_Prefered_Mot_Enj_Title">"Kuinka mukavaa matkustaminen on näillä kulkumuodoilla:"</string>
+
+    <!-- message: How does your travel time contribute to your fitness when you travel by: -->
+    <string name="Rating_Prefered_Mot_Fit_Title">"Miten matka-aika kehittää kuntoasi näillä kulkumuodoilla:"</string>
+
+    <!-- message: How productive are you when you travel by: -->
+    <string name="Rating_Prefered_Mot_Prod_Title">"Kuinka tehokasta matka-aikasi on näillä kulkumuodoilla:"</string>
+
+    <!-- register button message -->
+    <string name="Register">"Rekisteröidy"</string>
+
+    <!-- message: Which modes of transport do you use regularly? -->
+    <string name="Regualr_Modes_Of_Transport_Title">"Mitä kulkumuotoja käytät säännöllisesti?"</string>
+
+    <!-- Reset Password -->
+    <string name="Reset_Password">"Uusi salasana"</string>
+
+    <!-- message: Check out $@ for more information -->
+    <!-- Fuzzy -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Check_Out_Site">"Katso lisätietoja: %s"</string>
+
+    <!-- message: With the information you provide, Woorti will gather knowledge for better transport solutions and share it with researchers, transport operators and local authorities around Europe. -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Description">"Antamiesi tietojen avulla Woorti auttaa tutkijoita, liikkumispalveluiden tarjoajia ja viranomaisia ympäri Eurooppaa kehittämään parempia liikkumisratkaisuita."</string>
+
+    <!-- The message for this text was incorrect, the real message in English is: Help research for better transport
+When possible please retranslate this message. -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Title">"Auta tutkijoita kehittämään liikkumisesta parempaa"</string>
+
+    <!-- sign in button message -->
+    <string name="Sign_In">"Kirjaudu"</string>
+
+    <!-- splash screen start now button message -->
+    <string name="Start_Now">"Aloita"</string>
+
+    <!-- message: While some like to study or work when they travel, others like to relax and disconnect. Some take the opportunity to exercise. While others jumpstart their day with music. -->
+    <string name="Third_Onboarding_Screen_Description">"Jotkut opiskelevat tai tekevät matkustaessaan töitä, kun taas toisista on mukavaa rentoutua. Toisille matkustaminen on mahdollisuus saada liikuntaa tai aloittaa päivä musiikkia kuunnellen."</string>
+
+    <!-- error shown to the user when registering with a already signed in email account -->
+    <string name="User_Already_Signed_In">"Näyttää siltä, että %s on jo rekisteröitynyt. Haluatko kirjautua?"</string>
+
+    <!-- title that appears on the top of the login page -->
+    <string name="Welcome_Back">"Mitä haluaisit tehdä?"</string>
+
+    <!-- title for the first onboarding page message: What is a worthwhile trip -->
+    <string name="What_Is_A_Worthwhile_Trip">"Mikä on hyödyllinen matka"</string>
+
+    <!-- message: What is your age? -->
+    <string name="What_Is_Your_Age">"Mikä on ikäsi?"</string>
+
+    <!-- message: What is your name? -->
+    <string name="What_Is_Your_Name">"Mikä on nimesi?"</string>
+
+    <!-- message: Where do you live? -->
+    <string name="Where_Do_You_Live">"Missä maassa asut?"</string>
+
+    <!-- you've got mail! -->
+    <string name="Youve_Got_Mail">"sinulle on postia!"</string>
+    <string name="No_Ongoing_Trip_To_Show">"Ei käynnissä olevaa matkaa"</string>
+    <string name="Your_Trip">"Matkasi"</string>
+    <string name="Click_On_The_Marker_To_Split_The_Trip">"Paina merkkiä jakaaksesi matkan"</string>
+
+    <!-- Translated "boarding" as "check-in" since the Finnish words are different for ships and airplanes (and usually not used in the case of airplanes) -->
+    <string name="Security_Boarding_Process">"Turvallisuus ja matkaselvitys"</string>
+    <string name="Other_Activity">"Muu tekeminen"</string>
+    <string name="Cycling">"Pyöräily"</string>
+    <string name="Riding">"Ajaminen sinänsä"</string>
+    <string name="Skating">"Lautailu sinänsä"</string>
+    <string name="Driving">"Ajaminen sinänsä"</string>
+    <string name="Running">"Juokseminen sinänsä"</string>
+
+    <!-- message: Please wait while Woorti searches for local studies -->
+    <string name="Wait_While_Searching_Local_Studies">"Odota, Woorti hakee kampanjoita tältä alueelta"</string>
+
+    <!-- message: There are these studies going near you. Which one(s) do you want to contribute with data to? -->
+    <string name="Studies_Title">"Haluatko osallistua seuraaviin tällä alueella käynnissä oleviin kampanjoihin?"</string>
+    <string name="Menu">"Valikko"</string>
+    <string name="Set_Home">"Aseta kotiosoite"</string>
+    <string name="Set_Work">"Aseta työosoite"</string>
+    <string name="Change_Photo">"Vaihda kuva"</string>
+    <string name="Name">"Nimi"</string>
+
+    <!-- Translated "to get trips faster" as "to speed up reporting on trips" -->
+    <string name="Define_Home_Location">"Ilmoita kotiosoitteesi"</string>
+    <string name="Define_Work_Location">"Ilmoita työosoitteesi"</string>
+    <string name="Edit">"Valmis"</string>
+    <string name="Educational_Background">"Opiskelutausta"</string>
+    <string name="Activities">"Mitä tein matkan aikana"</string>
+    <string name="While_You_Ride">"Matkustuskokemus"</string>
+    <string name="Ability_To_Do_What_I_Wanted">"Mahdollisuus tehdä mitä halusin"</string>
+    <string name="Simplicity_Difficulty_Of_The_Route">"Reitin helppous/vaikeus"</string>
+    <string name="Schedule_Reliability">"Aikataulun luotettavuus"</string>
+    <string name="Security_And_Safety">"Turvallisuus"</string>
+    <string name="Space_Onboard_For_Lugagge_Pram_Bicycle">"Tilaa matkatavaroille/rattaille/pyörälle tms."</string>
+    <string name="Ability_To_Take_Pets_Along">"Mahdollisuus ottaa lemmikki mukaan"</string>
+    <string name="Payment_And_Tickets">"Maksaminen ja liput"</string>
+
+    <!-- Translated "Access" as "Moving" which means all kinds of physical mobility -->
+    <string name="Convenient_Access_Lifts_Boarding">"Kulkemisen helppous (hissit, nousu yms.)"</string>
+
+    <!-- Translated as "Route planners/navigators" -->
+    <string name="Route_Planning_Navigation_Tools">"Reittioppaat/navigaattorit"</string>
+
+    <!-- Translated as "Route information and signs" -->
+    <string name="Information_And_Signs">"Reittitiedot ja viitoitus"</string>
+
+    <!-- Translated as "Check-in and security" (see earlier comments on boarding) -->
+    <string name="Checkin_Security_And_Boarding">"Matkaselvitys ja turvallisuus"</string>
+    <string name="Crowdedness_Seating">"Ruuhkaisuus/istuinten saatavuus"</string>
+    <string name="Internet_Connectivity">"Internetyhteydet"</string>
+    <string name="Ability_To_Do_The_Things_I_Want">"Mahdollisuus tehdä mitä haluan"</string>
+    <string name="Charging_Opportunity">"Latausmahdollisuudet"</string>
+    <string name="Car_Bike_Parking_At_Transfer_Point">"Auton/pyörän pysäköinti vaihtopaikassa"</string>
+    <string name="Vehicle_Ride_Smoothness">"Kulkuneuvon ajon tasaisuus"</string>
+    <string name="Seating_Quality_Personal_Space">"Istuinten laatu/oma tila"</string>
+    <string name="Other_People">"Muut ihmiset"</string>
+    <string name="Air_Quality_Temperature">"Ilman laatu/lämpötila"</string>
+    <string name="General_Atmosphere_Design">"Yleinen tunnelma/design"</string>
+    <string name="Road_Path_Availability_And_Safety">"Tien/kulkureitin olemassaolo ja turvallisuus"</string>
+    <string name="Accessibility_Escalators_Lifts_Ramps_Stairs_Etc">"Saavutettavuus (liukuportaat, hissit, luiskat, portaat yms.)"</string>
+    <string name="Ability_To_Carry_Bags_Luggage_Etc">"Mahdollisuus kantaa laukkuja, matkatavaroita tms."</string>
+    <string name="Ability_To_Take_Kids_Or_Pets_Along">"Mahdollisuus kuljettaa lapsia tai lemmikkejä"</string>
+    <string name="Benches_Toilets_Etc">"Penkit, WC-tilat yms."</string>
+    <string name="Facilities_Shower_Lockers">"Huoltotilat (suihkut, vaatekaapit)"</string>
+    <string name="Parking_At_End_Points">"Pysäköinti päätepisteissä"</string>
+    <string name="Road_Path_Quality">"Tien/kulkureitin laatu"</string>
+
+    <!-- Translated "directness" as "straightness/shortness" -->
+    <string name="Road_Path_Directness">"Tien/kulkureitin suoruus/lyhyys"</string>
+    <string name="Air_Quality">"Ilmanlaatu"</string>
+    <string name="Lighting_Visibility">"Valoisuus/näkyvyys"</string>
+    <string name="Cars_Other_Vehicles">"Autot/muut kulkuneuvot"</string>
+    <string name="Space_For_Luggage_Pram_Bicycle_Etc">"Tilaa matkatavaroille/rattaille/pyörälle tms."</string>
+    <string name="Road_Quality_Vehicle_Ride_Smoothness">"Tien laatu/kulkuneuvon ajon tasaisuus"</string>
+    <string name="Vehicle_Quality">"Kulkuneuvon laatu"</string>
+    <string name="Seat_Comfort">"Istuimen mukavuus"</string>
+    <string name="Other_Passengers">"Muut matkustajat"</string>
+    <string name="Other_Cars_Vehicles">"Muut autot/kulkuneuvot"</string>
+
+    <!-- Button text on second onboarding page -->
+    <string name="Lets_Get_Started">"Aloitetaan"</string>
+
+    <!-- Report issue -->
+    <string name="Thank_You_For_Submitting_This_Issue">"Kiitos ilmoituksestasi. Vahvista ilmoitus tai jatka seuraavaan palautteeseen."</string>
+    <string name="Confirm_And_Leave">"Vahvista ja lopeta"</string>
+    <string name="Confirm_And_Submit_More">"Vahvista ja tee uusi ilmoitus"</string>
+
+    <!-- Fuzzy -->
+    <string name="Where_City">"%s: asuinpaikkasi (kaupunki tai seutu)?"</string>
+    <string name="OtherCountry">"Muu maa"</string>
+    <string name="OtherCity">"Tarkempi paikkakunta"</string>
+    <string name="Sign_Up_Error">"Virhe rekisteröitymisessä"</string>
+    <string name="Sign_Up">"Rekisteröidy"</string>
+
+    <!-- Literal translation didn't lead to an understandable sentence, so this is now translated as "How important is it for you to use your travel time to the following things?" -->
+    <string name="How_Important_Are_The_Following_Factors">"Kuinka tärkeää sinulle on käyttää matka-aikaasi seuraaviin asioihin?"</string>
+    <string name="Modes_Of_Transport">"Kulkutavat"</string>
+    <string name="Help_Research_For_Better_Transport">"Auta kehittämään liikkumisesta parempaa"</string>
+    <string name="Already_Signed_Up_Log_In_Here">"Oletko jo rekisteröitynyt? Kirjaudu täällä"</string>
+    <string name="Welcome">"Tervetuloa"</string>
+    <string name="Refresh_Surveys">"Päivitä kyselyt"</string>
+
+    <!-- This string has the text for the data regarding Activities (e.g., for the walk itself) and *not* the walking mode of transport -->
+    <string name="The_Walk_Itself">"Kävely"</string>
+    <string name="Education_Highshool">"Lukio"</string>
+
+    <!-- TODO new strings 
+ New education strings according to specs -->
+    <string name="Education_Basic">"Peruskoulu"</string>
+    <string name="Education_University">"Yliopisto"</string>
+
+    <!-- Ocupation options -->
+    <string name="Occupation">"Työssäkäynti"</string>
+    <string name="Ocupation_Student">"Opiskelija"</string>
+    <string name="Ocupation_Schedule_Worker">"Kokoaikatyö"</string>
+    <string name="Ocupation_Flexible_worker">"Osa-aikatyö"</string>
+    <string name="Ocupation_Selfemployed">"Itsensä työllistävä"</string>
+    <string name="Ocupation_Seeking_Work">"Työnhakija"</string>
+    <string name="Ocupation_Inactive">"Eläkeläinen"</string>
+    <string name="Ocupation_Maternity">"Vanhempainvapaalla"</string>
+    <string name="Ocupation_Military">"Ase-/siviilipalvelus"</string>
+
+    <!-- Marital status -->
+    <string name="Marital_Status">"Siviilisääty"</string>
+    <string name="Marital_Single">"Naimaton"</string>
+    <string name="Marital_Married">"Naimisissa"</string>
+
+    <!-- What is this definition? doesn't seem official -->
+    <string name="Matital_Significant_Other">"Muu parisuhde"</string>
+    <string name="Marital_Divorced">"Eronnut"</string>
+    <string name="Marital_Widowed">"Leski"</string>
+    <string name="Driver_License">"Ajokortti"</string>
+    <string name="Household_Yearly_Income">"Kotitalouden vuositulot (netto)"</string>
+    <string name="Number_People_Household">"Kotitalouden henkilömäärä"</string>
+    <string name="Number_Children_household">"Kotitalouden lapsimäärä"</string>
+    <string name="Number_Cars_Household">"Kotitalouden automäärä"</string>
+    <string name="Nationality">"Kansallisuus"</string>
+
+    <!-- TODO NEW STRING -->
+    <string name="No_Trips_Text">"Tällä sivulla näet matkasi ja voit antaa niistä lisätietoja. Tule takaisin kun olet tehnyt matkan... \n
+Woorti yrittää tunnistaa kaikki matkasi, mutta jos haluat varmistaa että ne näkyvät, paina yllä olevaa nappia aloittaessasi matkan... \n
+Varmista vielä, että GPS on päällä."</string>
+
+    <!-- Dashboard -->
+    <!-- you have spent %1s travelling a distance of %2s in %3s. -->
+    <string name="You_Have_Spent_Complete">"olet käyttänyt %1s kulkeaksesi yhteensä %2s matkan alueella %3s."</string>
+    <string name="In_Total_You_Spent_Calories">"Olet kuluttanut yhteensä %1s."</string>
+    <string name="And_This_Counted_Carbon_Footprint">"Tämä on %1s ekologisesti kestävästä liikkumisen hiilijalanjäljestäsi koko vuodelle."</string>
+    <string name="Your_Trips_Overall_Percentage_Worthwhile">"Matka-ajastasi %s on ollut hyödyllistä."</string>
+    <string name="While_Traveling_Activities">"Olet käyttänyt matka-ajastasi %1s toimintaan %2s."</string>
+    <string name="Do_You_Want_To_Set_This_Location_Home">"Haluatko asettaa matkan loppupisteen kotiosoitteeksesi?"</string>
+    <string name="Do_You_Want_To_Set_This_Location_Work">"Haluatko asettaa matkan loppupisteen työosoitteeksesi?"</string>
+    <string name="Privacy_Policy">"Tietosuojaseloste"</string>
+
+    <!-- day -->
+    <string name="Day">"vuorokautena"</string>
+
+    <!-- 3 days -->
+    <string name="Days_3">"3 päivänä"</string>
+
+    <!-- week -->
+    <string name="Week">"viikkona"</string>
+
+    <!-- month -->
+    <string name="Month">"kuukautena"</string>
+
+    <!-- year -->
+    <string name="Year">"vuotena"</string>
+
+    <!-- era -->
+    <string name="Era">"aikakautena"</string>
+
+    <!-- worthwhile -->
+    <string name="Worthwhile">"Hyödyllistä"</string>
+
+    <!-- TODO new strings 
+ New education strings according to specs -->
+    <string name="Other_Activities">"Muut toiminnat"</string>
+
+    <!-- Marital status -->
+    <string name="Household_Marital">"Siviilisääty"</string>
+    <string name="Household_Years_Residence">"Montako vuotta olet asunut maassa (Suomessa)"</string>
+    <string name="Household_Labour_Status">"Pääasiallinen toiminta"</string>
+    <string name="Labour_Student">"Opiskelija"</string>
+    <string name="Labour_Employed_Full_Time">"Kokopäivätyö"</string>
+    <string name="Labour_Employed_Part_Time">"Osa-aikatyö"</string>
+    <string name="Labour_Unemployed">"Työtön"</string>
+    <string name="Years_Residence_Less_Than_One">"Alle 1"</string>
+    <string name="Years_Residence_One_To_Five">"1 - 5"</string>
+    <string name="Years_Residence_More_Than_Five">"Yli 5"</string>
+    <string name="Walk_For_Distance">"Kävelyä %s"</string>
+    <string name="Household">"Kotitalous"</string>
+    <string name="Total_Points">"Pisteitä yhteensä"</string>
+    <string name="Todays_Travel_Report">"Olet kulkenut päivässä"</string>
+
+    <!-- link to page with privacy policy specific to each language -->
+    <!-- Fuzzy -->
+    <string name="Url_Privacy_Policy">"https://motivproject.eu/data-collection/data-protection/finland.html"</string>
+
+    <!-- %d questions -->
+    <string name="N_Questions">"%d kysymystä"</string>
+
+    <!-- New survey -->
+    <string name="New_Survey">"Uusi kysely"</string>
+
+    <!-- Minutes more -->
+    <string name="Minutes_More">"minuuttia"</string>
+
+    <!-- Minutes less -->
+    <string name="Minutes_Less">"minuuttia vähemmän"</string>
+
+    <!-- Kilometers more -->
+    <string name="Km_More">"kilometriä"</string>
+
+    <!-- Kilometers less -->
+    <string name="Km_Less">"km vähemmän"</string>
+
+    <!-- Trip validation -->
+    <string name="Trip_Validation">"Matkan vahvistaminen"</string>
+
+    <!-- Latest story -->
+    <string name="Latest_Story">"Viimeisin kertomus"</string>
+    <string name="Household_Data">"Kotitalouden tiedot"</string>
+
+    <!-- new text for battery warning pop up in mytrips (so that people are remembered to disable battery optimizations that undermine the app working in background) -->
+    <!-- battery warning popup text -->
+    <string name="Alert_Battery_Content">"Huomioi virrankulutus asetukset"</string>
+
+    <!-- "In the last" start message of DashBoard, Please use sentence that fits any number of days -->
+    <!-- Dashboard -->
+    <string name="In_The_Last">"Viime"</string>
+
+    <!-- stories -->
+    <string name="story_1_title_chiaras_new_train_ride">"Siirin junamatka"</string>
+    <string name="story_1_text_chiaras_train_ride">"Siiri, hänen miehensä ja heidän kaksi lastaan muuttivat vastikään keskustasta kaupungin laidalle. Hän vie lapset päiväkotiin pyörällä ja matkustaa sitten asemalle, josta pääsee junalla keskustaan 25 minuutissa. Tämä oli iso muutos työmatkoihin, eikä Siiri oikein tykännyt siitä, että hän käyttäisi niihin enemmän aikaa. Mutta hän alkoi pitää junamatkoista. Istuessaan itsekseen hän saattoi rentoutua ja tehdä jotain, mitä hän ei muuten tekisi.
+
+
+Siiri alkoi käyttää junamatkaa kirjan lukemiseen. Mutta pian hän huomasi, että 25 minuuttia kerrallaan ei riittänyt tarinaan uppoutumiseen.
+
+
+Hän kokeili seuraavaksi lehtien lukemista, mutta koska hän piti eniten pitkistä ja syvällisistä artikkeleista, sama ongelma toistui jälleen.
+
+
+Niinpä hän vietti matkansa Facebookissa. Se veikin hänet mukaansa niin, että hän oli usein vähällä ajaa oman asemansa ohi. Siiri päätti, että sykettä nostava somettaminen ei ollut paras tapa aloittaa päivää.
+
+
+Lopulta hän kokeili jotain, mikä osoittautui toimivaksi. Hän ajatteli opetella uuden kielen, jolla voisi tehdä vaikutuksen töissä. Hän pystyi jokaisen junamatkan aikana tekemään kaksi tai kolme oppituntia kielenopiskelusovelluksessa. Näin hän oppi vähitellen, mutta vääjäämättömästi kieltä niin paljon, että pääsi yllättämään työkaverinsa aina uusilla ja pidemmillä vuorosanoilla.
+
+
+Siiri löysi siis parhaan tavan käyttää aikaa juuri omassa elämäntilanteessaan.
+
+
+Entä sinä? Mikä olisi sinulle paras tapa käyttää matka-aikaasi?
+"</string>
+    <string name="story_2_title_the_best_way_to_get_great_ideas_while_moving_p1">"Paras tapa saada hienoja ideoita liikkuessa"</string>
+    <string name="story_2_text_the_best_way_to_get_great_ideas_while_moving_p1">"Oletko huomannut, että joitain asioita tehdessä päähäsi juolahtaa helpommin uusia mielenkiintoisia ideoita? Kun häneltä kysyttiin mikä oli päivän tehokkain osa, Teslan perustaja Elon Musk vastasi: \"kun olen suihkussa\". Eikä hän ole ainoa, sillä todella monet kertovat että parhaat ajatukset tulevat suihkussa!
+
+
+Entä kun liikumme? Onko joku hetki erityisen tehokas?
+
+
+Itse asiasa eräs tapa liikkua paikasta toiseen on erityisen hyvä jos haluat päätyä uusiin ideoihin. Useat kuuluisuudet ovat mitä ilmeisimmin huomanneet tämän ja omaksuneet sen tavakseen liikkua halutessaan saada hyviä ajatuksia.
+
+
+Vinkki: jotkut heistä, kuten Beethoven, Dickens ja Darwin elivät aikana, jolloin ei vielä ollut moottoriajoneuvoja...
+
+
+Toinen vinkki: tämä liikkumismuoto aktivoi aivoja.
+
+
+Mitä veikkaat? Tarkista huomisen tarinasta... :)"</string>
+    <string name="story_3_title_the_best_way_to_get_great_ideas_while_moving_p2">"Paras tapa saada hienoja ideoita liikkuessa - osa 2"</string>
+    <string name="story_3_text_the_best_way_to_get_great_ideas_while_moving_p2">"Mikä siis on se liikkumismuoto, jota edellisessä tarinassa esitellyt kuuluisuudet käyttivät saadakseen parempia ideoita?
+
+
+Kävely!
+
+
+Juuri niin. Esimerkiksi Steve Jobs lähti yksin kävelylle Applen toimiston ympäristöön vain voidakseen ajatella paremmin. Hän myös piti kokouksia ihmisten kanssa kävellessään. Kokoushuoneen sijaan hän kutsui heidät kävelylle.
+
+
+Onko tälle joku tieteellinen selitys, vai onko kyse sattumasta?
+
+
+On olemassa tutkimuksia, joiden mukaan jotkut aivojen osat aktivoituvat kun ihminen kävelee. Koululaisilla tehty tutkimus osoitti, että lapsilla, jotka tulivat aamulla kouluun kävellen, oli kokeissa paljon aktiivisemmat aivot kuin niillä jotka tuotiin autolla.
+
+
+Voidakseen saada ajatuksia aivojen ei tietenkään pidä altistua ympäristön häiriötekijöille joihin pitää kiinnittää huomiota, kuten esteet, liikenne tai liian kova melu. Kaupungit joissa on hyvä kävellä ovat myös hyviä paikkoja hienojen ajatusten synnyttämiseen!
+
+
+Kannustaakseen kävellen tehtäviä kokouksia jollakin oli mainio ajatus (jonka hän sai varmaankin kävellessä tai suihkussa, eikö vain): Voisi tehdä sovelluksen joka kertoo mitkä reitit kaupungissa ovat erityisen hyviä kävelykokouksille. Tämän sovelluksen nimi on Weeting ja siinä on kävelykokousreittejä useisiin kaupunkeihin Alankomaissa.
+
+
+Kuinka helppoa ajattelu on sinun kävelyreiteilläsi?"</string>
+    <string name="story_4_title_the_7_shades_of_pedros_cycling_time">"Petrin 7 pyöräilytarinaa"</string>
+    <string name="story_4_text_the_7_shades_of_pedros_cycling_time">"1. Petri teki sen kannanottona. Hän alkoi pyöräillä töihin siihen aikaan, kun se ei vielä ollut muodikasta. Jalankulkijat ihmettelivät joka säällä keskustassa autojen seassa pyöräilevää kummajaista. Autoilijat eivät tuntuneet osaavan hyviä tapoja, tai edes liikennesääntöjä.
+
+
+Petrin mielestä ihmisten pitäisi voida käyttää pyörää kaikkeen liikkumiseen kaupungilla, ja hän olikin esimerkillään luomassa uutta pyöräilykulttuuria.
+
+
+Hän halusi myös todistaa, että pyöräily on nopeaa. Siksi hän alkoi käyttää nopeampia reittejä vaikka niissä oli paljon liikennettä, vain viiden minuutin säästön tähden. Mitä nopeampi, sitä parempi.
+
+
+2. Jossakin vaiheessa Petristä alkoi tuntua, että hänen ei tarvitse todistella mitään. Hän alkoi huomata matkoihin liittyvän stressin ja hikoilun. Itse asiassa kesti kokonaisen vuoden, ennen kuin hän oppi ajamaan hitaammin. Hän alkoi pyöräillä rennosti ja rauhallisempia reittejä, kuin hollantilaiset.
+
+
+3. Perheen kasvaessa Petri vei lapset päiväkotiin ja kouluun ennen 35 minuutin matkaa töihin. Ainoa vaihtoehto olisi ollut auto, ja häntä alkoi tympiä vaihtoehtojen puute. \"Kaipaan aikaa kun sain mennä julkisilla ja rentoutua\". Niinpä hän alkoi taas käyttää julkisia aina kun ei tarvinnut viedä tai hakea lapsia.
+
+
+4. Kun puoliso hoiti lasten kuljetukset, Petri pääsi taas paremmin nauttimaan pyöräilystä omilla ehdoillaan, mutta hänestä tuntui edelleen, että aikaa meni hukkaan. Hän oli ehtinyt tottua ajattelemaan ja lukemaan bussissa matkustaessaan.
+
+
+5. Eräänä päivänä ruokaa tehdessään Petri päätti kuunnella podcastia. Hän huomasi, että se oli varsin mukavaa. Hän saattoi oppia asioita ja kuunnella ihmisten tarinoita. Hän alkoi nauttia ruoanlaittoajasta.
+
+
+Kesti taas vuoden päivät, kunnes hän tajusi että hän voisi tehdä samaa vakituisilla pyörämatkoillaan. Reiteistä tuli entistäkin hitaampia ja pidempiä. Jokainen viisi minuuttia lisää pyöräilyä oli viisi minuuttia aikaa kuunnella podcasteja.
+
+
+6. Myöhemmin Petri vaihtoi työpaikkaa ja alkoi tehdä etätöitä kotoa käsin. Hänen vyötärönsä alkoi pyöristyä, kun 45 minuutin pyörämatkat töihin ja takaisin loppuivat. Peiliin katsoessaan hänen oli myönnettävä, että nimenomaan tuo hyötyliikunta oli pitänyt hänet hyvässä kunnossa. Siitä lähtien hän pyrki hyödyntämään jokaisen tilaisuuden kulkeakseen pyörällä.
+
+
+7. Petrin pyöräilyaika jatkoi kehittymistä. Lasten kasvaessa hän huomasi, että yhteiset koulumatkat olivat parhaita hetkiä hänen elämässään. Lapsista oli mukavaa kulkea yhdessä, kysellä maailman asioista ja kertoa koulupäivän tapahtumista. Tämä teki hänen pyöräilyyn käyttämästään ajasta arvokkaampaa kuin mikään muu.
+
+"</string>
+    <string name="story_5_title_stopping_or_not_stopping_in_a_moving_walkway">"Pitäisikö kuljetushihnalla pysähtyä vai ei?"</string>
+    <string name="story_5_text_stopping_or_not_stopping_in_a_moving_walkway">"Oletko huomannut, että jotkut pysähtyvät rullaportaissa tai kuljetushihnoilla, kun taas toiset jatkavat kävelemistä?
+
+
+Mikä mahtaa olla syynä tähän erilaiseen käyttäytymiseen?
+
+
+Pitäisikö sinun mielestäsi ihmisten kävellä vai seisoa?
+
+
+Jos vastaus tuntuu itsestäänselvältä, mieti uudestaan. Asia ei ole välttämättä ihan niin yksinkertainen.
+
+
+Seuraavalla kerralla kun satut olemaan kuljetushinalla esim. satamassa tai lentokentällä, yritä tarkkailla ihmisiä, jotka kävelevät tai seisovat. Jo pelkästään katsomalla saatat saada hyviä vihjeitä siitä, miksi he toimivat eri tavalla. Ja jos jatkat kuvittelemista, saatat päätyä tutkimusmatkalle heidän elämäntarinaansa. Aika mielenkiintoista!
+
+
+Pitäisikö siis kuljetushihnalla pysähtyä vai ei? Lue täältä koko tarina: https://motivproject.eu/news/detail/stopping-or-not-stopping-in-a-moving-walkway.html
+"</string>
+    <string name="story_6_title_virtual_travel_time">"Virtuaalinen matka-aika"</string>
+    <string name="story_6_text_virtual_travel_time">"Oletko kuullut \"virtuaalisesta matka-ajasta\"?
+
+
+Ei, kyse ei ole virtuaalitodellisuudessa tehdyistä matkoista, vaan jostain konkreettisemmasta.
+
+
+Kuinka paljon aikaa sinulta tarkalleen kuluu matkaan pisteestä A pisteeseen B? Sanoisit varmaankin, että se on tietty matka-aikani.
+
+
+Tietystä näkökulmasta katsottuna se ei ole. Oikeastaan se saattaa olla paljon muutakin...
+
+
+Ajattelepa tätä: mennäksesi pisteestä A pisteeseen B sinun pitää luultavasti käyttää rahaa tavalla tai toisella. Autossa on käyttökustannuksia ja arvonalenemaa. Joukkoliikenteessä tarvitaan lippu. Mutta kävelykin kuluttaa kenkiä ja vaatii energiaa, jota saadaan ruoasta.
+
+
+Mutta mitä tekemistä rahalla on matka-ajan suhteen?
+
+
+Miten saat rahaa? Sinun (Tai jonkun muun) on ensin ansaittava se, ja siihen menee yleensä aikaa. Siten matka-aikasi ei ole vain matkustamiseen käytettyä aikaa, vaan myös matkustamiseen tarvittavan rahan ansaitsemiseen käytettyä aikaa.
+
+
+Otetaan esimerkiksi auto, jonka kaikki kulut ovat 350 euroa kuussa. Voit laskea työtunnit, jotka tarvitaan tuon kustannuksen kattamiseksi (verojen jälkeen) ja lisätä sen kuukaudessa matkustamiseen käytettyyn aikaan. Tämä on virtuaalinen matka-aikasi.
+
+
+Toisaalta joku voisi sanoa, että työnteko ei ole ajanhukkaa, koska työ on niin mukavaa. Samaa voisi ehkä sanoa myös matkoista töihin ja takaisin. Asia alkaa kieltämättä mennä monimutkaiseksi...
+
+
+Kerro mitä mieltä sinä olet!
+
+
+https://www.facebook.com/MotivProject.eu/ 
+ 
+
+https://twitter.com/MoTiV_Project"</string>
+
+    <!-- new string in mobility coach -->
+    <!-- mobility coach -->
+    <string name="Your_Mobility_Journey">"Kertomuksia liikkumisesta"</string>
+
+    <!-- new string to translate in home module -->
+    <!-- home module -->
+    <string name="You_have_trips_to_validate">"Sinulla on vahvistettavia matkoja"</string>
+
+    <!-- (story) Coming tomorrow -->
+    <string name="Coming_Tomorrow">"Tulossa huomenna"</string>
+
+    <!-- Story (1, 2, 3, 4...) -->
+    <string name="Story">"Kertomus %d"</string>
+
+    <!-- profile and settings -->
+    <string name="Marital_Partnership">"Rekisteröity parisuhde"</string>
+
+    <!-- profile and settings  -->
+    <string name="Labour_Pensioner">"Eläkeläinen"</string>
+
+    <!-- Notification shown when a trip has started  -->
+    <string name="Trip_Has_Started_At">"Matka alkoi %s"</string>
+
+    <!-- Notification shown when a trip has ended -->
+    <string name="Trip_Has_Ended_At">"Matka loppui %s"</string>
+    <string name="Trip_Has_Ended">"Matka loppui!"</string>
+    <string name="engagement_notification_1_title">"\"Woorti tallensi ensimmäisen matkasi!\""</string>
+    <string name="engagement_notification_1_content">"\"Avaa sovellus ja kerro siitä!\""</string>
+    <string name="engagement_notification_2_title">"Sinulla on kertomus luettavana"</string>
+    <string name="engagement_notification_2_content">"Jos luet sen tänään, saat huomenna uuden kertomuksen"</string>
+    <string name="engagement_notification_3_title">"Uusi kertomus odottaa!"</string>
+    <string name="engagement_notification_3_content">"\"Muista raportoida viimeisin matkasi.\""</string>
+    <string name="Language_Changed_Popup_Content">"Käynnistä sovellus uudelleen viimeistelläksesi tämän vaiheen"</string>
+    <string name="Language_Changed_Popup_Title">"Kieli vaihdettu! "</string>
+
+    <!-- Predictability of travel time -->
+    <string name="Predictability_Of_Travel_Time">"Matka-ajan ennustettavuus"</string>
+    <string name="Urban_Scenery_Atmosphere">"Kaupunkinäkymät ja ilmapiiri"</string>
+    <string name="While_You_Are_There">"Paikalla ollessasi"</string>
+    <string name="Begin">"Aloita"</string>
+    <string name="engagement_notification_4_title">"Oletko tarkistanut liikkumistietojasi?"</string>
+    <string name="engagement_notification_4_content">"Katso tästä liikkumistietojasi"</string>
+    <string name="engagement_notification_5_title">"Matka-ajan hyödyllisyytesi on nyt %d."</string>
+    <string name="engagement_notification_5_content">"Oletko huomannut miten se vaihtelee eri matkoillasi"</string>
+    <string name="engagement_notification_6_title">"Raportoi viimeisin matkasi."</string>
+    <string name="engagement_notification_6_content">"Syötä liikkumistietojasi ja tarkista niiden tilanne."</string>
+    <string name="engagement_notification_7_title">"%d minuuttia"</string>
+    <string name="engagement_notification_7_content">"on aika, jonka käytit liikkumiseen viime viikolla"</string>
+    <string name="engagement_notification_8_title">"Autathan meitä tutkimaan matka-aikaa."</string>
+    <string name="engagement_notification_8_content">"Kiitos kun raportoit matkojasi. Paina tästä."</string>
+    <string name="engagement_notification_9_title">"Raportoi viimeisin matkasi."</string>
+    <string name="engagement_notification_9_content">"Syötä liikkumistietojasi ja tarkista niiden tilanne."</string>
+
+    <!-- when referencing campaigns -->
+    <string name="Campaigns">"Kampanjat"</string>
+
+    <!-- Welcome to your trips board, %NAME_USER% ! -->
+    <string name="Welcome_To_Your_Trips_Board_Username">"Tervetuloa katsomaan matkatietojasi, %s !"</string>
+
+    <!-- You have X trips left to report in the last 3 days -->
+    <string name="You_Have_X_Trips_Left_3_Days">"Sinulla on %d matkaa raportoitavana kolmelta viime päivältä"</string>
+
+    <!-- These are the trips you have made! Reporting on them helps our research, and allows you to monitor your travel time. After reporting each trip, find out your travel time worthwhileness statistics in the Dashboard! Press the ‘!’ mark to report. -->
+    <string name="These_Are_The_Trips_You_Have_Made">"Tässä ovat tekemäsi matkat! Antamalla niistä lisätietoja autat tutkimustamme ja voit samalla seurata, miten käytät matka-aikaasi. Kun olet raportoinut matkan, sen tiedot lisätään matkatiedot-sivulle. Paina ‘!’ merkkiä raportoidaksesi matkan."</string>
+
+    <!-- Now that you have a reported trip, you can check your first travel time statistics in the Dashboard. -->
+    <string name="Now_That_You_Have_A_Reported_Trip_Popup_Text">"Nyt kun olet raportoinut matkan, voit seurata antamiasi tietoja liikkumistiedot-sivulla."</string>
+
+    <!-- Go to dashboard -->
+    <string name="Go_To_Dashboard">"Mene liikkumistiedot-sivulle"</string>
+
+    <!-- Report trips -->
+    <string name="Report_Trips">"Raportoithan matkoja"</string>
+
+    <!-- This is your Dashboard. It shows how worthwhile your travel time is.  For your trip stats to appear here, report your trips -->
+    <string name="This_Is_Your_Dashboard_Popup_Text">"Tässä ovat liikkumistietosi. Ne näyttävät kuinka hyödyllistä matka-aikasi on. \n
+Sinun pitää raportoida matkojasi, jotta niiden tiedot näkyisivät täällä."</string>
+
+    <!-- See dashboard -->
+    <string name="See_Dashboard">"Katso liikkumistietojasi"</string>
+
+    <!-- profile and settings -->
+    <string name="Campaign_Scores">"Kampanjapisteet"</string>
+
+    <!-- when iOS user is redirected and asked to authorize GPS in phone settings after denying permissions in On-boarding -->
+    <string name="GPS_Link_Phone_Settings">"Asetukset"</string>
+
+    <!-- when iOS user is asked to authorize GPS in phone settings and selects back to dismiss this dialogue -->
+    <string name="GPS_Go_Back">"Takaisin"</string>
+
+    <!-- Days -->
+    <string name="Days">"Päivää"</string>
+
+    <!-- trips -->
+    <string name="Trips">"Matkaa"</string>
+
+    <!-- Issue form -->
+    <string name="Issue_Form">"Ilmoitus ongelmasta"</string>
+
+    <!-- Thank you for reporting an issue -->
+    <string name="Thank_You_For_Reporting_An_Issue">"Kiitos kun ilmoitit ongelmasta"</string>
+
+    <!-- Submit log -->
+    <string name="Submit_Log">"Tallenna lokitiedot"</string>
+
+    <!-- Send log -->
+    <string name="Send_Log">"Lähetä lokitiedot"</string>
+
+    <!-- No log needed for this issue. Skip. -->
+    <string name="No_Log_Needed_For_This_Issue_Skip">"Tähän ilmoitukseen ei tarvita lokitietoja. Ohita."</string>
+
+    <!-- Targets & Rewards -->
+    <string name="Targets_And_Rewards">"Tavoitteet &amp; Palkinnot"</string>
+
+    <!-- Tasks -->
+    <string name="Tasks">"Tehtävät"</string>
+
+    <!-- To analise the issue, we would like to receive a log with information of the app activity. Please send the email that will be generated. If you like, you can also attach printscreens or a longer description of the issue to the email. -->
+    <string name="To_Analyse_This_Issue">"Voidaksemme analysoida ongelmaa haluaisimme saada lokitietoja sovelluksen toiminnasta. Pyydämme ystävällisesti sinua lähettämään sovelluksen tekemän sähköpostin. Jos haluat, voit lisätä ruutukaappauksia tai kuvata ongelmaa tarkemmin sähköpostissa."</string>
+
+    <!-- points -->
+    <string name="Points">"Pisteet"</string>
+
+    <!-- Progress (Reward progress) -->
+    <string name="Progress">"Edistyminen"</string>
+
+    <!-- %1$s days left -->
+    <string name="days_left_reward">"%1$s päivää jäljellä"</string>
+
+    <!-- user registration -->
+    <string name="Password_Length_Message">"Salasanan on oltava 6-16 merkkiä pitkä
+
+"</string>
+
+    <!-- Onboarding -->
+    <string name="How_Productive_Are_You">"Kuinka tehokas olet"</string>
+
+    <!-- Woorti is running in the background -->
+    <string name="Woorti_Is_Running">"Woorti on käynnissä taustalla"</string>
+
+    <!-- Continue -->
+    <string name="Continue">"Jatka"</string>
+
+    <!-- Hurray!!! -->
+    <string name="Hurray">"Hurraa!!!"</string>
+
+    <!-- You have completed your target for NAME_REWARD! -->
+    <string name="You_Have_Completed_Your_Target">"Olet suorittanut tavoitteesi %s !"</string>
+
+    <!-- Keep reporting your trips to monitor your stats to see your evolution and help this research  -->
+    <string name="Keep_Reporting_Your_Trips_Reward_Completed_Popup">"Jatka matkojesi raportointia nähdäksesi matkatietojasi ja etenemistäsi sekä auttaaksesi tutkimusta"</string>
+
+    <!-- Woorti just detected that you started a trip -->
+    <string name="Woorti_Just_Detected_Start_Trip">"Woorti havaitsi juuri, että aloitit matkan"</string>
+
+    <!-- Your  trip has ended.\nYou can now report about it in Woorti -->
+    <string name="Your_Trip_As_Ended">"Matkasi on päättynyt.\nVoit nyt raportoida sen Woortissa"</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Successful">"Perehdytys on suoritettu onnistuneesti"</string>
+
+    <!-- Trip validation tutorial -->
+    <string name="Trip_Validation_Tutorial">"Opastus matkojen vahvistamisesta"</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Duplicated">"Perehdytys on jo suoritettu. Kirjaudutaan sisään."</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Error">"Virhe perehdytyksessä. Yritä suorittaa se uudelleen."</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Attempt">"Yritetään lähettää matkaraporttia."</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Successful">"Matkaraportti lähetetty."</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Not_Submitted">"Matkaraporttia ei lähetetty - yritä yhteyttä myöhemmin."</string>
+
+    <!-- You can now report about it in Woorti -->
+    <string name="You_Can_Now_Report_About_It_In_Woorti">"Voit nyt raportoida siitä Woortissa."</string>
+
+    <!-- Complete until dd/mm/yyyy -->
+    <string name="Complete_Until">"Suoritettu %s asti"</string>
+
+    <!-- You have a new survey (notification) -->
+    <string name="You_Have_A_New_Survey">"Sinulla on uusi kysely."</string>
+
+    <!-- Fill it in and earn %d points. (notification -> fill survey) -->
+    <string name="Fill_It_And_Earn_XX_Points">"Täytä se saadaksesi %d pistettä"</string>
+
+    <!-- Is your phone blocking trip detection? -->
+    <string name="Is_Your_Phone_Blocking_Trip_Detection">"Estääkö puhelimesi matkojen tunnistamisen?"</string>
+
+    <!-- Woorti gives you 25 points for each additional information item you fill in your profile. -->
+    <string name="Woorti_Gives_You_Points_For_Each_Info">"Woorti antaa sinulle 25 pistettä jokaisesta käyttäjätiedoissa täyttämästäsi lisätiedosta."</string>
+
+    <!-- If that is the case, fortunately there is a solution. Get the instructions for your phone brand by pressing  the button below. -->
+    <string name="If_Thats_The_Case_Fortunately_There_Is_Solution">"Siinä tapauksessa ratkaisua ei valitettavasti ole. Katso puhelinmalliasi koskevat ohjees painamalla alla olevaa nappia."</string>
+
+    <!-- Enable app activity -->
+    <string name="Enable_App_Activity">"Salli sovelluksen toiminta"</string>
+
+    <!-- Do not show again -->
+    <string name="Do_Not_Show_Again">"Älä näytä uudestaan"</string>
+
+    <!-- If your trips are frequently not being recorded, your phone might be blocking this app’s activity. -->
+    <string name="If_Your_Trips_Are_Frequently_Not_Being_Recorded">"Jos matkojasi jää jatkuvasti tunnistamatta, puhelimesi saattaa estää tämän sovelluksen toimintaa."</string>
+
+    <!-- Tell us more about yourself -->
+    <string name="Tell_Us_More_About_Yourself">"Kerro lisää itsestäsi"</string>
+
+    <!-- Your data is anonymised. -->
+    <string name="Your_Data_Is_Anonymised">"Tietosi on anonymisoitu."</string>
+
+    <!-- Fill in profile -->
+    <string name="Fill_In_Profile">"Täytä käyttäjätietosi"</string>
+
+    <!-- Later -->
+    <string name="Later">"Myöhemmin"</string>
+
+    <!-- Point all time -->
+    <string name="Points_All_Time">"Pisteitä koko ajalta"</string>
+
+    <!-- Days with trips all time -->
+    <string name="Days_All_Time">"Matkapäiviä koko ajalta"</string>
+
+    <!-- Trips all time -->
+    <string name="Trips_All_Time">"Matkoja koko ajalta"</string>
+
+    <!-- temporary text without link to battery optimization site not endorsed by motiv. -->
+    <string name="If_Your_Trips_Are_Frequently_Not_Being_Recorded_No_Link_To_Site">"Jos matkojasi jää usein tunnistamatta, puhelimesi saattaa estää sovelluksen toimintaa. Tarkista Androidin akun optimointiasetukset mahdollistaaksesi Woortin toiminnan."</string>
+
+    <!-- Dashboard_You -->
+    <string name="Dashboard_You">"Sinä"</string>
+
+    <!-- Dashboard_Community -->
+    <string name="Dashboard_Community">"Ryhmä"</string>
+
+    <!-- Dashboard_Citizens -->
+    <string name="Dashboard_Citizens">"Kaikki"</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Balloon_Text_Worthwhile_From_Onboarding">"Nämä tulokset kuvastavat joko oletustietoja tai tietoja jotka annoit sovellukselle aluksi rekisteröityessäsi, kulkutapakohtaisesti. Voit milloin tahansa vaihtaa käytettyjä tietoja sovelluksen asetuksissa."</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Balloon_Text_Worthwhile_From_Leg_Info_Recorded">"Nämä tulokset kuvastavat hyödyllisyysarviota niiden matkojen osista, jotka raportoit sovelluksella."</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Your_Whole_Trips">"Kaikki matkasi"</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Your_Reported_Legs">"Ilmoittamasi matkan osat"</string>
+
+    <!-- Dashboard -->
+    <string name="Time_Spent_In_Travel">"Matka-aika"</string>
+
+    <!-- Dashboard -->
+    <string name="Travelled_Distance">"Kuljettu matka"</string>
+
+    <!-- Dashboard -->
+    <string name="CO2_Emissions">"Hiilidioksidipäästöt"</string>
+
+    <!-- Dashboard -->
+    <string name="Calories">"Kalorit"</string>
+
+    <!-- Dashboard -->
+    <string name="The_Community_Trips">"Ryhmän matkat"</string>
+
+    <!-- Dashboard -->
+    <string name="The_Community_Validated_Legs">"Ryhmän vahvistetut matkan osat"</string>
+
+    <!-- Dashboard -->
+    <string name="Compared_To_Your_Scores">"(verrattuna omiin tietoihisi)"</string>
+
+    <!-- Dashboard -->
+    <string name="Worthwhileness">"Hyödyllisyys"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Title">"\"Hei siellä!\""</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Text_Part_1">"Raportoi %d tunnistettua matkaa viime "</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Text_Part_2">"nähdäksesi matkatietosi kaikista matkoista."</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Report_Trips">"RAPORTOI MATKOJA"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_See_Dashboard">"KATSO MATKATIETOJASI"</string>
+
+    <!-- MyTrips -->
+    <string name="Pop_Up_Split_Merge_Delete_Text">"Joskus matkoja ei tunnisteta kunnolla. Muokataksesi matkan rakennetta paina yllä olevaa ikonia jakaaksesi, yhdistääksesi tai poistaaksesi matkoja tai niiden osia."</string>
+
+    <!-- MyTrips -->
+    <string name="Pop_Up_Split_Merge_Delete_Button">"SELVÄ!"</string>
+
+    <!-- Home module travel report -->
+    <string name="Seven_Day_Travel_Report">"7 päivän matkaraportti"</string>
+
+    <!-- Home (travel report link to Dashboard) -->
+    <string name="Learn_More">"Lisätietoja"</string>
+
+    <!-- please retranslate to make clear statistics are average calories per day. thank you. LV. -->
+    <!-- Dashboard -->
+    <string name="In_Total_Users_Spent_Calories">"Ryhmän käyttäjät ovat käyttäneet keskimäärin %1s päivässä."</string>
+
+    <!-- Dashboard -->
+    <string name="And_This_Counted_Carbon_Footprint_Users">"Ryhmä on käyttänyt keskimäärin %1s kestävästä hiilijalanjäljestään."</string>
+
+    <!-- People from "campaign/city/country" on average have spent "3 min more/less" travelling a distance of "3km more/less" than you per day. -->
+    <string name="People_From_Place_Have_Spent_On_Average">"Ihmiset alueella %1s ovat käyttäneet päivässä keskimäärin %2s matkustaakseen %3s matkan kuin sinä."</string>
+
+    <!-- "3 km more" -->
+    <string name="Number_Km_More">"%d km pidemmän"</string>
+
+    <!-- "3 km less" -->
+    <string name="Number_Km_Less">"%d km lyhyemmän"</string>
+
+    <!-- "3 min more" -->
+    <string name="Number_Min_More">"%d min enemmän"</string>
+
+    <!-- "3 min less" -->
+    <string name="Number_Min_Less">"%d min vähemmän"</string>
+
+    <!-- Dashboard -->
+    <string name="Community_Trips_Overall_Percentage_Worthwhile">"Ryhmän matkojen hyödyllisyys (sinun tietoihisi verrattuna)"</string>
+
+    <!-- These results reflect either default scores or the scores you have stated in the onboarding, per mode of transport . You may always change the applicable scores in the app’s Settings. -->
+    <string name="Dashboard_Worthwhileness_Popup_Text">"Nämä tulokset kuvastavat joko oletustietoja tai tietoja jotka annoit sovellukselle aluksi rekisteröityessäsi, kulkutapakohtaisesti. Voit milloin tahansa vaihtaa käytettyjä tietoja sovelluksen asetuksissa."</string>
+
+    <!-- What is the carbon budget? -->
+    <string name="What_Is_The_Carbon_Budget">"Mikä on hiilibudjetti?"</string>
+
+    <!-- The carbon budget is the amount of CO2 that can be emitted per person for a sustainable lifestyle.  A person’s yearly mobility carbon budget is 500kg -->
+    <string name="The_Carbon_Budget_Is">"Hiilibudjetti on yhden kestäviä elintapoja noudattavan henkilön aiheuttama määrä hiilidioksidipäästöjä. \n \n Liikkumisen hiilibudjetti on 500kg."</string>
+
+    <!-- City/Region -->
+    <string name="City_Region">"Kaupunki/alue"</string>
+
+    <!-- You -->
+    <string name="You">"Sinä"</string>
+
+    <!-- should translate according to "Min per user per day" -->
+    <!-- Average minutes -->
+    <string name="Avg_Minutes">"Min/hlö/päivä"</string>
+
+    <!-- please retranslate following "Km per user per day", because we are showing daily averages per individual (average) user of the community. -->
+    <!-- Average kilometers -->
+    <string name="Avg_Kilometers">"Km/hlö/päivä"</string>
+
+    <!-- need to translate according to "Kg CO2 per user per day" -->
+    <!-- Average kilograms -->
+    <string name="Avg_Kilograms">"Kg CO2/hlö/päivä"</string>
+
+    <!-- need to retranslate for "Calories per user per day" -->
+    <!-- Average calories -->
+    <string name="Avg_Calories">"Kaloria/hlö/päivä"</string>
+
+    <!-- Hours -->
+    <string name="Hours">"Tuntia"</string>
+
+    <!-- Dashboard - unable to show some global stats (e.g. always disconnected) -->
+    <string name="Unable_Show_Stats">"Ryhmän matkatietoja ei voitu ladata."</string>
+
+    <!-- CO2 budget popu -->
+    <string name="CO2_Budget_Example">"500kg vastaa yhdensuuntakaista lentomatkaa Kreikkaan tai Turkkiin, tai 1500 kmautomatkaa."</string>
+
+    <!-- CO2 budget popup - no need to translate -->
+    <string name="CO2_Budget_Link_URL">"https://motivproject.eu/data-collection/woorti-app-faqs.html"</string>
+
+    <!-- CO2 budget popup -->
+    <string name="CO2_Budget_Link_Text">"Lisätietoja"</string>
+
+    <!-- worthwhileness - travel wasted rating of trip -->
+    <string name="Travel_Time_Wasted_Question_Text_Second_Paragraph">"Huom. matkaan käyttämäsi aika, ei määränpäässä käyttämäsi aika"</string>
+
+    <!-- Onboarding and login -->
+    <string name="Failed_To_Connect_Check_Connectivity_Error">"Yhteys ei onnistunut, tarkista internet-yhteytesi."</string>
+
+    <!-- "Requested permissions denied by the user. The app requires these and network connectivity to complete the onboarding. Please retry and complete the onboarding." -->
+    <string name="Onboarding_Warning_Permissions_Denied_Retry">"Käyttäjä ei myöntänyt pyydettyjä lupia. Sovellus tarvitse näitä ja verkkoyhteyttä perehdytyksen suorittamiseksi. Yritä uudelleen ja viimeistele perehdytys."</string>
+
+    <!-- "In order for the app to work properly, you must allow it to access location information to record trips and read/write files from/to external storage to manage trip information." -->
+    <string name="Onboarding_Dialog_Box_Ask_Location_Storage_Permissions">"Jotta sovellus toimisi kunnolla, sinun pitää antaa sille pääsy sijaintitietoosi ja matkojesi tallentamiseksi ja lukemiseksi ulkoisesta muistista."</string>
+
+    <!-- You have no trips -->
+    <string name="You_Have_No_Trips">"Sinulla ei ole matkoja"</string>
+
+    <!-- You must choose at least one trip to delete -->
+    <string name="You_Must_Choose_One_Trip_To_Delete">"Valitse ainakin yksi poistettava matka"</string>
+
+    <!-- Trip/s deleted successfully! -->
+    <string name="Trips_Deleted_Successfuly">"Matka poistettu"</string>
+
+    <!-- You must choose at least one leg to delete -->
+    <string name="You_Must_Choose_One_Leg_To_Delete">"Valitse ainakin yksi poistettava matkan osa"</string>
+
+    <!-- You cannot delete all the trip's legs -->
+    <string name="You_Cannot_Delete_All_Trips_Legs">"Et voi poistaa kaikkia matkan osia"</string>
+
+    <!-- You must choose consecutive legs to delete -->
+    <string name="You_Must_Choose_Consecutive_Legs_To_Delete">"Valitse poistettavaksi peräkkäisiä matkan osia"</string>
+
+    <!-- You must choose at least two legs to merge -->
+    <string name="You_Must_Choose_Two_Legs_To_Merge">"Valitse ainakin kaksi matkan osaa yhdistettäväksi"</string>
+
+    <!-- You must choose consecutive legs to merge -->
+    <string name="You_Must_Choose_Consecutive_Legs_To_Merge">"Valitse yhdistettäväksi peräkkäisiä matkan osia"</string>
+
+    <!-- The leg you are trying to split is too small to be split -->
+    <string name="The_Leg_Is_Too_Small_To_Be_Split">"Matkan osa jota yrität jakaa on liian pieni jaettavaksi"</string>
+
+    <!-- Error splitting leg -->
+    <string name="Error_Splitting_Leg">"Virhe matkan osan jakamisessa"</string>
+
+    <!-- Trips_Merged_Successfully -->
+    <string name="Trips_Merged_Successfully">"Matkat yhdistetty!"</string>
+
+    <!-- Trip splitted successfully! -->
+    <string name="Trip_Splitted_Successfully">"Matka jaettu!"</string>
+
+    <!-- "Please choose another leg/transfer other than the last" -->
+    <string name="Please_Choose_Other_Leg_Transfer_Not_Last">"Valitse joku muu matkan osa kuin viimeinen"</string>
+
+    <!-- "Please choose a leg/transfer to split" -->
+    <string name="Please_Choose_Leg_Transfer_To_Split">"Valitse jaettava matkan osa"</string>
+
+    <!-- "You must choose consecutive trips to merge" -->
+    <string name="You_Must_Choose_Consecutive_Trips_To_Merge">"Valitse yhdistettäväksi peräkkäisiä matkoja"</string>
+
+    <!-- "You must choose at least two legs to merge" -->
+    <string name="You_Must_Choose_Two_Trips_To_Merge">"Valitse ainakin kaksi matkan osaa yhdistettäväksi"</string>
+</resources>

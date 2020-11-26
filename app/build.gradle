@@ -1,0 +1,133 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'KEYS_ALIAS'
+            keyPassword 'KEYS_PASSWORD'
+            storeFile file('FILE_PATH')
+            storePassword 'STORE_PASSWORD'
+        }
+    }
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+        applicationId "inesc_id.pt.motivandroid"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 175
+        //versionName "0.6.34.0"
+        versionName "2.0.10"
+        multiDexEnabled true
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true // This line here
+
+        def locales = ["en",
+                       "pt",
+                       "es",
+                       "ca",
+                       "fi",
+                       "de",
+                       "hr",
+                       "nl",
+                       "fr",
+                       "it",
+                       "nb",
+                       "sk"]
+
+        buildConfigField "String[]", "TRANSLATION_ARRAY", "new String[]{\"" + locales.join("\",\"") + "\"}"
+        resConfigs locales
+
+    }
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+
+        debug {
+            minifyEnabled false
+            debuggable true
+            signingConfig signingConfigs.config
+        }
+
+    }
+
+
+}
+
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'pub.devrel:easypermissions:1.1.3'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.0'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.7.1@aar') {
+        transitive = true
+    }
+
+//    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+
+    implementation 'com.google.firebase:firebase-core:16.0.6'
+    implementation 'com.firebaseui:firebase-ui-auth:3.3.1'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+//    implementation 'com.xeoh.android:checkboxgroup:1.0.1'
+//    implementation 'info.hoang8f:android-segmented:1.0.6'
+    implementation project(':library-release')
+    implementation 'com.github.whinc:ratingbar:1.1.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.yarolegovich:discrete-scrollview:1.4.9'
+    implementation 'com.google.firebase:firebase-auth:16.1.0'
+
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+    //    implementation 'com.gu.android:toolargetool:0.1.3@aar'
+    implementation 'com.gu.android:toolargetool:0.1.3@aar'
+    implementation 'com.github.paolorotolo:expandableheightlistview:1.0.0'
+    implementation 'com.github.carlosmuvi:SegmentedProgressBar:0.6.0'
+    implementation('com.github.bright:slf4android:0.1.5') {
+        transitive = true
+    }
+    implementation 'com.google.firebase:firebase-crash:16.2.1'
+    implementation 'com.jjoe64:graphview:4.2.2'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.github.luongvo:iOS-SwitchView:1.0.2'
+    implementation 'com.daasuu:BubbleLayout:1.2.0'
+    implementation 'com.pnikosis:materialish-progress:1.7'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+
+    implementation 'com.github.warkiz.widget:indicatorseekbar:2.1.2'
+//    implementation 'com.github.warkiz.tickseekbar:tickseekbar:0.1.4'
+//    implementation 'com.xw.repo:bubbleseekbar:3.20-lite'
+
+//    implementation 'com.google.android.gms:play-services-oss-licenses:17.0.0'
+
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.0-beta-3'
+
+//    implementation 'com.google.android.gms:play-services-oss-licenses:16.0.0'
+
+}
+
+
+
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'io.fabric'
+
+//apply plugin: 'com.google.android.gms.oss-licenses-plugin'

@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Drawer titles -->
+    <string name="Drawer_Title_Home">"Domov"</string>
+    <string name="Drawer_Title_Route_Planner">"Plánovač ciest"</string>
+    <string name="Drawer_Title_My_Trips">"Moje cesty"</string>
+    <string name="Drawer_Title_Dashboard">"Štatistiky"</string>
+    <string name="Drawer_Title_Mobility_Coach">"Tréner"</string>
+    <string name="Drawer_Title_Profile">"Profil"</string>
+    <string name="Drawer_Title_Settings">"Nastavenia &amp; profil"</string>
+    <string name="Drawer_Title_Report_Issue">"Nahlásiť problém"</string>
+    <string name="Drawer_Title_Finish_Log_Out">"Odhlásiť sa"</string>
+    <string name="login_what_is_email_address">"Aká je tvoja e-mailová adresa?"</string>
+    <string name="login_enter_your_password">"Zadajte heslo"</string>
+
+    <!-- Profile and settings options -->
+    <string name="Edit_Profile">"Upraviť profil"</string>
+    <string name="Set_Home_And_Work">"Nastavenie adresy bydliska a zamestnania"</string>
+    <string name="Demographic_Info">"Demografické informácie"</string>
+    <string name="Worthwhileness_Settings">"Cestovné preferencie"</string>
+    <string name="Tutorials">"Návody"</string>
+    <string name="Transport_Preferences">"Dopravné preferencie"</string>
+
+    <!-- <string name="APP_PERMISSIONS">App permissions</string> -->
+    <string name="App_Language">"Jazyk"</string>
+    <string name="Change_Password">"Zmeniť heslo"</string>
+    <string name="Feedback">"Spätná väzba"</string>
+    <string name="Log_Out">"Odhlásenie"</string>
+
+    <!-- Education labels -->
+    <string name="Education_8th_Grade">"Up to 8th grade"</string>
+    <string name="Education_Some_Highschool">"9th to 11th grade"</string>
+    <string name="Education_Highschool">"Stredoškolské"</string>
+    <string name="Education_Some_College">"Some college credit, no degree"</string>
+    <string name="Education_Training">"Technical/vocational training"</string>
+    <string name="Education_Bachelor">"Bachelor’s degree"</string>
+    <string name="Education_Master">"Master’s degree"</string>
+    <string name="Education_Professional">"Professional degree"</string>
+    <string name="Education_Doctorate">"Doctorate degree"</string>
+    <string name="Education_Associate">"Associate degree"</string>
+    <string name="Education_No_Schooling">"Žiadne"</string>
+
+    <!-- Demographic option -->
+    <string name="Demographic_Option_General">"Všeobecné"</string>
+
+    <!-- <string name="DEMOGRAPHIC_OPTION_HOUSEHOLD_DATA">Household data</string>
+<string name="DEMOGRAPHIC_OPTION_MOBILITY_CAPABILITIES">Mobility capabilities</string>
+<string name="DEMOGRAPHIC_OPTION_MOBILITY_PREFERENCES">Mobility preferences</string>
+<string name="DEMOGRAPHIC_OPTION_EXPERIENCE_FACTORS">Experience factors</string>
+ General suboptions -->
+    <string name="Age">"Vek"</string>
+
+    <!-- message: Gender -->
+    <string name="Gender">"Pohlavie"</string>
+    <string name="Education">"Vzdelanie"</string>
+    <string name="Country">"Štát"</string>
+    <string name="City">"Mesto"</string>
+
+    <!-- Tutorial options -->
+    <string name="Tutorial_Option_What_Is_Worthwhileness">"Ako môžeš využiť svoj čas?"</string>
+
+    <!-- Productivity -->
+    <string name="Productivity_Percentage">"Produktivita %1$s%%"</string>
+    <string name="Mind_Percentage">"Zábava a relax %1$s%%"</string>
+    <string name="Body_Percentage">"Zdravie %1$s%%"</string>
+
+    <!-- Main menu options
+<string name="NEW_INTERFACE_TEXT">New interface</string>
+ My trips module -->
+    <string name="My_Trips">"Moje cesty"</string>
+    <string name="Start_Trip">"Začať cestu"</string>
+    <string name="End_Trip">"Ukončiť cestu"</string>
+    <string name="Trip_Being_Recorded">"Cesta sa zaznamenáva"</string>
+
+    <!-- Edit trips -->
+    <string name="Select_Trips_To_Merge">"Označ cesty, ktoré chceš zlúčiť"</string>
+    <string name="Confirm_Trips_To_Merge">"Potvrď vybraté cesty na zlúčenie"</string>
+    <string name="Select_Trips_To_Split">"Označ cesty, ktoré chceš rozdeliť"</string>
+    <string name="Move_The_Map_To_Split">"Posuň mapu pre rozdelenie ciest"</string>
+    <string name="Select_Trips_To_Delete">"Označ cesty, ktoré chceš vymazať"</string>
+    <string name="Split">"Rozdeliť"</string>
+    <string name="Merge">"Zlúčiť"</string>
+    <string name="Delete">"Vymazať"</string>
+    <string name="Select_Legs_To_Split">"Vyber zo zoznamu časti ciest a/alebo prestupy, ktoré chceš rozdeliť"</string>
+    <string name="Move_The_Map_To_Split_The_Leg">"Posuň mapu pre vyber bod rozdelenia"</string>
+    <string name="Edited">"Upravené"</string>
+    <string name="Select_Legs_To_Merge">"Vyber zo zoznamu časti ciest a/alebo prestupy, ktoré chceš zlúčiť"</string>
+    <string name="Confirm_The_Legs_To_Merge">"Potvrď vybraté časti ciest/prestupov na zlúčenie"</string>
+    <string name="Rate_Your_Edited_Trips">"Ohodnoť svoje upravené cesty"</string>
+    <string name="Select_Legs_To_Delete">"Vyber časti cesty, ktoré chceš zmazať"</string>
+    <string name="Confirm_The_Legs_To_delete">"Potvrď vybraté cesty a/alebo prestupy, ktoré chceš zmazať"</string>
+
+    <!-- Leg validation -->
+    <string name="Validated">"Potvrdené"</string>
+    <string name="How_Did_You_Travel">"Ako si cestoval?"</string>
+
+    <!-- message: Public Transport -->
+    <string name="Public_Transport">"Verejná doprava"</string>
+    <string name="Active_Semi_Active">"Aktívne/Poloaktívne"</string>
+    <string name="Private_Motorised">"Súkromné motorizované"</string>
+    <string name="Not_Sure">"Nie som si istý"</string>
+    <string name="Lousy">"Zlé"</string>
+    <string name="Overall_Feel_About_Trip">"Aké sú tvoje celkové pocity z cesty?"</string>
+    <string name="Great">"Skvelé"</string>
+    <string name="Travel_Time_Wasted_Min_Text">"Všetok čas bol premrhaný"</string>
+    <string name="Travel_Time_Wasted_Question_Text">"Bol tvoj cestovný čas premrhaný alebo využitý naplno?"</string>
+    <string name="Travel_Time_Wasted_Max_Text">"Všetok čas bol využitý naplno"</string>
+
+    <!-- please update translation from new english text -->
+    <string name="Which_Factors_Most_Contributed">"Ktoré faktory ovplyvnili využitie tvojho času?"</string>
+    <string name="Unfold_All_That_Apply">"Rozbaľ a označ všetky, ktoré platia"</string>
+
+    <!-- Factors -->
+    <string name="Infrastructure_And_Services">"Infraštruktúra a služby"</string>
+    <string name="Comfort_And_Pleasantness">"Komfort a pohodlie"</string>
+    <string name="Getting_There">"Infraštruktúra"</string>
+    <string name="Tables">"Stôl"</string>
+    <string name="Toilets">"Toalety"</string>
+    <string name="Food_Drink_Allowed">"Povolené jedlá a nápoje"</string>
+    <string name="Food_Drink_Available">"Dostupnosť jedál a nápojov"</string>
+    <string name="Shopping_Retail">"Možnosť nakupovania"</string>
+    <string name="Entertainment">"Zábava"</string>
+    <string name="Noise_Level">"Hlasitosť zvuku"</string>
+    <string name="Cleanliness">"Čistota"</string>
+    <string name="Scenery">"Scenéria"</string>
+    <string name="Todays_Weather">"Dnešné počasie"</string>
+    <string name="Privacy">"Súkromie"</string>
+    <string name="Traffic_Signals_Crossings">"Dopravné značenie"</string>
+    <string name="Crowding_Congestion">"Preľudnenie"</string>
+    <string name="Traffic_Congestion_Delays">"Dopravné zápchy/meškania"</string>
+    <string name="Others_Comments">"Iné/Poznámky"</string>
+
+    <!-- Activities -->
+    <string name="What_Did_You_Do_And_Value">"Čo prispelo k využitiu tvojho cestovného času?"</string>
+    <string name="Driving_Cycling_Walking">"Šoférovanie/Bicyklovanie/Chôdza"</string>
+    <string name="Relaxing_Sleeping">"Relax alebo spánok"</string>
+    <string name="Browsing_Social_Media">"Internet/sociálne siete"</string>
+    <string name="Reading_Writing_Paper">"Čítanie/písanie"</string>
+    <string name="Reading_Writing_Device">"Čítanie/písanie (elektr. zariadenie)"</string>
+    <string name="Listening_To_Audio">"Počúvanie hudby a iné"</string>
+    <string name="Walking_Video_Gaming">"Pozeranie videá alebo sa hral"</string>
+    <string name="Talking_Including_Phone">"Rozprávanie sa (vrátane telefonovania)"</string>
+    <string name="Accompanying_Someone">"Sprevádzanie niekoho"</string>
+    <string name="Eating_Drinking">"Jedenie / pitie"</string>
+    <string name="Personal_Caring">"Osobná starostlivosť"</string>
+    <string name="Thinking">"Rozmýšľanie"</string>
+
+    <!-- Value this part of the trip -->
+    <string name="What_Value_Take_From_Part">"Akú hodnotu má pre teba táto časť cesty?"</string>
+    <string name="Paid_Work">"Platená práca"</string>
+    <string name="Personal_Tasks">"Súkromné veci"</string>
+
+    <!-- message: Enjoyment -->
+    <string name="Enjoyment">"Zábava a relax"</string>
+
+    <!-- message: Fitness -->
+    <string name="Fitness">"Zdravie"</string>
+    <string name="None">"Žiadnu"</string>
+    <string name="Some">"Čiastočnú"</string>
+    <string name="High">"Veľkú"</string>
+
+    <!-- Thinking about trip as a whole -->
+    <string name="Thinking_About_Your_Trip_Title">"Keby si sa mohol rozhodnúť inak, využil by si viac času na:"</string>
+
+    <!-- message: Productivity -->
+    <string name="Productivity">"Produktivita"</string>
+    <string name="Anything_Else_Like_To_Share">"Je ešte niečo čo by ste chceli zdieľať?"</string>
+
+    <!-- message: I would like to share... -->
+    <string name="Would_Like_To_Share">"Chcel by som zdieľať..."</string>
+    <string name="Today">"Dnes"</string>
+    <string name="Yesterday">"Včera"</string>
+    <string name="Validate_Your_Trip">"Nová cesta zaznamenaná! Potvrď tvoju cestu a získaj %d bodov!"</string>
+    <string name="What_Was_Purpose">"Aký bol dôvod tvojej cesty?"</string>
+    <string name="Mark_All_That_Apply">"Označ všetky, ktoré platia"</string>
+
+    <!-- Trip purposes -->
+    <string name="Work">"Práca"</string>
+    <string name="School_Education">"Škola/vzdelanie"</string>
+    <string name="Home">"Domov"</string>
+    <string name="Everyday_Shopping">"Každodenné nakupovanie"</string>
+    <string name="Business_Trip">"Pracovná cesta"</string>
+    <string name="Leisure_Hobby">"Voľný čas/Hobby"</string>
+    <string name="Pick_Up_Drop_Off">"Priviesť alebo vyzdvihnúť niekoho"</string>
+    <string name="Personal_Tasks_Errands">"Osobné úlohy/záležitosti"</string>
+    <string name="Trip_Itself">"Samotná cesta"</string>
+
+    <!-- message: Other -->
+    <string name="Other">"Iné"</string>
+    <string name="Arrive_At_Fixed_Time">"Musel si prísť v stanovenom čase?"</string>
+    <string name="How_Often_Make_This_Trip">"Ako často cestuješ po tejto trase?"</string>
+    <string name="Regularly">"Pravidelne"</string>
+    <string name="Occasionally">"Príležitostne"</string>
+    <string name="First_Time">"Prvýkrát"</string>
+    <string name="Select_Part_Of_Trip_Feedback">"Vyber jednu časť z tvojej cesty pre ďalšie hodnotenie"</string>
+
+    <!-- <string name="objective_other_hint">Where you travelled and why</string> -->
+    <string name="Confirm_Modes_Of_Your_Trips">"Potvrď typy dopravy počas tvojej cesty"</string>
+
+    <!-- message: Transfer -->
+    <string name="Transfer">"Prestup"</string>
+    <string name="Auto_Detected">"Automaticky detekované"</string>
+
+    <!-- message: were you %s ? -->
+    <string name="Were_You_Walking_Or_Running">"Bol tvoj spôsob dopravy: %s ?"</string>
+
+    <!-- message: Did you go by %s ? -->
+    <string name="Did_You_Go_The_Mode">"Bol tvoj spôsob dopravy: %s ?"</string>
+
+    <!-- modes of transport -->
+    <string name="Walking">"Chôdza"</string>
+    <string name="Jogging_Running">"Beh"</string>
+    <string name="Bicycle">"Bicykel"</string>
+    <string name="Car_Driver">"Auto (šofér)"</string>
+    <string name="Bus_Trolley_Bus">"Autobus/Trolejbus"</string>
+    <string name="Tram">"Električka"</string>
+    <string name="Metro">"Metro"</string>
+    <string name="Urban_Train">"Mestský vlak"</string>
+    <string name="Regional_Intercity_Train">"Regionálny/medzimestský vlak"</string>
+    <string name="Ferry_Boat">"Trajekt/loď"</string>
+    <string name="Motorcycle">"Motorka"</string>
+    <string name="Moped">"Moped"</string>
+    <string name="Electric_Bike">"Elektrický bicykel"</string>
+    <string name="Bike_Sharing">"Bikesharing"</string>
+    <string name="Car_Passenger">"Autor (pasažier)"</string>
+    <string name="Taxi_Ride_Hailing">"Taxík"</string>
+    <string name="Car_Sharing_Rental_Driver">"Prenájom/zdieľanie auta (šofér)"</string>
+    <string name="Car_Sharing_Rental_Passenger">"Prenájom/zdieľanie auta (pasažier)"</string>
+    <string name="car_pooling">"Carpooling"</string>
+    <string name="Plane">"Lietadlo"</string>
+    <string name="high_speed_train">"Rýchlovlak"</string>
+    <string name="Coach_Long_Distance_Bus">"Diaľkový autobus"</string>
+    <string name="Micro_Scooter">"Kolobežka"</string>
+    <string name="Skate">"Korčule"</string>
+    <string name="Electric_Wheelchair_Cart">"Elektrický vozík"</string>
+    <string name="Wheelchair">"Invalidný vozík"</string>
+    <string name="Cargo_Bike">"Nákladný bicykel"</string>
+    <string name="Other_Public_Transport">"Iná verejná doprava"</string>
+    <string name="Other_Active_Semi_Active">"Iné aktívne/poloaktívne"</string>
+    <string name="Other_Private_Motorised">"Iné súkromné motorizované prostriedky"</string>
+
+    <!-- Misc -->
+    <string name="Yes">"Áno"</string>
+    <string name="No">"Nie"</string>
+    <string name="Save">"Uložiť"</string>
+    <string name="Confirm_All">"Potvrdiť všetky"</string>
+
+    <!-- message text of \"Next\" button message: Next -->
+    <string name="Next">"Ďalej"</string>
+    <string name="Done">"Hotovo"</string>
+    <string name="End">"Koniec"</string>
+
+    <!-- Factors Wasted Time -->
+    <string name="Skip">"Preskočiť"</string>
+
+    <!-- title for the info pages message: A Little About You -->
+    <string name="A_Little_About_You">"Niečo o tebe"</string>
+
+    <!-- message: Active/Semi-active -->
+    <string name="Active_Semi_active">"Aktívne/Poloaktívne "</string>
+
+    <!-- message: Thanks! To record your trips we need your permission to let Woorti access to your location at all times.
+
+It should not excessively consume your battery. -->
+    <string name="Ask_location_permission_String">"Ďakujeme! Pre zaznamenávanie tvojich ciest potrebujeme tvoj súhlas, aby Woorti mohla neustále pristupovať k tvojej polohe.
+
+
+Vytvorili sme ju tak, aby príliš nemíňala tvoju batériu."</string>
+
+    <!-- message: Sorry! For Woorti to function properly we really need that you allow it to access your location at all times. -->
+    <string name="Ask_location_permission_String_when_user_has_denied">"Prepáč! Pre správne fungovanie aplikácie Woorti potrebujeme, aby si jej vždy umožnil prístup k tvojej polohe."</string>
+
+    <!-- message: Lastly, we will be asking you questions regarding your experiences as you travel. Your opinion really matters to us! 
+
+ To do this we need to be able to send you notifications -->
+    <string name="Ask_notification_permission_String">"Budú nás zaujímať aj tvoje skúsenosti z cestovania, preto by sme ti chceli posielať notifikácie. Na tvojom názore nám naozaj záleží!"</string>
+
+    <!-- message: BACK TO LOGIN -->
+    <string name="Back_To_Login">"Späť na prihlásenie"</string>
+
+    <!-- change language screen title message: Change Language -->
+    <string name="Change_Language">"Zmeniť jazyk"</string>
+
+    <!-- message: Correct exams -->
+    <string name="Correct_Exams">"Correct_Exams"</string>
+
+    <!-- title for the first onboarding pages message: Data Protection -->
+    <string name="Data_Protection">"Súkromie a ochrana osobných údajov"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Didnt_sign_up_yet">"Zabudol si heslo?"</string>
+
+    <!-- rating prefered modes of transport message: Doesn't improve my fitness -->
+    <string name="Doesnt_Improve_My_Fitness">"Nezlepšuje moju kondíciu"</string>
+
+    <!-- email message -->
+    <string name="Email">"e-mail"</string>
+
+    <!-- message shown when clcicking to reset a password message: If %s has an account with Woorti, you will be receiving an email to reset your password -->
+    <string name="Email_Has_Been_Sent">"E-mail bol odoslaný"</string>
+
+    <!-- rating prefered modes of transport message: Enjoying -->
+    <string name="Enjoying">"Užívam si"</string>
+
+    <!-- message: Relaxing or having fun; taking time to listen to music, rest or meditate; engaging in social media; observing the surroundings… -->
+    <string name="Enjoyment_Worthwhile_Description_Score">"Počas cestovania môžeš: počúvať hudbu, oddychovať alebo meditovať, využívať sociálne siete, pozorovať okolie..."</string>
+
+    <!-- message: When I travel, 
+I chill -->
+    <string name="Enjoyment_Worthwhile_High_Score">"Cestovanie si užívam"</string>
+
+    <!-- placeholder for email in login/register -->
+    <string name="Enter_Your_Email_Address">"Zadaj tvoju e-mailovú adresu"</string>
+
+    <!-- name Placeholder message: Enter your name -->
+    <string name="Enter_Your_Name">"Zadaj svoje meno"</string>
+
+    <!-- placeholder for password in login/register -->
+    <string name="Enter_Your_Password">"Zadaj svoje heslo"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Enter_Your_Password_Again">"Znovu zadaj svoje heslo"</string>
+
+    <!-- error shown to the user when log in failed -->
+    <string name="Error_Log_In">"Nastala chyba pri prihlasovaní. Skús to ešte raz alebo si nanovo nastav svoje heslo."</string>
+
+    <!-- message: Female -->
+    <string name="Female">"Žena"</string>
+
+    <!-- message: Did you know that a person spends about 2 years of her whole life commuting?
+
+Woorti will help you explore your travel time! -->
+    <!-- Fuzzy -->
+    <string name="First_Onboarding_Screen_Welcome_Description_Text">"Vedel si, že človek strávi cestovaním priemerne až dva roky zo svojho života?
+
+Woorti ti pomôže spoznať tvoj cestovný čas!"</string>
+
+    <!-- message: Your travel time is an important part of your life! -->
+    <string name="First_Onboarding_Screen_Welcome_Title">"Čas strávený cestovaním je dôležitou súčasťou tvojho života."</string>
+
+    <!-- message: message: Travelling is not at all relaxing -->
+    <string name="FitnesEnjoyment_Worthwhile_Low_Scores">"Cestovanie si vôbec neužívam"</string>
+
+    <!-- message: When you walk, cycle, or even run on your travels, you’re getting exercise and staying in shape. -->
+    <string name="Fitness_Worthwhile_Description_Score">"Chôdzou, jazdou na bicykli alebo aj behaním sa udržiavaš fit a v kondícii."</string>
+
+    <!-- message: Travel time is a great way to feel the burn -->
+    <string name="Fitness_Worthwhile_High_Score">"Cestovanie je skvelý spôsob spaľovania kalórií"</string>
+
+    <!-- message: Exercise is in the gym/field -->
+    <string name="Fitness_Worthwhile_Low_Score">"Cvičiť sa má vo fitku"</string>
+
+    <!-- Forgot Password -->
+    <string name="Forgot_Password">"Zabudnuté heslo"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Forgot_Your_Password">"Zabudol si heslo?"</string>
+
+    <!-- message: Everyone defines what is a worthwhile travel time in his or her different way.
+
+Let's see what that means to you! -->
+    <string name="Fourth_Onboarding_Screen_Description">"Každý vníma hodnotu cestovného času odlišne.
+
+Pozrime sa, ako ju vnímaš ty!"</string>
+
+    <!-- message: I accept MoTiV data protection conditions -->
+    <string name="GRPD_Accept">"Súhlasím s MoTiV podmienkami ochrany údajov"</string>
+
+    <!-- message: For the European MoTiV project research on travel time, this app collects anonymised data on:
+1. Your trips (time, location and transport used)
+2. Your expressed preferences and searches within the app -->
+    <string name="GRPD_Description">"Pre potreby európskeho výskumného projektu hodnoty cestovného času zhromažďuje aplikácia anonymizované údaje o: 
+
+1. Vašich cestách (čas, miesto a typ dopravy) 
+
+2. Vašich preferenciách a vyhľadávaniach"</string>
+
+    <!-- message: MoTiV privacy policy is compliant with EU GDPR. Read More -->
+    <string name="GRPD_Read_Policy">"MoTiV zásady ochrany osobných údajov sú v súlade s EÚ GDPR."</string>
+
+    <!-- rating prefered modes of transport message: Improves my fitness -->
+    <string name="Improves_My_Fitness">"Zlepšuje moju kondíciu"</string>
+
+    <!-- splash screen start now button message -->
+    <string name="Log_In">"Prihlásenie"</string>
+
+    <!-- login with google button message -->
+    <string name="Log_In_With_Google">"Prihlásenie cez Google"</string>
+
+    <!-- message: Male -->
+    <string name="Male">"Muž"</string>
+
+    <!-- message: No worries! Enter your email address below and we will send you a email to reset your password. -->
+    <string name="No_Worries_Message">"Zadaj svoj e-mail, na ktorý ti pošleme správu o zmene hesla."</string>
+
+    <!-- rating prefered modes of transport message: Not Enjoying -->
+    <string name="Not_Enjoying">"Neužívam si"</string>
+
+    <!-- %s not filled -->
+    <string name="Not_Filled">"%s nevyplnené"</string>
+
+    <!-- rating prefered modes of transport message: Not Productive -->
+    <string name="Not_Productive">"Neproduktívny"</string>
+
+    <!-- message: NOW YOU! -->
+    <string name="Now_You">"TERAZ TY!"</string>
+
+    <!-- message: Ok cool -->
+    <string name="Ok_Cool">"Ok super"</string>
+
+    <!-- password message -->
+    <string name="Password">"Heslo"</string>
+
+    <!-- register button message -->
+    <string name="Passwords_Dont_Match">"Zaregistrovať sa"</string>
+
+    <!-- title for the first onboarding pages message: Permissions -->
+    <string name="Permissions">"Povolenia"</string>
+
+    <!-- message: Private Motirized -->
+    <string name="Private_Motirized">"Súkromné motorizované"</string>
+
+    <!-- message: Proceed to Enjoyment -->
+    <string name="Proceed_To_Enjoyment">"Pokračovať k Zábave a relaxu"</string>
+
+    <!-- message: Proceed to Fitness -->
+    <string name="Proceed_To_Fitness">"Pokračovať k Zdraviu"</string>
+
+    <!-- proceed to productivity button message: Proceed to Productivity -->
+    <string name="Proceed_To_Productivity">"Pokračovať k Produktivite"</string>
+
+    <!-- rating prefered modes of transport message: Productive -->
+    <string name="Productive">"Produktívny"</string>
+
+    <!-- message: Using travel time to get things done, not only for work or study, but also personal things like managing home or family stuff… -->
+    <string name="Productivity_Worthwhile_Description_Score">"Počas cestovania môžeš využiť svoj čas nielen na prácu, štúdium, ale taktiež na osobné záujmy."</string>
+
+    <!-- message: I used my  trip to get stuff done! -->
+    <string name="Productivity_Worthwhile_High_Score">"Počas cestovania riešim súkromné alebo pracovné záležitosti"</string>
+
+    <!-- message: I don’t work when I travel -->
+    <string name="Productivity_Worthwhile_Low_Score">"Počas cestovania nepracujem"</string>
+
+    <!-- message: How important are the travel time worthwhileness elements for you, when you travel? -->
+    <string name="Rate_Worthwhileness_Screen_Title">"Ako dôležité sú pre teba nasledujúce faktory počas cestovania?"</string>
+
+    <!-- message: How much enjoyment do you get from your your travel time by: -->
+    <string name="Rating_Prefered_Mot_Enj_Title">"Ako veľmi si užívaš cestovanie týmito dopravnými prostriedkami:"</string>
+
+    <!-- message: How does your travel time contribute to your fitness when you travel by: -->
+    <string name="Rating_Prefered_Mot_Fit_Title">"Ako veľmi prispieva cestovanie týmito dopravnými prostriedkami k tvojej kondícii:"</string>
+
+    <!-- message: How productive are you when you travel by: -->
+    <string name="Rating_Prefered_Mot_Prod_Title">"Ako veľmi si produktívny počas cestovania týmito dopravnými prostriedkami:"</string>
+
+    <!-- register button message -->
+    <string name="Register">"Zaregistruj sa"</string>
+
+    <!-- message: Which modes of transport do you use regularly? -->
+    <string name="Regualr_Modes_Of_Transport_Title">"Ktoré typy dopravy využívaš obvykle?"</string>
+
+    <!-- Reset Password -->
+    <string name="Reset_Password">"Znovu nastaviť heslo"</string>
+
+    <!-- message: Check out $@ for more information -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Check_Out_Site">"Pre ďalšie informácie klikni na %s ."</string>
+
+    <!-- message: With the information you provide, Woorti will gather knowledge for better transport solutions and share it with researchers, transport operators and local authorities around Europe. -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Description">"Informácie o tvojom cestovaní pomôžu výskumným tímom a dopravným inžinierom v budúcnosti zlepšiť dopravu v tvojom okolí."</string>
+
+    <!-- The message for this text was incorrect, the real message in English is: Help research for better transport
+When possible please retranslate this message. -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Title">"Zapoj sa do výskumu pre zlepšenie dopravy"</string>
+
+    <!-- sign in button message -->
+    <string name="Sign_In">"Prihlásiť sa"</string>
+
+    <!-- splash screen start now button message -->
+    <string name="Start_Now">"Začať teraz"</string>
+
+    <!-- message: While some like to study or work when they travel, others like to relax and disconnect. Some take the opportunity to exercise. While others jumpstart their day with music. -->
+    <string name="Third_Onboarding_Screen_Description">"Niektorí ľudia počas cestovania radi pracujú alebo študujú a iní zase najradšej relaxujú. Niektorí preferujú aktívny pohyb, iní zase naštartujú svoj deň počas cestovania počúvaním hudby."</string>
+
+    <!-- error shown to the user when registering with a already signed in email account -->
+    <string name="User_Already_Signed_In">"Užívateľské meno %s už bolo zaregistrované. Chceš sa prihlásiť?"</string>
+
+    <!-- title that appears on the top of the login page -->
+    <string name="Welcome_Back">"Vitaj späť"</string>
+
+    <!-- title for the first onboarding page message: What is a worthwhile trip -->
+    <string name="What_Is_A_Worthwhile_Trip">"Ako využiť cestovný čas naplno?"</string>
+
+    <!-- message: What is your age? -->
+    <string name="What_Is_Your_Age">"Koľko máš rokov?"</string>
+
+    <!-- message: What is your name? -->
+    <string name="What_Is_Your_Name">"Aké je tvoje meno?"</string>
+
+    <!-- message: Where do you live? -->
+    <string name="Where_Do_You_Live">"Kde bývaš?"</string>
+
+    <!-- you've got mail! -->
+    <string name="Youve_Got_Mail">"Máš novú správu!"</string>
+    <string name="No_Ongoing_Trip_To_Show">"Žiadne prebiehajúce cesty na zobrazenie"</string>
+    <string name="Your_Trip">"Tvoja cesta"</string>
+    <string name="Click_On_The_Marker_To_Split_The_Trip">"Klikni na značku pre rozdelenie cesty"</string>
+    <string name="Security_Boarding_Process">"Bezpečnostná kontrola a boarding"</string>
+    <string name="Other_Activity">"Iná aktivita"</string>
+    <string name="Cycling">"Bicyklovanie"</string>
+    <string name="Riding">"Jazdenie samotné"</string>
+    <string name="Skating">"Korčuľovanie samotné"</string>
+    <string name="Driving">"Šoférovanie samotné"</string>
+    <string name="Running">"Bežanie samotné"</string>
+
+    <!-- message: Please wait while Woorti searches for local studies -->
+    <string name="Wait_While_Searching_Local_Studies">"Prosím počkaj, kým Woorti nájde miestne štúdie"</string>
+
+    <!-- message: There are these studies going near you. Which one(s) do you want to contribute with data to? -->
+    <string name="Studies_Title">"V tvojom okolí prebiehajú tieto štúdie. Ku ktorým chceš prispieť svojimi údajmi?"</string>
+    <string name="Menu">"Menu"</string>
+    <string name="Set_Home">"Nastaviť adresu domov"</string>
+    <string name="Set_Work">"Nastaviť adresu zamestnania"</string>
+    <string name="Change_Photo">"Zmeniť foto"</string>
+    <string name="Name">"Meno"</string>
+    <string name="Define_Home_Location">"Nastav adresu bydliska"</string>
+    <string name="Define_Work_Location">"Nastav adresu zamestnania"</string>
+    <string name="Edit">"Uložiť"</string>
+    <string name="Educational_Background">"Dosiahnuté vzdelanie"</string>
+    <string name="Activities">"Aktivity"</string>
+    <string name="While_You_Ride">"Okolie"</string>
+    <string name="Ability_To_Do_What_I_Wanted">"Možnosť robiť to, čo som chcel"</string>
+    <string name="Simplicity_Difficulty_Of_The_Route">"Jednoduchosť/obtiažnosť trasy"</string>
+    <string name="Schedule_Reliability">"Spoľahlivosť cestovného poriadku"</string>
+    <string name="Security_And_Safety">"Bezpečnosť"</string>
+    <string name="Space_Onboard_For_Lugagge_Pram_Bicycle">"Priestor pre batožinu/kočík/bicykel"</string>
+    <string name="Ability_To_Take_Pets_Along">"Možnosť zobrať so sebou domáce zvieratá"</string>
+    <string name="Payment_And_Tickets">"Platba a lístky"</string>
+    <string name="Convenient_Access_Lifts_Boarding">"Pohodlný prístup (výťahy, boarding)"</string>
+    <string name="Route_Planning_Navigation_Tools">"Plánovanie trasy a navigácia"</string>
+    <string name="Information_And_Signs">"Informácie a značenie"</string>
+    <string name="Checkin_Security_And_Boarding">"Check-in, bezpečnostná kontrola a boarding"</string>
+    <string name="Crowdedness_Seating">"Preplnenosť/Dostupnosť sedenia"</string>
+    <string name="Internet_Connectivity">"Internetové pripojenie"</string>
+    <string name="Ability_To_Do_The_Things_I_Want">"Možnosť robiť veci, ktoré chcem"</string>
+    <string name="Charging_Opportunity">"Možnosť nabíjania"</string>
+    <string name="Car_Bike_Parking_At_Transfer_Point">"Parkovanie auta/bicykla "</string>
+    <string name="Vehicle_Ride_Smoothness">"Plynulosť jazdy dopravným prostriedkom"</string>
+    <string name="Seating_Quality_Personal_Space">"Kvalita sedenia/osobný priestor"</string>
+    <string name="Other_People">"Iní ľudia"</string>
+    <string name="Air_Quality_Temperature">"Kvalita vzduchu/teplota"</string>
+    <string name="General_Atmosphere_Design">"Všeobecná atmosféra/dizajn"</string>
+    <string name="Road_Path_Availability_And_Safety">"Dostupnosť a bezpečnosť cesty/chodníka"</string>
+    <string name="Accessibility_Escalators_Lifts_Ramps_Stairs_Etc">"Prístupnosť (eskalátor, výťah, rampa, schody atď.)"</string>
+    <string name="Ability_To_Carry_Bags_Luggage_Etc">"Možnosť niesť so sebou tašky, batožinu atď."</string>
+    <string name="Ability_To_Take_Kids_Or_Pets_Along">"Možnosť vziať so sebou deti alebo domáce zvieratá"</string>
+    <string name="Benches_Toilets_Etc">"Lavičky/toalety atď."</string>
+    <string name="Facilities_Shower_Lockers">"Zariadenie (sprchy, skrinky)"</string>
+    <string name="Parking_At_End_Points">"Parkovanie v cieľových bodoch"</string>
+    <string name="Road_Path_Quality">"Kvalita cesty/chodníka"</string>
+    <string name="Road_Path_Directness">"Priamosť cesty/chodníka"</string>
+    <string name="Air_Quality">"Kvalita vzduchu"</string>
+    <string name="Lighting_Visibility">"Osvetlenie/viditeľnosť"</string>
+    <string name="Cars_Other_Vehicles">"Autá/iné vozidlá"</string>
+    <string name="Space_For_Luggage_Pram_Bicycle_Etc">"Priestor pre batožinu/kočík/bicykel atď."</string>
+    <string name="Road_Quality_Vehicle_Ride_Smoothness">"Kvalita cesty/plynulosť jazdy vozidla"</string>
+    <string name="Vehicle_Quality">"Kvalita vozidla"</string>
+    <string name="Seat_Comfort">"Pohodlnosť sedadiel"</string>
+    <string name="Other_Passengers">"Iní pasažieri"</string>
+    <string name="Other_Cars_Vehicles">"Iné autá/vozidlá"</string>
+
+    <!-- Button text on second onboarding page -->
+    <string name="Lets_Get_Started">"Tak poďme na to"</string>
+
+    <!-- Report issue -->
+    <string name="Thank_You_For_Submitting_This_Issue">"Ďakujeme za nahlásenie problému. Potvrď zaslanie alebo nahlás ďalší"</string>
+    <string name="Confirm_And_Leave">"Potvrdiť a odísť"</string>
+    <string name="Confirm_And_Submit_More">"Potvrdiť a odoslať ďalší"</string>
+    <string name="Where_City">"Kde %s?"</string>
+    <string name="OtherCountry">"Iná krajina"</string>
+    <string name="OtherCity">"Iné mesto"</string>
+    <string name="Sign_Up_Error">"Chyba registrácie"</string>
+    <string name="Sign_Up">"Registrácia"</string>
+    <string name="How_Important_Are_The_Following_Factors">"Ako dôležité sú pre teba nasledujúce faktory s ohľadom na čas strávený cestovaním?"</string>
+    <string name="Modes_Of_Transport">"Typy dopravy"</string>
+    <string name="Help_Research_For_Better_Transport">"Pomôž výskumu pre lepšiu dopravu"</string>
+    <string name="Already_Signed_Up_Log_In_Here">"Už si sa registroval? Prihlás sa tu."</string>
+    <string name="Welcome">"Vitaj"</string>
+    <string name="Refresh_Surveys">"Obnoviť prieskumy"</string>
+
+    <!-- This string has the text for the data regarding Activities (e.g., for the walk itself) and *not* the walking mode of transport -->
+    <string name="The_Walk_Itself">"Samotná chôdza"</string>
+    <string name="Education_Highshool">"Stredoškolské"</string>
+
+    <!-- TODO new strings 
+ New education strings according to specs -->
+    <string name="Education_Basic">"Základné"</string>
+    <string name="Education_University">"Vysokoškolské"</string>
+
+    <!-- Ocupation options -->
+    <string name="Occupation">"Zamestnanie"</string>
+    <string name="Ocupation_Student">"Študent"</string>
+    <string name="Ocupation_Schedule_Worker">"Zamestnanec"</string>
+    <string name="Ocupation_Flexible_worker">"Dohodár"</string>
+    <string name="Ocupation_Selfemployed">"Živnostník/Free lancer"</string>
+    <string name="Ocupation_Seeking_Work">"Nezamestnaný/á"</string>
+    <string name="Ocupation_Inactive">"Dôchodca"</string>
+    <string name="Ocupation_Maternity">"Materská/Rodičovská dovolenka"</string>
+    <string name="Ocupation_Military">"Vojenská služba"</string>
+
+    <!-- Marital status -->
+    <string name="Marital_Status">"Rodinný stav"</string>
+    <string name="Marital_Single">"Slobodný/á"</string>
+    <string name="Marital_Married">"Ženatý/vydatá"</string>
+    <string name="Matital_Significant_Other">"Druh/družka"</string>
+    <string name="Marital_Divorced">"Rozvedený/á"</string>
+    <string name="Marital_Widowed">"Vdovec/vdova"</string>
+    <string name="Driver_License">"Vodičský preukaz"</string>
+    <string name="Household_Yearly_Income">"Čistý ročný príjem domácnosti"</string>
+    <string name="Number_People_Household">"Počet osôb v domácnosti"</string>
+    <string name="Number_Children_household">"Počet detí v domácnosti"</string>
+    <string name="Number_Cars_Household">"Počet áut v domácnosti"</string>
+    <string name="Nationality">"Národnosť"</string>
+
+    <!-- TODO NEW STRING -->
+    <string name="No_Trips_Text">"Na tejto obrazovke sa zobrazia tvoje cesty, ktoré budeš môcť potvrdiť. Vráť sa sem po zaznamenaní tvojej cesty... \n
+Woorti by mal nahrávať všetky tvoje cesty, ale ak sa chceš uistiť, že ich naozaj nahrá, stlač tlačidlo Začať cestu pred tvojím cestovaním...... \n
+Uisti sa, že máš GPS zapnuté."</string>
+
+    <!-- Dashboard -->
+    <!-- you have spent %1s travelling a distance of %2s in %3s. -->
+    <string name="You_Have_Spent_Complete">"Cestovaním si strávil %1s a precestoval si %2s v %3s."</string>
+    <string name="In_Total_You_Spent_Calories">"Celkovo si spálil %1s."</string>
+    <string name="And_This_Counted_Carbon_Footprint">"To zodpovedá %1s tvojho denného limitu uhlíkovej stopy."</string>
+    <string name="Your_Trips_Overall_Percentage_Worthwhile">"Tvoje cesty boli využité na %s."</string>
+    <string name="While_Traveling_Activities">"Počas cestovania si %1s z tvojho času strávil aktivitou %2s."</string>
+    <string name="Do_You_Want_To_Set_This_Location_Home">"Chceš nastaviť toto miesto ako tvoju domácu adresu?"</string>
+    <string name="Do_You_Want_To_Set_This_Location_Work">"Chceš nastaviť toto miesto ako tvoju pracovnú adresu?"</string>
+    <string name="Privacy_Policy">"Zásady ochrany osobných údajov"</string>
+
+    <!-- day -->
+    <string name="Day">"Deň"</string>
+
+    <!-- 3 days -->
+    <string name="Days_3">"3 dni"</string>
+
+    <!-- week -->
+    <string name="Week">"Týždeň"</string>
+
+    <!-- month -->
+    <string name="Month">"Mesiac"</string>
+
+    <!-- year -->
+    <string name="Year">"Rok"</string>
+
+    <!-- era -->
+    <string name="Era">"Éra"</string>
+
+    <!-- worthwhile -->
+    <string name="Worthwhile">"využité"</string>
+
+    <!-- TODO new strings 
+ New education strings according to specs -->
+    <string name="Other_Activities">"Iné aktivity"</string>
+
+    <!-- Marital status -->
+    <string name="Household_Marital">"Rodinný stav"</string>
+    <string name="Household_Years_Residence">"Dĺžka pobytu v tejto krajine"</string>
+    <string name="Household_Labour_Status">"Zamestnanecký status"</string>
+    <string name="Labour_Student">"Študent"</string>
+    <string name="Labour_Employed_Full_Time">"Zamestnanec na plný úväzok"</string>
+    <string name="Labour_Employed_Part_Time">"Zamestnanec na čiastočný úväzok/na dohodu"</string>
+    <string name="Labour_Unemployed">"Nezamestnaný"</string>
+    <string name="Years_Residence_Less_Than_One">"Menej ako 1"</string>
+    <string name="Years_Residence_One_To_Five">"Od 1 do 5"</string>
+    <string name="Years_Residence_More_Than_Five">"Viac ako 5"</string>
+    <string name="Walk_For_Distance">"%s chôdze"</string>
+    <string name="Household">"Domácnosť"</string>
+    <string name="Total_Points">"Body"</string>
+    <string name="Todays_Travel_Report">"Tvoje cesty dnes"</string>
+
+    <!-- link to page with privacy policy specific to each language -->
+    <!-- Fuzzy -->
+    <string name="Url_Privacy_Policy">"https://motivproject.eu/data-collection/data-protection/slovakia.html"</string>
+
+    <!-- %d questions -->
+    <string name="N_Questions">"%d otázok"</string>
+
+    <!-- New survey -->
+    <string name="New_Survey">"Nový dotazník"</string>
+
+    <!-- Minutes more -->
+    <string name="Minutes_More">"minút viac"</string>
+
+    <!-- Minutes less -->
+    <string name="Minutes_Less">"minút menej"</string>
+
+    <!-- Kilometers more -->
+    <string name="Km_More">"km viac"</string>
+
+    <!-- Kilometers less -->
+    <string name="Km_Less">"km menej"</string>
+
+    <!-- Trip validation -->
+    <string name="Trip_Validation">"Potvrdenie cesty"</string>
+
+    <!-- Latest story -->
+    <string name="Latest_Story">"Najnovší príbeh"</string>
+    <string name="Household_Data">"Údaje o domácnosti"</string>
+
+    <!-- new text for battery warning pop up in mytrips (so that people are remembered to disable battery optimizations that undermine the app working in background) -->
+    <!-- battery warning popup text -->
+    <string name="Alert_Battery_Content">"Počas nahrávania ciest vykonáva aplikácia Woorti prácu na pozadí. Nezabudnite vypnúť v telefóne všetky nastavenia optimalizácie batérie alebo režimu nízkej spotreby týkajúce sa aplikácie Woorti, aby sa zabránilo vypnutiu aplikácie."</string>
+
+    <!-- "In the last" start message of DashBoard, Please use sentence that fits any number of days -->
+    <!-- Dashboard -->
+    <string name="In_The_Last">"V posledných"</string>
+
+    <!-- stories -->
+    <string name="story_1_title_chiaras_new_train_ride">"Chiara a jej nové cestovanie vlakom"</string>
+    <string name="story_1_text_chiaras_train_ride">"Chiara, jej manžel a ich dve deti sa nedávno presťahovali z centra na okraj Bruselu. Každý deň Chiara vozí svoje deti do škôlky a školy nákladným bicyklom a potom ide na vlakovú stanicu odkiaľ dochádza do svojej práce v centre mesta 25 minút. Na začiatku nebola Chiara veľmi šťastná, pretože si musela zvyknúť, že veľmi veľa času trávi dochádzaním do práce. Po krátkej dobe si však začala cestovanie vlakom užívať. Keď sedela sama mohla oddychovať alebo robiť veci, ktoré by inak nerobila.
+ 
+
+Chiara začala tento čas využívať na čítanie knihy. Po nejakom čase však zistila, že 25 minút nie je dostatočný čas na to, aby sa poriadne začítala do príbehu.
+ 
+Potom sa snažila čítať časopisy, ale pretože uprednostňuje dlhé, hlboké články, stalo sa jej to isté čo počas čítania kníh.
+ 
+Tak začala sledovať, čo sa deje na Facebooku. Niekedy sa tak začítala do príspevkov, že takmer zabudla vystúpiť na svojej zastávke. Rozhodla sa, že takéto zvýšenie tlaku ráno jej za to nestojí a skúsi nájsť iný spôsob trávenia času počas dochádzania do práce. 
+
+ 
+
+Nakoniec vyskúšala niečo, čo zafungovalo. Keďže sa presťahovali do holandsky hovoriacej časti, začala sa počas cestovania učiť holandčinu. Počas cesty vo vlaku zvládala prejsť dve až tri lekcie, čo jej dávalo možnosť každý deň sa aspoň trošku venovať novému jazyku. To jej uľahčilo vytvárať si nové priateľstvá s ľuďmi v jej susedstve. 
+ 
+ 
+
+Chiarina najlepšia voľba bola funkciou množstva času, ktorý mala k dispozícii počas cestovania a jej pocitov v tejto fáze života. 
+ 
+ 
+ A čo vy? Čo je najlepšie pre vás počas cestovania?"</string>
+    <string name="story_2_title_the_best_way_to_get_great_ideas_while_moving_p1">"Najlepší spôsob ako získať skvelé nápady počas pohybu"</string>
+    <string name="story_2_text_the_best_way_to_get_great_ideas_while_moving_p1">"Všimli ste si niekedy, že počas niektorých aktivít sa vám môžu generovať nové nápady ľahšie? Elon Musk pri rozhovore o tom, čo je najproduktívnejšou časťou jeho dňa, odpovedal: „keď sa sprchujem“. Nie je jediný. Veľa ľudí tvrdí, že mnohé z ich najlepších nápadov prichádzajú práve počas sprchovania!
+ 
+
+A čo počas cestovania? Existuje nejaká situácia, aktivita alebo cestovanie špecifickým dopravným prostriedkom, ktoré významne vplývajú na produktivitu ľudí?  
+ 
+
+Faktom je, že existuje jeden spôsob dopravy, ktorý sa zdá byť najlepší na generovanie nových myšlienok.  Niekoľko mysliteľov objavilo túto výhodu a zakomponovali tento druh dopravy do svojho každodenného života vždy keď chceli prísť s novými nápadmi a myšlienkami.
+ 
+
+Tip: niektorí z nich ako Beethoven, Dickens a Darwin, žili vo svete bez motorizovaných dopravných prostriedkov...
+ 
+
+Tip 2: je to forma pohybu, ktorá aktivuje mozog
+ 
+
+Viete o akom type dopravy hovoríme? Pozrite sa, čo to je v zajtrajšom príbehu… :)"</string>
+    <string name="story_3_title_the_best_way_to_get_great_ideas_while_moving_p2">"Najlepší spôsob ako získať skvelé nápady počas pohybu - časť 2"</string>
+    <string name="story_3_text_the_best_way_to_get_great_ideas_while_moving_p2">"Takže, ktorý spôsob dopravy pomáhal mysliteľom z predchádzajúceho príbehu prichádzať na nové myšlienky a nápady?
+ 
+Chôdza! 
+ 
+Áno, napríklad Steve Jobs chodil na prechádzky okolo kancelárie spoločnosti Apple v Palo Alto s cieľom prichádzať na nové a lepšie nápady. Takýmto spôsobom taktiež prebiehali aj jeho stretnutia. Namiesto využívania kancelárskych priestorov sa s ľuďmi radšej prechádzal.
+
+ 
+
+Existuje vedecké vysvetlenie  alebo je to len náhoda?
+ 
+Existujú štúdie, ktoré dokazujú, že počas chôdze sú niektoré časti mozgu viac aktivované ako ostatné. Štúdia s deťmi v školách ukázala, že deti, ktoré prišli ráno do školy pešo napísali test lepšie ako tie, ktoré do školy doviezli rodičia autom.
+
+Samozrejme, že na generovanie nápadov počas prechádzok je dôležité, 
+aby sa v okolí nenachádzalo veľa rušivých faktorov, ktoré odpútavajú tvoju pozornosť, ako napríklad hlučné prostredie, doprava a iné prekážky. Mestá s vybudovanou infraštruktúrou a chodníkmi sú mestá, ktoré pomáhajú generovať skvelé nápady. 
+ 
+Za účelom podpory \"stretnutí v pohybe\" bola vytvorená aplikácia, ktorá sa zrodila možno práve počas chôdze alebo sprchovania. Aplikácia zobrazuje trasy pre chodcov, ktoré sú vhodné práve na takéto stretnutia za chôzde. 
+Táto aplikácia sa nazýva Weeting a obsahuje trasy z viacerých miest v Holandsku.
+
+ 
+A čo vaše trasy? Prinášajú vám dostatok nových myšlienok?"</string>
+    <string name="story_4_title_the_7_shades_of_pedros_cycling_time">"7 odtieňov Pedrovho času na bicykli"</string>
+    <string name="story_4_text_the_7_shades_of_pedros_cycling_time">"1. Takto to Pedro nazval. Začal cestovať do práce na bicykli v čase, keď to bolo v Lisabone ešte niečo nezvyčajné. Popri ceste naňho starí ľudia kričali \"Poď, cyklista, poď\", ako keby bol na pretekoch. Šoféri naňho trúbili \"Zmizni z cesty\".
+
+Veril, že ľudia by mali byť schopní využívať bicykel na prepravu po meste a cítil sa ako pioniersky hrdina, že bol príkladom pre budúce generácie ľudí dochádzajúcich za prácou či do školy na bicykli.
+
+Pedro chcel tiež dokázať, že cesta bicyklom je rýchlejšia a tak si začal vyberať rýchlejšie cestičky aj keď na nich bola hustá premávka, len aby ušetril 5 minút. Čím kratšie to trvalo, tým lepšie.
+
+2. Ako sa efekt jeho prehlásenia vytratil, začal si viac uvedomovať stresujúcu časť jeho skúsenosti a príležitostnú záťaž. Tak sa rozhodol zvoľniť tempo. Prišiel na čaro pokojného holandského štýlu bicyklovania. Opäť si vyberal pokojnejšie cestičky.
+
+3. Keď mal Pedro deti, každé odprevadil do škôlky či školy pred tým, ako začal svoju 35-minútovú jazdu do práce. Jedinou alternatívou bicykla bolo auto. Túto možnosť však odmietal a začal byť unavený z toho, že nemá na výber.  \"Chýbajú mi časy, keď som mohol ísť metrom a relaxovať.\" A tak Pedro začal využívať metro vždy, keď nemusel brať deti.
+
+4. Keď mohla ísť s deťmi jeho žena, oslobodenie od povinnosti ísť bicyklom mu opäť prinieslo radosť z jazdy na ňom. Ale stále cítil, že ho to oberá o jeho produktívny čas. Bol zvyknutý využívať čas v mestskej doprave na premýšľanie a čítanie.
+
+5.Jedného dňa, keď pripravoval večeru, sa rozhodol pustiť si podcasty. Tak sa mu to zapáčilo, že mu to hneď spríjemnilo čas varenia. Mohol sa naučiť nové veci a počuť príbehy iných ľudí. Začal si varenie užívať.
+
+Následne mu trvalo ďalší rok pochopiť, že to isté môže urobiť aj pri jazde na bicykli. S podcastami sa jeho cesty ešte viac spomalili a predĺžili. Každých 5 minút jazdy bolo 5 minút radosti z počúvania.
+
+6. Neskôr Pedro zmenil prácu a začal robiť z domu. Ako skončili jeho 45-minútové cesty na bicykli, začal priberať. Ako tak sledoval svoje rastúce brucho, uvedomil si, že to cestovanie do práce na bicykli v uplynulých rokoch mu pomáhalo udržiavať sa vo forme. Začal využívať každú príležitosť, napríklad, keď išiel na stretnutie, na to, aby mohol ísť na bicykli.
+
+7. Ale jeho čas strávený takouto jazdou sa ešte zlepšoval. Keď jeho deti vyrástli, uvedomil si, že čas, ktorý s nimi strávil cestou do školy, boli tie najlepšie chvíle v jeho živote. Deti mu dávali najavo, ako veľmi sa im tie cesty s ním páčili, pýtali sa tucty otázok a rozprávali, čo sa najnovšie udialo v škole. Toto prispelo k naplneniu jeho času stráveného na bicykli viac ako čokoľvek iné.
+
+"</string>
+    <string name="story_5_title_stopping_or_not_stopping_in_a_moving_walkway">"Zastaviť alebo nezastaviť v prúde kráčajúceho davu?"</string>
+    <string name="story_5_text_stopping_or_not_stopping_in_a_moving_walkway">"Všimol si si, že niektorí ľudia sa zastavia v prúde kráčajúceho davu alebo na schodoch, zatiaľ čo iní kráčajú ďalej?
+
+Čo myslíš, že je dôvodom takéhoto správania?
+
+Si radšej, keď iní ľudia pokračujú v ceste alebo keď stoja?
+
+Ak odpoveď, ktorá ti napadne, sa zdá byť úplne jednoznačná, zamysli sa znova. Nemusí to byť také jednoduché.
+
+Keď nabudúce pôjdeš v kráčajúcom dave, skús pozorovať ľudí, ktorí sa hýbu, aj tých, ktorí stoja. Len ich pozorovanie ti možno napovie, prečo. Keď budeš pokračovať v predstavách, tiež by si mohol odhaliť, aký je ich príbeh. Je to zábava!
+
+Zastaviť alebo nezastaviť v kráčajúcom dave? Prečítaj si celý príbeh tu (len v angličtine): https://motivproject.eu/news/detail/stopping-or-not-stopping-in-a-moving-walkway.html. "</string>
+    <string name="story_6_title_virtual_travel_time">"Virtuálny cestovný čas"</string>
+    <string name="story_6_text_virtual_travel_time">"Už si počul o \"virtuálnom cestovnom čase\"?
+
+Nie, nie je to o cestovaní vo virtuálnej realite. Je to niečo komplexnejšie.
+
+Koľko času presne venuješ presunom z bodu A do bodu B? Pravdepodobne odpovieš: \"veď toľko, koľko mi zaberie cesta, predsa!\"
+
+Nuž, z určitej perspektívy to tak nie je. Môže to byť viac, než len to.
+
+Zamysli sa: aby si prešiel z bodu A do bodu B, musel si minúť nejaké peniaze. Ak cestuješ autom, je to všetko, čo súvisí s použitím auta a aj jeho vlastnením. Ak ideš verejnou dopravou, je to cena tvojho lístka. Dokonca aj keď ideš pešo, máš na sebe minimálne topánky a tie o to skôr zničíš a budeš musieť vymeniť.
+
+Ale čo majú peniaze spoločné s cestovným časom?
+
+Aby si získal peniaze, musíš ty, alebo niekto za teba, pracovať, a práca zaberá čas. Takže, čas tvojej cesty nie je len čas, ktorý stráviš samotným cestovaním, ale tiež čas, ktorý potrebuješ na to, aby si zarobil peniaze na toto cestovanie.
+
+Zober si napríklad auto. Hodnota auta, so všetkými výdavkami, je v priemere 350 EUR na mesiac. Množstvo práce, ktoré musíš mesačne vynaložiť, aby si utiahol auto, pridáva tvojmu cestovnému času tvojich jázd za ten mesiac. To je tvoj virtuálny cestovný čas.
+
+Ak si štastlivec, mohol by si povedať, že práca nie je stratou času, pretože pracuješ rád. A to isté by si mohol povedať aj o cestovaní do práce. Možno. A to celú vec ešte viac komplikuje.
+
+Ako to vnímaš ty? Podeľ sa s nami o svoje myšlienky :)
+
+https://www.facebook.com/MotivProject.eu/ 
+
+https://twitter.com/MoTiV_Project"</string>
+
+    <!-- new string in mobility coach -->
+    <!-- mobility coach -->
+    <string name="Your_Mobility_Journey">"Tvoje príbehy"</string>
+
+    <!-- new string to translate in home module -->
+    <!-- home module -->
+    <string name="You_have_trips_to_validate">"Potvrď svoje cesty."</string>
+
+    <!-- (story) Coming tomorrow -->
+    <string name="Coming_Tomorrow">"Pozri zajtra"</string>
+
+    <!-- Story (1, 2, 3, 4...) -->
+    <string name="Story">"Príbeh %d"</string>
+
+    <!-- profile and settings -->
+    <string name="Marital_Partnership">"Registrované partnerstvo"</string>
+
+    <!-- profile and settings  -->
+    <string name="Labour_Pensioner">"Dôchodca"</string>
+
+    <!-- Notification shown when a trip has started  -->
+    <string name="Trip_Has_Started_At">"Cesta začala o %s"</string>
+
+    <!-- Notification shown when a trip has ended -->
+    <string name="Trip_Has_Ended_At">"Cesta skončila o %s"</string>
+    <string name="Trip_Has_Ended">"Cesta skončila!"</string>
+    <string name="engagement_notification_1_title">"\"Woorti práve nahrala tvoju prvú cestu.\""</string>
+    <string name="engagement_notification_1_content">"\"Otvor aplikáciu a povedz o tom viac!\""</string>
+    <string name="engagement_notification_2_title">"Máš nový príbeh."</string>
+    <string name="engagement_notification_2_content">"Ak si ho dnes prečítaš, zajtra príde ďalší."</string>
+    <string name="engagement_notification_3_title">"Prečítaj si nový príbeh!"</string>
+    <string name="engagement_notification_3_content">"\"A nezabudni potvrdiť tvoju poslednú cestu.\""</string>
+    <string name="Language_Changed_Popup_Content">"Prosím reštartuj aplikáciu pre potvrdenie zmeny"</string>
+    <string name="Language_Changed_Popup_Title">"Jazyk bol zmenený."</string>
+
+    <!-- Predictability of travel time -->
+    <string name="Predictability_Of_Travel_Time">"Odhad cestovného času"</string>
+    <string name="Urban_Scenery_Atmosphere">"Scenéria mesta a atmosféra"</string>
+    <string name="While_You_Are_There">"Kým si tam"</string>
+    <string name="Begin">"Začať"</string>
+    <string name="engagement_notification_4_title">"Pozrel si si už svoje cestovné štatistiky?"</string>
+    <string name="engagement_notification_4_content">"Klikni pre zobrazenie štatistík"</string>
+    <string name="engagement_notification_5_title">"Tvoj cestovný čas bol využitý užitočne na %d."</string>
+    <string name="engagement_notification_5_content">"Všimol si si, ako sa to líši od tvojich ciest"</string>
+    <string name="engagement_notification_6_title">"Potvrď tvoju poslednú cestu"</string>
+    <string name="engagement_notification_6_content">"Potvrď údaje a pozri si štatistiky."</string>
+    <string name="engagement_notification_7_title">"%d minút"</string>
+    <string name="engagement_notification_7_content">"je čas, ktorý si strávil cestovaním minulý týždeň"</string>
+    <string name="engagement_notification_8_title">"Prispej k výskumu cestovného času."</string>
+    <string name="engagement_notification_8_content">"Ďakujem za potvrdenie tvojich ciest. Klikni sem."</string>
+    <string name="engagement_notification_9_title">"Potvrď tvoju poslednú cestu."</string>
+    <string name="engagement_notification_9_content">"Potvrď svoje údaje a pozri si štatistiky."</string>
+
+    <!-- when referencing campaigns -->
+    <string name="Campaigns">"Kampane"</string>
+
+    <!-- Welcome to your trips board, %NAME_USER% ! -->
+    <string name="Welcome_To_Your_Trips_Board_Username">"Vitaj %s, tu sa zobrazia tvoje cesty!"</string>
+
+    <!-- You have X trips left to report in the last 3 days -->
+    <string name="You_Have_X_Trips_Left_3_Days">"Máš %d nepotvrdených ciest za posledné 3 dni"</string>
+
+    <!-- These are the trips you have made! Reporting on them helps our research, and allows you to monitor your travel time. After reporting each trip, find out your travel time worthwhileness statistics in the Dashboard! Press the ‘!’ mark to report. -->
+    <string name="These_Are_The_Trips_You_Have_Made">"Toto sú tvoje cesty! Ich potvrdenie prispeje k výskumu a pomôže ti sledovať tvoj cestovný čas. Po potvrdení každej cesty si môžeš zobraziť prehľad tvojich ciest v časti Štatistiky."</string>
+
+    <!-- Now that you have a reported trip, you can check your first travel time statistics in the Dashboard. -->
+    <string name="Now_That_You_Have_A_Reported_Trip_Popup_Text">"Ďakujeme za potvrdenie tvojej prvej cesty. Teraz si môžeš zobraziť tvoje štatistiky."</string>
+
+    <!-- Go to dashboard -->
+    <string name="Go_To_Dashboard">"Prejsť na štatistiky"</string>
+
+    <!-- Report trips -->
+    <string name="Report_Trips">"Potvrdiť cesty"</string>
+
+    <!-- This is your Dashboard. It shows how worthwhile your travel time is.  For your trip stats to appear here, report your trips -->
+    <string name="This_Is_Your_Dashboard_Popup_Text">"Toto sú tvoje štatistiky. Zobrazujú ako využívaš svoje cestovný čas.
+\n
+Štatistiky sa zobrazia až po potvrdení ciest."</string>
+
+    <!-- See dashboard -->
+    <string name="See_Dashboard">"Pozrieť štatistiky"</string>
+
+    <!-- profile and settings -->
+    <string name="Campaign_Scores">"Body kampane"</string>
+
+    <!-- when iOS user is redirected and asked to authorize GPS in phone settings after denying permissions in On-boarding -->
+    <string name="GPS_Link_Phone_Settings">"Nastavenia"</string>
+
+    <!-- when iOS user is asked to authorize GPS in phone settings and selects back to dismiss this dialogue -->
+    <string name="GPS_Go_Back">"Späť"</string>
+
+    <!-- Days -->
+    <string name="Days">"Dni"</string>
+
+    <!-- trips -->
+    <string name="Trips">"Cesty"</string>
+
+    <!-- Issue form -->
+    <string name="Issue_Form">"Nahlásenie chyby"</string>
+
+    <!-- Thank you for reporting an issue -->
+    <string name="Thank_You_For_Reporting_An_Issue">"Ďakujeme za nahlásenie chyby"</string>
+
+    <!-- Submit log -->
+    <string name="Submit_Log">"Nahrať záznam"</string>
+
+    <!-- Send log -->
+    <string name="Send_Log">"Odoslať záznam"</string>
+
+    <!-- No log needed for this issue. Skip. -->
+    <string name="No_Log_Needed_For_This_Issue_Skip">"Pre tento problém nie je potrebný žiaden záznam. Preskočiť."</string>
+
+    <!-- Targets & Rewards -->
+    <string name="Targets_And_Rewards">"Odmeny"</string>
+
+    <!-- Tasks -->
+    <string name="Tasks">"Úlohy"</string>
+
+    <!-- To analise the issue, we would like to receive a log with information of the app activity. Please send the email that will be generated. If you like, you can also attach printscreens or a longer description of the issue to the email. -->
+    <string name="To_Analyse_This_Issue">"Aby sme boli schopní vyriešiť tvoj problém, potrebujeme, aby si nám zaslal informáciu o aktivite tvojej aplikácie. Po vygenerovaní e-mailu nám ho prosím pošli. Môžeš taktiež pridať aj printscreen tvojho problému."</string>
+
+    <!-- points -->
+    <string name="Points">"Body"</string>
+
+    <!-- Progress (Reward progress) -->
+    <string name="Progress">"Pokrok"</string>
+
+    <!-- %1$s days left -->
+    <string name="days_left_reward">"ostáva %1$s dní"</string>
+
+    <!-- user registration -->
+    <string name="Password_Length_Message">"Prosím zadaj heslo s dĺžkou 6 až 16 znakov."</string>
+
+    <!-- Onboarding -->
+    <string name="How_Productive_Are_You">"Ako produktívny si"</string>
+
+    <!-- Woorti is running in the background -->
+    <string name="Woorti_Is_Running">"Woorti aplikácia beží na pozadí"</string>
+
+    <!-- Continue -->
+    <string name="Continue">"Pokračovať"</string>
+
+    <!-- Hurray!!! -->
+    <string name="Hurray">"Hurá!!!"</string>
+
+    <!-- You have completed your target for NAME_REWARD! -->
+    <string name="You_Have_Completed_Your_Target">"Splnil si podmienky pre súťaž o %s !"</string>
+
+    <!-- Keep reporting your trips to monitor your stats to see your evolution and help this research  -->
+    <string name="Keep_Reporting_Your_Trips_Reward_Completed_Popup">"Pokračuj v potvrdzovaní svojich ciest, aby si mohol sledovať svoj cestovný čas a pomôcť výskumu."</string>
+
+    <!-- Woorti just detected that you started a trip -->
+    <string name="Woorti_Just_Detected_Start_Trip">"Woorti práve detekoval začiatok tvojej cesty"</string>
+
+    <!-- Your  trip has ended.\nYou can now report about it in Woorti -->
+    <string name="Your_Trip_As_Ended">"Tvoja cesta sa skončila"</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Successful">"Registrácia úspešne dokončená"</string>
+
+    <!-- Trip validation tutorial -->
+    <string name="Trip_Validation_Tutorial">"Návod ako potvrdiť cestu"</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Duplicated">"Registrácia už prebehla. Prihlás sa."</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Error">"Počas registrácie nastala chyba. Prosím skús to znova."</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Attempt">"Pokúšam sa odoslať informácie o ceste"</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Successful">"Cesta bola úspešne potvrdená"</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Not_Submitted">"Cesta nebola potvrdená - skús neskôr"</string>
+
+    <!-- You can now report about it in Woorti -->
+    <string name="You_Can_Now_Report_About_It_In_Woorti">"Povedz nám o nej viac v appke."</string>
+
+    <!-- Complete until dd/mm/yyyy -->
+    <string name="Complete_Until">"Súťaž skončí %s"</string>
+
+    <!-- You have a new survey (notification) -->
+    <string name="You_Have_A_New_Survey">"Máš nový dotazník."</string>
+
+    <!-- Fill it in and earn %d points. (notification -> fill survey) -->
+    <string name="Fill_It_And_Earn_XX_Points">"Vyplň dotazník a získaj %d bodov"</string>
+
+    <!-- Is your phone blocking trip detection? -->
+    <string name="Is_Your_Phone_Blocking_Trip_Detection">"Blokuje tvoj telefón zaznamenávanie ciest?"</string>
+
+    <!-- Woorti gives you 25 points for each additional information item you fill in your profile. -->
+    <string name="Woorti_Gives_You_Points_For_Each_Info">"Woorti ti dá 25 bodov za každú informáciu, ktorú vyplníš v profile."</string>
+
+    <!-- If that is the case, fortunately there is a solution. Get the instructions for your phone brand by pressing  the button below. -->
+    <string name="If_Thats_The_Case_Fortunately_There_Is_Solution">"Ak to je tvoj prípad, našťastie máme riešenie. Klikni na tlačidlo nižšie a zobrazia sa ti inštrukcie ako na to."</string>
+
+    <!-- Enable app activity -->
+    <string name="Enable_App_Activity">"Povoliť aktivitu"</string>
+
+    <!-- Do not show again -->
+    <string name="Do_Not_Show_Again">"Nezobrazovať opäť"</string>
+
+    <!-- If your trips are frequently not being recorded, your phone might be blocking this app’s activity. -->
+    <string name="If_Your_Trips_Are_Frequently_Not_Being_Recorded">"Ak viacero tvojich ciest nebolo zaznamenaných, je možné, že tvoj telefón blokuje túto aplikáciu."</string>
+
+    <!-- Tell us more about yourself -->
+    <string name="Tell_Us_More_About_Yourself">"Povedz nám o sebe viac."</string>
+
+    <!-- Your data is anonymised. -->
+    <string name="Your_Data_Is_Anonymised">"Tvoje dáta sú anonymizované."</string>
+
+    <!-- Fill in profile -->
+    <string name="Fill_In_Profile">"Vyplň profil"</string>
+
+    <!-- Later -->
+    <string name="Later">"Neskôr"</string>
+
+    <!-- Point all time -->
+    <string name="Points_All_Time">"Celkové body"</string>
+
+    <!-- Days with trips all time -->
+    <string name="Days_All_Time">"Celkový počet dní s cestami"</string>
+
+    <!-- Trips all time -->
+    <string name="Trips_All_Time">"Celkový počet ciest"</string>
+
+    <!-- temporary text without link to battery optimization site not endorsed by motiv. -->
+    <string name="If_Your_Trips_Are_Frequently_Not_Being_Recorded_No_Link_To_Site">"Ak sa tvoje cesty často nezaznamenávajú, tvoj telefón pravdepodobne blokuje aktivitu tejto aplikácie. Skontroluj prosím nastavenia optimalizácie batérie v systéme Android a odblokuj Woorti."</string>
+
+    <!-- Dashboard_You -->
+    <string name="Dashboard_You">"Ty"</string>
+
+    <!-- Dashboard_Community -->
+    <string name="Dashboard_Community">"Komunita"</string>
+
+    <!-- Dashboard_Citizens -->
+    <string name="Dashboard_Citizens">"Občania"</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Balloon_Text_Worthwhile_From_Onboarding">"Tieto výsledky odrážajú predvolené hodnoty alebo hodnoty, ktoré ste uviedli počas registrácie pri jednotlivých druhoch dopravy. Príslušné hodnoty môžete kedykoľvek zmeniť v nastaveniach aplikácie."</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Balloon_Text_Worthwhile_From_Leg_Info_Recorded">"Tieto výsledky odrážajú hodnotenie užitočnosti jednotivých častí ciest, ktoré si vybral a ohodnotil."</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Your_Whole_Trips">"Tvoje všetky cesty"</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Your_Reported_Legs">"Tvoje ohodnotené časti ciest"</string>
+
+    <!-- Dashboard -->
+    <string name="Time_Spent_In_Travel">"Čas strávený cestovaním"</string>
+
+    <!-- Dashboard -->
+    <string name="Travelled_Distance">"Prejdená vzdialenosť"</string>
+
+    <!-- Dashboard -->
+    <string name="CO2_Emissions">"CO2 emisie"</string>
+
+    <!-- Dashboard -->
+    <string name="Calories">"Kalórie"</string>
+
+    <!-- Dashboard -->
+    <string name="The_Community_Trips">"Cesty komunity"</string>
+
+    <!-- Dashboard -->
+    <string name="The_Community_Validated_Legs">"Ohodnotené časti ciest komunitou"</string>
+
+    <!-- Dashboard -->
+    <string name="Compared_To_Your_Scores">"(v porovnaní s tvojimi výsledkami)"</string>
+
+    <!-- Dashboard -->
+    <string name="Worthwhileness">"Užitočnosť"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Title">"\"Ahoj!\""</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Text_Part_1">"Ohodnoť tvoje %d zaznamenané cesty za posledné "</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Text_Part_2">",aby si mohol vidieť svoje skutočné štatistiky."</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Report_Trips">"OHODNOŤ CESTY"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_See_Dashboard">"POZRI ŠTATISTIKY"</string>
+
+    <!-- MyTrips -->
+    <string name="Pop_Up_Split_Merge_Delete_Text">"Cesty môžu byť niekedy zaznamenané zle. Ak chceš upraviť svoju cestu, stlač vyššie uvedenú ikonu, ktorá slúži na rozdelenie, zlúčenie alebo odstránenie cesty alebo jej časti."</string>
+
+    <!-- MyTrips -->
+    <string name="Pop_Up_Split_Merge_Delete_Button">"MÁŠ TO!"</string>
+
+    <!-- Home module travel report -->
+    <string name="Seven_Day_Travel_Report">"7-dňový záznam"</string>
+
+    <!-- Home (travel report link to Dashboard) -->
+    <string name="Learn_More">"Nauč sa viac"</string>
+
+    <!-- please retranslate to make clear statistics are average calories per day. thank you. LV. -->
+    <!-- Dashboard -->
+    <string name="In_Total_Users_Spent_Calories">"V priemere spálili užívatelia v komunite %1s."</string>
+
+    <!-- Dashboard -->
+    <string name="And_This_Counted_Carbon_Footprint_Users">"Komunita v priemere minula %1s svojej udržateľnej uhlíkovej stopy."</string>
+
+    <!-- People from "campaign/city/country" on average have spent "3 min more/less" travelling a distance of "3km more/less" than you per day. -->
+    <string name="People_From_Place_Have_Spent_On_Average">"Ľudia zo %1s priemerne strávili %2s cestovaním so vzdialenosťou o %3s ako ty, za jeden deň."</string>
+
+    <!-- "3 km more" -->
+    <string name="Number_Km_More">"%d km viac"</string>
+
+    <!-- "3 km less" -->
+    <string name="Number_Km_Less">"%d km menej"</string>
+
+    <!-- "3 min more" -->
+    <string name="Number_Min_More">"%d min viac"</string>
+
+    <!-- "3 min less" -->
+    <string name="Number_Min_Less">"%d min menej"</string>
+
+    <!-- Dashboard -->
+    <string name="Community_Trips_Overall_Percentage_Worthwhile">"Užitočnosť ciest v komunite (v porovnaní s tvojimi hodnotami)"</string>
+
+    <!-- These results reflect either default scores or the scores you have stated in the onboarding, per mode of transport . You may always change the applicable scores in the app’s Settings. -->
+    <string name="Dashboard_Worthwhileness_Popup_Text">"Tieto výsledky odrážajú predvolené hodnoty alebo hodnoty, ktoré ste uviedli počas registrácie pri jednotlivých druhoch dopravy. Príslušné hodnoty môžete kedykoľvek zmeniť v nastaveniach aplikácie."</string>
+
+    <!-- What is the carbon budget? -->
+    <string name="What_Is_The_Carbon_Budget">"Čo je uhlíkový rozpočet?"</string>
+
+    <!-- The carbon budget is the amount of CO2 that can be emitted per person for a sustainable lifestyle.  A person’s yearly mobility carbon budget is 500kg -->
+    <string name="The_Carbon_Budget_Is">"Uhlíkový rozpočet je množstvo CO2, ktoré môže byť vyčerpané jedným človekom pre udržateľný životný štýl. \n \n Ročný úhlíkový rozpočet na dopravu jedného človeka je 500 kg. "</string>
+
+    <!-- City/Region -->
+    <string name="City_Region">"Mesto/Región"</string>
+
+    <!-- You -->
+    <string name="You">"Ty"</string>
+
+    <!-- should translate according to "Min per user per day" -->
+    <!-- Average minutes -->
+    <string name="Avg_Minutes">"Priemerne min"</string>
+
+    <!-- please retranslate following "Km per user per day", because we are showing daily averages per individual (average) user of the community. -->
+    <!-- Average kilometers -->
+    <string name="Avg_Kilometers">"Priemerne Km"</string>
+
+    <!-- need to translate according to "Kg CO2 per user per day" -->
+    <!-- Average kilograms -->
+    <string name="Avg_Kilograms">"Priemerne Kg"</string>
+
+    <!-- need to retranslate for "Calories per user per day" -->
+    <!-- Average calories -->
+    <string name="Avg_Calories">"Priemerné kalórie"</string>
+
+    <!-- Hours -->
+    <string name="Hours">"Hodiny"</string>
+
+    <!-- Dashboard - unable to show some global stats (e.g. always disconnected) -->
+    <string name="Unable_Show_Stats">"Nie je možné načítať štatistiky komunity."</string>
+
+    <!-- CO2 budget popu -->
+    <string name="CO2_Budget_Example">"500 kg sa rovná spiatočnému letu z Bruselu do Madridu alebo 1500 km precestovaných autom."</string>
+
+    <!-- CO2 budget popup - no need to translate -->
+    <string name="CO2_Budget_Link_URL">"https://motivproject.eu/data-collection/woorti-app-faqs.html"</string>
+
+    <!-- CO2 budget popup -->
+    <string name="CO2_Budget_Link_Text">"Viac"</string>
+
+    <!-- worthwhileness - travel wasted rating of trip -->
+    <string name="Travel_Time_Wasted_Question_Text_Second_Paragraph">"Vzťahuje sa na čas strávený cestovaním, nie na čas v destinácii."</string>
+
+    <!-- Onboarding and login -->
+    <string name="Failed_To_Connect_Check_Connectivity_Error">"Nepodarilo sa pripojiť. Skontrolujte prosím pripojenie k internetu."</string>
+
+    <!-- "Requested permissions denied by the user. The app requires these and network connectivity to complete the onboarding. Please retry and complete the onboarding." -->
+    <string name="Onboarding_Warning_Permissions_Denied_Retry">"Požadované povolenia boli používateľom zamietnuté. Aplikácia vyžaduje tieto povolenia a sieťové pripojenie pre dokončenie onboarding-u. Prosíme skús to znova a dokonči onboarding."</string>
+
+    <!-- "In order for the app to work properly, you must allow it to access location information to record trips and read/write files from/to external storage to manage trip information." -->
+    <string name="Onboarding_Dialog_Box_Ask_Location_Storage_Permissions">"Pre správne fungovanie aplikácie a spravovanie informácií o cestách musíš aplikácii povoliť prístup k informáciám o lokalit a čítanie a zapisovanie súborov z/do externého úložiska."</string>
+
+    <!-- You have no trips -->
+    <string name="You_Have_No_Trips">"Nemáš žiadne cesty"</string>
+
+    <!-- You must choose at least one trip to delete -->
+    <string name="You_Must_Choose_One_Trip_To_Delete">"Pre výmaz musíš vybrať aspoň jednu cestu"</string>
+
+    <!-- Trip/s deleted successfully! -->
+    <string name="Trips_Deleted_Successfuly">"Cesta bola úspešne vymazaná."</string>
+
+    <!-- You must choose at least one leg to delete -->
+    <string name="You_Must_Choose_One_Leg_To_Delete">"Pre výmaz musíš vybrať aspoň jednu časť cesty"</string>
+
+    <!-- You cannot delete all the trip's legs -->
+    <string name="You_Cannot_Delete_All_Trips_Legs">"Nemôžeš vymazať všetky časti cesty"</string>
+
+    <!-- You must choose consecutive legs to delete -->
+    <string name="You_Must_Choose_Consecutive_Legs_To_Delete">"Pre výmaz musíš vybrať po sebe nasledujúce časti cesty"</string>
+
+    <!-- You must choose at least two legs to merge -->
+    <string name="You_Must_Choose_Two_Legs_To_Merge">"Pre zlúčenie musíš vybrať najmenej dve časti cesty"</string>
+
+    <!-- You must choose consecutive legs to merge -->
+    <string name="You_Must_Choose_Consecutive_Legs_To_Merge">"Pre zlúčenie musíš vybrať po sebe nasledujúce časti cesty"</string>
+
+    <!-- The leg you are trying to split is too small to be split -->
+    <string name="The_Leg_Is_Too_Small_To_Be_Split">"Časť cesty, ktorú chceš rozdeliť je veľmi malá"</string>
+
+    <!-- Error splitting leg -->
+    <string name="Error_Splitting_Leg">"Chyba pri rozdeľovaní časti cesty"</string>
+
+    <!-- Trips_Merged_Successfully -->
+    <string name="Trips_Merged_Successfully">"Cesta bola zlúčená!"</string>
+
+    <!-- Trip splitted successfully! -->
+    <string name="Trip_Splitted_Successfully">"Cesta bola rozdelená!"</string>
+
+    <!-- "Please choose another leg/transfer other than the last" -->
+    <string name="Please_Choose_Other_Leg_Transfer_Not_Last">"Prosím vyber ďalšiu časť cesty/transfer"</string>
+
+    <!-- "Please choose a leg/transfer to split" -->
+    <string name="Please_Choose_Leg_Transfer_To_Split">"Pre rozdelenie vyber časť cesty alebo transfer"</string>
+
+    <!-- "You must choose consecutive trips to merge" -->
+    <string name="You_Must_Choose_Consecutive_Trips_To_Merge">"Pre zlúčenie musíš vybrať po sebe nasledujúce cesty"</string>
+
+    <!-- "You must choose at least two legs to merge" -->
+    <string name="You_Must_Choose_Two_Trips_To_Merge">"Pre zlúčenie musíš vybrať minimálne dve časti cesty"</string>
+</resources>

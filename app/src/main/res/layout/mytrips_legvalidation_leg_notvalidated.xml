@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout16"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FBE5CD">
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="4dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="50dp"
+        android:background="#ED7E03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout15" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/top_gradient_shape"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/legTransportIconImageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_directions_walk_black_24dp" />
+
+        <TextView
+            android:id="@+id/legTimeIntervalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="8:00"
+            app:layout_constraintBottom_toBottomOf="@+id/legTransportIconImageView"
+            app:layout_constraintStart_toEndOf="@+id/legTransportIconImageView"
+            app:layout_constraintTop_toTopOf="@+id/legTransportIconImageView" />
+
+        <TextView
+            android:id="@+id/transportInfoTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="16dp"
+            android:text="Walk 200m"
+            android:textColor="#979797"
+            app:layout_constraintBottom_toBottomOf="@+id/legTransportIconImageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/legTimeIntervalTextView"
+            app:layout_constraintTop_toTopOf="@+id/legTransportIconImageView" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/bottom_gradient_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout7">
+
+
+        <Button
+            android:id="@+id/legValidationNoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="@drawable/home_surveys_answer_no_button"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/No"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/modalityQuestionValidationTextView"
+            app:layout_constraintStart_toEndOf="@+id/legValidationYesButton"
+            app:layout_constraintTop_toTopOf="@+id/legValidationYesButton" />
+
+        <Button
+            android:id="@+id/legValidationYesButton"
+
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+
+
+            android:layout_marginBottom="24dp"
+
+            android:layout_marginEnd="64dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/home_surveys_answer_done_button"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/Yes"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/legValidationNoButton"
+            app:layout_constraintStart_toStartOf="@+id/modalityQuestionValidationTextView"
+            app:layout_constraintTop_toBottomOf="@+id/modalityQuestionValidationTextView" />
+
+        <!--<Button-->
+        <!--android:id="@+id/yesAnswerButton"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="24dp"-->
+        <!--android:layout_marginEnd="24dp"-->
+        <!--android:layout_marginStart="24dp"-->
+        <!--android:layout_marginTop="24dp"-->
+        <!--android:background="@drawable/home_surveys_answer_done_button"-->
+        <!--android:fontFamily="@font/montserrat_bold"-->
+        <!--android:text="Yes"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/noAnswerButton"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/question"-->
+        <!--app:layout_constraintVertical_bias="1.0" />-->
+
+
+        <TextView
+            android:id="@+id/modalityQuestionValidationTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Were you walking?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
+
+    <!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/constraintLayout2"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:background="#FFFFFF"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent">-->
+
+

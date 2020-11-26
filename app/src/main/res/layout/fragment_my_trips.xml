@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.fragments.MyTripsFragment"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!--<android.support.v4.widget.ContentLoadingProgressBar-->
+    <!--android:id="@+id/address_looking_up"-->
+    <!--style="?android:progressBarStyleHorizontal"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:indeterminate="true"-->
+    <!--android:visibility="visible"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/headerMyTripsHomeLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#ED7E03"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/openDrawerButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="@dimen/value8dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="@dimen/value8dp"
+            android:background="@null"
+            android:padding="@dimen/value10dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mytrips_navigation_menu" />
+
+        <TextView
+            android:id="@+id/plan_trip_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/My_Trips"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/openDrawerButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/openDrawerButton"
+            tools:layout_conversion_absoluteHeight="44dp"
+            tools:layout_conversion_absoluteWidth="83dp" />
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/mytrips_navigation_edit"
+            android:textColor="#F6BC7D"
+            app:layout_constraintBottom_toBottomOf="@+id/plan_trip_textview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/plan_trip_textview" />
+
+        <ImageButton
+            android:id="@+id/batteryPopupButton"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@null"
+            android:paddingEnd="10dp"
+            android:paddingStart="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/openDrawerButton"
+            app:layout_constraintEnd_toStartOf="@+id/plan_trip_textview"
+            app:layout_constraintStart_toEndOf="@+id/openDrawerButton"
+            app:layout_constraintTop_toTopOf="@+id/openDrawerButton"
+            app:srcCompat="@drawable/ic_battery_charging_full_black_24dp" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#F9E3CB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerMyTripsHomeLayout">
+
+        <Button
+            android:id="@+id/startStopDetectionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="8dp"
+
+            android:background="@drawable/home_surveys_answer_done_button"
+            android:fontFamily="@font/montserrat_bold"
+            android:paddingLeft="12dp"
+
+            android:paddingRight="12dp"
+            android:text="@string/Start_Trip"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/tripBeingRecordedTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.619"
+            app:layout_constraintStart_toEndOf="@+id/tripBeingRecordedTextView"
+            app:layout_constraintTop_toTopOf="@+id/tripBeingRecordedTextView" />
+
+        <TextView
+            android:id="@+id/noTripsRecordedTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/No_Trips_Text"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="@+id/welcomeUserTextView"
+            app:layout_constraintStart_toStartOf="@+id/welcomeUserTextView"
+            app:layout_constraintTop_toBottomOf="@+id/welcomeUserTextView" />
+
+        <TextView
+            android:id="@+id/tripBeingRecordedTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/Trip_Being_Recorded"
+            android:textAllCaps="true"
+            android:textColor="#ED7E03"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/startStopDetectionButton"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ListView
+            android:id="@+id/myTripsListView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:divider="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mytripsPopupLinearLayout" />
+
+        <TextView
+            android:id="@+id/welcomeUserTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/Welcome_To_Your_Trips_Board_Username"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/startStopDetectionButton" />
+
+        <LinearLayout
+            android:id="@+id/mytripsPopupLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/startStopDetectionButton"></LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

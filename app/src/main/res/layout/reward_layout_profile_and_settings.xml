@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/home_survey_story_layout_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/rewardNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="Power bank"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/rewardProgressTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="72dp"
+            android:text="7/14 days"
+            android:textAlignment="textEnd"
+            android:textColor="#ED7E03"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/rewardNameTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/rewardNameTextView"
+            app:layout_constraintTop_toTopOf="@+id/rewardNameTextView" />
+
+        <TextView
+            android:id="@+id/targetCampaignTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Portugal Global"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/rewardNameTextView"
+            app:layout_constraintTop_toBottomOf="@+id/rewardNameTextView" />
+
+        <TextView
+            android:id="@+id/organizerNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="TIS"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="@+id/targetCampaignTextView"
+            app:layout_constraintTop_toBottomOf="@+id/targetCampaignTextView" />
+
+        <TextView
+
+            android:id="@+id/shortDescriptionTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:layout_marginTop="16dp"
+            android:text="Complete 1000 points and earn a power bank!"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/organizerNameTextView"
+            app:layout_constraintTop_toBottomOf="@+id/organizerNameTextView" />
+
+        <TextView
+            android:id="@+id/longDescriptionTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="After you get the prize, pick up your prize within 30 days, at the following address:  \n \nAv. Marquês de Tomar, 35, 6 Dto, 1050-153 Lisboa "
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/shortDescriptionTextView"
+            app:layout_constraintStart_toStartOf="@+id/shortDescriptionTextView"
+            app:layout_constraintTop_toBottomOf="@+id/shortDescriptionTextView" />
+
+        <TextView
+            android:id="@+id/linkToContactTextView"
+            android:textColorLink="#0097A7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="12dp"
+            android:text="https://www.tis.pt/woorti_reward"
+            android:textColor="#0097A7"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/longDescriptionTextView"
+            app:layout_constraintTop_toBottomOf="@+id/longDescriptionTextView" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+    </android.support.constraint.ConstraintLayout>
+

@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Drawer titles -->
+    <string name="Drawer_Title_Home">"Inici"</string>
+    <string name="Drawer_Title_Route_Planner">"Planificador de ruta"</string>
+    <string name="Drawer_Title_My_Trips">"Els meus viatges"</string>
+    <string name="Drawer_Title_Dashboard">"Tauler de control"</string>
+    <string name="Drawer_Title_Mobility_Coach">"Assessor de mobilitat"</string>
+    <string name="Drawer_Title_Profile">"Perfil"</string>
+    <string name="Drawer_Title_Settings">"Perfil i configuració"</string>
+    <string name="Drawer_Title_Report_Issue">"Informa d'un problema"</string>
+    <string name="Drawer_Title_Finish_Log_Out">"Final de sessió"</string>
+    <string name="login_what_is_email_address">"Quin és el teu correu electrònic?"</string>
+    <string name="login_enter_your_password">"Escriu la teva contrasenya"</string>
+
+    <!-- Profile and settings options -->
+    <string name="Edit_Profile">"Editar perfil"</string>
+    <string name="Set_Home_And_Work">"Establir casa i llocs de treball"</string>
+    <string name="Demographic_Info">"Informació demogràfica"</string>
+    <string name="Worthwhileness_Settings">"Configuració de mobilitat"</string>
+    <string name="Tutorials">"Tutorials"</string>
+    <string name="Transport_Preferences">"Preferències de transport"</string>
+
+    <!-- <string name="APP_PERMISSIONS">App permissions</string> -->
+    <string name="App_Language">"Idioma de l'app"</string>
+    <string name="Change_Password">"Canviar contrasenya"</string>
+    <string name="Feedback">"Comentaris"</string>
+    <string name="Log_Out">"Tancar sessió"</string>
+
+    <!-- Education labels -->
+    <string name="Education_8th_Grade">"Fins a 2n ESO"</string>
+    <string name="Education_Some_Highschool">"3r ESO a 1r batxillerat"</string>
+    <string name="Education_Highschool">"Educació secundària"</string>
+    <string name="Education_Some_College">"Algunes assignatures a la facultat, sense títol"</string>
+    <string name="Education_Training">"Formació tècnica/professional"</string>
+    <string name="Education_Bachelor">"Títol de grau"</string>
+    <string name="Education_Master">"Títol de màster"</string>
+    <string name="Education_Professional">"Títol professional"</string>
+    <string name="Education_Doctorate">"Títol de doctorat"</string>
+    <string name="Education_Associate">"Diplomat"</string>
+    <string name="Education_No_Schooling">"Cap escolarització institucional"</string>
+
+    <!-- Demographic option -->
+    <string name="Demographic_Option_General">"General "</string>
+
+    <!-- <string name="DEMOGRAPHIC_OPTION_HOUSEHOLD_DATA">Household data</string>
+<string name="DEMOGRAPHIC_OPTION_MOBILITY_CAPABILITIES">Mobility capabilities</string>
+<string name="DEMOGRAPHIC_OPTION_MOBILITY_PREFERENCES">Mobility preferences</string>
+<string name="DEMOGRAPHIC_OPTION_EXPERIENCE_FACTORS">Experience factors</string>
+ General suboptions -->
+    <string name="Age">"Edat"</string>
+
+    <!-- message: Gender -->
+    <string name="Gender">"Sexe"</string>
+    <string name="Education">"Educació"</string>
+    <string name="Country">"País"</string>
+    <string name="City">"Ciutat"</string>
+
+    <!-- Tutorial options -->
+    <string name="Tutorial_Option_What_Is_Worthwhileness">"Què és la utilitat"</string>
+
+    <!-- Productivity -->
+    <string name="Productivity_Percentage">"Productivitat %1$s%%"</string>
+    <string name="Mind_Percentage">"Entreteniment %1$s%%"</string>
+    <string name="Body_Percentage">"Mantenir-se en forma %1$s%%"</string>
+
+    <!-- Main menu options
+<string name="NEW_INTERFACE_TEXT">New interface</string>
+ My trips module -->
+    <string name="My_Trips">"Els meus viatges"</string>
+    <string name="Start_Trip">"Començar viatge"</string>
+    <string name="End_Trip">"Acabar viatge"</string>
+    <string name="Trip_Being_Recorded">"S'està enregistrant un viatge"</string>
+
+    <!-- Edit trips -->
+    <string name="Select_Trips_To_Merge">"Selecciona viatges de la llista per combinar-los"</string>
+    <string name="Confirm_Trips_To_Merge">"Confirma que vols combinar els viatges seleccionats"</string>
+    <string name="Select_Trips_To_Split">"Selecciona viatges de la llista per dividir-los"</string>
+    <string name="Move_The_Map_To_Split">"Mou el mapa per dividir el viatge"</string>
+    <string name="Select_Trips_To_Delete">"Selecciona viatges de la llista per eliminar-los"</string>
+    <string name="Split">"Dividir"</string>
+    <string name="Merge">"Combinar"</string>
+    <string name="Delete">"Eliminar"</string>
+    <string name="Select_Legs_To_Split">"Selecciona trams i/o transbordaments de la llista per dividir-los"</string>
+    <string name="Move_The_Map_To_Split_The_Leg">"Mou el mapa per definir el punt de divisió"</string>
+    <string name="Edited">"Editat"</string>
+    <string name="Select_Legs_To_Merge">"Selecciona trams i/o transbordaments de la llista per combinar-los"</string>
+    <string name="Confirm_The_Legs_To_Merge">"Confirma que vols combinar els trams i/o transbordaments seleccionats"</string>
+    <string name="Rate_Your_Edited_Trips">"Puntua els viatges editats"</string>
+    <string name="Select_Legs_To_Delete">"Selecciona trams per eliminar-los"</string>
+    <string name="Confirm_The_Legs_To_delete">"Confirma que vols eliminar els trams i/o transbordaments seleccionats"</string>
+
+    <!-- Leg validation -->
+    <string name="Validated">"Validat"</string>
+    <string name="How_Did_You_Travel">"Com has viatjat?"</string>
+
+    <!-- message: Public Transport -->
+    <string name="Public_Transport">"Transport públic"</string>
+    <string name="Active_Semi_Active">"Actiu/semiactiu"</string>
+    <string name="Private_Motorised">"Transport privat amb motor"</string>
+    <string name="Not_Sure">"No n'estic segur"</string>
+    <string name="Lousy">"Fatal"</string>
+    <string name="Overall_Feel_About_Trip">"Com t'has sentit durant el viatge?"</string>
+    <string name="Great">"Fantàstic"</string>
+    <string name="Travel_Time_Wasted_Min_Text">"Una pèrdua de temps"</string>
+    <string name="Travel_Time_Wasted_Question_Text">"Has aprofitat el temps de viatge o el consideres malgastat?"</string>
+    <string name="Travel_Time_Wasted_Max_Text">"L'he aprofitat"</string>
+
+    <!-- please update translation from new english text -->
+    <string name="Which_Factors_Most_Contributed">"Quins factor/s han fet que pensessis «pèrdua de temps» (-) o «útil» (+)?"</string>
+    <string name="Unfold_All_That_Apply">"Desplega i marca tot el que calgui"</string>
+
+    <!-- Factors -->
+    <string name="Infrastructure_And_Services">"Infraestructura i serveis"</string>
+    <string name="Comfort_And_Pleasantness">"Confort i comoditat"</string>
+    <string name="Getting_There">"Com arribar-hi"</string>
+    <string name="Tables">"Taules"</string>
+    <string name="Toilets">"Lavabos"</string>
+    <string name="Food_Drink_Allowed">"Es pot menjar/beure"</string>
+    <string name="Food_Drink_Available">"Es pot aconseguir menjar/beguda"</string>
+    <string name="Shopping_Retail">"Botigues/comerços"</string>
+    <string name="Entertainment">"Entreteniment"</string>
+    <string name="Noise_Level">"Nivell de soroll"</string>
+    <string name="Cleanliness">"Neteja"</string>
+    <string name="Scenery">"Paisatge"</string>
+    <string name="Todays_Weather">"Temps d'avui"</string>
+    <string name="Privacy">"Privadesa"</string>
+    <string name="Traffic_Signals_Crossings">"Senyals de trànsit/encreuaments"</string>
+    <string name="Crowding_Congestion">"Aglomeració/congestió"</string>
+    <string name="Traffic_Congestion_Delays">"Congestió de trànsit/retards"</string>
+    <string name="Others_Comments">"Altres/comentaris"</string>
+
+    <!-- Activities -->
+    <string name="What_Did_You_Do_And_Value">"Exactament, què has valorat poder fer?"</string>
+    <string name="Driving_Cycling_Walking">"Conduir/anar en bici/caminar"</string>
+    <string name="Relaxing_Sleeping">"Relaxar-me o dormir"</string>
+    <string name="Browsing_Social_Media">"Navegar o fer servir xarxes socials"</string>
+    <string name="Reading_Writing_Paper">"Llegir/escriure (en paper)"</string>
+    <string name="Reading_Writing_Device">"Llegir/escriure (en un dispositiu)"</string>
+    <string name="Listening_To_Audio">"Escoltar àudio"</string>
+    <string name="Walking_Video_Gaming">"Veure vídeos o jugar a videojocs"</string>
+    <string name="Talking_Including_Phone">"Parlar (també per telèfon)"</string>
+    <string name="Accompanying_Someone">"Acompanyar algú"</string>
+    <string name="Eating_Drinking">"Menjar/beure"</string>
+    <string name="Personal_Caring">"Cura personal"</string>
+    <string name="Thinking">"Pensar"</string>
+
+    <!-- Value this part of the trip -->
+    <string name="What_Value_Take_From_Part">"Quin valor has obtingut del teu temps en aquesta part del viatge?"</string>
+    <string name="Paid_Work">"Treball remunerat"</string>
+    <string name="Personal_Tasks">"Tasques personals"</string>
+
+    <!-- message: Enjoyment -->
+    <string name="Enjoyment">"Plaer"</string>
+
+    <!-- message: Fitness -->
+    <string name="Fitness">"Mantenir-me en forma"</string>
+    <string name="None">"Gens"</string>
+    <string name="Some">"Una mica"</string>
+    <string name="High">"Molt"</string>
+
+    <!-- Thinking about trip as a whole -->
+    <string name="Thinking_About_Your_Trip_Title">"Hauries preferit fer servir el teu temps de viatge per...?"</string>
+
+    <!-- message: Productivity -->
+    <string name="Productivity">"Productivitat"</string>
+    <string name="Anything_Else_Like_To_Share">"Vols compartir res més?"</string>
+
+    <!-- message: I would like to share... -->
+    <string name="Would_Like_To_Share">"M'agradaria compartir..."</string>
+    <string name="Today">"Avui"</string>
+    <string name="Yesterday">"Ahir"</string>
+    <string name="Validate_Your_Trip">"Nou viatge detectat! Valida el teu viatge i guanya %d punts!"</string>
+    <string name="What_Was_Purpose">"Quin ha estat el motiu del teu viatge?"</string>
+    <string name="Mark_All_That_Apply">"Marca tot el que calgui"</string>
+
+    <!-- Trip purposes -->
+    <string name="Work">"Feina"</string>
+    <string name="School_Education">"Escola/educació"</string>
+    <string name="Home">"Casa"</string>
+    <string name="Everyday_Shopping">"Compres de cada dia"</string>
+    <string name="Business_Trip">"Viatge de negocis"</string>
+    <string name="Leisure_Hobby">"Oci/afició"</string>
+    <string name="Pick_Up_Drop_Off">"Recollir/deixar algú"</string>
+    <string name="Personal_Tasks_Errands">"Tasques personals/encàrrecs"</string>
+    <string name="Trip_Itself">"El viatge mateix"</string>
+
+    <!-- message: Other -->
+    <string name="Other">"Altres"</string>
+    <string name="Arrive_At_Fixed_Time">"Havies d'arribar en un moment concret?"</string>
+    <string name="How_Often_Make_This_Trip">"Cada quant fas aquest viatge?"</string>
+    <string name="Regularly">"Habitualment"</string>
+    <string name="Occasionally">"De vegades"</string>
+    <string name="First_Time">"Primera vegada"</string>
+    <string name="Select_Part_Of_Trip_Feedback">"Selecciona una part del teu viatge per afegir comentaris"</string>
+
+    <!-- <string name="objective_other_hint">Where you travelled and why</string> -->
+    <string name="Confirm_Modes_Of_Your_Trips">"Confirma els tipus de transport utilitzats en el viatge"</string>
+
+    <!-- message: Transfer -->
+    <string name="Transfer">"Transbordament"</string>
+    <string name="Auto_Detected">"Autodetectat"</string>
+
+    <!-- message: were you %s ? -->
+    <string name="Were_You_Walking_Or_Running">"Has estat %s ?"</string>
+
+    <!-- message: Did you go by %s ? -->
+    <string name="Did_You_Go_The_Mode">"Hi has anat en %s ?"</string>
+
+    <!-- modes of transport -->
+    <string name="Walking">"Caminant"</string>
+    <string name="Jogging_Running">"Córrer"</string>
+    <string name="Bicycle">"Bicicleta"</string>
+    <string name="Car_Driver">"Cotxe (conductor)"</string>
+    <string name="Bus_Trolley_Bus">"Autobús/troleibús"</string>
+    <string name="Tram">"Tramvia"</string>
+    <string name="Metro">"Metro"</string>
+    <string name="Urban_Train">"Tren"</string>
+    <string name="Regional_Intercity_Train">"Tren regional/interurbà"</string>
+    <string name="Ferry_Boat">"Ferri/vaixell"</string>
+    <string name="Motorcycle">"Motocicleta"</string>
+    <string name="Moped">"Ciclomotor"</string>
+    <string name="Electric_Bike">"Bici elèctrica"</string>
+    <string name="Bike_Sharing">"Bici compartida"</string>
+    <string name="Car_Passenger">"Cotxe (passatger)"</string>
+    <string name="Taxi_Ride_Hailing">"Taxi/servei de transport"</string>
+    <string name="Car_Sharing_Rental_Driver">"Cotxe d'intercanvi/de lloguer
+(conductor)"</string>
+    <string name="Car_Sharing_Rental_Passenger">"Cotxe d'intercanvi/de lloguer
+(passatger)"</string>
+    <string name="car_pooling">"Cotxe compartit"</string>
+    <string name="Plane">"Avió"</string>
+    <string name="high_speed_train">"Tren d'alta velocitat"</string>
+    <string name="Coach_Long_Distance_Bus">"Autocar
+Autobús de llarga distància"</string>
+    <string name="Micro_Scooter">"Patinet"</string>
+    <string name="Skate">"Monopatí"</string>
+    <string name="Electric_Wheelchair_Cart">"Cadira de rodes elèctrica/motoritzada"</string>
+    <string name="Wheelchair">"Cadira de rodes"</string>
+    <string name="Cargo_Bike">"Bici de càrrega"</string>
+    <string name="Other_Public_Transport">"Altre transport públic"</string>
+    <string name="Other_Active_Semi_Active">"Altre actiu/semiactiu"</string>
+    <string name="Other_Private_Motorised">"Altre transport privat amb motor"</string>
+
+    <!-- Misc -->
+    <string name="Yes">"Sí"</string>
+    <string name="No">"No"</string>
+    <string name="Save">"Desar"</string>
+    <string name="Confirm_All">"Confirmar-ho tot"</string>
+
+    <!-- message text of \"Next\" button message: Next -->
+    <string name="Next">"Següent"</string>
+    <string name="Done">"Fet"</string>
+    <string name="End">"Fi"</string>
+
+    <!-- Factors Wasted Time -->
+    <string name="Skip">"Saltar"</string>
+
+    <!-- title for the info pages message: A Little About You -->
+    <string name="A_Little_About_You">"Una mica sobre tu"</string>
+
+    <!-- message: Active/Semi-active -->
+    <string name="Active_Semi_active">"Actiu/semiactiu"</string>
+
+    <!-- message: Thanks! To record your trips we need your permission to let Woorti access to your location at all times.
+
+It should not excessively consume your battery. -->
+    <string name="Ask_location_permission_String">"Gràcies! Per enregistrar els teus viatges necessitem el teu permís perquè Woorti accedeixi a la teva ubicació en tot moment.
+
+ 
+
+L'hem dissenyat perquè no consumeixi gaire bateria."</string>
+
+    <!-- message: Sorry! For Woorti to function properly we really need that you allow it to access your location at all times. -->
+    <string name="Ask_location_permission_String_when_user_has_denied">"Ens sap greu! Perquè Woorti funcioni bé, hem de poder accedir a la teva ubicació en tot moment."</string>
+
+    <!-- message: Lastly, we will be asking you questions regarding your experiences as you travel. Your opinion really matters to us! 
+
+ To do this we need to be able to send you notifications -->
+    <string name="Ask_notification_permission_String">"Finalment, et farem preguntes sobre les teves experiències mentre viatges. La teva opinió ens importa molt! Per fer-ho, hem de poder-te enviar notificacions."</string>
+
+    <!-- message: BACK TO LOGIN -->
+    <string name="Back_To_Login">"TORNA A L'INICI DE SESSIÓ"</string>
+
+    <!-- change language screen title message: Change Language -->
+    <string name="Change_Language">"Canviar idioma"</string>
+
+    <!-- message: Correct exams -->
+    <string name="Correct_Exams">"Corregir_exàmens"</string>
+
+    <!-- title for the first onboarding pages message: Data Protection -->
+    <string name="Data_Protection">"Privadesa i protecció de dades"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Didnt_sign_up_yet">"Has oblidat la contrasenya?"</string>
+
+    <!-- rating prefered modes of transport message: Doesn't improve my fitness -->
+    <string name="Doesnt_Improve_My_Fitness">"No m'ajuda a mantenir-me en forma"</string>
+
+    <!-- email message -->
+    <string name="Email">"correu electrònic"</string>
+
+    <!-- message shown when clcicking to reset a password message: If %s has an account with Woorti, you will be receiving an email to reset your password -->
+    <string name="Email_Has_Been_Sent">"Correu electrònic enviat"</string>
+
+    <!-- rating prefered modes of transport message: Enjoying -->
+    <string name="Enjoying">"Gaudir"</string>
+
+    <!-- message: Relaxing or having fun; taking time to listen to music, rest or meditate; engaging in social media; observing the surroundings… -->
+    <string name="Enjoyment_Worthwhile_Description_Score">"Relaxar-me o divertir-me; dedicar temps a escoltar música, descansar o meditar; estar actiu a les xarxes socials; observar els voltants..."</string>
+
+    <!-- message: When I travel, 
+I chill -->
+    <string name="Enjoyment_Worthwhile_High_Score">"Quan viatjo,
+em relaxo"</string>
+
+    <!-- placeholder for email in login/register -->
+    <string name="Enter_Your_Email_Address">"Escriu el correu electrònic"</string>
+
+    <!-- name Placeholder message: Enter your name -->
+    <string name="Enter_Your_Name">"Escriu el teu nom"</string>
+
+    <!-- placeholder for password in login/register -->
+    <string name="Enter_Your_Password">"Escriu la contrasenya"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Enter_Your_Password_Again">"Torna a escriure la contrasenya"</string>
+
+    <!-- error shown to the user when log in failed -->
+    <string name="Error_Log_In">"Hi ha hagut un error d'inici de sessió. Torna-ho a provar o restableix la contrasenya."</string>
+
+    <!-- message: Female -->
+    <string name="Female">"Dona"</string>
+
+    <!-- message: Did you know that a person spends about 2 years of her whole life commuting?
+
+Woorti will help you explore your travel time! -->
+    <!-- Fuzzy -->
+    <string name="First_Onboarding_Screen_Welcome_Description_Text">"Sabies que una persona passa uns 2 anys de tota la seva vida viatjant a la feina?
+
+Woorti t'ajuda a explorar el teu temps de viatge!"</string>
+
+    <!-- message: Your travel time is an important part of your life! -->
+    <string name="First_Onboarding_Screen_Welcome_Title">"El temps de viatge és una part important de la teva vida!"</string>
+
+    <!-- message: message: Travelling is not at all relaxing -->
+    <string name="FitnesEnjoyment_Worthwhile_Low_Scores">"Viatjar no és gens relaxant"</string>
+
+    <!-- message: When you walk, cycle, or even run on your travels, you’re getting exercise and staying in shape. -->
+    <string name="Fitness_Worthwhile_Description_Score">"Quan camines, vas en bici o fins i tot corres durant els teus viatges, fas exercici i et mantens en forma."</string>
+
+    <!-- message: Travel time is a great way to feel the burn -->
+    <string name="Fitness_Worthwhile_High_Score">"El temps de viatge és una bona manera de fer exercici"</string>
+
+    <!-- message: Exercise is in the gym/field -->
+    <string name="Fitness_Worthwhile_Low_Score">"S'ha de fer exercici al gimnàs/camp"</string>
+
+    <!-- Forgot Password -->
+    <string name="Forgot_Password">"He oblidat la contrasenya"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Forgot_Your_Password">"Has oblidat la contrasenya?"</string>
+
+    <!-- message: Everyone defines what is a worthwhile travel time in his or her different way.
+
+Let's see what that means to you! -->
+    <string name="Fourth_Onboarding_Screen_Description">"Cadascú defineix la \"utilitat\" del temps de viatge a la seva manera.
+
+Vejam què vol dir per a tu!"</string>
+
+    <!-- message: I accept MoTiV data protection conditions -->
+    <string name="GRPD_Accept">"Accepto les condicions de protecció de dades de MoTiV"</string>
+
+    <!-- message: For the European MoTiV project research on travel time, this app collects anonymised data on:
+1. Your trips (time, location and transport used)
+2. Your expressed preferences and searches within the app -->
+    <string name="GRPD_Description">"Per al projecte de recerca europeu MoTiV sobre el temps de viatge, aquesta app recopila dades anonimitzades sobre: 
+
+1. Els teus viatges (temps, ubicació i transport que fas servir) 
+
+2. Les preferències que has expressat i les cerques dins l'app"</string>
+
+    <!-- message: MoTiV privacy policy is compliant with EU GDPR. Read More -->
+    <string name="GRPD_Read_Policy">"La política de privadesa de MoTiV compleix l'RGPD de la UE. Més informació"</string>
+
+    <!-- rating prefered modes of transport message: Improves my fitness -->
+    <string name="Improves_My_Fitness">"M'ajuda a mantenir-me en forma"</string>
+
+    <!-- splash screen start now button message -->
+    <string name="Log_In">"Torna a iniciar sessió"</string>
+
+    <!-- login with google button message -->
+    <string name="Log_In_With_Google">"Iniciar sessió amb Google"</string>
+
+    <!-- message: Male -->
+    <string name="Male">"Home"</string>
+
+    <!-- message: No worries! Enter your email address below and we will send you a email to reset your password. -->
+    <string name="No_Worries_Message">"Cap problema! Escriu la teva adreça i t'enviarem un correu electrònic per restablir la contrasenya."</string>
+
+    <!-- rating prefered modes of transport message: Not Enjoying -->
+    <string name="Not_Enjoying">"No en gaudeixo"</string>
+
+    <!-- %s not filled -->
+    <string name="Not_Filled">"%s no completat"</string>
+
+    <!-- rating prefered modes of transport message: Not Productive -->
+    <string name="Not_Productive">"No productiu"</string>
+
+    <!-- message: NOW YOU! -->
+    <string name="Now_You">"ARA TU!"</string>
+
+    <!-- message: Ok cool -->
+    <string name="Ok_Cool">"Bé"</string>
+
+    <!-- password message -->
+    <string name="Password">"contrasenya"</string>
+
+    <!-- register button message -->
+    <string name="Passwords_Dont_Match">"Registra't"</string>
+
+    <!-- title for the first onboarding pages message: Permissions -->
+    <string name="Permissions">"Permisos"</string>
+
+    <!-- message: Private Motirized -->
+    <string name="Private_Motirized">"Transport privat amb motor"</string>
+
+    <!-- message: Proceed to Enjoyment -->
+    <string name="Proceed_To_Enjoyment">"Ves a «Plaer»"</string>
+
+    <!-- message: Proceed to Fitness -->
+    <string name="Proceed_To_Fitness">"Ves a «Mantenir-se en forma»"</string>
+
+    <!-- proceed to productivity button message: Proceed to Productivity -->
+    <string name="Proceed_To_Productivity">"Ves a «Productivitat»"</string>
+
+    <!-- rating prefered modes of transport message: Productive -->
+    <string name="Productive">"Productiu"</string>
+
+    <!-- message: Using travel time to get things done, not only for work or study, but also personal things like managing home or family stuff… -->
+    <string name="Productivity_Worthwhile_Description_Score">"Aprofito el temps de viatge per fer tasques, no només de feina i estudis, sinó també de temes personals com ara la casa, la família, etc."</string>
+
+    <!-- message: I used my  trip to get stuff done! -->
+    <string name="Productivity_Worthwhile_High_Score">"He aprofitat el viatge per fer tasques!"</string>
+
+    <!-- message: I don’t work when I travel -->
+    <string name="Productivity_Worthwhile_Low_Score">"No treballo quan viatjo"</string>
+
+    <!-- message: How important are the travel time worthwhileness elements for you, when you travel? -->
+    <string name="Rate_Worthwhileness_Screen_Title">"Quan viatges, quina importància tenen per a tu aquests elements útils?"</string>
+
+    <!-- message: How much enjoyment do you get from your your travel time by: -->
+    <string name="Rating_Prefered_Mot_Enj_Title">"Quant plaer obtens del teu viatge quan:"</string>
+
+    <!-- message: How does your travel time contribute to your fitness when you travel by: -->
+    <string name="Rating_Prefered_Mot_Fit_Title">"Com contribueix el teu viatge a mantenir-te en forma quan viatges en:"</string>
+
+    <!-- message: How productive are you when you travel by: -->
+    <string name="Rating_Prefered_Mot_Prod_Title">"Com de productiu ets quan viatges en:"</string>
+
+    <!-- register button message -->
+    <string name="Register">"Registra't"</string>
+
+    <!-- message: Which modes of transport do you use regularly? -->
+    <string name="Regualr_Modes_Of_Transport_Title">"Quins tipus de transport fas servir habitualment?"</string>
+
+    <!-- Reset Password -->
+    <string name="Reset_Password">"Restablir contrasenya"</string>
+
+    <!-- message: Check out $@ for more information -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Check_Out_Site">"Consulta %s per a més informació"</string>
+
+    <!-- message: With the information you provide, Woorti will gather knowledge for better transport solutions and share it with researchers, transport operators and local authorities around Europe. -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Description">"Amb la informació que ens facilitis, Woorti recollirà dades per millorar les solucions de transport i les compartirà amb investigadors, operadors de transport i autoritats locals europees."</string>
+
+    <!-- The message for this text was incorrect, the real message in English is: Help research for better transport
+When possible please retranslate this message. -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Title">"Ajuda'ns a millorar els sistemes de transport"</string>
+
+    <!-- sign in button message -->
+    <string name="Sign_In">"Registra't"</string>
+
+    <!-- splash screen start now button message -->
+    <string name="Start_Now">"Ets nou? Comença"</string>
+
+    <!-- message: While some like to study or work when they travel, others like to relax and disconnect. Some take the opportunity to exercise. While others jumpstart their day with music. -->
+    <string name="Third_Onboarding_Screen_Description">"A alguns els agrada treballar o estudiar quan viatgen, però altres prefereixen relaxar-se i desconnectar. Altres fins i tot ho aprofiten per fer exercici. Alguns comencen el dia amb música."</string>
+
+    <!-- error shown to the user when registering with a already signed in email account -->
+    <string name="User_Already_Signed_In">"Sembla que %s ja està registrat. Vols iniciar la sessió?"</string>
+
+    <!-- title that appears on the top of the login page -->
+    <string name="Welcome_Back">"Hola de nou"</string>
+
+    <!-- title for the first onboarding page message: What is a worthwhile trip -->
+    <string name="What_Is_A_Worthwhile_Trip">"Què és un viatge ben aprofitat?"</string>
+
+    <!-- message: What is your age? -->
+    <string name="What_Is_Your_Age">"Quants anys tens?"</string>
+
+    <!-- message: What is your name? -->
+    <string name="What_Is_Your_Name">"Com et dius?"</string>
+
+    <!-- message: Where do you live? -->
+    <string name="Where_Do_You_Live">"On vius?"</string>
+
+    <!-- you've got mail! -->
+    <string name="Youve_Got_Mail">"Tens un correu!"</string>
+    <string name="No_Ongoing_Trip_To_Show">"Cap viatge en marxa per mostrar"</string>
+    <string name="Your_Trip">"El teu viatge"</string>
+    <string name="Click_On_The_Marker_To_Split_The_Trip">"Toca el marcador per dividir el viatge"</string>
+    <string name="Security_Boarding_Process">"Seguretat i procés d'embarcament"</string>
+    <string name="Other_Activity">"Altres activitats"</string>
+    <string name="Cycling">"Anar en bicicleta"</string>
+    <string name="Riding">"El fet de viatjar"</string>
+    <string name="Skating">"El fet d'anar en monopatí"</string>
+    <string name="Driving">"El fet de conduir"</string>
+    <string name="Running">"El fet de córrer"</string>
+
+    <!-- message: Please wait while Woorti searches for local studies -->
+    <string name="Wait_While_Searching_Local_Studies">"Espera mentre Woorti cerca estudis locals"</string>
+
+    <!-- message: There are these studies going near you. Which one(s) do you want to contribute with data to? -->
+    <string name="Studies_Title">"Aquests estudis s'estan fent a prop teu. A quins vols contribuir amb les teves dades?"</string>
+    <string name="Menu">"Menú
+"</string>
+    <string name="Set_Home">"Establir casa"</string>
+    <string name="Set_Work">"Establir feina"</string>
+    <string name="Change_Photo">"Canviar la foto"</string>
+    <string name="Name">"Nom"</string>
+    <string name="Define_Home_Location">"Estableix la ubicació de casa teva per accedir més ràpid als viatges"</string>
+    <string name="Define_Work_Location">"Estableix la ubicació de la teva feina per accedir més ràpid als viatges"</string>
+    <string name="Edit">"Editar"</string>
+    <string name="Educational_Background">"Estudis"</string>
+    <string name="Activities">"Activitats"</string>
+    <string name="While_You_Ride">"Mentre viatges"</string>
+    <string name="Ability_To_Do_What_I_Wanted">"Poder fer el que volia mentre viatjava"</string>
+    <string name="Simplicity_Difficulty_Of_The_Route">"Facilitat/dificultat de la ruta"</string>
+    <string name="Schedule_Reliability">"Fiabilitat dels horaris"</string>
+    <string name="Security_And_Safety">"Confiança i seguretat "</string>
+    <string name="Space_Onboard_For_Lugagge_Pram_Bicycle">"Espai a bord per portar equipatge/carret/bicicleta/etc."</string>
+    <string name="Ability_To_Take_Pets_Along">"Possibilitat de viatjar amb mascotes"</string>
+    <string name="Payment_And_Tickets">"Pagament i bitllets"</string>
+    <string name="Convenient_Access_Lifts_Boarding">"Accessos còmodes (ascensors, embarcament)"</string>
+    <string name="Route_Planning_Navigation_Tools">"Planificació de la ruta/eines de navegació"</string>
+    <string name="Information_And_Signs">"Informació i senyals"</string>
+    <string name="Checkin_Security_And_Boarding">"Facturació, seguretat i embarcament"</string>
+    <string name="Crowdedness_Seating">"Aglomeracions/seients"</string>
+    <string name="Internet_Connectivity">"Connectivitat a internet"</string>
+    <string name="Ability_To_Do_The_Things_I_Want">"Posibilitat de fer les coses que vull"</string>
+    <string name="Charging_Opportunity">"Possibilitat de recarregar"</string>
+    <string name="Car_Bike_Parking_At_Transfer_Point">"Aparcament de cotxes/bicis al punt de transbordament"</string>
+    <string name="Vehicle_Ride_Smoothness">"Facilitat de conducció"</string>
+    <string name="Seating_Quality_Personal_Space">"Qualitat dels seients/espai personal"</string>
+    <string name="Other_People">"Altres persones"</string>
+    <string name="Air_Quality_Temperature">"Qualitat de l'aire/temperatura"</string>
+    <string name="General_Atmosphere_Design">"Atmosfera general/disseny"</string>
+    <string name="Road_Path_Availability_And_Safety">"Disponibilitat i seguretat de la carretera/camí"</string>
+    <string name="Accessibility_Escalators_Lifts_Ramps_Stairs_Etc">"Accessibilitat (escales mecàniques, ascensors, rampes, escales, etc.)"</string>
+    <string name="Ability_To_Carry_Bags_Luggage_Etc">"Possibilitat de transportar bosses, equipatge, etc."</string>
+    <string name="Ability_To_Take_Kids_Or_Pets_Along">"Possibilitat de viatjar amb nens o mascotes"</string>
+    <string name="Benches_Toilets_Etc">"Bancs/lavabos/etc."</string>
+    <string name="Facilities_Shower_Lockers">"Instal·lacions (dutxes, taquilles)"</string>
+    <string name="Parking_At_End_Points">"Aparcaments a la destinació"</string>
+    <string name="Road_Path_Quality">"Qualitat de la carretera/camí"</string>
+    <string name="Road_Path_Directness">"Carretera/camí directe"</string>
+    <string name="Air_Quality">"Qualitat de l'aire"</string>
+    <string name="Lighting_Visibility">"Il·luminació/visibilitat"</string>
+    <string name="Cars_Other_Vehicles">"Cotxes/altres vehicles"</string>
+    <string name="Space_For_Luggage_Pram_Bicycle_Etc">"Espai per a equipatge/carret/bicicleta/etc."</string>
+    <string name="Road_Quality_Vehicle_Ride_Smoothness">"Qualitat de la carretera/facilitat de la conducció"</string>
+    <string name="Vehicle_Quality">"Qualitat del vehicle"</string>
+    <string name="Seat_Comfort">"Comoditat del seient"</string>
+    <string name="Other_Passengers">"Altres passatgers"</string>
+    <string name="Other_Cars_Vehicles">"Altres cotxes/vehicles"</string>
+
+    <!-- Button text on second onboarding page -->
+    <string name="Lets_Get_Started">"Comencem!"</string>
+
+    <!-- Report issue -->
+    <string name="Thank_You_For_Submitting_This_Issue">"Gràcies per notificar aquest problema. Confirma l'enviament o notifica un altre problema"</string>
+    <string name="Confirm_And_Leave">"Confirmar i sortir"</string>
+    <string name="Confirm_And_Submit_More">"Confirmar i enviar-ne més"</string>
+    <string name="Where_City">"A quina part de %s?"</string>
+    <string name="OtherCountry">"Altre país"</string>
+    <string name="OtherCity">"Altra ciutat"</string>
+    <string name="Sign_Up_Error">"Error de registre"</string>
+    <string name="Sign_Up">"Registrar-se"</string>
+    <string name="How_Important_Are_The_Following_Factors">"Quina importància dones a aquests factors respecte del teu temps quan viatges?"</string>
+    <string name="Modes_Of_Transport">"Tipus de transport"</string>
+    <string name="Help_Research_For_Better_Transport">"Ajuda a la recerca per millorar el transport"</string>
+    <string name="Already_Signed_Up_Log_In_Here">"Ja estàs registrat? Inicia la sessió aquí"</string>
+    <string name="Welcome">"Benvingut"</string>
+    <string name="Refresh_Surveys">"Refresca la pàgina"</string>
+
+    <!-- This string has the text for the data regarding Activities (e.g., for the walk itself) and *not* the walking mode of transport -->
+    <string name="The_Walk_Itself">"El fet de caminar"</string>
+    <string name="Education_Highshool">"Institut"</string>
+
+    <!-- TODO new strings 
+ New education strings according to specs -->
+    <string name="Education_Basic">"Educació primària"</string>
+    <string name="Education_University">"Universitat"</string>
+
+    <!-- Ocupation options -->
+    <string name="Occupation">"Ocupació"</string>
+    <string name="Ocupation_Student">"Estudiant"</string>
+    <string name="Ocupation_Schedule_Worker">"Treballador a temps complert"</string>
+    <string name="Ocupation_Flexible_worker">"Trebalador a temps parcial"</string>
+    <string name="Ocupation_Selfemployed">"Autònom"</string>
+    <string name="Ocupation_Seeking_Work">"Buscant feina"</string>
+    <string name="Ocupation_Inactive">"Inactiu/Jubilat"</string>
+    <string name="Ocupation_Maternity">"Baixa de materinitat/paternitat"</string>
+    <string name="Ocupation_Military">"Servei militar"</string>
+
+    <!-- Marital status -->
+    <string name="Marital_Status">"Estat civil"</string>
+    <string name="Marital_Single">"Solter/a"</string>
+    <string name="Marital_Married">"Casat/a"</string>
+    <string name="Matital_Significant_Other">"En parella"</string>
+    <string name="Marital_Divorced">"Divorciat/da"</string>
+    <string name="Marital_Widowed">"Vidu/a"</string>
+    <string name="Driver_License">"Carnet de conduir"</string>
+    <string name="Household_Yearly_Income">"Renta anual neta"</string>
+    <string name="Number_People_Household">"Número de persones a la llar familiar"</string>
+    <string name="Number_Children_household">"Número nens a la llar familiar"</string>
+    <string name="Number_Cars_Household">"Número de cotxes a la llar familiar"</string>
+    <string name="Nationality">"Nacionalitat"</string>
+
+    <!-- TODO NEW STRING -->
+    <string name="No_Trips_Text">"Aquesta pantalla és on apareixeran els teus viatges i des d'on avaluar-los. Torna  aquí després de fer un viatge ... n\
+Woorti intenta no perdre's cap viatge, però per assegurar-te que quedin gravats, pots enregistrar-los manualment pulsant el botó \"Començar viatge\" ... n\
+Assegura't de tenir el GPS activat."</string>
+
+    <!-- Dashboard -->
+    <!-- you have spent %1s travelling a distance of %2s in %3s. -->
+    <string name="You_Have_Spent_Complete">"has passat %1s viatjant una distancia de %2s en %3s."</string>
+    <string name="In_Total_You_Spent_Calories">"en total has gastat %1s."</string>
+    <string name="And_This_Counted_Carbon_Footprint">"I això ha representat el %1s de la teva petjada ecològica."</string>
+    <string name="Your_Trips_Overall_Percentage_Worthwhile">"Els teus viatges han estat %s aprofitats"</string>
+    <string name="While_Traveling_Activities">"Mentre viatjaves %1s del teu temps el vas ocupar en %2s"</string>
+    <string name="Do_You_Want_To_Set_This_Location_Home">"Vols guardar aquesta localitzacó com la teva adreça de casa?"</string>
+    <string name="Do_You_Want_To_Set_This_Location_Work">"Vols guardar aquesta localitzacó com la teva adreça de feina?"</string>
+    <string name="Privacy_Policy">"Política de privacitat"</string>
+
+    <!-- day -->
+    <string name="Day">"Dia"</string>
+
+    <!-- 3 days -->
+    <string name="Days_3">"3 dies"</string>
+
+    <!-- week -->
+    <string name="Week">"Setmana"</string>
+
+    <!-- month -->
+    <string name="Month">"Mes"</string>
+
+    <!-- year -->
+    <string name="Year">"Any"</string>
+
+    <!-- era -->
+    <string name="Era">"Era"</string>
+
+    <!-- worthwhile -->
+    <string name="Worthwhile">"Gratificant"</string>
+
+    <!-- TODO new strings 
+ New education strings according to specs -->
+    <string name="Other_Activities">"Altres activitats"</string>
+
+    <!-- Marital status -->
+    <string name="Household_Marital">"Estat civil"</string>
+    <string name="Household_Years_Residence">"Anys de residència al país"</string>
+    <string name="Household_Labour_Status">"Situació laboral"</string>
+    <string name="Labour_Student">"Estudiant"</string>
+    <string name="Labour_Employed_Full_Time">"Empleat a temps complert"</string>
+    <string name="Labour_Employed_Part_Time">"Empleat a temps parcial"</string>
+    <string name="Labour_Unemployed">"Desocupat"</string>
+    <string name="Years_Residence_Less_Than_One">"Menys de 1"</string>
+    <string name="Years_Residence_One_To_Five">"De 1 a 5"</string>
+    <string name="Years_Residence_More_Than_Five">"Més de 5"</string>
+    <string name="Walk_For_Distance">"Camina %s"</string>
+    <string name="Household">"Llar familiar"</string>
+    <string name="Total_Points">"Punts totals"</string>
+    <string name="Todays_Travel_Report">"Informe de viatge"</string>
+
+    <!-- link to page with privacy policy specific to each language -->
+    <!-- Fuzzy -->
+    <string name="Url_Privacy_Policy">"https://motivproject.eu/data-collection/data-protection/catalonia.html"</string>
+
+    <!-- %d questions -->
+    <string name="N_Questions">"%d preguntes"</string>
+
+    <!-- New survey -->
+    <string name="New_Survey">"Nova enquesta"</string>
+
+    <!-- I don't really understand that string in the travel report - minutes more and minutes less. Why minutes less when travelling, it is not the number or minutes / km that you travel? -->
+    <!-- Minutes more -->
+    <string name="Minutes_More">"minuts més"</string>
+
+    <!-- I don't really understand that string in the travel report - minutes more and minutes less. Why minutes less when travelling, it is not the number or minutes / km that you travel? -->
+    <!-- Minutes less -->
+    <string name="Minutes_Less">"minuts menys"</string>
+
+    <!-- Kilometers more -->
+    <string name="Km_More">"Km més"</string>
+
+    <!-- Kilometers less -->
+    <string name="Km_Less">"Km menys"</string>
+
+    <!-- Trip validation -->
+    <string name="Trip_Validation">"Validació de viatge"</string>
+
+    <!-- Latest story -->
+    <string name="Latest_Story">"Últim relat"</string>
+    <string name="Household_Data">"Dades de renta"</string>
+
+    <!-- new text for battery warning pop up in mytrips (so that people are remembered to disable battery optimizations that undermine the app working in background) -->
+    <!-- battery warning popup text -->
+    <string name="Alert_Battery_Content">"Woorti opera en segon pla mentre grava viatjes. Assegura't de desactivar en el teu telèfon les opcions de optimització de bateria o baix consum a Ajustos per evitar que l'aplicació deixi de funcionar."</string>
+
+    <!-- "In the last" start message of DashBoard, Please use sentence that fits any number of days -->
+    <!-- Dashboard -->
+    <string name="In_The_Last">"En els últims"</string>
+
+    <!-- stories -->
+    <string name="story_1_title_chiaras_new_train_ride">"El nou viatge en tren de la Chiara"</string>
+    <string name="story_1_text_chiaras_train_ride">"La Chiara, el seu marit i els seus dos fills s'han mudat fa poc del centre als afores de Brussel·les. La Chiara porta els nens a la guarderia i a l'escola en una bici de càrrega, i després va fins a l'estació de tren, on agafa un tren que triga 25 minuts per arribar a la seva feina, al centre de la ciutat. Aquest ha estat un gran canvi en els seus desplaçaments, i al principi no li agradava gaire haver de dedicar més temps del seu dia a viatjar, però va començar a gaudir del temps que passava al tren. Seient tota sola, podia relaxar-se i fer coses que, si no, no faria.  
+ 
+
+La Chiara va començar a aprofitar aquest temps per llegir llibres. Però, després d'un cert temps, es va adonar que aquests 25 minuts que durava el trajecte no eren suficients per endinsar-se en la història. 
+ 
+ Aleshores va intentar llegir revistes, però com que li agraden els articles llargs i detallats, es va trobar amb el mateix problema. 
+ 
+
+Així que va començar a connectar-se a Facebook i veure què hi passava. Es quedava tan absorta pels continguts, que de vegades gairebé s'oblidava de baixar a la seva parada. La Chiara va decidir que accelerar el cervell i el cor d'aquella manera no era el millor per començar el dia. 
+ 
+
+Així que, finalment, va provar una cosa que li va funcionar. Com que s'ha mudat a una zona de parla neerlandesa, li ve de gust aprendre la llengua. Gràcies a una aplicació d'aprenentatge de llengües, el temps que passa al tren és suficient per fer dues o tres lliçons a cada trajecte. Això també li aporta el ritme necessari per aprendre una llengua: una mica cada dia, i això fa que a poc a poc tingui una connexió cada cop millor amb els veïns del seu nou barri. 
+ 
+ 
+
+El millor per a la Chiara va ser aprofitar el temps que tenia i fer el que li venia de gust en aquesta etapa de la seva vida. 
+ 
+ 
+ I per a tu? Què és el millor per al teu temps de viatge?"</string>
+    <string name="story_2_title_the_best_way_to_get_great_ideas_while_moving_p1">"La millor manera de tenir grans idees mentre et mous"</string>
+    <string name="story_2_text_the_best_way_to_get_great_ideas_while_moving_p1">"T'has adonat que algunes activitats fan que se t'acudeixin idees noves i interessants més fàcilment? Quan li van preguntar quina era la part més productiva del seu dia, Elon Musk va contestar: «Quan em dutxo». No és l'únic. Moltes persones expliquen que algunes de les millors idees se'ls acudeixen quan s'estan dutxant! 
+ 
+
+I què passa quan ens movem? Hi ha algun moment que acostumi a ser especialment productiu? 
+ 
+
+De fet, hi ha una manera de desplaçar-se que sembla que és particularment bona per aconseguir noves idees. Sembla que molts pensadors brillants coneixien aquest avantatge i es movien d'aquesta manera deliberadament quan volien tenir millors idees sobre algun tema. 
+ 
+
+Pista: alguns d'ells, com ara Beethoven, Dickens i Darwin, vivien quan encara no hi havia vehicles motoritzats... 
+ 
+
+Pista 2: És una manera de moure's que activa el cervell. 
+ 
+
+Què creus que és? Fixa't en la història de demà... :)"</string>
+    <string name="story_3_title_the_best_way_to_get_great_ideas_while_moving_p2">"La millor manera de tenir grans idees mentre et mous, part 2"</string>
+    <string name="story_3_text_the_best_way_to_get_great_ideas_while_moving_p2">"Així doncs, quina és la manera de moure's que els pensadors de la història anterior feien servir per tenir millors idees? 
+ 
+
+Caminar! 
+ 
+
+Sí! Steve Jobs, per exemple, feia passejos tot sol al voltant de les oficines d'Apple a Palo Alto només per pensar millor. També es reunia amb gent d'aquesta manera. En lloc d'anar a un despatx, se n'anaven a fer un volt. 
+ 
+
+Hi ha alguna explicació científica per a tot això, o són simplement fenòmens aleatoris? 
+ 
+
+Bé, hi ha estudis que demostren que, mentre caminem, hi ha parts del cervell que se'ns activen més. Un estudi amb nens en edat escolar va demostrar que els nens que arribaven al matí per fer un examen tenien el cervell molt més actiu si havien arribat caminant que si els havien portat en cotxe. 
+ 
+
+És clar que, perquè el cervell estigui lliure per pensar en idees mentre caminem, sembla important que no hi hagi pertorbacions ambientals que t'obliguin a parar atenció a on vas, com ara obstacles, trànsit o massa soroll. Les ciutats dissenyades amb millors condicions per caminar són ciutats millors per generar grans idees! 
+ 
+
+Per promoure reunions productives mentre es camina, algú va tenir una idea brillant (potser la va tenir mentre es dutxava o caminava, no ho sabem!): Crear una aplicació que mostri recorreguts a la ciutat que siguin especialment adequats per fer reunions caminant. Aquesta aplicació es diu Weeting i té recorreguts per fer reunions caminant en diverses ciutats dels Països Baixos. 
+ 
+
+I com de bons són els llocs per on tu camines per pensar?"</string>
+    <string name="story_4_title_the_7_shades_of_pedros_cycling_time">"Les set fases de Pedro i la seva bicicleta"</string>
+    <string name="story_4_text_the_7_shades_of_pedros_cycling_time">"
+        1. Per al Pedro era una declaració de principis. Va començar a anar en bici a la feina quan encara era una cosa molt estranya a Lisboa. Mentre anava en bici, alguns homes grans li cridaven: «VA, CICLISTA! ÀNIMS!» com si participés en el Tour. Alguns conductors tocaven el clàxon i li cridaven: «VES-TE'N DE LA CARRETERA!». 
+ 
+
+Creia que la gent hauria de poder moure's per la ciutat en bici, i va ser l'heroi pioner que va servir d'exemple per a les futures generacions de ciclistes urbans. 
+ 
+
+També volia demostrar que anar en bici és ràpid, així que va començar a fer servir camins més ràpids fins i tot si hi havia molt de trànsit, encara que només fos per guanyar cinc minuts. Com més ràpid, millor. 
+ 
+
+2. Quan l'efecte de la declaració de principis es va esvair, va començar a adonar-se de la part estressant i del sobreesforç que de vegades feia. Estava tan acostumat a pedalar al màxim que va necessitar un any per acostumar-se a anar a un ritme més lent. Va començar a apreciar la manera relaxada d'anar en bici, a l'estil holandès. Va tornar a triar les rutes més tranquil·les. 
+ 
+
+3. Quan va tenir fills, els portava a la guarderia i a l'escola abans de començar un trajecte de 35 minuts fins a la feina. L'única alternativa que tenia era el cotxe, i es va començar a cansar de no tenir opcions. «Trobo a faltar quan podia anar en metro i relaxar-me». Així que agafava el metro sempre que no havia de portar els nens. 
+ 
+
+4. Alguns dies la seva dona es podia encarregar de portar els nens, i aleshores va recuperar part del plaer d'anar en bici, tot i que encara sentia que no feia servir el temps de manera productiva. S'havia acostumat a fer servir el temps que passava al transport públic per pensar i llegir. 
+ 
+
+5. Un dia, mentre feia el sopar, el Pedro va decidir escoltar un podcast. Li va encantar i li va fer pensar en com això havia millorat el seu temps a la cuina. Aprenia coses i escoltava històries d'altres persones. Va començar a gaudir quan cuinava. 
+ 
+
+Va necessitar un altre any per entendre que podia fer el mateix durant els seus trajectes en bici rutinaris. Els seus trajectes en bici es van tornar més lents i llargs. Cada cinc minuts més en bici eren cinc minuts més de poder gaudir d'un podcast. 
+ 
+
+6. Més endavant, el Pedro va canviar de feina i va començar a treballar des de casa. De cop li va créixer la panxa, perquè havia deixat de fer el trajecte fins a la feina, que en aquell moment era de 45 minuts. Després de veure com li havia crescut la panxa, el Pedro es va adonar que anar a la feina en bici tots aquells anys l'havia mantingut en forma. Va començar a aprofitar cada oportunitat (com ara anar a reunions) per anar en bicicleta. 
+ 
+
+7. Però el temps que passava anant en bici encara havia de millorar més. A mesura que els seus fills creixien, es va adonar que el temps que passava portant-los a l'escola era un dels millors moments de la seva vida. Els seus fills li demostraven que els encantava anar amb ell, li feien moltíssimes preguntes i li explicaven les últimes notícies de l'escola. Això feia que el seu temps en bici fos més valuós que les altres coses. 
+
+
+
+"</string>
+    <string name="story_5_title_stopping_or_not_stopping_in_a_moving_walkway">"Aturar-se o no aturar-se en un passadís mòbil?"</string>
+    <string name="story_5_text_stopping_or_not_stopping_in_a_moving_walkway">"T'has adonat que hi ha persones que s'aturen en un passadís mòbil o en escales mecàniques, mentre que d'altres continuen caminant?  
+ 
+
+Quin creus que és el motiu d'aquest comportament tan diferent? 
+ 
+
+Prefereixes que la gent camini o que s'aturi? 
+ 
+
+Si la resposta que se t'ha acudit et sembla molt evident, torna-hi a pensar. Potser no és tan senzill. 
+ 
+
+La pròxima vegada que siguis en un passadís mòbil, prova d'observar la gent que camina o s'atura. Simplement mirant-los, potser podries aconseguir bones pistes sobre per què ho fan. Si hi continues pensant, potser fins i tot t'endinsaràs en quina pot ser la seva història. És divertit! 
+ 
+
+Aturar-se o no aturar-se en un passadís mòbil? Llegeix la història sencera aquí: https://motivproject.eu/news/detail/stopping-or-not-stopping-in-a-moving-walkway.html
+
+"</string>
+    <string name="story_6_title_virtual_travel_time">"Temps de viatge virtual"</string>
+    <string name="story_6_text_virtual_travel_time">"Has sentit a parlar del «temps de viatge virtual»? 
+ 
+
+No, no és viatjar fent servir realitat virtual. És una cosa més concreta. 
+ 
+
+Quant de temps necessites exactament per anar des del punt A fins al punt B? Segurament diràs: és el meu temps de viatge, és clar! 
+ 
+
+Bé, doncs des d'un cert punt de vista, no ho és. Fins i tot podria ser molt més que això... 
+ 
+
+Pensa-hi: per anar des del punt A fins al punt B, segurament hauràs de gastar diners. Si viatges en cotxe, són tots els costos associats a tenir un cotxe i conduir-lo. I si vas en transport públic, és el que val el bitllet. Fins i tot si camines, portes unes sabates, i això farà que te n'hagis de comprar unes de noves més aviat. 
+ 
+
+Però què tenen a veure els diners amb el temps de viatge? 
+ 
+
+Com guanyes diners? Cal treballar per guanyar-ne. I treballar et pren temps. Així doncs, el temps de viatge no és només el temps que passes viatjant, també és el temps que passes guanyant els diners que necessites per viatjar. 
+ 
+
+Per exemple, fixem-nos en un cotxe. De mitjana un cotxe costa, amb totes les despeses incloses, 350 euros al mes. La quantitat de feina que has de fer en un mes per pagar el cotxe, l'has d'afegir al temps de viatge dels trajectes que facis aquell mes. Aquest és el teu temps de viatge virtual. 
+ 
+
+Si tens sort, potser diràs que per a tu treballar no és una pèrdua de temps, perquè t'encanta treballar. I potser també diràs el mateix sobre el temps que passes anant a treballar. Sí, això fa que aquest tema sigui encara més complicat. 
+ 
+
+Explica'ns què en penses! 
+ 
+
+https://www.facebook.com/MotivProject.eu/ 
+ 
+
+https://twitter.com/MoTiV_Project
+
+"</string>
+
+    <!-- new string in mobility coach -->
+    <!-- mobility coach -->
+    <string name="Your_Mobility_Journey">"Relats i lliçons"</string>
+
+    <!-- new string to translate in home module -->
+    <!-- home module -->
+    <string name="You_have_trips_to_validate">"Tens viatges per validar"</string>
+
+    <!-- (story) Coming tomorrow -->
+    <string name="Coming_Tomorrow">"Pròximament"</string>
+
+    <!-- Story (1, 2, 3, 4...) -->
+    <string name="Story">"Relat %d"</string>
+
+    <!-- profile and settings -->
+    <string name="Marital_Partnership">"Parella de fet"</string>
+
+    <!-- profile and settings  -->
+    <string name="Labour_Pensioner">"Jubilat"</string>
+
+    <!-- Notification shown when a trip has started  -->
+    <string name="Trip_Has_Started_At">"Un viatge ha començat %s"</string>
+
+    <!-- Notification shown when a trip has ended -->
+    <string name="Trip_Has_Ended_At">"Un viatge ha finalitzat %s"</string>
+    <string name="Trip_Has_Ended">"Viatge finalitzat!"</string>
+    <string name="engagement_notification_1_title">"Woorti ha enregistrat el teu primer viatge"</string>
+    <string name="engagement_notification_1_content">"Obre l'app i valida'l!"</string>
+    <string name="engagement_notification_2_title">"Tens un nou relat per llegir."</string>
+    <string name="engagement_notification_2_content">"Si el llegeixes avui demà en tindràs un altre disponible."</string>
+    <string name="engagement_notification_3_title">"Un nou relat està disponible!"</string>
+    <string name="engagement_notification_3_content">"I recorda de validar el teu últim viatge."</string>
+    <string name="Language_Changed_Popup_Content">"Si us plau reinicia l'app per completar aquest procediment."</string>
+    <string name="Language_Changed_Popup_Title">"Idioma canviat!"</string>
+
+    <!-- Predictability of travel time -->
+    <string name="Predictability_Of_Travel_Time">"Estimació acurada del temps de viatge"</string>
+    <string name="Urban_Scenery_Atmosphere">"Paisatge i atmosfera"</string>
+    <string name="While_You_Are_There">"Mentre viatges"</string>
+    <string name="Begin">"Comença"</string>
+    <string name="engagement_notification_4_title">"Has vist el teu informe de viatge?"</string>
+    <string name="engagement_notification_4_content">"Pulsa aquí per veure el teu tauler de control."</string>
+    <string name="engagement_notification_5_title">"El valor del teu temps de viatge de moment és de %d."</string>
+    <string name="engagement_notification_5_content">"Has vist com va variant depenent dels teus viatges?"</string>
+    <string name="engagement_notification_6_title">"Avalua el teu últim viatge."</string>
+    <string name="engagement_notification_6_content">"Enregistra els teus viatges i consulta les teves estadístiques."</string>
+    <string name="engagement_notification_7_title">"%d minuts."</string>
+    <string name="engagement_notification_7_content">"és el temps de viatge que has passat viatjant la setmana passada."</string>
+    <string name="engagement_notification_8_title">"Si us plau, continua'ns ajudant en la nostra investigació."</string>
+    <string name="engagement_notification_8_content">"Gràcies per avaluar els teus viatges. Pulsa aquí."</string>
+    <string name="engagement_notification_9_title">"Avalua el teu últim viatge."</string>
+    <string name="engagement_notification_9_content">"Enregistra els teus viatges i consulta les teves estadístiques."</string>
+
+    <!-- when referencing campaigns -->
+    <string name="Campaigns">"Campanyes"</string>
+
+    <!-- Where this string will go? -->
+    <!-- Welcome to your trips board, %NAME_USER% ! -->
+    <string name="Welcome_To_Your_Trips_Board_Username">"Benvingut/da al tauler d'enregistrament de viatges, %s !"</string>
+
+    <!-- You have X trips left to report in the last 3 days -->
+    <string name="You_Have_X_Trips_Left_3_Days">"Tens %d viatges per avaluar dels últims 3 dies."</string>
+
+    <!-- These are the trips you have made! Reporting on them helps our research, and allows you to monitor your travel time. After reporting each trip, find out your travel time worthwhileness statistics in the Dashboard! Press the ‘!’ mark to report. -->
+    <string name="These_Are_The_Trips_You_Have_Made">"Aquí pots veure els viatges que has fet! Avaluant-los ajudes a la recerca europea i et permet comprendre com valores el teu temps de viatge. Després d'avaluar els teus viatges, descobreix les teves estadístiques al tauler de control. Prem \"!\" per avaluar un viatge."</string>
+
+    <!-- Now that you have a reported trip, you can check your first travel time statistics in the Dashboard. -->
+    <string name="Now_That_You_Have_A_Reported_Trip_Popup_Text">"Ara que has avaluat un viatge, pots veure les teves estadístiques al tauler de control."</string>
+
+    <!-- Go to dashboard -->
+    <string name="Go_To_Dashboard">"Vés al tauler de control"</string>
+
+    <!-- Report trips -->
+    <!-- Fuzzy -->
+    <string name="Report_Trips">"Avalua el teus viatges"</string>
+
+    <!-- This is your Dashboard. It shows how worthwhile your travel time is.  For your trip stats to appear here, report your trips -->
+    <string name="This_Is_Your_Dashboard_Popup_Text">"Estàs al tauler de control. Aquí podràs veure el valor del teu temps de viatge. \n Perque les teves estadístiques apareguin aquí, avalua els teus viatges."</string>
+
+    <!-- See dashboard -->
+    <string name="See_Dashboard">"Veure panell de control"</string>
+
+    <!-- profile and settings -->
+    <string name="Campaign_Scores">"Punts de la campanya"</string>
+
+    <!-- when iOS user is redirected and asked to authorize GPS in phone settings after denying permissions in On-boarding -->
+    <string name="GPS_Link_Phone_Settings">"Configuració"</string>
+
+    <!-- when iOS user is asked to authorize GPS in phone settings and selects back to dismiss this dialogue -->
+    <string name="GPS_Go_Back">"Tornar"</string>
+
+    <!-- Days -->
+    <string name="Days">"Dies"</string>
+
+    <!-- trips -->
+    <string name="Trips">"Viatges"</string>
+
+    <!-- Issue form -->
+    <string name="Issue_Form">"Reporta un problema"</string>
+
+    <!-- Thank you for reporting an issue -->
+    <string name="Thank_You_For_Reporting_An_Issue">"Gràcies per reportar un problema!"</string>
+
+    <!-- Submit log -->
+    <string name="Submit_Log">"Envia un registre"</string>
+
+    <!-- Send log -->
+    <string name="Send_Log">"Envia"</string>
+
+    <!-- No log needed for this issue. Skip. -->
+    <string name="No_Log_Needed_For_This_Issue_Skip">"No cal enviar el registre d'activitat per aquest problema. Ometre. "</string>
+
+    <!-- Targets & Rewards -->
+    <string name="Targets_And_Rewards">"Reptes i premis"</string>
+
+    <!-- Tasks -->
+    <string name="Tasks">"Tasques"</string>
+
+    <!-- To analise the issue, we would like to receive a log with information of the app activity. Please send the email that will be generated. If you like, you can also attach printscreens or a longer description of the issue to the email. -->
+    <string name="To_Analyse_This_Issue">"Per analitzar el problema, ens agradaria rebre les últimes dades de l’activitat de l’aplicació. Envia'ns el correu electrònic que es generarà. Si ho desitges, també ens pots adjuntar captures de pantalla o una descripció més detallada del problema per correu electrònic."</string>
+
+    <!-- points -->
+    <string name="Points">"Punts"</string>
+
+    <!-- Progress (Reward progress) -->
+    <string name="Progress">"Progrés"</string>
+
+    <!-- %1$s days left -->
+    <string name="days_left_reward">"Et falten %1$s dies"</string>
+
+    <!-- user registration -->
+    <string name="Password_Length_Message">"Si us plau, entra una contrasenya d'entre 6 i 16 caracters "</string>
+
+    <!-- Onboarding -->
+    <string name="How_Productive_Are_You">"Com de productiu ets"</string>
+
+    <!-- Woorti is running in the background -->
+    <string name="Woorti_Is_Running">"Woorti està funcionant en segon pla"</string>
+
+    <!-- Continue -->
+    <string name="Continue">"Continua"</string>
+
+    <!-- Hurray!!! -->
+    <string name="Hurray">"Visca!"</string>
+
+    <!-- You have completed your target for NAME_REWARD! -->
+    <string name="You_Have_Completed_Your_Target">"Has completat el teu objectiu en un %s!"</string>
+
+    <!-- Keep reporting your trips to monitor your stats to see your evolution and help this research  -->
+    <string name="Keep_Reporting_Your_Trips_Reward_Completed_Popup">"Segueix informant dels teus viatges per a continuar monitoritzant les teves estadístiques i ajudar a aquesta investigació "</string>
+
+    <!-- Woorti just detected that you started a trip -->
+    <string name="Woorti_Just_Detected_Start_Trip">"Woorti ha detectat que has iniciat un viatge"</string>
+
+    <!-- Your  trip has ended.\nYou can now report about it in Woorti -->
+    <string name="Your_Trip_As_Ended">"El teu viatge ha finalitzat\ Ara pots informar a Woorti"</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Successful">"Registre completat amb èxit"</string>
+
+    <!-- Trip validation tutorial -->
+    <string name="Trip_Validation_Tutorial">"Manual de validació de viatges"</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Duplicated">"El registre ja s'havia completat. Inicia sessió"</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Error">"Hi ha hagut un error durant el registre. Si us plau intenta registrar-te de nou"</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Attempt">"Intentant enviar dades del viatge"</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Successful">"Informació del viatge enviada amb èxit"</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Not_Submitted">"Viatge no enviat - Connecteu-vos més tard"</string>
+
+    <!-- You can now report about it in Woorti -->
+    <string name="You_Can_Now_Report_About_It_In_Woorti">"Tu pots informar-ne a Woorti"</string>
+
+    <!-- Complete until dd/mm/yyyy -->
+    <string name="Complete_Until">"Completa fins a %s"</string>
+
+    <!-- You have a new survey (notification) -->
+    <string name="You_Have_A_New_Survey">"Tens una nova enquesta"</string>
+
+    <!-- Fill it in and earn %d points. (notification -> fill survey) -->
+    <string name="Fill_It_And_Earn_XX_Points">"Ompliu-la i guanyeu %d punts"</string>
+
+    <!-- Is your phone blocking trip detection? -->
+    <string name="Is_Your_Phone_Blocking_Trip_Detection">"El vostre telèfon bloqueja la detecció del viatge?"</string>
+
+    <!-- Woorti gives you 25 points for each additional information item you fill in your profile. -->
+    <string name="Woorti_Gives_You_Points_For_Each_Info">"Woorti us dóna 25 punts per cada element d'informació addicional que ompliu al vostre perfil"</string>
+
+    <!-- If that is the case, fortunately there is a solution. Get the instructions for your phone brand by pressing  the button below. -->
+    <string name="If_Thats_The_Case_Fortunately_There_Is_Solution">"Si aquest és el cas, per sort té solució. Obtingueu les instruccions de la vostra marca de telèfon prement el següent botó"</string>
+
+    <!-- Enable app activity -->
+    <string name="Enable_App_Activity">"Habilitar l'activitat de l'aplicació"</string>
+
+    <!-- Do not show again -->
+    <string name="Do_Not_Show_Again">"No mostrar una altra vegada"</string>
+
+    <!-- If your trips are frequently not being recorded, your phone might be blocking this app’s activity. -->
+    <string name="If_Your_Trips_Are_Frequently_Not_Being_Recorded">"Si els teus viatges sovint no es registren és possible que el seu telèfon estigui bloquejant l'activitat de l'aplicació"</string>
+
+    <!-- Tell us more about yourself -->
+    <string name="Tell_Us_More_About_Yourself">"Explica'ns més sobre tu"</string>
+
+    <!-- Your data is anonymised. -->
+    <string name="Your_Data_Is_Anonymised">"Les teves dades són anònimes"</string>
+
+    <!-- Fill in profile -->
+    <string name="Fill_In_Profile">"Omple el perfil"</string>
+
+    <!-- Later -->
+    <string name="Later">"Més tard"</string>
+
+    <!-- Point all time -->
+    <string name="Points_All_Time">"Punts"</string>
+
+    <!-- Days with trips all time -->
+    <string name="Days_All_Time">"Dies amb viatges"</string>
+
+    <!-- Trips all time -->
+    <string name="Trips_All_Time">"Viatges
+"</string>
+
+    <!-- temporary text without link to battery optimization site not endorsed by motiv. -->
+    <string name="If_Your_Trips_Are_Frequently_Not_Being_Recorded_No_Link_To_Site">"Si els seus viatges sovint no es registren és probable que el seu telèfon estigui bloquejant l'activitat de l'aplicació. Comprova la configuració d'optimització de la bateria en Android per desbloquejar Woorti"</string>
+
+    <!-- Dashboard_You -->
+    <string name="Dashboard_You">"Tu"</string>
+
+    <!-- Dashboard_Community -->
+    <string name="Dashboard_Community">"Comunitat
+"</string>
+
+    <!-- Dashboard_Citizens -->
+    <string name="Dashboard_Citizens">"Ciutadans"</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Balloon_Text_Worthwhile_From_Onboarding">"Aquests resultats mostren puntuacions predeterminades o les puntuacions que heu indicat en el registre, per tipus de transport. Pots canviar les puntuacions aplicables a la configuració de l'aplicació"</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Balloon_Text_Worthwhile_From_Leg_Info_Recorded">"Aquests resultats mostren la valoració de les etapes del viatge que heu marcat a l'informar sobre el viatge"</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Your_Whole_Trips">"Tots els teus viatges"</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Your_Reported_Legs">"Les etapes registrades"</string>
+
+    <!-- Dashboard -->
+    <string name="Time_Spent_In_Travel">"Temps gastat durant el viatge"</string>
+
+    <!-- Dashboard -->
+    <string name="Travelled_Distance">"Distància recorreguda"</string>
+
+    <!-- Dashboard -->
+    <string name="CO2_Emissions">"Emissions de CO2"</string>
+
+    <!-- Dashboard -->
+    <string name="Calories">"Calories"</string>
+
+    <!-- Dashboard -->
+    <string name="The_Community_Trips">"Els viatges de la comunitat"</string>
+
+    <!-- Dashboard -->
+    <string name="The_Community_Validated_Legs">"Les etapes validades de la comunitat"</string>
+
+    <!-- Dashboard -->
+    <string name="Compared_To_Your_Scores">"(en comparació a la teva puntuació)"</string>
+
+    <!-- Dashboard -->
+    <string name="Worthwhileness">"Utilitat"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Title">"¡Hola!"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Text_Part_1">"Informa els seus% de viatges detectats en l'últim "</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Text_Part_2">"per veure les teves estadístiques reals completes en l'escriptori"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Report_Trips">"VIATGES REPORTATS"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_See_Dashboard">"VEURE ESCRIPTORI"</string>
+
+    <!-- MyTrips -->
+    <string name="Pop_Up_Split_Merge_Delete_Text">"Ocasionalment, els viatges poden ser detectats incorrectament. Per editar l'estructura del viatge, prem la icona representada a dalt per dividir, fusionar o elimiar viatges o trams de viatge"</string>
+
+    <!-- MyTrips -->
+    <string name="Pop_Up_Split_Merge_Delete_Button">"HO TINC!"</string>
+
+    <!-- Home module travel report -->
+    <string name="Seven_Day_Travel_Report">"Informe de viatge de 7 dies"</string>
+
+    <!-- Home (travel report link to Dashboard) -->
+    <string name="Learn_More">"Aprèn més"</string>
+
+    <!-- please retranslate to make clear statistics are average calories per day. thank you. LV. -->
+    <!-- Dashboard -->
+    <string name="In_Total_Users_Spent_Calories">"De mitjana, per dia, els usuaris de la comunitat han cremat %1s"</string>
+
+    <!-- Dashboard -->
+    <string name="And_This_Counted_Carbon_Footprint_Users">"De mitjana, la comunitat va gastar %1s de la seva petjada de carboni sostenible"</string>
+
+    <!-- People from "campaign/city/country" on average have spent "3 min more/less" travelling a distance of "3km more/less" than you per day. -->
+    <string name="People_From_Place_Have_Spent_On_Average">"Les persones de %1s en mitjana han passat %2s viatjant una distància de %3s que vostè, per dia"</string>
+
+    <!-- "3 km more" -->
+    <string name="Number_Km_More">"%d km més"</string>
+
+    <!-- "3 km less" -->
+    <string name="Number_Km_Less">"%d km menys"</string>
+
+    <!-- "3 min more" -->
+    <string name="Number_Min_More">"%d minuts més"</string>
+
+    <!-- "3 min less" -->
+    <string name="Number_Min_Less">"%d minuts menys"</string>
+
+    <!-- Dashboard -->
+    <string name="Community_Trips_Overall_Percentage_Worthwhile">"Valoració dels viatges de la comunitat (en comparació a la teva puntuació)"</string>
+
+    <!-- These results reflect either default scores or the scores you have stated in the onboarding, per mode of transport . You may always change the applicable scores in the app’s Settings. -->
+    <string name="Dashboard_Worthwhileness_Popup_Text">"Aquests resultats mostren les puntuacions predeterminades o les puntuacions que han indicat en el registre, per tipus de transport. Pot canviar la puntuació aplicable en la Configuració de l'aplicació"</string>
+
+    <!-- What is the carbon budget? -->
+    <string name="What_Is_The_Carbon_Budget">"Què és el pressupost de carboni?"</string>
+
+    <!-- The carbon budget is the amount of CO2 that can be emitted per person for a sustainable lifestyle.  A person’s yearly mobility carbon budget is 500kg -->
+    <string name="The_Carbon_Budget_Is">"El pressupost de carboni és la quanitat de CO2 que pot emetre's per persona per un estil de vida sostenible. \n  \n el pressupost anual de carboni de mobilitat d'una persona és de 500 kg"</string>
+
+    <!-- City/Region -->
+    <string name="City_Region">"Ciutat/Regió"</string>
+
+    <!-- You -->
+    <string name="You">"Tu"</string>
+
+    <!-- should translate according to "Min per user per day" -->
+    <!-- Average minutes -->
+    <string name="Avg_Minutes">"Minuts per usuari i per dia"</string>
+
+    <!-- please retranslate following "Km per user per day", because we are showing daily averages per individual (average) user of the community. -->
+    <!-- Average kilometers -->
+    <string name="Avg_Kilometers">"Km per usuari i per dia"</string>
+
+    <!-- need to translate according to "Kg CO2 per user per day" -->
+    <!-- Average kilograms -->
+    <string name="Avg_Kilograms">"Kg de Co2 per usuari per dia"</string>
+
+    <!-- need to retranslate for "Calories per user per day" -->
+    <!-- Average calories -->
+    <string name="Avg_Calories">"Calories per usuari per dia"</string>
+
+    <!-- Hours -->
+    <string name="Hours">"Hores"</string>
+
+    <!-- Dashboard - unable to show some global stats (e.g. always disconnected) -->
+    <string name="Unable_Show_Stats">"No es poden recuperar les estadístiques de la comunitat"</string>
+
+    <!-- CO2 budget popu -->
+    <string name="CO2_Budget_Example">"500kg equivalen a un vol d'anada i tornada entre Brussel·les i Madrid, o 1500km recorreguts en cotxe"</string>
+
+    <!-- CO2 budget popup - no need to translate -->
+    <string name="CO2_Budget_Link_URL">"https://motivproject.eu/data-collection/woorti-app-faqs.html"</string>
+
+    <!-- CO2 budget popup -->
+    <string name="CO2_Budget_Link_Text">"Veure més"</string>
+
+    <!-- worthwhileness - travel wasted rating of trip -->
+    <string name="Travel_Time_Wasted_Question_Text_Second_Paragraph">"Es refereix al teu temps de viatge, no a l'hora de destí"</string>
+
+    <!-- Onboarding and login -->
+    <string name="Failed_To_Connect_Check_Connectivity_Error">"Error en la connexió. Si us plau comprova la connexió a Internet"</string>
+
+    <!-- "Requested permissions denied by the user. The app requires these and network connectivity to complete the onboarding. Please retry and complete the onboarding." -->
+    <string name="Onboarding_Warning_Permissions_Denied_Retry">"Els permisos sol·licitats han estat denegats per l'usuari. L'aplicació necessita els permisos i connexió a la xarxa per completar el registre. Si us plau, torna-ho a provar i completa el registre"</string>
+
+    <!-- "In order for the app to work properly, you must allow it to access location information to record trips and read/write files from/to external storage to manage trip information." -->
+    <string name="Onboarding_Dialog_Box_Ask_Location_Storage_Permissions">"Perquè l'aplicació funcioni correctament, has de permetre l'accés a la informació d'ubicació per a registrar viatges i llegir/escriure fitxers des de/fins a emmagatzematge extern per gestionar la informació del viatge"</string>
+
+    <!-- You have no trips -->
+    <string name="You_Have_No_Trips">"No tens viatges"</string>
+
+    <!-- You must choose at least one trip to delete -->
+    <string name="You_Must_Choose_One_Trip_To_Delete">"Has d'escollir com a mínim un viatge per poder eliminar-lo"</string>
+
+    <!-- Trip/s deleted successfully! -->
+    <string name="Trips_Deleted_Successfuly">"Viatge/s eliminats amb èxit!"</string>
+
+    <!-- You must choose at least one leg to delete -->
+    <string name="You_Must_Choose_One_Leg_To_Delete">"Has d'escollir com a mínim un tram per eliminar-lo"</string>
+
+    <!-- You cannot delete all the trip's legs -->
+    <string name="You_Cannot_Delete_All_Trips_Legs">"No pots eliminar tots els trams dels viatges"</string>
+
+    <!-- You must choose consecutive legs to delete -->
+    <string name="You_Must_Choose_Consecutive_Legs_To_Delete">"Has d'escollir trams consecutius per eliminar-los"</string>
+
+    <!-- You must choose at least two legs to merge -->
+    <string name="You_Must_Choose_Two_Legs_To_Merge">"Has d'escollir almenys dos trams per combinar-los"</string>
+
+    <!-- You must choose consecutive legs to merge -->
+    <string name="You_Must_Choose_Consecutive_Legs_To_Merge">"Has d'escollir trams consecutius per a poder combinar-los"</string>
+
+    <!-- The leg you are trying to split is too small to be split -->
+    <string name="The_Leg_Is_Too_Small_To_Be_Split">"El tram que estàs intentant dividir és massa curt"</string>
+
+    <!-- Error splitting leg -->
+    <string name="Error_Splitting_Leg">"Error al dividir el tram"</string>
+
+    <!-- Trips_Merged_Successfully -->
+    <string name="Trips_Merged_Successfully">"Viatges combinats amb èxit!"</string>
+
+    <!-- Trip splitted successfully! -->
+    <string name="Trip_Splitted_Successfully">"Viatge dividit amb èxit!"</string>
+
+    <!-- "Please choose another leg/transfer other than the last" -->
+    <string name="Please_Choose_Other_Leg_Transfer_Not_Last">"Si us plau, escull un tram/transbordament diferent a l'últim"</string>
+
+    <!-- "Please choose a leg/transfer to split" -->
+    <string name="Please_Choose_Leg_Transfer_To_Split">"Si us plau, escull un tram/transbordament per dividir"</string>
+
+    <!-- "You must choose consecutive trips to merge" -->
+    <string name="You_Must_Choose_Consecutive_Trips_To_Merge">"Has d'escollir viatges consecutius per a combinar-los"</string>
+
+    <!-- "You must choose at least two legs to merge" -->
+    <string name="You_Must_Choose_Two_Trips_To_Merge">"Has d'escollir almenys dos trams per a poder combinar-los"</string>
+</resources>

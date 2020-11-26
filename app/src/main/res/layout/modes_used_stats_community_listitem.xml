@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:paddingBottom="16dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/transportModeIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextView"
+        app:srcCompat="@drawable/ic_remove_black_24dp" />
+
+    <TextView
+        android:id="@+id/transportModeText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="start"
+        android:maxLines="3"
+        android:text="@string/Other_Private_Motorised"
+        android:textColor="#70706D"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/transportModeIcon"
+        app:layout_constraintStart_toEndOf="@+id/transportModeIcon"
+        app:layout_constraintTop_toTopOf="@+id/transportModeIcon" />
+
+    <ProgressBar
+        android:id="@+id/citizensProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:progress="20"
+        android:progressDrawable="@drawable/progress_bar_stats_community"
+        app:layout_constraintBottom_toBottomOf="@+id/textView62"
+        app:layout_constraintEnd_toStartOf="@+id/citizensPercentageTextView"
+        app:layout_constraintStart_toEndOf="@+id/citizensValueTextView"
+        app:layout_constraintTop_toTopOf="@+id/textView62" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Citizens"
+        android:textAllCaps="true"
+        android:textColor="#ED7E03"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/transportModeIcon"
+        app:layout_constraintTop_toBottomOf="@+id/transportModeIcon" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="You"
+        android:textAllCaps="true"
+        android:textColor="#F6BE81"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView62"
+        app:layout_constraintStart_toStartOf="@+id/textView62"
+        app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+    <TextView
+        android:id="@+id/citizensValueTextView"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="600"
+        android:textColor="#ED7E03"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView62"
+        app:layout_constraintStart_toEndOf="@+id/textView62"
+        app:layout_constraintTop_toTopOf="@+id/textView62" />
+
+    <TextView
+        android:id="@+id/userValueTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:textColor="#F6BE81"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView64"
+        app:layout_constraintEnd_toEndOf="@+id/citizensValueTextView"
+        app:layout_constraintStart_toStartOf="@+id/citizensValueTextView"
+        app:layout_constraintTop_toTopOf="@+id/textView64" />
+
+    <ProgressBar
+        android:id="@+id/userProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        android:progress="60"
+        android:progressDrawable="@drawable/progress_bar_stats_user"
+        app:layout_constraintBottom_toBottomOf="@+id/textView64"
+        app:layout_constraintEnd_toEndOf="@+id/citizensProgressBar"
+        app:layout_constraintStart_toStartOf="@+id/citizensProgressBar"
+        app:layout_constraintTop_toTopOf="@+id/textView64" />
+
+    <TextView
+        android:id="@+id/citizensPercentageTextView"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="100%"
+        android:textAlignment="textEnd"
+        android:textColor="#ED7E03"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView62"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView62" />
+
+    <TextView
+        android:id="@+id/userPercentageTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="35%"
+        android:textAlignment="textEnd"
+        android:textColor="#F6BE81"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView64"
+        app:layout_constraintEnd_toEndOf="@+id/citizensPercentageTextView"
+        app:layout_constraintStart_toStartOf="@+id/citizensPercentageTextView"
+        app:layout_constraintTop_toTopOf="@+id/textView64" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Avg. minutes per day"
+        android:textAllCaps="true"
+        android:textSize="10sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
+

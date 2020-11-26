@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/text_view_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text1" />
+
+    <TextView
+        android:id="@+id/text_view_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_value"
+        android:text="text2" />
+</merge>

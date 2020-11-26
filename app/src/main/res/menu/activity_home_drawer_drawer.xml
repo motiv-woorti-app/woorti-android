@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="@string/Drawer_Title_Home"
+            android:icon="@drawable/nav_drawer_icon_home"/>
+        <!--<item-->
+            <!--android:id="@+id/route_planner"-->
+            <!--android:title="Route planner"-->
+            <!--android:icon="@drawable/ic_remove_black_24dp"/>-->
+        <item
+            android:id="@+id/my_trips"
+            android:title="@string/Drawer_Title_My_Trips"
+            android:icon="@drawable/nav_drawer_icon_my_trips"/>
+        <item
+            android:id="@+id/dashboard"
+            android:title="@string/Drawer_Title_Dashboard"
+            android:icon="@drawable/nav_drawer_icon_dashboard"/>
+        <item
+            android:id="@+id/mobility_coach"
+            android:title="@string/Drawer_Title_Mobility_Coach"
+            android:icon="@drawable/nav_drawer_icon_mobility_coach"/>
+
+        <item
+            android:id="@+id/settings"
+            android:title="@string/Drawer_Title_Settings"
+            android:icon="@drawable/nav_drawer_icon_profile_settings"/>
+
+        <!--<item-->
+            <!--android:id="@+id/report_issue"-->
+            <!--android:title="@string/Drawer_Title_Report_Issue"-->
+            <!--android:icon="@drawable/ic_remove_black_24dp"/>-->
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

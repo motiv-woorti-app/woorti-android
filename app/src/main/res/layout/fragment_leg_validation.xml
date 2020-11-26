@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBE5CD"
+    android:descendantFocusability="blocksDescendants"
+    tools:context=".myTrips.fragments.LegValidationFragment">
+
+    <inesc_id.pt.motivandroid.myTrips.MyNestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:overScrollMode="never"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <fragment
+            android:id="@+id/fragment_map"
+            class="inesc_id.pt.motivandroid.myTrips.WorkaroundMapFragment"
+            android:layout_width="match_parent"
+
+            android:layout_height="300dp"
+
+            android:layout_alignParentStart="true"
+            android:tag="fragment_map"
+
+            app:layout_constraintBottom_toTopOf="@+id/textView20"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--xmlns:map="http://schemas.android.com/apk/res-auto"-->
+            <!--xmlns:tools="http://schemas.android.com/tools"-->
+            <!--android:id="@+id/map"-->
+            <!--android:name="com.google.android.gms.maps.SupportMapFragment"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="300dp"-->
+            <!--android:layout_alignParentStart="true"-->
+
+            <!--map:layout_constraintBottom_toTopOf="@+id/textView20"-->
+            <!--map:layout_constraintEnd_toEndOf="parent"-->
+            <!--map:layout_constraintStart_toStartOf="parent"-->
+            <!--map:layout_constraintTop_toTopOf="parent"></FrameLayout>-->
+
+        <Button
+            android:id="@+id/confirmOrNextValidationButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/home_surveys_answer_done_button"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/Confirm_All"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legsBeingValidatedListView" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/Confirm_Modes_Of_Your_Trips"
+            android:textAlignment="center"
+            android:textColor="#ED7E03"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legsBeingValidatedListView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_map" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/legsBeingValidatedListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/confirmOrNextValidationButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    </inesc_id.pt.motivandroid.myTrips.MyNestedScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

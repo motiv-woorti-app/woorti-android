@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="colorOrangeTripPolyline">#ed7e03</color>
+    <color name="selectedModalityGridBackgroundColor">#FDF2E6</color>
+
+    <!-- Default Text Color -->
+    <color name="defaultTextColor">#70706D</color>
+
+    <!-- Default Background Orange -->
+    <color name="defaultBackgroundOrange">#FBE5CD</color>
+
+    <!--Settings-->
+
+    <color name="doneAndNextOrangeButton">#ED7E03</color>
+
+    <!-- Productivity -->
+    <color name="productivityFont">#ED7E03</color>
+    <color name="productivityHeader">#FFB020</color>
+    <color name="productivityBackground">#FFEFD2</color>
+
+    <!-- Mind and pleasure-->
+    <color name="mindAndPleasureFont">#1CB0F6</color>
+    <color name="mindAndPleasurHeader">#1CB0F6</color>
+    <color name="mindAndPleasureBackground">#D2EFFD</color>
+
+    <!-- Body and health -->
+    <color name="bodyAndHealthFont">#82CF90</color>
+    <color name="bodyAndHealthHeader">#82CF90</color>
+    <color name="bodyAndHealthBackground">#e6f5e9</color>
+
+    <!--Mobility Coach-->
+    <color name="graphPointFilling">#F8B220</color>
+    <color name="graphGridColor">#FFE7BC</color>
+
+    <!--Factors for wasted time -->
+    <color name="greenFactor">#82CF90</color>
+    <color name="redFactor">#f65058</color>
+    <color name="orangeFactor">#ed7e03</color>
+
+    <!-- Value obtained from trip -->
+    <color name="seekbar">#b8b7b6</color>
+
+    <!--<color name="graphUnderBackgroundColor">#CCED7E03</color>-->
+    <color name="graphUnderBackgroundColor">#F19835</color>
+
+    <!-- White-->
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="fillColorSeekBarDashboardActivities">#F3A54F</color>
+
+
+
+
+</resources>

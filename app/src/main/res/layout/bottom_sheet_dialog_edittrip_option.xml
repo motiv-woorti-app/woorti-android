@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#979797"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/splitButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/edittrips_split_merge_delete_button"
+        android:drawableLeft="@drawable/ic_content_cut"
+        android:paddingLeft="120dp"
+        android:paddingRight="144dp"
+        android:text="@string/Split"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#979797"
+        app:layout_constraintBottom_toTopOf="@+id/mergeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mergeButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/edittrips_split_merge_delete_button"
+        android:drawableLeft="@drawable/ic_call_merge"
+        android:paddingLeft="120dp"
+        android:paddingRight="144dp"
+        android:text="@string/Merge"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#979797"
+        app:layout_constraintBottom_toTopOf="@+id/deleteButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/Merge" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/edittrips_split_merge_delete_button"
+        android:drawableLeft="@drawable/ic_delete_edittrips_button_icon"
+        android:paddingLeft="120dp"
+        android:paddingRight="144dp"
+        android:text="@string/Delete"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#979797"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+
+
+    <dimen name="worthwhileTriangleHeight">190dp</dimen>
+    <dimen name="worthwhileTriangleWidth">279dp</dimen>
+
+    <dimen name="worthwhileTriangleTextSize">22sp</dimen>
+
+</resources>

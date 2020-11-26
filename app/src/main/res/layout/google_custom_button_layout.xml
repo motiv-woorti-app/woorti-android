@@ -1,0 +1,26 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+<com.google.android.gms.common.SignInButton
+    android:id="@+id/sign_in_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone" />
+
+<Button
+    android:id="@+id/sign_in_button_custom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_start_now_button_shape"
+    android:drawableStart="@drawable/googleg_standard_color_18"
+    android:paddingEnd="20dp"
+    android:paddingStart="20dp"
+    android:onClick="onClick"
+    android:text="@string/Log_In_With_Google"
+    android:textAllCaps="false"
+    android:textColor="#B2B2B2"
+    />
+</FrameLayout>

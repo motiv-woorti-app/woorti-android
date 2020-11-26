@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/productivityBackground"
+    tools:context=".settingsAndProfile.fragments.tutorials.worthwhilenessTutorial.WhatIsWorthwhileness3Fragment">
+
+    <include layout="@layout/what_is_worthwhileness_box_3_productivity"></include>
+
+</android.support.constraint.ConstraintLayout>

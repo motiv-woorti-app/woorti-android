@@ -1,0 +1,11 @@
+<resources>
+    <!--Onboarding-->
+    <!--fragment_what_is_worthwhile_trip_onboarding2-->
+
+    <dimen name="worthwhileTriangleHeight">159dp</dimen>
+    <dimen name="worthwhileTriangleWidth">234dp</dimen>
+
+    <dimen name="worthwhileTriangleTextSize">18sp</dimen>
+
+
+</resources>

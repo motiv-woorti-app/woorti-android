@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FBE5CD">
+
+
+    <!--
+
+
+
+-->
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="4dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="50dp"
+        android:background="#ED7E03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout15" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/top_gradient_shape"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/legTransportIconImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_directions_walk_black_24dp" />
+
+        <TextView
+            android:id="@+id/legTimeIntervalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="8:00"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/legTransportIconImageView"
+            app:layout_constraintStart_toEndOf="@+id/legTransportIconImageView"
+            app:layout_constraintTop_toTopOf="@+id/legTransportIconImageView" />
+
+        <TextView
+            android:id="@+id/transportInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Walk 200m"
+            android:textColor="#979797"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/legTransportIconImageView"
+            app:layout_constraintStart_toEndOf="@+id/legTimeIntervalTextView"
+            app:layout_constraintTop_toTopOf="@+id/legTransportIconImageView" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/bottom_gradient_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout7">
+
+
+        <ImageView
+            android:id="@+id/productivityButtonImageView"
+            android:layout_width="0dp"
+            android:layout_height="115dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/mindButtonImageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/productivity_squirrel_activity_icon" />
+
+        <ImageView
+            android:id="@+id/mindButtonImageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/productivityButtonImageView"
+            app:layout_constraintEnd_toStartOf="@+id/bodyButtonImageView"
+            app:layout_constraintStart_toEndOf="@+id/productivityButtonImageView"
+            app:layout_constraintTop_toTopOf="@+id/productivityButtonImageView"
+            app:srcCompat="@drawable/mind_squirrel_activity_icon" />
+
+        <ImageView
+            android:id="@+id/bodyButtonImageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/mindButtonImageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/mindButtonImageView"
+            app:layout_constraintTop_toTopOf="@+id/mindButtonImageView"
+            app:srcCompat="@drawable/body_squirrel_activity_icon" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

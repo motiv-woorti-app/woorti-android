@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/modes_used_regularly_inner_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/transportModeIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_remove_black_24dp" />
+
+        <TextView
+            android:id="@+id/transportModeText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:maxLines="3"
+            android:text="@string/Other_Private_Motorised"
+            android:textColor="#70706D"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/transportModeIcon"
+            app:layout_constraintEnd_toStartOf="@+id/value1TextView"
+            app:layout_constraintStart_toEndOf="@+id/transportModeIcon"
+            app:layout_constraintTop_toTopOf="@+id/transportModeIcon" />
+
+        <TextView
+            android:id="@+id/value1TextView"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="55%"
+            android:textAlignment="center"
+            android:textColor="#ED7E03"
+            app:layout_constraintBottom_toBottomOf="@+id/transportModeIcon"
+            app:layout_constraintEnd_toStartOf="@+id/value2TextView"
+            app:layout_constraintTop_toTopOf="@+id/transportModeIcon" />
+
+        <TextView
+            android:id="@+id/value2TextView"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="33%"
+            android:textAlignment="center"
+            android:textColor="#F6BE81"
+            app:layout_constraintBottom_toBottomOf="@+id/transportModeIcon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/transportModeIcon" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

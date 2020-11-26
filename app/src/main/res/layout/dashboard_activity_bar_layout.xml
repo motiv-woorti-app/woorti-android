@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <SeekBar
+        android:id="@+id/currentScoreSeekBar"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:max="100"
+        android:progress="25"
+        android:progressDrawable="@drawable/progressbar_dashboard_activities_drawable"
+
+        android:thumb="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/mostDoneActivityTextView"
+        app:layout_constraintEnd_toStartOf="@+id/mostDoneActivityPercentageTextView"
+        app:layout_constraintStart_toEndOf="@+id/mostDoneActivityTextView"
+        app:layout_constraintTop_toTopOf="@+id/mostDoneActivityTextView" />
+
+    <TextView
+        android:id="@+id/mostDoneActivityTextView"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:maxWidth="80dp"
+        android:text="Listening to music"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mostDoneActivityPercentageTextView"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="25%"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/mostDoneActivityTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mostDoneActivityTextView" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.luongvo:iOS-SwitchView-1.0.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iOS-SwitchView-1.0.2.aar/449e962e32958a84f28ada2fed7211d8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iOS-SwitchView-1.0.2.aar/449e962e32958a84f28ada2fed7211d8/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.luongvo/iOS-SwitchView/1.0.2/b265b9e66c71d645d2cebec83c7694ed1bcc017/iOS-SwitchView-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

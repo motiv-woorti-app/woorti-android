@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="#FBE5CD">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/mainBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayoutTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_gradient_shape"
+            android:paddingBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/Which_Factors_Most_Contributed"
+                android:textAlignment="center"
+                android:textColor="#ED7E03"
+
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvTip"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:text="@string/Unfold_All_That_Apply"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvTitle"
+
+                />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutGroupsBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bottom_gradient_shape"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayoutTitle"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayoutTitle"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutTitle">
+
+
+        </LinearLayout>
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvOtherComments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/Others_Comments"
+        android:textColor="#ED7E03"
+        android:textSize="16sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="@id/mainBox"
+        app:layout_constraintTop_toBottomOf="@id/mainBox"
+        />
+
+        <EditText
+            android:id="@+id/etOtherComments"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:imeOptions="actionDone"
+            android:ems="8"
+            android:inputType="text"
+
+            android:padding="16dp"
+            android:textColor="#ED7E03"
+            android:background="@drawable/mytrips_objective_of_trip_other_text_field_shape"
+            app:layout_constraintEnd_toEndOf="@id/mainBox"
+            app:layout_constraintStart_toStartOf="@id/mainBox"
+            app:layout_constraintTop_toBottomOf="@id/tvOtherComments" />
+
+        <Button
+            android:id="@+id/btNext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/my_trips_merge_split_button_shape"
+            app:layout_constraintEnd_toEndOf="@id/mainBox"
+            app:layout_constraintStart_toStartOf="@id/mainBox"
+            app:layout_constraintTop_toBottomOf="@id/etOtherComments"
+            />
+
+        <TextView
+            android:id="@+id/tvSkip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Skip"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            app:layout_constraintEnd_toEndOf="@id/btNext"
+            app:layout_constraintStart_toStartOf="@id/btNext"
+            app:layout_constraintTop_toBottomOf="@id/btNext" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

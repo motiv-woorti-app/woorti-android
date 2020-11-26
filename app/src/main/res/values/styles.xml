@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="NavigationViewStyle">
+        <item name="android:textSize">4sp</item>
+        <item name="android:listPreferredItemHeightSmall">40dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+
+    </style>
+
+
+    <style name="WorthwhilenessSeekBarColor">
+        <item name="colorAccent">@color/colorOrangeTripPolyline</item>
+        <item name="android:thumb">@drawable/thumb_seekbar_worthwhileness</item>
+    </style>
+
+    <style name="DashboardActivitySeekBarColor">
+        <item name="colorAccent">@color/whiteColor</item>
+        <item name="android:thumb">@color/fui_transparent</item>
+    </style>
+
+    <!--<style name="SCBSwitch">-->
+        <!--&lt;!&ndash; active thumb & track color (30% transparency) &ndash;&gt;-->
+        <!--<item name="colorControlActivated">@color/colorOrangeTripPolyline</item>-->
+
+        <!--&lt;!&ndash; inactive thumb color &ndash;&gt;-->
+        <!--<item name="colorSwitchThumbNormal">#FDF2E6-->
+        <!--</item>-->
+
+        <!--&lt;!&ndash; inactive track color (30% transparency) &ndash;&gt;-->
+        <!--<item name="android:colorForeground">#F6BD7E-->
+        <!--</item>-->
+    <!--</style>-->
+
+    <!--<style name="Color1SwitchStyle">-->
+        <!--<item name="colorControlActivated">@color/colorOrangeTripPolyline</item>-->
+    <!--</style>-->
+
+</resources>

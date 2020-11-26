@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    tools:context=".settingsAndProfile.fragments.demographicInfo.GeneralDemographicInfoFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout28"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FBE5CD">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/profile_and_settings_general_shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/genderEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/mytrips_objective_of_trip_other_text_field_shape"
+                android:clickable="true"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/Gender"
+                android:inputType="textNoSuggestions"
+                android:paddingStart="12dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="12dp"
+                android:selectAllOnFocus="false"
+                android:singleLine="true"
+                android:textColor="#ED7E03"
+                android:textColorHint="#70706D"
+                app:layout_constraintEnd_toEndOf="@+id/ageEditText"
+                app:layout_constraintStart_toStartOf="@+id/ageEditText"
+                app:layout_constraintTop_toBottomOf="@+id/ageEditText" />
+
+            <EditText
+                android:id="@+id/educationEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/mytrips_objective_of_trip_other_text_field_shape"
+                android:clickable="true"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/Education"
+                android:inputType="textNoSuggestions"
+                android:paddingStart="12dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="12dp"
+                android:selectAllOnFocus="false"
+                android:text="@string/Education"
+                android:textColor="#ED7E03"
+                android:textColorHint="#70706D"
+                app:layout_constraintEnd_toEndOf="@+id/ageEditText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/ageEditText"
+                app:layout_constraintTop_toBottomOf="@+id/genderEditText" />
+
+            <EditText
+                android:id="@+id/countryEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/mytrips_objective_of_trip_other_text_field_shape"
+                android:clickable="true"
+                android:inputType="textNoSuggestions"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/Country"
+                android:paddingBottom="12dp"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:paddingTop="12dp"
+                android:selectAllOnFocus="false"
+                android:singleLine="true"
+                android:textColor="#ED7E03"
+                android:textColorHint="#70706D"
+                app:layout_constraintEnd_toEndOf="@+id/ageEditText"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/ageEditText"
+                app:layout_constraintTop_toBottomOf="@+id/educationEditText" />
+
+            <EditText
+                android:id="@+id/residenceEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/mytrips_objective_of_trip_other_text_field_shape"
+                android:clickable="true"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/City"
+                android:inputType="textNoSuggestions"
+                android:paddingStart="12dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="12dp"
+                android:selectAllOnFocus="false"
+                android:singleLine="true"
+                android:textColor="#ED7E03"
+                android:textColorHint="#70706D"
+                app:layout_constraintEnd_toEndOf="@+id/ageEditText"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/ageEditText"
+                app:layout_constraintTop_toBottomOf="@+id/countryEditText" />
+
+            <EditText
+                android:id="@+id/ageEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/mytrips_objective_of_trip_other_text_field_shape"
+                android:clickable="true"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/Age"
+                android:inputType="textNoSuggestions"
+                android:paddingStart="12dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="12dp"
+                android:selectAllOnFocus="false"
+                android:singleLine="true"
+                android:textColor="#ED7E03"
+                android:textColorHint="#70706D"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView71"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/doneFinalButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/profile_and_settings_edit_button_shape"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/End"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/residenceEditText"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/Age"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/ageEditText"
+                app:layout_constraintEnd_toStartOf="@+id/ageEditText"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/ageEditText" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/Gender"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/genderEditText"
+                app:layout_constraintEnd_toStartOf="@+id/genderEditText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView71"
+                app:layout_constraintTop_toTopOf="@+id/genderEditText" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/Country"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/countryEditText"
+                app:layout_constraintEnd_toStartOf="@+id/countryEditText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView71"
+                app:layout_constraintTop_toTopOf="@+id/countryEditText" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/City"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/residenceEditText"
+                app:layout_constraintEnd_toStartOf="@+id/residenceEditText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView71"
+                app:layout_constraintTop_toTopOf="@+id/residenceEditText" />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Education"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@id/educationEditText"
+                app:layout_constraintStart_toStartOf="@id/textView71"
+                app:layout_constraintTop_toTopOf="@id/educationEditText" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

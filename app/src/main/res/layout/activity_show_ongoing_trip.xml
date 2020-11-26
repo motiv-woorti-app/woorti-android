@@ -1,0 +1,118 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBE5CD"
+    tools:context=".showOngoingTrip.ShowOngoingTrip">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <fragment
+        android:id="@+id/fragment_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+
+        android:layout_height="300dp"
+
+        android:layout_alignParentStart="true"
+        android:tag="fragment_map"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:map="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/map"-->
+    <!--android:name="com.google.android.gms.maps.SupportMapFragment"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="300dp"-->
+    <!--android:layout_alignParentStart="true"-->
+
+    <!--map:layout_constraintBottom_toTopOf="@+id/textView20"-->
+    <!--map:layout_constraintEnd_toEndOf="parent"-->
+    <!--map:layout_constraintStart_toStartOf="parent"-->
+    <!--map:layout_constraintTop_toTopOf="parent"></FrameLayout>-->
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:scrollbars="vertical"
+        android:text="Legs"
+        android:textColor="#ED7E03"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toStartOf="@+id/refreshButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_map" />
+
+
+    <TextView
+        android:id="@+id/stateTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Current State"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_map" />
+
+    <TextView
+        android:id="@+id/stateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="STATE"
+        app:layout_constraintStart_toStartOf="@+id/stateTitleTextView"
+        app:layout_constraintTop_toBottomOf="@+id/stateTitleTextView" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/refreshButton"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/legsBeingValidatedListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="16dp"
+
+
+            />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="67dp"
+        android:text="Refresh"
+        app:layout_constraintBottom_toBottomOf="@+id/stateTextView"
+        app:layout_constraintEnd_toStartOf="@+id/stateTitleTextView"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/stateTitleTextView" />
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+

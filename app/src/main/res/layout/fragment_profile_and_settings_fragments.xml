@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBE5CD"
+    tools:context=".home.fragments.ProfileAndSettingsFragment">
+
+    <!--&lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+
+    <!--<android.support.constraint.ConstraintLayout-->
+        <!--android:id="@+id/headerProfileHomeLayout"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#ED7E03"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/openDrawerButton"-->
+            <!--android:layout_width="24dp"-->
+            <!--android:layout_height="24dp"-->
+            <!--android:layout_marginBottom="32dp"-->
+            <!--android:layout_marginStart="10dp"-->
+            <!--android:layout_marginTop="32dp"-->
+            <!--android:background="@drawable/ic_dehaze_black_24dp"-->
+            <!--app:layout_constraintBottom_toTopOf="@+id/separatorOne"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/plan_trip_textview"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Profile and Settings"-->
+            <!--android:textAllCaps="true"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:textSize="18sp"-->
+            <!--app:layout_constraintBottom_toBottomOf="@+id/openDrawerButton"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="@+id/openDrawerButton"-->
+            <!--tools:layout_conversion_absoluteHeight="44dp"-->
+            <!--tools:layout_conversion_absoluteWidth="83dp" />-->
+
+        <!--<View-->
+            <!--android:id="@+id/separatorOne"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_marginTop="12dp"-->
+            <!--android:background="@android:color/darker_gray"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/plan_trip_textview"-->
+            <!--tools:layout_editor_absoluteX="0dp" />-->
+    <!--</android.support.constraint.ConstraintLayout>-->
+
+    <!--<ScrollView-->
+        <!--android:id="@+id/scrollView"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.955"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/headerProfileHomeLayout"-->
+        <!--app:layout_constraintVertical_bias="0.626">-->
+
+        <!--<android.support.constraint.ConstraintLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout19"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginEnd="24dp"-->
+                <!--android:layout_marginStart="24dp"-->
+                <!--android:layout_marginTop="24dp"-->
+                <!--android:background="@drawable/profile_shape"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toTopOf="parent">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/imageView12"-->
+                    <!--android:layout_width="48dp"-->
+                    <!--android:layout_height="48dp"-->
+                    <!--android:layout_marginBottom="24dp"-->
+                    <!--android:layout_marginStart="24dp"-->
+                    <!--android:layout_marginTop="24dp"-->
+                    <!--android:src="@drawable/com_facebook_profile_picture_blank_square"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/profileNameTextView"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginStart="24dp"-->
+                    <!--android:text="Don Draper"-->
+                    <!--android:textColor="#ED7E03"-->
+                    <!--android:textSize="20sp"-->
+                    <!--app:layout_constraintStart_toEndOf="@+id/imageView12"-->
+                    <!--app:layout_constraintTop_toTopOf="@+id/imageView12" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/profileEmailTextView"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="don.draper@mail.com"-->
+                    <!--android:textSize="12sp"-->
+                    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView12"-->
+                    <!--app:layout_constraintStart_toStartOf="@+id/profileNameTextView"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/profileNameTextView" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/button12"-->
+                    <!--android:layout_width="24dp"-->
+                    <!--android:layout_height="24dp"-->
+                    <!--android:layout_marginEnd="20dp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:background="@drawable/ic_edit_profile_orange_30dp"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout21"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="24dp"-->
+                <!--android:background="@drawable/top_gradient_shape"-->
+                <!--app:layout_constraintEnd_toEndOf="@+id/constraintLayout19"-->
+                <!--app:layout_constraintHorizontal_bias="0.0"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/constraintLayout19"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayout19">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView73"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginEnd="56dp"-->
+                    <!--android:layout_marginStart="24dp"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:text="Set home and work places"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintHorizontal_bias="0.0"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/deleteLegRadioButton"-->
+                    <!--android:layout_width="24dp"-->
+                    <!--android:layout_height="24dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:background="@drawable/ic_baseline_chevron_right_24px"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout22"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/mid_gradient_profile_option_shape"-->
+                <!--app:layout_constraintEnd_toEndOf="@+id/constraintLayout21"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/constraintLayout21"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayout21">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView74"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginEnd="56dp"-->
+                    <!--android:layout_marginStart="24dp"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:text="Demographic information"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintHorizontal_bias="0.0"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/deleteLegRadioButton"-->
+                    <!--android:layout_width="24dp"-->
+                    <!--android:layout_height="24dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:background="@drawable/ic_baseline_chevron_right_24px"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout23"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/mid_gradient_profile_option_shape"-->
+                <!--app:layout_constraintEnd_toEndOf="@+id/constraintLayout22"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/constraintLayout22"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayout22">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView75"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginEnd="56dp"-->
+                    <!--android:layout_marginStart="24dp"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:text="Worthwhileness settings"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintHorizontal_bias="0.0"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/deleteLegRadioButton"-->
+                    <!--android:layout_width="24dp"-->
+                    <!--android:layout_height="24dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:background="@drawable/ic_baseline_chevron_right_24px"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout24"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/mid_gradient_profile_option_shape"-->
+                <!--app:layout_constraintEnd_toEndOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintHorizontal_bias="0.0"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayout23">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView76"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginEnd="8dp"-->
+                    <!--android:layout_marginStart="24dp"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:text="Tutorials"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintHorizontal_bias="0.0"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/deleteLegRadioButton"-->
+                    <!--android:layout_width="24dp"-->
+                    <!--android:layout_height="24dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:background="@drawable/ic_baseline_chevron_right_24px"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout25"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/mid_gradient_profile_option_shape"-->
+                <!--app:layout_constraintEnd_toEndOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintHorizontal_bias="0.0"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayout24">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView77"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginStart="24dp"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:text="Transport peferences"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/deleteLegRadioButton"-->
+                    <!--android:layout_width="24dp"-->
+                    <!--android:layout_height="24dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:background="@drawable/ic_baseline_chevron_right_24px"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout26"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/mid_gradient_profile_option_shape"-->
+                <!--app:layout_constraintEnd_toEndOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintHorizontal_bias="0.0"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayout25">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView78"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginStart="24dp"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:text="App permissions"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/deleteLegRadioButton"-->
+                    <!--android:layout_width="24dp"-->
+                    <!--android:layout_height="24dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:background="@drawable/ic_baseline_chevron_right_24px"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout27"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/mid_gradient_profile_option_shape"-->
+                <!--app:layout_constraintEnd_toEndOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintHorizontal_bias="0.0"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayout26">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView79"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginStart="24dp"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:text="App language"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/deleteLegRadioButton"-->
+                    <!--android:layout_width="24dp"-->
+                    <!--android:layout_height="24dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:background="@drawable/ic_baseline_chevron_right_24px"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout28"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/mid_gradient_profile_option_shape"-->
+                <!--app:layout_constraintEnd_toEndOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintHorizontal_bias="0.0"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayout27">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView80"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginStart="24dp"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:text="Change password"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/deleteLegRadioButton"-->
+                    <!--android:layout_width="24dp"-->
+                    <!--android:layout_height="24dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:background="@drawable/ic_baseline_chevron_right_24px"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout29"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/mid_gradient_profile_option_shape"-->
+                <!--app:layout_constraintEnd_toEndOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintHorizontal_bias="0.0"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayout28">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView81"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginStart="24dp"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:text="Feedback"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/deleteLegRadioButton"-->
+                    <!--android:layout_width="24dp"-->
+                    <!--android:layout_height="24dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:background="@drawable/ic_baseline_chevron_right_24px"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout30"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/bottom_gradient_profile_option_shape"-->
+                <!--app:layout_constraintEnd_toEndOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintHorizontal_bias="0.0"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/constraintLayout23"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayout29">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView82"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginStart="24dp"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:text="Log out"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/deleteLegRadioButton"-->
+                    <!--android:layout_width="24dp"-->
+                    <!--android:layout_height="24dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:background="@drawable/ic_baseline_chevron_right_24px"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView15"-->
+                <!--android:layout_width="183dp"-->
+                <!--android:layout_height="38dp"-->
+                <!--android:layout_marginBottom="24dp"-->
+                <!--android:layout_marginStart="32dp"-->
+                <!--android:layout_marginTop="24dp"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:scaleType="fitCenter"-->
+                <!--android:src="@drawable/woorti_version"-->
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayout30" />-->
+
+        <!--</android.support.constraint.ConstraintLayout>-->
+    <!--</ScrollView>-->
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,118 @@
+--- --- --- --- --- --- RawDataDetection.java ML Details
+
+// The classifier was trained in Python, using the ML algorithms defined in scikit-learn library. To be used on Android and iOS, the resulting 
+// classifier was exported using 2 different formats, one for each operating system. 
+
+// To be used in the Woorti app running on Android, the classifier was exported to the PMML format using the JPMML library. The JPMML library 
+// allows to export the model to PMML format and to execute this model in Java that is then used in Android. 
+
+// To be used in the woorti app running on iOS, the classifier was exported to the Core ML model format. The Core ML framework allows to export and // use the ML models on iOS devices. With JPMML and Core ML, it was possible to create the ML model in scikit-learn and then use that model on the 
+// Android and iOS operating systems.
+
+// [Paper] This work is partially described in peer-reviewed scientific publication, as for reference in publications when used in other works:
+// edgeTrans - Edge transport mode detection. P. Ferreira, C. Zavgorodnii, L. Veiga. 
+// Pervasive and Mobile Computing, vol. 69(2020), 101268, ISSN 1574-1192, Elsevier. 
+// https://doi.org/10.1016/j.pmcj.2020.101268
+
+// Ln 58: RawDataDetection is responsible for analysing a sequence of segments with transport mode identified by the classifier,
+// and that ultimately identifies a sequence of legs in a trip and corresponding modes of transports.
+
+// Ln 95: public void insertMLMetadata(MLInputMetadata mlInputMetadata){
+// Inserts an instance of MLInputMetadata, which corresponds to the data of one segment 
+// (already contains the transport mode of that segment identified). 
+
+// Ln 105: private ArrayList<Segment> legSeparation() {
+// Post-processing phase as depicted in [Paper 3.5.2]. 
+// Step 1-3 of Identification of strong segments and corresponding merge with candidate sub-sequences for walking and still modes.
+// Ln 107: identification of strong segments.
+// Ln 218: step 3 of Post-processing phase, identification os still sub-sequences.
+
+// Ln 249: public ArrayList<Segment> tripEvaluation() {
+// Triggers the analysis of accumulated segments. As a result returns a list of identified legs and corresponding transport modes, 
+// as depicted in [Paper 3.5.2 Post-processing phase]. 
+// Ln 271: Step 1-3 of Post-processing phase.
+// Ln 278: Step 4 of Post-processing phase.
+// Ln 321: Step 5 of Post-processing phase.
+
+// Ln 401: private LocationDataContainer computeIntermediateLocation(LocationDataContainer prevLocation, 
+// LocationDataContainer nextLocation, long intermediateTS){
+// Auxiliar method to estimate intermidiate locatione between 2 points.
+
+// Ln 496: public ArrayList<FullTripPart> classifyTrip(ArrayList<LocationDataContainer> locations, 
+// ArrayList<AccelerationData> accelerations, boolean addAdditionalLocations){
+// Method that makes a connection between results returned by tripEvaluation() method and data structures used in the app.
+
+// Ln 710: private LinkedHashMap<Integer,ArrayList<Segment>> identifyStillSegments(ArrayList<Segment> potentiaLegs) {
+// Identify segments whose transport mode is Still.
+
+// Ln 795: private ArrayList<Segment> mergePotentialLegs(ArrayList<Segment> potentiaLegs, boolean isWalkingLevel) {
+// Step 5 from post processing phase as depicted in [Paper 3.5.2]. Identification of small, noisy sub-segments and 
+// potential merging with large sub-sequences.
+// Orders the potential legs by probability and then iterates over ordered legs and checks if there are small sub-sequences that can be merged.
+// The ordering allows to prioritize the legs that have higher probability to merge a small sub-sequence before another leg with lower 
+// probability gets a chance to merge it first.
+// For each leg, whenever is possible, are verified left and right side for potential small sub-sequences
+// isWalkingLevel indicates if merges are done for walking potential legs (step 1 of Post-processing phase) or still potential legs (step 3)
+// Ln 813: for the first leg, check only the right side.
+// Ln 816: for the last leg, check only the left side.
+// Ln 819: for legs in between check both sides.
+
+// Ln 845: private CheckMergesResult checkMergesLeft(int indexToCheck, ArrayList<Segment> potentiaLegs, boolean isWalkingLevel) {
+// Auxiliar method used by mergePotentialLegs() to check the left side of potential legs for existance of small sub-sequences.
+// Ln 850: comparison will be made using different thresholds depending on transport mode.
+// Ln 858: for edges (first or last potential leg) thresholds are different (less rigid, 
+// since there is more noise and we want to reduce the number of wrongly identified legs).
+// Ln 889: check not edge cases.
+
+// Ln 895: private CheckMergesResult checkMergesRight(int indexToCheck, ArrayList<Segment> potentiaLegs, boolean isWalkingLevel) {
+// Auxiliar method used by mergePotentialLegs() to check the right side of potential legs for existance of small sub-sequences.
+// Ln 900: comparison will be made using different thresholds depending on transport mode.
+// Ln 911: for edges (first or last potential leg) thresholds are different (less rigid, since there is more noise and we want 
+// to reduce the number of wrongly identified legs).
+// Ln 934: check not edge cases.
+
+// Ln 946: private CheckMergesResult checkMergesBetween(int right, int mid, int left, ArrayList<Segment> potentiaLegs, boolean isWalkingLevel){
+// Auxiliar method used by checkMergesRight() and checkMergesLeft() to check the for existance of small sub-sequences between 2 potential legs.
+// Ln 953: comparison will be made using different thresholds depending on transport mode.
+
+// Ln 979: private CheckMergesResult mergeThree(int right, int mid, int left, ArrayList<Segment> potentiaLegs) {
+// Auxiliar method used to merge 2 potential legs (PL) which have the same transport mode with
+// small sub-sequence (SSS) in between resulting in a single potential leg with 1 transport mode (i.e., the small sub-sequence 
+// in between is absorbed by its bigger neighbors).
+// illustration: ...PL1_SSS_PL2... -> ...PL... (PL1, PL2, PL have the same transport mode).
+
+// Ln 996: private CheckMergesResult mergeRightTwo(int indexToMerge, ArrayList<Segment> potentiaLegs) {
+// Auxiliar method used to merge 1 potential leg (PL) with small sub-sequence (SSS) on the right side resulting in 
+// a single potential leg with 1 transport mode (i.e., the small sub-sequence is absorbed by its bigger neighbor).
+// illustration: ...PL1_SSS -> ...PL (PL1, PL have the same transport mode).
+
+// Ln 1011: private CheckMergesResult mergeLeftTwo(int indexToMerge, ArrayList<Segment> potentiaLegs) {
+// Auxiliar method used to merge 1 potential leg (PL) with small sub-sequence (SSS) on the left side resulting in a 
+// single potential leg with 1 transport mode (i.e., the small sub-sequence is absorbed by its bigger neighbor).
+// illustration: SSS_PL1... -> PL... (PL1, PL have the same transport mode).
+
+// Ln 1030: private List<Map.Entry<Integer, Integer>> orderPotentialLegs(ArrayList<Segment> potentiaLegs) {
+// Order potential legs by probability.
+
+// Ln 1049: public ArrayList<Segment> mergeConsecutiveLegs(ArrayList<Segment> potentialLegs) {
+// Merge 2 consecutive potential legs (PL) that have the same transport mode into 1 potential leg.
+// illustration: ...PL1_PL2... -> ...PL... (PL1, PL2 and PL have the same transport mode).
+
+// Ln 1084: public ArrayList<Segment> segmentIdentification(double strongMinProb, int mode, int firstIdx, int lastIdx){
+// Identifies potential legs based on given values of probability.
+
+// Ln 1128: public ArrayList<Segment> mergeCandidates(ArrayList<Segment> strongSegments, 
+// HashMap<Integer, ArrayList<Segment>> candidatesPerStrong){
+// Step 2 of post-processing phase. Merging strong segments (characterized by having high probability)
+// with candidade sub-sequences (same transport mode, but reduced probability) using the formula defined in step 2.
+
+// Ln 1275: public ArrayList<Segment> generatePotentialLegs(ArrayList<Segment> strongSegments, int intervalInit, int intervalEnd){
+// Step 4 of post-processing phase. Given a list of strong segments, 
+// identifies the most likely transport mode of sub-sequence between 2 strong segments.
+
+// Ln 1351: public Map.Entry<Integer, Double> bestModeInInterval(int init, int length){
+// Mode with highest probability in interval.
+
+// Ln 1370: public HashMap<Integer, Double> calcModeInInterval(int init, int end){
+// Probabilities by mode in interval of segments.
+

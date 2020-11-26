@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    tools:context=".myTrips.activities.MyTripsActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/my_view"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#ED7E03"
+        android:clickable="true"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:background="@null"
+            android:padding="@dimen/value10dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/mytrips_navigation_back_arrow_light_orange" />
+
+        <TextView
+            android:id="@+id/possiblePointsTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:text="+0 /"
+            android:textColor="#F6BC7D"
+            app:layout_constraintBottom_toBottomOf="@id/pointsTextView"
+            app:layout_constraintEnd_toStartOf="@id/pointsTextView"
+            app:layout_constraintTop_toTopOf="@id/pointsTextView" />
+
+        <TextView
+            android:id="@+id/pointsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:maxLines="1"
+            android:text="0 pts"
+            android:textAlignment="textEnd"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/mapButton"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/mytrips_navigation_map"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="@+id/pointsTextView"
+            app:layout_constraintEnd_toStartOf="@+id/editButton"
+            app:layout_constraintTop_toTopOf="@+id/pointsTextView" />
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="18dp"
+            android:background="@drawable/mytrips_navigation_edit"
+            android:textColor="#F6BC7D"
+            app:layout_constraintBottom_toBottomOf="@+id/pointsTextView"
+            app:layout_constraintEnd_toStartOf="@+id/possiblePointsTv"
+            app:layout_constraintTop_toTopOf="@+id/pointsTextView" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/my_trips_main_fragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_view"
+        app:layout_constraintVertical_bias="0.0">
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

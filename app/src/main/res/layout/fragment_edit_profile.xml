@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="#FBE5CD"
+        android:isScrollContainer="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            tools:context=".settingsAndProfile.fragments.EditProfileFragment">
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraintLayout31"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/top_gradient_shape"
+                app:layout_constraintBottom_toTopOf="@+id/constraintLayout30"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginBottom="36dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="36dp"
+                    android:src="@drawable/ic_account_grey600_36dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/changePhotoTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="42dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/Change_Photo"
+                    android:textAlignment="center"
+                    android:textColor="#ED7E03"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView17"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.545" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraintLayout30"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_gradient_shape"
+                app:layout_constraintEnd_toEndOf="@+id/constraintLayout31"
+                app:layout_constraintStart_toStartOf="@+id/constraintLayout31"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout31">
+
+
+                <EditText
+                    android:id="@+id/emailEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/mytrips_objective_of_trip_other_text_field_shape"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/Email"
+                    android:inputType="text"
+                    android:paddingBottom="12dp"
+                    android:paddingEnd="12dp"
+                    android:paddingStart="12dp"
+                    android:paddingTop="12dp"
+                    android:selectAllOnFocus="false"
+                    android:singleLine="true"
+                    android:textColor="#ED7E03"
+                    android:textColorHint="#70706D"
+                    app:layout_constraintEnd_toEndOf="@+id/nameEditText"
+                    app:layout_constraintStart_toStartOf="@+id/nameEditText"
+                    app:layout_constraintTop_toBottomOf="@+id/nameEditText" />
+
+                <EditText
+                    android:id="@+id/nameEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/mytrips_objective_of_trip_other_text_field_shape"
+                    android:ems="10"
+                    android:hint="@string/Name"
+                    android:inputType="text"
+                    android:paddingBottom="12dp"
+                    android:paddingEnd="12dp"
+                    android:paddingStart="12dp"
+                    android:paddingTop="12dp"
+                    android:selectAllOnFocus="false"
+                    android:singleLine="true"
+                    android:textColor="#ED7E03"
+                    android:textColorHint="#70706D"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView92"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView92"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginStart="32dp"
+                    android:text="@string/Name"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/nameEditText"
+                    app:layout_constraintEnd_toStartOf="@+id/nameEditText"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/nameEditText" />
+
+                <TextView
+                    android:id="@+id/textView93"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Email"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/emailEditText"
+                    app:layout_constraintStart_toStartOf="@+id/textView92"
+                    app:layout_constraintTop_toTopOf="@+id/emailEditText" />
+
+                <Button
+                    android:id="@+id/doneFinalButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="36dp"
+                    android:background="@drawable/home_surveys_answer_done_button"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/Save"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/emailEditText"
+                    app:layout_constraintVertical_bias="1.0" />
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Woorti</string>
+    <string name="title_activity_show_trip_on_maps" translatable="false">Map</string>
+    <string name="title_activity_search_route_rank" translatable="false">Map</string>
+    <string name="title_validate_modalities_activity" translatable="false">Map</string>
+    <string name="title_activity_home_drawer" translatable="false">HomeDrawerActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="facebook_app_id" translatable="false">1784325891604133</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1784325891604133</string>
+
+    <!--Plan trip fragment-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="plan_trip_title" translatable="false">PLAN TRIP</string>
+    <string name="current_location_edit" translatable="false">Current Location</string>
+    <string name="enter_destination_edit" translatable="false">Enter Destination</string>
+    <string name="today_button" translatable="false">Today</string>
+    <string name="now_button" translatable="false">Now</string>
+    <string name="productive_trips_button" translatable="false">Productive\nTrips</string>
+    <string name="active_trips_button" translatable="false">Active\nTrips</string>
+    <string name="relaxing_trips_button" translatable="false">Relaxing\nTrips</string>
+    <string name="trip_time_budget_text" translatable="false">Trip time\nBudget</string>
+    <string name="search_routes_button" translatable="false">Search Routes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_delete_split_merge" translatable="false">DeleteSplitMergeActivity</string>
+
+    <!-- Mobility Coach module-->
+    <string name="your_productivity_score" translatable="false">Your productivity score</string>
+    <string name="your_activity_score" translatable="false">Your body &amp; health score</string>
+    <string name="your_relaxing_score" translatable="false">Your mind &amp; pleasure score</string>
+
+    <string name="set_a_goal_for_productivity" translatable="false">Set a goal for productivity</string>
+    <string name="set_a_goal_for_activity" translatable="false">Set a goal for activity</string>
+    <string name="set_a_goal_for_relaxing" translatable="false">Set a goal for relaxing</string>
+
+    <string name="productivity_goal_message" translatable="false">Set a productivity goal of 80% and we will help you gain up to 30 mins of productivity per day.</string>
+    <string name="activity_goal_message" translatable="false">Set a activity goal of 60% and we will help you gain up to 60 mins of life per day. Yep! You’re welcome chico.</string>
+    <string name="relaxing_goal_message" translatable="false">Set a relaxing goal of 50% and we will help you gain up to 15 mins of “me” time. Deep breath. Whoosa!</string>
+
+    <string name="gain_in_productivity_mins" translatable="false">Gain in productivity (mins)</string>
+    <string name="gain_in_activity_mins" translatable="false">Gain in life (mins)</string>
+    <string name="gain_in_relaxing_mins" translatable="false">Gain in “me” time (mins)</string>
+
+    <string name="popup_after_goal_set_productivity" translatable="false">Done deal! We’ll suggest trips to help you achieve your goal.</string>
+    <string name="popup_after_goal_set_activity" translatable="false">I got the power! We’ll suggest trips to help you achieve your goal.</string>
+    <string name="popup_after_goal_set_relaxing" translatable="false">Wax in wax out! We’ll suggest trips to help you achieve your goal.</string>
+
+    <string name="popup_before_set_goal" translatable="false">Doc, it’s time to set your mobility goal!</string>
+
+    //deprecated factors
+
+    <string name="Crowdedness_Seating_Availability">"Crowdedness/seating availability"</string>
+    <string name="Silent_Area">"Silent area"</string>
+    <string name="Wifi">"Wifi"</string>
+    <string name="Power_Sockets_USB_Charging">"Power sockets/USB charging"</string>
+    <string name="Pavement_Road_Smoothness">"Pavement/road smoothness"</string>
+    <string name="Lighting">"Lighting"</string>
+    <string name="Vehicle_Stability_Motion_Sickness">"Vehicle stability/Motion sickness"</string>
+    <string name="Seat_Comfort_Personal_Space">"Seat comfort /personal space"</string>
+    <string name="Air_Ventilation_Smell_Temperature">"Air ventilation/smell/temperature"</string>
+    <string name="General_Ambiance_Design">"General ambiance/design"</string>
+    <string name="Fellow_Passengers">"Fellow passengers"</string>
+    <string name="Noise">"Noise"</string>
+    <string name="Air_Quality_Pollution">"Air quality/pollution"</string>
+    <string name="Audio_Radio_Music_Podcast">"Audio (radio, music, podcast)"</string>
+    <string name="Ability_To_Make_Phone_Calls">"Ability to make phone calls"</string>
+    <string name="Ability_Eat_Drink">"Ability to eat and drink"</string>
+    <string name="USB_Charging">"USB charging"</string>
+    <string name="Climate_Control">"Climate control"</string>
+    <string name="Vehicle_Parking_Origin">"Vehicle parking at origin"</string>
+    <string name="Info_Signage_Finding">"Information/signage/finding your way"</string>
+    <string name="Access_Infrastructures">"Access infrastructure (escalators, lifts)"</string>
+    <string name="CheckIn_Process">"Check-in process"</string>
+    <string name="Space_Onboard_Bicycle_Wheelchair">"Space onboard for bicycle/wheelchair"</string>
+    <string name="Ability_Transport_Stuff">"Ability to transport stuff"</string>
+    <string name="Arriving_On_Time">"Arriving on time"</string>
+    <string name="Ability_Take_Kids_Pets">"Ability to take kids , pets…"</string>
+    <string name="Floor_Road_Facilities">"Floor/road facilities"</string>
+    <string name="Roda_Signage_Layout_Design">"Road signage/layout/design"</string>
+    <string name="Predictability_Arrival_Time">"Predictability of arrival time"</string>
+    <string name="Parking_Destination">"Parking at destination"</string>
+    <string name="Facilities_Destination_Showers_Lockers">"Facilities at destination (shower, lockers)"</string>
+    <string name="Traffic_Signals">"Traffic signals"</string>
+    <string name="Safety">"Safety"</string>
+    <string name="Security">"Security"</string>
+
+    <!-- Home -->
+
+    <string name="min_range_reward" translatable="false">%1$s \nPTS</string>
+    <string name="max_range_reward" translatable="false">%1$s \nPTS</string>
+
+    <string name="title_activity_edit_trip" translatable="false">EditTripActivity</string>
+
+    <!--Onboarding-->
+    <!--<string name="forgot_password">Forgot your password?</string>-->
+    <!--<string name="Productivity_Worthwhile_Description_Score">Using travel time to get things done, not only for work or study, but also personal things like managing home or family stuff…</string>-->
+    <!--<string name="Enjoyment_Worthwhile_Description_Score">Relaxing or having fun; taking time to listen to music, rest or meditate; engaging in social media; observing the surroundings…</string>-->
+    <!--<string name="Fitness_Worthwhile_Description_Score">When you walk, cycle, or even run on your travels, you’re getting exercise and staying in shape.</string>-->
+    <string name="motiv_policy">Motiv privacy policy is compliant with EU GDPR. &lt;a href="https://motivproject.eu/data-collection/data-protection.html">&lt;u>Read More&lt;/u>&lt;/a></string>
+
+
+    <string name="any_text">
+ <![CDATA[ <b><font color=#ff0000>write</b> your <b><font color=#0000ff>text</b> here .
+]]>
+  </string>
+
+</resources>

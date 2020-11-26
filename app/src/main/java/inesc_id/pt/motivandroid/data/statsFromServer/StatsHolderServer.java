@@ -1,0 +1,117 @@
+package inesc_id.pt.motivandroid.data.statsFromServer;
+
+import com.google.gson.annotations.Expose;
+
+import java.io.Serializable;
+
+/**
+ *
+ * StatsHolderServer
+ *
+ * Holds generic community stats for multiple time intervals
+ *
+ *  day1: Stats for last day
+ *  day3: Stats for last three days
+ *  day7: Stats for last seven days
+ *  day30: Stats for last thirty days
+ *  day365: Stats for last year
+ *  era: all-time stats
+ *
+ * (C) 2017-2020 - The Woorti app is a research (non-commercial) application that was
+ * developed in the context of the European research project MoTiV (motivproject.eu). The
+ * code was developed by partner INESC-ID with contributions in graphics design by partner
+ * TIS. The Woorti app development was one of the outcomes of a Work Package of the MoTiV
+ * project.
+ * The Woorti app was originally intended as a tool to support data collection regarding
+ * mobility patterns from city and country-wide campaigns and provide the data and user
+ * management to campaign managers.
+ *
+ * The Woorti app development followed an agile approach taking into account ongoing
+ * feedback of partners and testing users while continuing under development. This has
+ * been carried out as an iterative process deploying new app versions. Along the
+ * timeline, various previously unforeseen requirements were identified, some requirements
+ * Were revised, there were requests for modifications, extensions, or new aspects in
+ * functionality or interaction as found useful or interesting to campaign managers and
+ * other project partners. Most stemmed naturally from the very usage and ongoing testing
+ * of the Woorti app. Hence, code and data structures were successively revised in a
+ * way not only to accommodate this but, also importantly, to maintain compatibility with
+ * the functionality, data and data structures of previous versions of the app, as new
+ * version roll-out was never done from scratch.
+ * The code developed for the Woorti app is made available as open source, namely to
+ * contribute to further research in the area of the MoTiV project, and the app also makes
+ * use of open source components as detailed in the Woorti app license.
+ * This project has received funding from the European Union’s Horizon 2020 research and
+ * innovation programme under grant agreement No. 770145.
+ * This file is part of the Woorti app referred to as SOFTWARE.
+ */
+public class StatsHolderServer implements Serializable{
+
+    public StatsHolderServer() {
+    }
+
+    @Expose
+    StatsFromTimeIntervalStruct day1;
+
+    @Expose
+    StatsFromTimeIntervalStruct day3;
+
+    @Expose
+    StatsFromTimeIntervalStruct day7;
+
+    @Expose
+    StatsFromTimeIntervalStruct day30;
+
+    @Expose
+    StatsFromTimeIntervalStruct day365;
+
+    @Expose
+    StatsFromTimeIntervalStruct ever;
+
+    public StatsFromTimeIntervalStruct getDay1() {
+        return day1;
+    }
+
+    public void setDay1(StatsFromTimeIntervalStruct day1) {
+        this.day1 = day1;
+    }
+
+    public StatsFromTimeIntervalStruct getDay3() {
+        return day3;
+    }
+
+    public void setDay3(StatsFromTimeIntervalStruct day3) {
+        this.day3 = day3;
+    }
+
+    public StatsFromTimeIntervalStruct getDay7() {
+        return day7;
+    }
+
+    public void setDay7(StatsFromTimeIntervalStruct day7) {
+        this.day7 = day7;
+    }
+
+    public StatsFromTimeIntervalStruct getDay30() {
+        return day30;
+    }
+
+    public void setDay30(StatsFromTimeIntervalStruct day30) {
+        this.day30 = day30;
+    }
+
+    public StatsFromTimeIntervalStruct getDay365() {
+        return day365;
+    }
+
+    public void setDay365(StatsFromTimeIntervalStruct day365) {
+        this.day365 = day365;
+    }
+
+    public StatsFromTimeIntervalStruct getEver() {
+        return ever;
+    }
+
+    public void setEver(StatsFromTimeIntervalStruct ever) {
+        this.ever = ever;
+    }
+}

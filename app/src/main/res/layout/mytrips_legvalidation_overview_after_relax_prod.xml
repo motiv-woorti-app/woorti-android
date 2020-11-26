@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FBE5CD">
+
+<View
+    android:id="@+id/view2"
+    android:layout_width="4dp"
+    android:layout_height="28dp"
+    android:layout_marginStart="50dp"
+    android:background="#ED7E03"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constraintLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp"
+    android:background="@drawable/mytrips_leg_validated_transfer_shape"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/legTimeIntervalValidatedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="8.55"
+        android:textColor="#F3A54F"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/legTransportIconImageView"
+        app:layout_constraintStart_toEndOf="@+id/legTransportIconImageView"
+        app:layout_constraintTop_toTopOf="@+id/legTransportIconImageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/legTransportIconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_directions_walk_black_24dp" />
+
+    <TextView
+        android:id="@+id/transportInfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Walk 200m"
+        android:textColor="#F3A54F"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/legTransportIconImageView"
+        app:layout_constraintStart_toEndOf="@+id/legTimeIntervalValidatedTextView"
+        app:layout_constraintTop_toTopOf="@+id/legTransportIconImageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/productivityOverviewTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Productivity 20%"
+        android:textColor="#000000"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/legTimeIntervalValidatedTextView"
+        app:layout_constraintTop_toBottomOf="@+id/legTimeIntervalValidatedTextView" />
+
+    <TextView
+        android:id="@+id/relaxingOverviewTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Relaxing 40%"
+        android:textColor="#000000"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="@+id/productivityOverviewTextView"
+        app:layout_constraintStart_toEndOf="@+id/productivityOverviewTextView"
+        app:layout_constraintTop_toTopOf="@+id/productivityOverviewTextView" />
+</android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

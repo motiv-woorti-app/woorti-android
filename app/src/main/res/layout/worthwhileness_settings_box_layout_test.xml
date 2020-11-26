@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout32"
+        android:layout_width="0dp"
+        android:layout_height="158dp"
+        android:background="@drawable/top_gradient_shape"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/How_Important_Are_The_Following_Factors"
+            android:textAlignment="center"
+            android:textColor="#ED7E03"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout33"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_gradient_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout32"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout32"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout32"
+        app:layout_constraintVertical_bias="0.49">
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="0dp"
+            android:layout_height="47dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/profile_and_settings_edit_button_shape"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutActivity" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayoutActivity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutRelaxing">
+
+            <TextView
+                android:id="@+id/bodyValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/Fitness"
+                android:textAllCaps="true"
+                android:textColor="#6C6C6C"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <SeekBar
+                android:id="@+id/seekBarActivity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:max="100"
+                android:progress="50"
+                android:theme="@style/WorthwhilenessSeekBarColor"
+
+                android:thumb="@drawable/thumb_seekbar_worthwhileness"
+                app:layout_constraintBottom_toBottomOf="@+id/zeroPercentBodyTextView"
+                app:layout_constraintEnd_toStartOf="@+id/hundredPercentBodyTextView"
+                app:layout_constraintStart_toEndOf="@+id/zeroPercentBodyTextView"
+                app:layout_constraintTop_toTopOf="@+id/zeroPercentBodyTextView" />
+
+            <TextView
+                android:id="@+id/zeroPercentBodyTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:text="0%"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bodyValueTextView" />
+
+            <TextView
+                android:id="@+id/hundredPercentBodyTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="100%"
+                app:layout_constraintBottom_toBottomOf="@+id/zeroPercentBodyTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/zeroPercentBodyTextView" />
+
+            <TextView
+                android:id="@+id/minBodyTextTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="27dp"
+                android:text="@string/Fitness_Worthwhile_Low_Score"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/maxBodyTextTextView"
+                app:layout_constraintStart_toStartOf="@+id/zeroPercentBodyTextView"
+                app:layout_constraintTop_toBottomOf="@+id/seekBarActivity" />
+
+            <TextView
+                android:id="@+id/maxBodyTextTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="27dp"
+                android:text="@string/Fitness_Worthwhile_High_Score"
+                android:textAlignment="textEnd"
+                app:layout_constraintEnd_toEndOf="@+id/hundredPercentBodyTextView"
+                app:layout_constraintStart_toEndOf="@+id/minBodyTextTextView"
+                app:layout_constraintTop_toBottomOf="@+id/seekBarActivity" />
+
+            <ImageView
+                android:id="@+id/infoActivityImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/bodyValueTextView"
+                app:layout_constraintEnd_toStartOf="@+id/bodyValueTextView"
+                app:layout_constraintTop_toTopOf="@+id/bodyValueTextView"
+                app:srcCompat="@drawable/ic_info_black_24dp" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayoutRelaxing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutProductivity">
+
+            <TextView
+                android:id="@+id/mindValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/Enjoyment"
+                android:textAllCaps="true"
+                android:textColor="#6C6C6C"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <SeekBar
+                android:id="@+id/seekBarRelaxing"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:max="100"
+                android:progress="50"
+                android:theme="@style/WorthwhilenessSeekBarColor"
+                android:thumb="@drawable/thumb_seekbar_worthwhileness"
+
+                app:layout_constraintBottom_toBottomOf="@+id/zeroPercentRelaxTextView"
+                app:layout_constraintEnd_toStartOf="@+id/hundredPercentRelaxTextView"
+                app:layout_constraintStart_toEndOf="@+id/zeroPercentRelaxTextView"
+                app:layout_constraintTop_toTopOf="@+id/zeroPercentRelaxTextView" />
+
+            <TextView
+                android:id="@+id/zeroPercentRelaxTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:text="0%"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mindValueTextView" />
+
+            <TextView
+                android:id="@+id/hundredPercentRelaxTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="100%"
+                app:layout_constraintBottom_toBottomOf="@+id/zeroPercentRelaxTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/zeroPercentRelaxTextView" />
+
+            <TextView
+                android:id="@+id/minRelaxTextTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="27dp"
+                android:text="@string/FitnesEnjoyment_Worthwhile_Low_Scores"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/maxRelaxTextTextView"
+                app:layout_constraintStart_toStartOf="@+id/zeroPercentRelaxTextView"
+                app:layout_constraintTop_toBottomOf="@+id/seekBarRelaxing" />
+
+            <TextView
+                android:id="@+id/maxRelaxTextTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="27dp"
+                android:text="@string/Enjoyment_Worthwhile_High_Score"
+                android:textAlignment="textEnd"
+                app:layout_constraintEnd_toEndOf="@+id/hundredPercentRelaxTextView"
+                app:layout_constraintStart_toEndOf="@+id/minRelaxTextTextView"
+                app:layout_constraintTop_toBottomOf="@+id/seekBarRelaxing" />
+
+            <ImageView
+                android:id="@+id/infoRelaxingImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/mindValueTextView"
+                app:layout_constraintEnd_toStartOf="@+id/mindValueTextView"
+                app:layout_constraintTop_toTopOf="@+id/mindValueTextView"
+                app:srcCompat="@drawable/ic_info_black_24dp" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayoutProductivity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/productivityValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/Productivity"
+                android:textAllCaps="true"
+                android:textColor="#6C6C6C"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <SeekBar
+                android:id="@+id/seekBarProductivity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:max="100"
+                android:progress="50"
+                android:theme="@style/WorthwhilenessSeekBarColor"
+                android:thumb="@drawable/thumb_seekbar_worthwhileness"
+                app:layout_constraintBottom_toBottomOf="@+id/zeroPercentProdTextView"
+                app:layout_constraintEnd_toStartOf="@+id/hundredPercentProdTextView"
+                app:layout_constraintStart_toEndOf="@+id/zeroPercentProdTextView"
+                app:layout_constraintTop_toTopOf="@+id/zeroPercentProdTextView" />
+
+            <TextView
+                android:id="@+id/zeroPercentProdTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:text="0%"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/productivityValueTextView" />
+
+            <TextView
+                android:id="@+id/hundredPercentProdTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="100%"
+                app:layout_constraintBottom_toBottomOf="@+id/zeroPercentProdTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/zeroPercentProdTextView" />
+
+            <TextView
+                android:id="@+id/minProdTextTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="27dp"
+                android:text="@string/Productivity_Worthwhile_Low_Score"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/maxProdTextTextView"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/zeroPercentProdTextView"
+                app:layout_constraintTop_toBottomOf="@+id/seekBarProductivity" />
+
+            <TextView
+                android:id="@+id/maxProdTextTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="27dp"
+                android:text="@string/Productivity_Worthwhile_High_Score"
+                android:textAlignment="textEnd"
+                app:layout_constraintEnd_toEndOf="@+id/hundredPercentProdTextView"
+                app:layout_constraintStart_toEndOf="@+id/minProdTextTextView"
+                app:layout_constraintTop_toBottomOf="@+id/seekBarProductivity" />
+
+            <ImageView
+                android:id="@+id/infoProductivityImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/productivityValueTextView"
+                app:layout_constraintEnd_toStartOf="@+id/productivityValueTextView"
+                app:layout_constraintTop_toTopOf="@+id/productivityValueTextView"
+                app:srcCompat="@drawable/ic_info_black_24dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="20dp" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

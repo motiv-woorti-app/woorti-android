@@ -1,0 +1,9 @@
+api_key: d3b0dfa3f705773766720f15ddffa10c        
+project_id: 247711  
+type: android_strings
+
+languages: [ca, hr, nl, en, fi, fr, de, it,  pt, sk, es]
+
+path: values-{LANGUAGE}/strings.xml
+path_replace:
+  en: values/strings.xml

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:id="@+id/howOftenConstraintLayout"
+
+    android:background="#FBE5CD">
+
+<FrameLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--android:gravity="center"-->
+        <!--android:text="bottom sheet peek"-->
+        <!--android:textColor="@android:color/white" />-->
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_gradient_shape"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout15"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/How_Often_Make_This_Trip"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorOrangeTripPolyline"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_gradient_shape"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayout7"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayout7"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout7">
+
+
+            <!--<Button-->
+            <!--android:id="@+id/yesAnswerButton"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="24dp"-->
+            <!--android:layout_marginEnd="24dp"-->
+            <!--android:layout_marginStart="24dp"-->
+            <!--android:layout_marginTop="24dp"-->
+            <!--android:background="@drawable/home_surveys_answer_done_button"-->
+            <!--android:fontFamily="@font/montserrat_bold"-->
+            <!--android:text="Yes"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textStyle="bold"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintEnd_toStartOf="@+id/noAnswerButton"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/question"-->
+            <!--app:layout_constraintVertical_bias="1.0" />-->
+
+
+            <RadioButton
+                android:id="@+id/regularlyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/tab_button_mode_of_transport"
+                android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat_bold"
+                android:gravity="center"
+                android:text="@string/Regularly"
+                android:textAllCaps="false"
+                android:textColor="@color/how_often_radiobutton_text_color_selector"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/ocasionallyButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioButton
+                android:id="@+id/ocasionallyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/tab_button_mode_of_transport"
+                android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat_bold"
+                android:gravity="center"
+                android:text="@string/Occasionally"
+                android:textAllCaps="false"
+                android:textColor="@color/how_often_radiobutton_text_color_selector"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/regularlyButton"
+                app:layout_constraintEnd_toStartOf="@+id/firstTimeButton"
+                app:layout_constraintStart_toEndOf="@+id/regularlyButton"
+                app:layout_constraintTop_toTopOf="@+id/regularlyButton" />
+
+            <RadioButton
+                android:id="@+id/firstTimeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/tab_button_mode_of_transport"
+                android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat_bold"
+                android:gravity="center"
+                android:text="@string/First_Time"
+                android:textAllCaps="false"
+                android:textColor="@color/how_often_radiobutton_text_color_selector"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/ocasionallyButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ocasionallyButton"
+                app:layout_constraintTop_toTopOf="@+id/ocasionallyButton" />
+
+            <TextView
+                android:id="@+id/notSureHowOftenTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/Not_Sure"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/regularlyButton" />
+        </android.support.constraint.ConstraintLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <FrameLayout
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

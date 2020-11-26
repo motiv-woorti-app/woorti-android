@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".settingsAndProfile.fragments.demographicInfo.WorthwhilnessSettingsFragment"
+    android:background="#FBE5CD">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FBE5CD">
+
+            <include
+                layout="@layout/worthwhileness_settings_box_layout_test"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></include>
+
+        </android.support.constraint.ConstraintLayout>
+
+
+        <!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+            <!--xmlns:tools="http://schemas.android.com/tools"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#FBE5CD">-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout32"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginEnd="24dp"-->
+                <!--android:layout_marginStart="24dp"-->
+                <!--android:layout_marginTop="24dp"-->
+                <!--android:background="@drawable/top_gradient_shape"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toTopOf="parent">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView86"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginEnd="32dp"-->
+                    <!--android:layout_marginStart="32dp"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:fontFamily="@font/montserrat_bold"-->
+                    <!--android:text="How important are the\nfollowing factors for you with\nrespect to your time when you travel."-->
+                    <!--android:textAlignment="center"-->
+                    <!--android:textColor="#ED7E03"-->
+                    <!--android:textSize="20sp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:id="@+id/constraintLayout33"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="24dp"-->
+                <!--android:background="@drawable/bottom_gradient_shape"-->
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintEnd_toEndOf="@+id/constraintLayout32"-->
+                <!--app:layout_constraintStart_toStartOf="@+id/constraintLayout32"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayout32">-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/saveButton"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="47dp"-->
+                    <!--android:layout_marginBottom="24dp"-->
+                    <!--android:layout_marginEnd="24dp"-->
+                    <!--android:layout_marginStart="24dp"-->
+                    <!--android:layout_marginTop="24dp"-->
+                    <!--android:background="@drawable/home_surveys_answer_done_button"-->
+                    <!--android:fontFamily="@font/montserrat_bold"-->
+                    <!--android:text="Save"-->
+                    <!--android:textColor="#FFFFFF"-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:textStyle="bold"-->
+
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintHorizontal_bias="0.0"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayoutActivity" />-->
+
+                <!--<android.support.constraint.ConstraintLayout-->
+                    <!--android:id="@+id/constraintLayoutActivity"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintHorizontal_bias="0.0"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayoutRelaxing">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/bodyValueTextView"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginEnd="24dp"-->
+                        <!--android:layout_marginStart="24dp"-->
+                        <!--android:layout_marginTop="24dp"-->
+                        <!--android:text="Body &amp; Health"-->
+                        <!--android:textAllCaps="true"-->
+                        <!--android:textColor="#6C6C6C"-->
+                        <!--android:textStyle="bold"-->
+                        <!--app:layout_constraintEnd_toEndOf="parent"-->
+                        <!--app:layout_constraintStart_toStartOf="parent"-->
+                        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                    <!--<SeekBar-->
+                        <!--android:id="@+id/seekBarActivity"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginEnd="16dp"-->
+                        <!--android:layout_marginStart="16dp"-->
+                        <!--android:max="100"-->
+                        <!--android:progress="50"-->
+                        <!--android:theme="@style/WorthwhilenessSeekBarColor"-->
+
+                        <!--android:thumb="@drawable/thumb_seekbar_worthwhileness"-->
+                        <!--app:layout_constraintBottom_toBottomOf="@+id/textView35"-->
+                        <!--app:layout_constraintEnd_toStartOf="@+id/textView36"-->
+                        <!--app:layout_constraintStart_toEndOf="@+id/textView35"-->
+                        <!--app:layout_constraintTop_toTopOf="@+id/textView35" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView35"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginStart="24dp"-->
+                        <!--android:layout_marginTop="24dp"-->
+                        <!--android:text="0%"-->
+                        <!--app:layout_constraintStart_toStartOf="parent"-->
+                        <!--app:layout_constraintTop_toBottomOf="@+id/bodyValueTextView" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView36"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginEnd="24dp"-->
+                        <!--android:text="100%"-->
+                        <!--app:layout_constraintBottom_toBottomOf="@+id/textView35"-->
+                        <!--app:layout_constraintEnd_toEndOf="parent"-->
+                        <!--app:layout_constraintTop_toTopOf="@+id/textView35" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView37"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginBottom="20dp"-->
+                        <!--android:layout_marginTop="27dp"-->
+                        <!--android:text="Exercise is in the \ngym/field"-->
+                        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                        <!--app:layout_constraintStart_toStartOf="@+id/textView35"-->
+                        <!--app:layout_constraintTop_toBottomOf="@+id/seekBarActivity" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView38"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginTop="27dp"-->
+                        <!--android:text="Travel time is a \ngreat way to feel\n the burn"-->
+                        <!--android:textAlignment="textEnd"-->
+                        <!--app:layout_constraintEnd_toEndOf="@+id/textView36"-->
+                        <!--app:layout_constraintTop_toBottomOf="@+id/seekBarActivity" />-->
+                <!--</android.support.constraint.ConstraintLayout>-->
+
+                <!--<android.support.constraint.ConstraintLayout-->
+                    <!--android:id="@+id/constraintLayoutRelaxing"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/constraintLayoutProductivity">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/mindValueTextView"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginEnd="24dp"-->
+                        <!--android:layout_marginStart="24dp"-->
+                        <!--android:layout_marginTop="24dp"-->
+                        <!--android:text="Mind &amp; Pleasure"-->
+                        <!--android:textAllCaps="true"-->
+                        <!--android:textColor="#6C6C6C"-->
+                        <!--android:textStyle="bold"-->
+                        <!--app:layout_constraintEnd_toEndOf="parent"-->
+                        <!--app:layout_constraintStart_toStartOf="parent"-->
+                        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                    <!--<SeekBar-->
+                        <!--android:id="@+id/seekBarRelaxing"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginEnd="16dp"-->
+                        <!--android:layout_marginStart="16dp"-->
+                        <!--android:max="100"-->
+                        <!--android:progress="50"-->
+                        <!--android:theme="@style/WorthwhilenessSeekBarColor"-->
+                        <!--android:thumb="@drawable/thumb_seekbar_worthwhileness"-->
+
+                        <!--app:layout_constraintBottom_toBottomOf="@+id/textView35"-->
+                        <!--app:layout_constraintEnd_toStartOf="@+id/textView36"-->
+                        <!--app:layout_constraintStart_toEndOf="@+id/textView35"-->
+                        <!--app:layout_constraintTop_toTopOf="@+id/textView35" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView35"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginStart="24dp"-->
+                        <!--android:layout_marginTop="24dp"-->
+                        <!--android:text="0%"-->
+                        <!--app:layout_constraintStart_toStartOf="parent"-->
+                        <!--app:layout_constraintTop_toBottomOf="@+id/mindValueTextView" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView36"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginEnd="24dp"-->
+                        <!--android:text="100%"-->
+                        <!--app:layout_constraintBottom_toBottomOf="@+id/textView35"-->
+                        <!--app:layout_constraintEnd_toEndOf="parent"-->
+                        <!--app:layout_constraintTop_toTopOf="@+id/textView35" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView37"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginBottom="20dp"-->
+                        <!--android:layout_marginTop="27dp"-->
+                        <!--android:text="Travelling is not \nat all relaxing"-->
+                        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                        <!--app:layout_constraintStart_toStartOf="@+id/textView35"-->
+                        <!--app:layout_constraintTop_toBottomOf="@+id/seekBarRelaxing" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView38"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginTop="27dp"-->
+                        <!--android:text="When I travel,\nI chill"-->
+                        <!--android:textAlignment="textEnd"-->
+                        <!--app:layout_constraintEnd_toEndOf="@+id/textView36"-->
+                        <!--app:layout_constraintTop_toBottomOf="@+id/seekBarRelaxing" />-->
+                <!--</android.support.constraint.ConstraintLayout>-->
+
+                <!--<android.support.constraint.ConstraintLayout-->
+                    <!--android:id="@+id/constraintLayoutProductivity"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintHorizontal_bias="0.4"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/productivityValueTextView"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginEnd="24dp"-->
+                        <!--android:layout_marginStart="24dp"-->
+                        <!--android:layout_marginTop="24dp"-->
+                        <!--android:text="Productivity"-->
+                        <!--android:textAllCaps="true"-->
+                        <!--android:textColor="#6C6C6C"-->
+                        <!--android:textStyle="bold"-->
+                        <!--app:layout_constraintEnd_toEndOf="parent"-->
+                        <!--app:layout_constraintStart_toStartOf="parent"-->
+                        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                    <!--<SeekBar-->
+                        <!--android:id="@+id/seekBarProductivity"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginEnd="16dp"-->
+                        <!--android:layout_marginStart="16dp"-->
+                        <!--android:max="100"-->
+                        <!--android:progress="50"-->
+                        <!--android:theme="@style/WorthwhilenessSeekBarColor"-->
+                        <!--android:thumb="@drawable/thumb_seekbar_worthwhileness"-->
+                        <!--app:layout_constraintBottom_toBottomOf="@+id/textView35"-->
+                        <!--app:layout_constraintEnd_toStartOf="@+id/textView36"-->
+                        <!--app:layout_constraintStart_toEndOf="@+id/textView35"-->
+                        <!--app:layout_constraintTop_toTopOf="@+id/textView35" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView35"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginStart="24dp"-->
+                        <!--android:layout_marginTop="24dp"-->
+                        <!--android:text="0%"-->
+                        <!--app:layout_constraintStart_toStartOf="parent"-->
+                        <!--app:layout_constraintTop_toBottomOf="@+id/productivityValueTextView" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView36"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginEnd="24dp"-->
+                        <!--android:text="100%"-->
+                        <!--app:layout_constraintBottom_toBottomOf="@+id/textView35"-->
+                        <!--app:layout_constraintEnd_toEndOf="parent"-->
+                        <!--app:layout_constraintTop_toTopOf="@+id/textView35" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView37"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginBottom="20dp"-->
+                        <!--android:layout_marginTop="27dp"-->
+                        <!--android:text="I don't work \nwhen I travel"-->
+                        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                        <!--app:layout_constraintStart_toStartOf="@+id/textView35"-->
+                        <!--app:layout_constraintTop_toBottomOf="@+id/seekBarProductivity" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView38"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginTop="27dp"-->
+                        <!--android:text="I used my trip to\nget stuff done"-->
+                        <!--android:textAlignment="textEnd"-->
+                        <!--app:layout_constraintEnd_toEndOf="@+id/textView36"-->
+                        <!--app:layout_constraintTop_toBottomOf="@+id/seekBarProductivity" />-->
+
+                <!--</android.support.constraint.ConstraintLayout>-->
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+        <!--</android.support.constraint.ConstraintLayout>-->
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

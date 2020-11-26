@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="inesc_id.pt.motivandroid">
+
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
+    <application
+        android:name=".ApplicationClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/woorti_app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".deprecated.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <!-- android:theme="@android:style/Theme.NoTitleBar" -->
+
+        </activity>
+
+        <service android:name=".ActivityRecognitionService" />
+        <service android:name=".deprecated.ActivityRecogService" />
+        <!-- android:stopWithTask="false" -->
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".deprecated.ShowTripOnMapsActivity"
+            android:label="@string/title_activity_show_trip_on_maps" />
+        <!--<activity-->
+            <!--android:name=".deprecated.SearchRouteRankActivity"-->
+            <!--android:label="@string/title_activity_search_route_rank" />-->
+        <!--<activity android:name=".deprecated.LogInActivity">-->
+
+            <!--&lt;!&ndash; <intent-filter> &ndash;&gt;-->
+            <!--&lt;!&ndash; <action android:name="android.intent.action.MAIN" /> &ndash;&gt;-->
+
+
+            <!--&lt;!&ndash; <category android:name="android.intent.category.LAUNCHER" /> &ndash;&gt;-->
+            <!--&lt;!&ndash; </intent-filter> &ndash;&gt;-->
+        <!--</activity>-->
+        <activity
+            android:name=".deprecated.ViewTripsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".deprecated.ValidateModalitiesActivity"
+            android:label="@string/title_validate_modalities_activity" />
+        <activity
+            android:name=".deprecated.WeatherActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".surveyNotification.NotificationReceivingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".surveyNotification.FCMFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".home.surveys.SurveyTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".deprecated.CheckBoxActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".deprecated.ViewTriggeredSurveysList"
+            android:screenOrientation="portrait" />
+        <!--<activity-->
+            <!--android:name=".HomeActivity"-->
+            <!--android:screenOrientation="portrait" />-->
+        <activity
+            android:name=".home.activities.HomeDrawerActivity"
+            android:label="@string/title_activity_home_drawer"
+            android:screenOrientation="portrait" />
+        <!--<activity-->
+            <!--android:name=".planTrip.SearchRoutesActivity"-->
+            <!--android:screenOrientation="portrait" />-->
+
+        <!--<activity-->
+            <!--android:name=".deprecated.TestRadioGroup"-->
+            <!--android:screenOrientation="portrait" />-->
+        <activity
+            android:name=".myTrips.activities.MyTripsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".testingCarousel.TestCarouselActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".myTrips.activities.DeleteSplitMergeLegsActivity"
+            android:label="@string/title_activity_delete_split_merge"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".onboarding.activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".onboarding.activities.OnboardingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".myTrips.ShowCurrentTripActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settingsAndProfile.ProfileAndSettingsActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="inesc_id.pt.motivandroid.logfileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity
+            android:name=".mobilityCoach.activities.MobilityCoachActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mobilityCoach.activities.StoryActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Register the Alarm Receiver -->
+        <receiver android:name=".KeepAwakeReceiver" />
+
+        <!-- Register the Alarm Receiver -->
+        <receiver android:name=".surveyNotification.CheckSurveysNotificationsReceiver" />
+
+        <receiver android:name=".OnBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".showOngoingTrip.ShowOngoingTrip"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".myTrips.activities.DeleteSplitMergeTripsActivity"
+            android:label="@string/title_activity_edit_trip"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".dashboard.activities.UserStatsActivity" />
+        <activity android:name=".dashboard.activities.CommunityStatsActivity" />
+        <activity android:name=".dashboard.activities.WorthwhilenessStatsActivity"></activity>
+    </application>
+
+</manifest>

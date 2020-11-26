@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FAE4CC"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/routeMobilityScoreTextView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:text="Productivity 70 %"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/timeTripTextView"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/timeTripTextView"-->
+    <!--app:layout_constraintTop_toTopOf="@+id/timeTripTextView" />-->
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layoutsContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        app:layout_constraintVertical_bias="0.049">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout39"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_gradient_shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/tripPlanContainer"
+            app:layout_constraintStart_toStartOf="@+id/tripPlanContainer"
+            app:layout_constraintTop_toBottomOf="@+id/tripPlanContainer">
+
+            <TextView
+                android:id="@+id/tripCO2textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="0.4 kg CO2 "
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/tripCaloriesTextView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/tripCaloriesTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="37 Calories"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/tripPriceTextView"
+                app:layout_constraintStart_toEndOf="@+id/tripCO2textView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tripPriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:text="2,70€"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/tripCO2textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tripCaloriesTextView"
+                app:layout_constraintTop_toTopOf="@+id/tripCO2textView" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/tripPlanContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_gradient_shape"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout39"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Start place > End place"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toTopOf="@+id/horizontal_scroll"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tripPlanContainer" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontal_scroll"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tripPlanContainer"
+                app:layout_constraintTop_toBottomOf="@+id/textView89"
+                app:layout_constraintVertical_bias="0.0">
+
+                <LinearLayout
+                    android:id="@+id/linearTransportIcons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+            </HorizontalScrollView>
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+    <!--android:id="@+id/card_view"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="200dp"-->
+    <!--card_view:cardCornerRadius="4dp">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/info_text"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+    <!---->
+    <!---->
+    <!---->
+    <!--</android.support.v7.widget.CardView>-->
+    <!---->
+    <!---->
+
+    <TextView
+        android:id="@+id/timeTripTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="8:00 - 8:45, 45 mins "
+        app:layout_constraintEnd_toStartOf="@+id/textView101"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Productivity 70 %"
+        app:layout_constraintBottom_toBottomOf="@+id/timeTripTextView"
+        app:layout_constraintEnd_toEndOf="@+id/layoutsContainer"
+        app:layout_constraintTop_toTopOf="@+id/timeTripTextView" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/layoutsContainer"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_history_black_24dp" />
+
+</android.support.constraint.ConstraintLayout>

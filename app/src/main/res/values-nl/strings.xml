@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Drawer titles -->
+    <string name="Drawer_Title_Home">"Home"</string>
+    <string name="Drawer_Title_Route_Planner">"Routeplanner"</string>
+    <string name="Drawer_Title_My_Trips">"Mijn trips
+"</string>
+    <string name="Drawer_Title_Dashboard">"Dashbord"</string>
+    <string name="Drawer_Title_Mobility_Coach">"Mobiliteitscoach"</string>
+    <string name="Drawer_Title_Profile">"Profiel"</string>
+    <string name="Drawer_Title_Settings">"Profiel &amp; instellingen"</string>
+    <string name="Drawer_Title_Report_Issue">"Meld een probleem"</string>
+    <string name="Drawer_Title_Finish_Log_Out">"Uitloggen"</string>
+    <string name="login_what_is_email_address">"Wat is je e-mail-adres?"</string>
+    <string name="login_enter_your_password">"Geef je paswoord in."</string>
+
+    <!-- Profile and settings options -->
+    <string name="Edit_Profile">"Wijzig profiel."</string>
+    <string name="Set_Home_And_Work">"Geef je thuis- en werkadres in."</string>
+    <string name="Demographic_Info">"Demografische gegevens"</string>
+    <string name="Worthwhileness_Settings">"Waardevolheidsinstellingen"</string>
+    <string name="Tutorials">"Zelfstudie"</string>
+    <string name="Transport_Preferences">"Transportvoorkeuren"</string>
+
+    <!-- <string name="APP_PERMISSIONS">App permissions</string> -->
+    <string name="App_Language">"Taal"</string>
+    <string name="Change_Password">"Verander paswoord"</string>
+    <string name="Feedback">"Feedback"</string>
+    <string name="Log_Out">"Log uit."</string>
+
+    <!-- Education labels -->
+    <string name="Education_8th_Grade">"Lagere school"</string>
+    <string name="Education_Some_Highschool">"Lager middelbaar"</string>
+    <string name="Education_Highschool">"Middelbaar Onderwijs"</string>
+    <string name="Education_Some_College">"Universiteit of hogeschool, zonder diploma"</string>
+    <string name="Education_Training">"Technische opleiding"</string>
+    <string name="Education_Bachelor">"Bachelor"</string>
+    <string name="Education_Master">"Master"</string>
+    <string name="Education_Professional">"Beroepsopleiding"</string>
+    <string name="Education_Doctorate">"Doctorandus"</string>
+    <string name="Education_Associate">"Associate degree"</string>
+    <string name="Education_No_Schooling">"Geen opleiding"</string>
+
+    <!-- Demographic option -->
+    <string name="Demographic_Option_General">"Algemeen"</string>
+
+    <!-- <string name="DEMOGRAPHIC_OPTION_HOUSEHOLD_DATA">Household data</string>
+<string name="DEMOGRAPHIC_OPTION_MOBILITY_CAPABILITIES">Mobility capabilities</string>
+<string name="DEMOGRAPHIC_OPTION_MOBILITY_PREFERENCES">Mobility preferences</string>
+<string name="DEMOGRAPHIC_OPTION_EXPERIENCE_FACTORS">Experience factors</string>
+ General suboptions -->
+    <string name="Age">"Leeftijd"</string>
+
+    <!-- message: Gender -->
+    <string name="Gender">"Geslacht"</string>
+    <string name="Education">"Opleidingsniveau"</string>
+    <string name="Country">"Land"</string>
+    <string name="City">"Stad"</string>
+
+    <!-- Tutorial options -->
+    <string name="Tutorial_Option_What_Is_Worthwhileness">"Wat is waardevol"</string>
+
+    <!-- Productivity -->
+    <string name="Productivity_Percentage">"Productiviteit %1$s%%"</string>
+    <string name="Mind_Percentage">"Plezier %1$s%%"</string>
+    <string name="Body_Percentage">"Fitheid %1$s%%"</string>
+
+    <!-- Main menu options
+<string name="NEW_INTERFACE_TEXT">New interface</string>
+ My trips module -->
+    <string name="My_Trips">"Mijn trajecten"</string>
+    <string name="Start_Trip">"Start traject"</string>
+    <string name="End_Trip">"Eindig traject"</string>
+    <string name="Trip_Being_Recorded">"Er wordt momenteel een traject opgenomen."</string>
+
+    <!-- Edit trips -->
+    <string name="Select_Trips_To_Merge">"Selecteer hieronder trajecten om samen te voegen."</string>
+    <string name="Confirm_Trips_To_Merge">"Bevestig de geselecteerde trajecten om samen te voegen."</string>
+    <string name="Select_Trips_To_Split">"Selecteer de trajecten in de onderstaande lijst om uit te splitsen."</string>
+    <string name="Move_The_Map_To_Split">"Beweeg de kaart om het traject te splitsen."</string>
+    <string name="Select_Trips_To_Delete">"Selecteer trajecten uit de onderstaande lijst om te wissen"</string>
+    <string name="Split">"Splits"</string>
+    <string name="Merge">"Voeg samen"</string>
+    <string name="Delete">"Verwijder"</string>
+    <string name="Select_Legs_To_Split">"Selecteer deeltrajecten of overstappen van de onderstaande lijst om te splitsen"</string>
+    <string name="Move_The_Map_To_Split_The_Leg">"Beweeg de kaart om het splitspunt de bepalen."</string>
+    <string name="Edited">"Bewerkt"</string>
+    <string name="Select_Legs_To_Merge">"Selecteer deeltrajecten of overstappen van de onderstaande lijst om samen te voegen"</string>
+    <string name="Confirm_The_Legs_To_Merge">"Bevestig deeltrajecten of overstappen van de onderstaande lijst om samen te voegen."</string>
+    <string name="Rate_Your_Edited_Trips">"Beoordeel "</string>
+    <string name="Select_Legs_To_Delete">"Selecteer deeltrajecten om te wissen."</string>
+    <string name="Confirm_The_Legs_To_delete">"Bevestig het wissen van deze deeltrajecten."</string>
+
+    <!-- Leg validation -->
+    <string name="Validated">"Gevalideerd"</string>
+    <string name="How_Did_You_Travel">"Met welk vervoersmiddel heb je gereisd?"</string>
+
+    <!-- message: Public Transport -->
+    <string name="Public_Transport">"Openbaar vervoer"</string>
+    <string name="Active_Semi_Active">"Fysiek actief"</string>
+    <string name="Private_Motorised">"Eigen auto"</string>
+    <string name="Not_Sure">"Niet zeker"</string>
+    <string name="Lousy">"Belabberd"</string>
+    <string name="Overall_Feel_About_Trip">"Hoe beleefde je deze reistijd?"</string>
+    <string name="Great">"Fantastisch"</string>
+    <string name="Travel_Time_Wasted_Min_Text">"Alle tijd was verspild"</string>
+    <string name="Travel_Time_Wasted_Question_Text">"Was je reis verspilde tijd of waardevol?"</string>
+    <string name="Travel_Time_Wasted_Max_Text">"De volledige tijd was waardevol"</string>
+
+    <!-- please update translation from new english text -->
+    <string name="Which_Factors_Most_Contributed">"Welke factor(en) zorgden ervoor dat je reistijd verspild (-) dan wel waardevol (+) was?"</string>
+    <string name="Unfold_All_That_Apply">"Vouw uit en duid alles aan wat van toepassing is"</string>
+
+    <!-- Factors -->
+    <string name="Infrastructure_And_Services">"Infrastructuur en diensten"</string>
+    <string name="Comfort_And_Pleasantness">"Comfort en plezier"</string>
+    <string name="Getting_There">"Er geraken"</string>
+    <string name="Tables">"Tabellen"</string>
+    <string name="Toilets">"Toiletten"</string>
+    <string name="Food_Drink_Allowed">"Eten/drinken toegestaan"</string>
+    <string name="Food_Drink_Available">"Eten/drinken verkrijgbaar"</string>
+    <string name="Shopping_Retail">"Winkelen"</string>
+    <string name="Entertainment">"Amusement"</string>
+    <string name="Noise_Level">"Geluidsniveau"</string>
+    <string name="Cleanliness">"Netheid"</string>
+    <string name="Scenery">"Natuur en omgeving"</string>
+    <string name="Todays_Weather">"Weer"</string>
+    <string name="Privacy">"Privacy"</string>
+    <string name="Traffic_Signals_Crossings">"Verkeerslichten/ slagbomen"</string>
+    <string name="Crowding_Congestion">"Veel mensen/ file"</string>
+    <string name="Traffic_Congestion_Delays">"Files/ vertragingen"</string>
+    <string name="Others_Comments">"Andere/ commentaar"</string>
+
+    <!-- Activities -->
+    <string name="What_Did_You_Do_And_Value">"Wat exact vond je waardevol dat je kon doen?"</string>
+    <string name="Driving_Cycling_Walking">"Rijden/ Fietsen/ Stappen"</string>
+    <string name="Relaxing_Sleeping">"Ontspannen of slapen"</string>
+    <string name="Browsing_Social_Media">"Internetten of social media"</string>
+    <string name="Reading_Writing_Paper">"Lezen/ Schrijven (papier)"</string>
+    <string name="Reading_Writing_Device">"Lezen/ Schrijven (scherm)"</string>
+    <string name="Listening_To_Audio">"Luisteren naar muziek, podcast..."</string>
+    <string name="Walking_Video_Gaming">"Video kijken of spelletjes spelen"</string>
+    <string name="Talking_Including_Phone">"Praten (ook aan de telefoon)"</string>
+    <string name="Accompanying_Someone">"Iemand vergezellen"</string>
+    <string name="Eating_Drinking">"Eten/ drinken"</string>
+    <string name="Personal_Caring">"Zelfzorg"</string>
+    <string name="Thinking">"Nadenken"</string>
+
+    <!-- Value this part of the trip -->
+    <string name="What_Value_Take_From_Part">"Wat vond je waardevol aan de tijd die je besteedde in dit deel van je trip?"</string>
+    <string name="Paid_Work">"Betaald werk"</string>
+    <string name="Personal_Tasks">"Persoonlijke taken"</string>
+
+    <!-- message: Enjoyment -->
+    <string name="Enjoyment">"Plezier"</string>
+
+    <!-- message: Fitness -->
+    <string name="Fitness">"Sport"</string>
+    <string name="None">"Geen"</string>
+    <string name="Some">"Een beetje"</string>
+    <string name="High">"Veel"</string>
+
+    <!-- Thinking about trip as a whole -->
+    <string name="Thinking_About_Your_Trip_Title">"Had je deze reistijd liever anders besteed, aan...?"</string>
+
+    <!-- message: Productivity -->
+    <string name="Productivity">"Productiviteit"</string>
+    <string name="Anything_Else_Like_To_Share">"Iets anders dat je nog wil delen?"</string>
+
+    <!-- message: I would like to share... -->
+    <string name="Would_Like_To_Share">"Ik zou willen delen dat..."</string>
+    <string name="Today">"Vandaag"</string>
+    <string name="Yesterday">"Gisteren"</string>
+    <string name="Validate_Your_Trip">"Nieuwe reis gedetecteerd! Valideer je reis om %d punten te verdienen!"</string>
+    <string name="What_Was_Purpose">"Wat was het doel van je reis?"</string>
+    <string name="Mark_All_That_Apply">"Duid alles aan wat van toepassing is."</string>
+
+    <!-- Trip purposes -->
+    <string name="Work">"Werk"</string>
+    <string name="School_Education">"School/ opleiding"</string>
+    <string name="Home">"Home"</string>
+    <string name="Everyday_Shopping">"Winkelen"</string>
+    <string name="Business_Trip">"Zakenreis"</string>
+    <string name="Leisure_Hobby">"Vrije tijd/ hobby"</string>
+    <string name="Pick_Up_Drop_Off">"Iemand ophalen/ afzetten "</string>
+    <string name="Personal_Tasks_Errands">"Persoonlijke taken/ boodschappen"</string>
+    <string name="Trip_Itself">"Reis zelf"</string>
+
+    <!-- message: Other -->
+    <string name="Other">"Andere"</string>
+    <string name="Arrive_At_Fixed_Time">"Moest je op een vast uur aankomen?"</string>
+    <string name="How_Often_Make_This_Trip">"Hoe vaak maak je deze reis?"</string>
+    <string name="Regularly">"Geregeld"</string>
+    <string name="Occasionally">"Af en toe"</string>
+    <string name="First_Time">"Eerste keer"</string>
+    <string name="Select_Part_Of_Trip_Feedback">"Selecteer een deel van je reis om verdere feedback over te geven"</string>
+
+    <!-- <string name="objective_other_hint">Where you travelled and why</string> -->
+    <string name="Confirm_Modes_Of_Your_Trips">"Bevestig je vervoersmodi"</string>
+
+    <!-- message: Transfer -->
+    <string name="Transfer">"Overstap"</string>
+    <string name="Auto_Detected">"Auto-gedetecteerd"</string>
+
+    <!-- message: were you %s ? -->
+    <string name="Were_You_Walking_Or_Running">"Was je aan het %s?"</string>
+
+    <!-- message: Did you go by %s ? -->
+    <string name="Did_You_Go_The_Mode">"Reisde je per %s ?"</string>
+
+    <!-- modes of transport -->
+    <string name="Walking">"Te voet"</string>
+    <string name="Jogging_Running">"Aan het joggen/ lopen"</string>
+    <string name="Bicycle">"Met de fiets (niet elektrisch)"</string>
+    <string name="Car_Driver">"Auto (als bestuurder)"</string>
+    <string name="Bus_Trolley_Bus">"Bus/ Trolley Bus"</string>
+    <string name="Tram">"Tram"</string>
+    <string name="Metro">"Metro"</string>
+    <string name="Urban_Train">"Stadstrein"</string>
+    <string name="Regional_Intercity_Train">"Regionale/ Intercity trein"</string>
+    <string name="Ferry_Boat">"Ferry/ Boot"</string>
+    <string name="Motorcycle">"Moto/ Motorfiets"</string>
+    <string name="Moped">"Moped"</string>
+    <string name="Electric_Bike">"Elektrische fiets"</string>
+    <string name="Bike_Sharing">"Deelfiets"</string>
+    <string name="Car_Passenger">"Auto (als passagier)"</string>
+    <string name="Taxi_Ride_Hailing">"Taxi"</string>
+    <string name="Car_Sharing_Rental_Driver">"Auto (deel- of huurauto, als bestuurder)"</string>
+    <string name="Car_Sharing_Rental_Passenger">"Auto (deel- of huurauto, als passagier)"</string>
+    <string name="car_pooling">"Carpooling"</string>
+    <string name="Plane">"Vliegtuig"</string>
+    <string name="high_speed_train">"Hogesnelheidstrein/ TGV"</string>
+    <string name="Coach_Long_Distance_Bus">"Lange-afstands-autobus"</string>
+    <string name="Micro_Scooter">"Micro scooter"</string>
+    <string name="Skate">"Skateboard"</string>
+    <string name="Electric_Wheelchair_Cart">"Elektrische rolstoel"</string>
+    <string name="Wheelchair">"Rolstoel"</string>
+    <string name="Cargo_Bike">"Cargofiets/ bakfiets"</string>
+    <string name="Other_Public_Transport">"Ander openbaar vervoer"</string>
+    <string name="Other_Active_Semi_Active">"Ander actief/ semi-actief vervoer"</string>
+    <string name="Other_Private_Motorised">"Ander eigen gemotoriseerd vervoer"</string>
+
+    <!-- Misc -->
+    <string name="Yes">"Ja"</string>
+    <string name="No">"Nee"</string>
+    <string name="Save">"Bewaar"</string>
+    <string name="Confirm_All">"Bevestig alles"</string>
+
+    <!-- message text of \"Next\" button message: Next -->
+    <string name="Next">"Volgende"</string>
+    <string name="Done">"Klaar"</string>
+    <string name="End">"Einde"</string>
+
+    <!-- Factors Wasted Time -->
+    <string name="Skip">"Sla over"</string>
+
+    <!-- title for the info pages message: A Little About You -->
+    <string name="A_Little_About_You">"Meer over jou"</string>
+
+    <!-- message: Active/Semi-active -->
+    <string name="Active_Semi_active">"Actief/ semi-actief"</string>
+
+    <!-- message: Thanks! To record your trips we need your permission to let Woorti access to your location at all times.
+
+It should not excessively consume your battery. -->
+    <string name="Ask_location_permission_String">"Bedankt! Om je reizen/ trips op te nemen hebben we jouw toestemming nodig om je locatie altijd te kennen. ('Altijd' in de instelling locatievoorzieningen)
+
+"</string>
+
+    <!-- message: Sorry! For Woorti to function properly we really need that you allow it to access your location at all times. -->
+    <string name="Ask_location_permission_String_when_user_has_denied">"Sorry! Maar opdat Woorti kan werken moet je echt 'Altijd' instellen bij de instelling Locatievoorzieningen."</string>
+
+    <!-- message: Lastly, we will be asking you questions regarding your experiences as you travel. Your opinion really matters to us! 
+
+ To do this we need to be able to send you notifications -->
+    <string name="Ask_notification_permission_String">"Tot slot graag nog enkele vragen over hoe je reist en je trips ervaart. Je beleving is heel erg belangrijk voor ons onderzoek! Om dit te doen, moeten we je meldingen kunnen sturen."</string>
+
+    <!-- message: BACK TO LOGIN -->
+    <string name="Back_To_Login">"Terug naar Login"</string>
+
+    <!-- change language screen title message: Change Language -->
+    <string name="Change_Language">"Verander taal"</string>
+
+    <!-- message: Correct exams -->
+    <string name="Correct_Exams">"Verbeter examens"</string>
+
+    <!-- title for the first onboarding pages message: Data Protection -->
+    <string name="Data_Protection">"Privacy en gegevensbescherming"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Didnt_sign_up_yet">"Paswoord vergeten?"</string>
+
+    <!-- rating prefered modes of transport message: Doesn't improve my fitness -->
+    <string name="Doesnt_Improve_My_Fitness">"Verbetert mijn conditie niet"</string>
+
+    <!-- email message -->
+    <string name="Email">"e-mail"</string>
+
+    <!-- message shown when clcicking to reset a password message: If %s has an account with Woorti, you will be receiving an email to reset your password -->
+    <string name="Email_Has_Been_Sent">"e-mail verzonden"</string>
+
+    <!-- rating prefered modes of transport message: Enjoying -->
+    <string name="Enjoying">"Genieten"</string>
+
+    <!-- message: Relaxing or having fun; taking time to listen to music, rest or meditate; engaging in social media; observing the surroundings… -->
+    <string name="Enjoyment_Worthwhile_Description_Score">"Relaxen of plezier maken, tijd nemen om naar muziek te luisteren, rusten of mediteren, social media, naar de omgeving kijken..."</string>
+
+    <!-- message: When I travel, 
+I chill -->
+    <string name="Enjoyment_Worthwhile_High_Score">"Wanneer ik reis, chill ik"</string>
+
+    <!-- placeholder for email in login/register -->
+    <string name="Enter_Your_Email_Address">"Vul je e-mail-adres in"</string>
+
+    <!-- name Placeholder message: Enter your name -->
+    <string name="Enter_Your_Name">"Vul je naam in"</string>
+
+    <!-- placeholder for password in login/register -->
+    <string name="Enter_Your_Password">"Vul je paswoord in"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Enter_Your_Password_Again">"Vul je paswoord nog eens in"</string>
+
+    <!-- error shown to the user when log in failed -->
+    <string name="Error_Log_In">"Foutmelding. Probeer nog eens of reet je paswoord."</string>
+
+    <!-- message: Female -->
+    <string name="Female">"Vrouw"</string>
+
+    <!-- message: Did you know that a person spends about 2 years of her whole life commuting?
+
+Woorti will help you explore your travel time! -->
+    <!-- Fuzzy -->
+    <string name="First_Onboarding_Screen_Welcome_Description_Text">"Wist jij dat een gemiddeld persoon ongeveer twee jaar van zijn of haar leven aan pendelen besteedt?
+Woorti zal je helpen jouw reistijd te ontdekken!"</string>
+
+    <!-- message: Your travel time is an important part of your life! -->
+    <string name="First_Onboarding_Screen_Welcome_Title">"Je reistijd is een belangrijk deel van je leven!"</string>
+
+    <!-- message: message: Travelling is not at all relaxing -->
+    <string name="FitnesEnjoyment_Worthwhile_Low_Scores">"Onderweg zijn is helemaal niet ontspannend."</string>
+
+    <!-- message: When you walk, cycle, or even run on your travels, you’re getting exercise and staying in shape. -->
+    <string name="Fitness_Worthwhile_Description_Score">"Als je wandelt, fietst op zelfs loopt als je onderweg bent, doe je aan sport en onderhoud je je conditie ."</string>
+
+    <!-- message: Travel time is a great way to feel the burn -->
+    <string name="Fitness_Worthwhile_High_Score">"Onderweg zijn is een geweldige gelegenheid om zware fysieke inspanningen te leveren."</string>
+
+    <!-- message: Exercise is in the gym/field -->
+    <string name="Fitness_Worthwhile_Low_Score">"Sporten doe ik wel in de fitness of sportclub."</string>
+
+    <!-- Forgot Password -->
+    <string name="Forgot_Password">"Paswoord vergeten"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Forgot_Your_Password">"Paswoord vergeten?"</string>
+
+    <!-- message: Everyone defines what is a worthwhile travel time in his or her different way.
+
+Let's see what that means to you! -->
+    <string name="Fourth_Onboarding_Screen_Description">"Iedereen definieert 'waardevolle' reistijd op zijn of haar manier. Laat ons ontdekken wat het voor jou betekent!"</string>
+
+    <!-- message: I accept MoTiV data protection conditions -->
+    <string name="GRPD_Accept">"Ik aanvaard de MoTiV databeschermingsvoorwaarden."</string>
+
+    <!-- message: For the European MoTiV project research on travel time, this app collects anonymised data on:
+1. Your trips (time, location and transport used)
+2. Your expressed preferences and searches within the app -->
+    <string name="GRPD_Description">"Voor het Europese MoTiV-onderzoeksproject over de kwaliteit van reistijd, verzamelt deze app geanonimiseerde data over:
+1. Jouw reizen/ trips (tijd, locatie en vervoerswijze)
+2. Je voorkeuren en evaluatie van jouw verplaatsingen binnen de App."</string>
+
+    <!-- message: MoTiV privacy policy is compliant with EU GDPR. Read More -->
+    <string name="GRPD_Read_Policy">"MoTiV privacybeleid is conform EU GDPR. Lees meer"</string>
+
+    <!-- rating prefered modes of transport message: Improves my fitness -->
+    <string name="Improves_My_Fitness">"Verbetert mijn conditie"</string>
+
+    <!-- splash screen start now button message -->
+    <string name="Log_In">"Log in"</string>
+
+    <!-- login with google button message -->
+    <string name="Log_In_With_Google">"Log in met Google"</string>
+
+    <!-- message: Male -->
+    <string name="Male">"Man"</string>
+
+    <!-- message: No worries! Enter your email address below and we will send you a email to reset your password. -->
+    <string name="No_Worries_Message">"Geen zorgen! Vul je e-mail-adres in en jee sturen je een reset-mail."</string>
+
+    <!-- rating prefered modes of transport message: Not Enjoying -->
+    <string name="Not_Enjoying">"Niet aan het genieten"</string>
+
+    <!-- %s not filled -->
+    <string name="Not_Filled">"%s niet gevuld"</string>
+
+    <!-- rating prefered modes of transport message: Not Productive -->
+    <string name="Not_Productive">"Niet productief"</string>
+
+    <!-- message: NOW YOU! -->
+    <string name="Now_You">"NU JIJ!"</string>
+
+    <!-- message: Ok cool -->
+    <string name="Ok_Cool">"OK, cool!"</string>
+
+    <!-- password message -->
+    <string name="Password">"Paswoord"</string>
+
+    <!-- register button message -->
+    <string name="Passwords_Dont_Match">"Paswoorden komen niet overeen"</string>
+
+    <!-- title for the first onboarding pages message: Permissions -->
+    <string name="Permissions">"Toestemmingen"</string>
+
+    <!-- message: Private Motirized -->
+    <string name="Private_Motirized">"Privé gemotoriseerd"</string>
+
+    <!-- message: Proceed to Enjoyment -->
+    <string name="Proceed_To_Enjoyment">"Ga verder naar Plezier"</string>
+
+    <!-- message: Proceed to Fitness -->
+    <string name="Proceed_To_Fitness">"Ga verder naar Conditie"</string>
+
+    <!-- proceed to productivity button message: Proceed to Productivity -->
+    <string name="Proceed_To_Productivity">"Ga verder naar Productiviteit"</string>
+
+    <!-- rating prefered modes of transport message: Productive -->
+    <string name="Productive">"Productief"</string>
+
+    <!-- message: Using travel time to get things done, not only for work or study, but also personal things like managing home or family stuff… -->
+    <string name="Productivity_Worthwhile_Description_Score">"Reistijd gebruiken om dingen af te werken, niet alleen voor het werk of studie, maar ook persoonlijke dingen zoals huishoudelijke of familiale zaken..."</string>
+
+    <!-- message: I used my  trip to get stuff done! -->
+    <string name="Productivity_Worthwhile_High_Score">"Ik heb mijn tripje gebruikt om dingen gedaan te krijgen!"</string>
+
+    <!-- message: I don’t work when I travel -->
+    <string name="Productivity_Worthwhile_Low_Score">"Ik werk niet als ik onderweg ben."</string>
+
+    <!-- message: How important are the travel time worthwhileness elements for you, when you travel? -->
+    <string name="Rate_Worthwhileness_Screen_Title">"Hoe belangrijk is het voor jou dat je reis waardevol, nuttig kan besteed worden?"</string>
+
+    <!-- message: How much enjoyment do you get from your your travel time by: -->
+    <string name="Rating_Prefered_Mot_Enj_Title">"Hoeveel ontspanning krijg je tijdens je reistijd als je onderweg bent met:"</string>
+
+    <!-- message: How does your travel time contribute to your fitness when you travel by: -->
+    <string name="Rating_Prefered_Mot_Fit_Title">"Hoe draagt je reistijd bij aan jouw conditie als je onderweg bent met:"</string>
+
+    <!-- message: How productive are you when you travel by: -->
+    <string name="Rating_Prefered_Mot_Prod_Title">"Hoe productief ben je als je onderweg bent met:"</string>
+
+    <!-- register button message -->
+    <string name="Register">"Registreer"</string>
+
+    <!-- message: Which modes of transport do you use regularly? -->
+    <string name="Regualr_Modes_Of_Transport_Title">"Welke vervoerswijzen gebruik jij regelmatig?"</string>
+
+    <!-- Reset Password -->
+    <string name="Reset_Password">"Reset je paswoord"</string>
+
+    <!-- message: Check out $@ for more information -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Check_Out_Site">"Check hier %s voor meer informatie"</string>
+
+    <!-- message: With the information you provide, Woorti will gather knowledge for better transport solutions and share it with researchers, transport operators and local authorities around Europe. -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Description">"Met de informatie die jij ons bezorgt, zal Woorti kennisverzamelen voor betere vervoersoplossingen en die delen met onderzoekers, vervoersmaatschappijen en lokale overheden in heel Europa."</string>
+
+    <!-- The message for this text was incorrect, the real message in English is: Help research for better transport
+When possible please retranslate this message. -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Title">"Help het onderzoek naar beter vervoer"</string>
+
+    <!-- sign in button message -->
+    <string name="Sign_In">"Teken in"</string>
+
+    <!-- splash screen start now button message -->
+    <string name="Start_Now">"Start nu"</string>
+
+    <!-- message: While some like to study or work when they travel, others like to relax and disconnect. Some take the opportunity to exercise. While others jumpstart their day with music. -->
+    <string name="Third_Onboarding_Screen_Description">"Sommigen vinden het leuk om onderweg te werken of te studeren, anderen ontspannen graag en laten alles even los. Nog anderen benutten de gelegenheid om aan hun conditie te werken. Sommigen vliegen in hun dag met muziek."</string>
+
+    <!-- error shown to the user when registering with a already signed in email account -->
+    <string name="User_Already_Signed_In">"Het lijkt erop dat %s je al een profiel hebt. Inloggen?"</string>
+
+    <!-- title that appears on the top of the login page -->
+    <string name="Welcome_Back">"Welkom terug"</string>
+
+    <!-- title for the first onboarding page message: What is a worthwhile trip -->
+    <string name="What_Is_A_Worthwhile_Trip">"Wat is een waardevolle trip/ reis?"</string>
+
+    <!-- message: What is your age? -->
+    <string name="What_Is_Your_Age">"Wat is je leeftijd?"</string>
+
+    <!-- message: What is your name? -->
+    <string name="What_Is_Your_Name">"Wat is je naam?"</string>
+
+    <!-- message: Where do you live? -->
+    <string name="Where_Do_You_Live">"Waar woon je?"</string>
+
+    <!-- you've got mail! -->
+    <string name="Youve_Got_Mail">"Je hebt mail!"</string>
+    <string name="No_Ongoing_Trip_To_Show">"Geen lopend reistraject om te tonen."</string>
+    <string name="Your_Trip">"Jouw reistraject"</string>
+    <string name="Click_On_The_Marker_To_Split_The_Trip">"Klik op de marker om op te splitsen."</string>
+    <string name="Security_Boarding_Process">"Veiligheid en inchecken"</string>
+    <string name="Other_Activity">"Andere activiteit"</string>
+    <string name="Cycling">"Het fietsen op zich"</string>
+    <string name="Riding">"Het rijden op zich"</string>
+    <string name="Skating">"Het skaten op zich"</string>
+    <string name="Driving">"Het rijden op zich"</string>
+    <string name="Running">"Het rennen op zich"</string>
+
+    <!-- message: Please wait while Woorti searches for local studies -->
+    <string name="Wait_While_Searching_Local_Studies">"Even wachten terwijl Woorti zoekt naar lokale studies"</string>
+
+    <!-- message: There are these studies going near you. Which one(s) do you want to contribute with data to? -->
+    <string name="Studies_Title">"Dit zijn lopende onderzoeken dicht bij jou. Aan welke wil jij graag data bijdragen?"</string>
+    <string name="Menu">"Menu"</string>
+    <string name="Set_Home">"Stel thuisadres in"</string>
+    <string name="Set_Work">"Stel werkadres in"</string>
+    <string name="Change_Photo">"Verander de foto"</string>
+    <string name="Name">"Naam"</string>
+    <string name="Define_Home_Location">"Definieer de locatie van jou thuis om sneller reistrajecten vast te leggen."</string>
+    <string name="Define_Work_Location">"Definieer de locatie van jouw werk om sneller reistrajecten vast te leggen."</string>
+    <string name="Edit">"Verander"</string>
+    <string name="Educational_Background">"Opleiding"</string>
+    <string name="Activities">"Activiteiten"</string>
+    <string name="While_You_Ride">"Onderweg"</string>
+    <string name="Ability_To_Do_What_I_Wanted">"De mogelijkheid om onderweg te doen wat ik wil "</string>
+    <string name="Simplicity_Difficulty_Of_The_Route">"De eenvoud/ ingewikkeldheid van de route"</string>
+    <string name="Schedule_Reliability">"Betrouwbaarheid van de duur van mij reistraject"</string>
+    <string name="Security_And_Safety">"Veiligheid"</string>
+    <string name="Space_Onboard_For_Lugagge_Pram_Bicycle">"Plaats voor bagage/ buggy/ fiets etc."</string>
+    <string name="Ability_To_Take_Pets_Along">"Mogelijkheid om huisdieren mee te nemen"</string>
+    <string name="Payment_And_Tickets">"Betaling en tickets"</string>
+    <string name="Convenient_Access_Lifts_Boarding">"Goede toegankelijkheid (liften, in- en uitstappen etc)"</string>
+    <string name="Route_Planning_Navigation_Tools">"Routeplanning en navigartiemogelijkheden"</string>
+    <string name="Information_And_Signs">"Informatie en borden"</string>
+    <string name="Checkin_Security_And_Boarding">"Check-in, veiligheid en instapprocedures"</string>
+    <string name="Crowdedness_Seating">"Drukte/ beschikbaarheid van zitplaatsen"</string>
+    <string name="Internet_Connectivity">"Internetverbinding"</string>
+    <string name="Ability_To_Do_The_Things_I_Want">"Mogelijkheid om te doen wat ik wil onderweg"</string>
+    <string name="Charging_Opportunity">"Mogelijkheid om batterij op te laden"</string>
+    <string name="Car_Bike_Parking_At_Transfer_Point">"Auto/ Fietsparking op overstappunt"</string>
+    <string name="Vehicle_Ride_Smoothness">"Zacht en comfortabel rijden met dit voertuig"</string>
+    <string name="Seating_Quality_Personal_Space">"Kwaliteit van de zitplaats/ persoonlijke ruimte"</string>
+    <string name="Other_People">"Andere mensen"</string>
+    <string name="Air_Quality_Temperature">"Luchtkwaliteit/ temperatuur"</string>
+    <string name="General_Atmosphere_Design">"Algemene atmosfeer/ ontwerp"</string>
+    <string name="Road_Path_Availability_And_Safety">"Weg/ pad-beschikbaarheid en veiligheid"</string>
+    <string name="Accessibility_Escalators_Lifts_Ramps_Stairs_Etc">"Goede toegankelijkheid (liften etc)"</string>
+    <string name="Ability_To_Carry_Bags_Luggage_Etc">"Mogelijkheid om zakken en koffers te dragen"</string>
+    <string name="Ability_To_Take_Kids_Or_Pets_Along">"Mogelijkheid om kinderen of huisdieren mee te nemen"</string>
+    <string name="Benches_Toilets_Etc">"Toiletten etc"</string>
+    <string name="Facilities_Shower_Lockers">"Faciliteiten (douche, lockers...)"</string>
+    <string name="Parking_At_End_Points">"parking op de bestemming"</string>
+    <string name="Road_Path_Quality">"Kwaliteit van de weg/ het pad"</string>
+    <string name="Road_Path_Directness">"Directe verbinding van de weg/ het pad"</string>
+    <string name="Air_Quality">"Luchtkwaliteit"</string>
+    <string name="Lighting_Visibility">"Verlichting/ zichtbaarheid"</string>
+    <string name="Cars_Other_Vehicles">"Auto's/ andere voertuigen"</string>
+    <string name="Space_For_Luggage_Pram_Bicycle_Etc">"Plaats voor bagage/ buggy/ fiets etc"</string>
+    <string name="Road_Quality_Vehicle_Ride_Smoothness">"Kwaliteit van het wegdek/ zacht rijden met het voertuig"</string>
+    <string name="Vehicle_Quality">"Kwaliteit van het voertuig"</string>
+    <string name="Seat_Comfort">"Comfort van de zitplaatsen"</string>
+    <string name="Other_Passengers">"Andere passagiers"</string>
+    <string name="Other_Cars_Vehicles">"Andere auto's/ voertuigen"</string>
+
+    <!-- Button text on second onboarding page -->
+    <string name="Lets_Get_Started">"Laat ons eraan beginnen!"</string>
+
+    <!-- Report issue -->
+    <string name="Thank_You_For_Submitting_This_Issue">"Dank je om dit probleem te melden. Bevestig deze melding of meld nog een probleem."</string>
+    <string name="Confirm_And_Leave">"Bevestig en ga weg"</string>
+    <string name="Confirm_And_Submit_More">"Bevestig en meld nog een probleem"</string>
+    <string name="Where_City">"Waar in %s?"</string>
+    <string name="OtherCountry">"Ander land"</string>
+    <string name="OtherCity">"Andere stad"</string>
+    <string name="Sign_Up_Error">"Aanmeldingsfout"</string>
+    <string name="Sign_Up">"Meld aan"</string>
+    <string name="How_Important_Are_The_Following_Factors">"Hoe belangrijk zijn volgende factoren voor jou terwijl je onderweg bent:"</string>
+    <string name="Modes_Of_Transport">"Vervoerswijzen"</string>
+    <string name="Help_Research_For_Better_Transport">"Help onderzoek voor beter vervoer"</string>
+    <string name="Already_Signed_Up_Log_In_Here">"Heb je al een profiel? Log dan hier in."</string>
+    <string name="Welcome">"Welkom"</string>
+    <string name="Refresh_Surveys">"Ververs"</string>
+
+    <!-- This string has the text for the data regarding Activities (e.g., for the walk itself) and *not* the walking mode of transport -->
+    <string name="The_Walk_Itself">"Het stappen op zich"</string>
+    <string name="Education_Highshool">"Middelbaar onderwijs"</string>
+
+    <!-- TODO new strings 
+ New education strings according to specs -->
+    <string name="Education_Basic">"Lager onderwijs"</string>
+    <string name="Education_University">"Universiteit"</string>
+
+    <!-- Ocupation options -->
+    <string name="Occupation">"Beroep"</string>
+    <string name="Ocupation_Student">"Student"</string>
+    <string name="Ocupation_Schedule_Worker">"Voltijds werkend"</string>
+    <string name="Ocupation_Flexible_worker">"Deeltijds werkend"</string>
+    <string name="Ocupation_Selfemployed">"Zelfstandige/ freelancer"</string>
+    <string name="Ocupation_Seeking_Work">"Werkzoekend"</string>
+    <string name="Ocupation_Inactive">"Inactief/ gepensioneerd"</string>
+    <string name="Ocupation_Maternity">"Met moederschaps-/ vaderschapsverlof"</string>
+    <string name="Ocupation_Military">"In militaire dienst"</string>
+
+    <!-- Marital status -->
+    <string name="Marital_Status">"Burgerlijke status"</string>
+    <string name="Marital_Single">"Single"</string>
+    <string name="Marital_Married">"Getrouwd"</string>
+    <string name="Matital_Significant_Other">"Partner"</string>
+    <string name="Marital_Divorced">"Gescheiden"</string>
+    <string name="Marital_Widowed">"Weduwe/ weduwnaar"</string>
+    <string name="Driver_License">"Rijbewijs"</string>
+    <string name="Household_Yearly_Income">"Jaarlijks netto inkomen"</string>
+    <string name="Number_People_Household">"Aantal mensen in het gezin"</string>
+    <string name="Number_Children_household">"Aantal kinderen in het gezin"</string>
+    <string name="Number_Cars_Household">"Aantal auto's in het gezin"</string>
+    <string name="Nationality">"Nationaliteit"</string>
+
+    <!-- TODO NEW STRING -->
+    <string name="No_Trips_Text">"Op dit scherm zullen jouw reistrajecten verschijnen, en zal je ze een waardering kunnen geven. Kom na een traject terug naar hier.
+Woorti probeert geen enkele van jouw reistrajecten te missen, maar als je zéker wil zijn dat ze opgenomen worden, duw dan zelf op 'start'.
+Zorg dat je GPS opstaat."</string>
+
+    <!-- Dashboard -->
+    <!-- you have spent %1s travelling a distance of %2s in %3s. -->
+    <string name="You_Have_Spent_Complete">"Je bent %1s onderweg geweest en je legde een afstand af van %2s in %3s.
+"</string>
+    <string name="In_Total_You_Spent_Calories">"Je hebt in totaal %1s calorieën verbrand.
+"</string>
+    <string name="And_This_Counted_Carbon_Footprint">"En dit telt voor %1s van je voetafdruk."</string>
+    <string name="Your_Trips_Overall_Percentage_Worthwhile">"Je trajecten waren %s waardevol.
+"</string>
+    <string name="While_Traveling_Activities">"Terwijl je onderweg was, heb je %1s van je tijd besteed aan %2s.
+"</string>
+    <string name="Do_You_Want_To_Set_This_Location_Home">"Wil je deze bestemming instellen als je thuisadres?"</string>
+    <string name="Do_You_Want_To_Set_This_Location_Work">"Wil je deze bestemming instellen als je werkadres?"</string>
+    <string name="Privacy_Policy">"Privacybeleid"</string>
+
+    <!-- day -->
+    <string name="Day">"Dag"</string>
+
+    <!-- 3 days -->
+    <string name="Days_3">"3 dagen"</string>
+
+    <!-- week -->
+    <string name="Week">"Week"</string>
+
+    <!-- month -->
+    <string name="Month">"Maand"</string>
+
+    <!-- year -->
+    <string name="Year">"Jaar"</string>
+
+    <!-- era -->
+    <string name="Era">"Eeuw"</string>
+
+    <!-- worthwhile -->
+    <string name="Worthwhile">"Waardevol"</string>
+
+    <!-- TODO new strings 
+ New education strings according to specs -->
+    <string name="Other_Activities">"Andere activiteiten"</string>
+
+    <!-- Marital status -->
+    <string name="Household_Marital">"Burgerlijke status"</string>
+    <string name="Household_Years_Residence">"Hoeveel jaren woon je al in dit land"</string>
+    <string name="Household_Labour_Status">"Werkstatus"</string>
+    <string name="Labour_Student">"Student"</string>
+    <string name="Labour_Employed_Full_Time">"Voltijds werkend"</string>
+    <string name="Labour_Employed_Part_Time">"Deeltijds werkend"</string>
+    <string name="Labour_Unemployed">"Werkloos"</string>
+    <string name="Years_Residence_Less_Than_One">"Minder dan 1"</string>
+    <string name="Years_Residence_One_To_Five">"1 tot 5"</string>
+    <string name="Years_Residence_More_Than_Five">"Meer dan 5"</string>
+    <string name="Walk_For_Distance">"%s aan het wandelen"</string>
+    <string name="Household">"Gezin"</string>
+    <string name="Total_Points">"Totaal aantal punten"</string>
+    <string name="Todays_Travel_Report">"Reisrapport van vandaag"</string>
+
+    <!-- link to page with privacy policy specific to each language -->
+    <!-- Fuzzy -->
+    <string name="Url_Privacy_Policy">"https://motivproject.eu/data-collection/data-protection/belgium.html"</string>
+
+    <!-- %d questions -->
+    <string name="N_Questions">"%d vragen"</string>
+
+    <!-- New survey -->
+    <string name="New_Survey">"Nieuwe vraag"</string>
+
+    <!-- Minutes more -->
+    <string name="Minutes_More">"minuten meer"</string>
+
+    <!-- Minutes less -->
+    <string name="Minutes_Less">"minuten minder"</string>
+
+    <!-- Kilometers more -->
+    <string name="Km_More">"km meer"</string>
+
+    <!-- Kilometers less -->
+    <string name="Km_Less">"km minder"</string>
+
+    <!-- Trip validation -->
+    <string name="Trip_Validation">"Reistraject validatie"</string>
+
+    <!-- Latest story -->
+    <string name="Latest_Story">"Nieuwste verhaal"</string>
+    <string name="Household_Data">"Gezinsgegevens"</string>
+
+    <!-- new text for battery warning pop up in mytrips (so that people are remembered to disable battery optimizations that undermine the app working in background) -->
+    <!-- battery warning popup text -->
+    <string name="Alert_Battery_Content">"Woorti werkt in de achtergrond als er reistrajecten worden opgenomen. Zorg dat er geen batterijbesparende instellingen aanslaan, om te vermijden dat de App zichzelf uitschakelt."</string>
+
+    <!-- "In the last" start message of DashBoard, Please use sentence that fits any number of days -->
+    <!-- Dashboard -->
+    <string name="In_The_Last">"in het laatste"</string>
+
+    <!-- stories -->
+    <string name="story_1_title_chiaras_new_train_ride">"Chiara's nieuwe treinrit"</string>
+    <string name="story_1_text_chiaras_train_ride">"Chiara verhuisde onlangs met haar man en twee kinderen naar de Brusselse rand. Ze brengt haar kinderen naar school met de bakfiets en rijdt dan verder naar het station, waar ze op de trein stapt, om 25 minuten later aan te komen in het centrum. Chiara moet nu beduidend langer pendelen en was daar in eerste instantie niet zo gelukkig mee, maar ondertussen geniet ze van haar tijd in de trein. Ze kan nu ontspannen en dingen doen waar ze anders niet toe zou komen.
+
+Ze begon deze tijd te benutten om een boek te lezen. Na een tijdje echter voelde ze dat 25 minuten niet genoeg was om echt in het verhaal te komen.
+
+Dan probeerde ze een magazine te lezen, maar omdat ze houdt van lange en diepgaande artikels, bleef hetzelfde probleem bestaan.
+
+Dan begon ze gewoon wat Facebook te checken. Ze ging zo op in de inhoud dat ze soms bijna vergat af te stappen. Chiara besliste dat de dag starten met Facebook niet het beste was voor haar hart en brein.
+
+Uiteindelijk vond ze iets wat wel werkte. Omdat ze verhuisd waren naar een plaats waar Nederlands wordt gesproken, vond ze dat ze de taal moest leren. Met een taalles-App, bleek de treinrit voldoende om twee, drie lesjes te leren. Het gaf haar ook het juiste leerritme om een taal te leren: elke dag een beetje, langzaam aan elke dag een beetje beter kunnen praten met de mensen in haar buurt.
+
+De beste keuze voor Chiara was iets te vinden dat zowel overeenkwam met de beschikbare tijd als iets dat ze wilde doen in deze levensfase.
+
+En jij? Wat is de beste keuze tijdens jouw reistijd?"</string>
+    <string name="story_2_title_the_best_way_to_get_great_ideas_while_moving_p1">"De beste manier om onderweg geweldige ideeën te krijgen "</string>
+    <string name="story_2_text_the_best_way_to_get_great_ideas_while_moving_p1">"Zijn er activiteiten waarbij er makkelijker nieuwe ideeën in je opkomen? Elon Musk antwoordde op de vraag 'Wat is het meest productieve deel van jouw dag': 'Als ik in de douche sta'. Hij is niet de enige: veel mensen geven aan dat veel van hun beste ideeën in de douche opkomen!
+
+Zou dat ook kunnen gebeuren wanneer we onderweg zijn? Zijn er momenten die dan het meest productief zijn?
+
+Eigenlijk blijkt onderweg zijn zeer geschikt om op nieuwe ideeën te komen. Verschillende grote denkers blijken dit voordeel te hebben ontdekt, dat als ze in beweging zijn, ze dan beter kunnen nadenken over iets.
+
+Hint: sommigen van hen, zoals Beethoven, Dickens en Darwin, leefden op een plek zonder gemotoriseerde voertuigen.
+
+Nog een hint: het is een vorm van beweging die het brein activeert.
+
+Raad jij het? Check het in het verhaal van morgen... :)"</string>
+    <string name="story_3_title_the_best_way_to_get_great_ideas_while_moving_p2">"De beste manier om onderweg geweldige ideeën te krijgen "</string>
+    <string name="story_3_text_the_best_way_to_get_great_ideas_while_moving_p2">"Dus, welke vorm van beweging van de grote denkers uit het vorige verhaal zorgde voor goede ideeën?
+
+Wandelen!
+
+Ja, Steve Jobs bijvoorbeeld deed eenzame wandelingen op het Apple-domein in Palo Alto, gewoon om beter te kunnen denken. Hij deed ook wandel-vergaderingen: in plaats van een vergaderlokaal, nam hij hen mee voor een wandeling.
+
+Is er hier een wetenschappelijke uitleg voor, of was dat gewoon willekeurig?
+
+Wel, er zijn studies die aantonen dat wanneer mensen wandelen, er bepaalde delen van het brein worden geactiveerd. Een studie met schoolkinderen toonde aan dat wanneer kinderen op school aankwamen, hun brein veel actiever was als ze te voet waren gekomen dan met de auto.
+
+Natuurlijk mag er iet teveel afleiding zijn tijdens een wandeling, om het brein optimaal te kunnen laten ideeën spuien. Verkeer, lawaai, obstakels... Steden die ontworpen zijn met betere voorwaarden om te wandelen zijn betere steden om op grootse ideeën te komen!
+
+Om productieve wandelmeetings te bevorderen, had iemand een geweldig idee (misschien in de douche gekregen, wie weet!): Een App te bouwen die wandelroutes uitstippelde die zeer geschikt waren voor wandelmeetings. De App heet Weeting en bevat verschillende vergaderwandelroutes in Nederland.
+
+Hoe goed zijn jouw wandelroutes om na te denken?"</string>
+    <string name="story_4_title_the_7_shades_of_pedros_cycling_time">"De zeven tinten van Pedro's fietstijd"</string>
+    <string name="story_4_text_the_7_shades_of_pedros_cycling_time">"Voor Pedro was het aanhankelijken statement. Hij begon naar z'n werk te fietsen in de tijd dat dat in Lissabon nog iets heel vreemd was. Oude mannen riepen hem toe 'Komaan fietser, komaan', alsof het de Ronde van Frankrijk was. Autobestuurders toeterden 'Uit de weg!'
+
+"</string>
+    <string name="story_5_title_stopping_or_not_stopping_in_a_moving_walkway">"Stoppen of niet, op een bewegend wandelpad?"</string>
+    <string name="story_5_text_stopping_or_not_stopping_in_a_moving_walkway">"Have you noticed that some people stop in moving walkways or stairways, while others keep walking?  
+ 
+
+What do you think is the reason for this distinct behaviour? 
+ 
+
+Do you prefer when other people walk, or when they stand? 
+ 
+
+If the answer that came into your head seems straight obvious, think again. It might not be that simple. 
+ 
+
+Next time you go on a moving walkway, try observing people that either walk or stand. Just by looking at them, you might get pretty good hints about the why. If you keep imagining, you might also have a journey into what might be their whole story. It’s fun! 
+ 
+
+Stopping, or not stopping, in a moving walkway? Read our full story here (English only):
+
+https://motivproject.eu/news/detail/stopping-or-not-stopping-in-a-moving-walkway.html
+"</string>
+    <string name="story_6_title_virtual_travel_time">"Virtuele reistijd"</string>
+    <string name="story_6_text_virtual_travel_time">"Have you heard of the “virtual travel time”? 
+ 
+
+No, it’s not about travelling in virtual reality. It’s something more concrete. 
+ 
+
+How much time do you exactly take travelling from point A to point B? You’ll probably say: well it’s my journey time, of course! 
+ 
+
+Well, from a certain perspective, it isn’t. It might even actually be much more than that… 
+ 
+
+Think about it: to travel from point A to point B, you probably had to spend some money. If you’re travelling by car, that is all the costs associated to riding and possessing a car. If you’re going by public transport, that’s the cost of your ticket. Even if you’re walking, you’re at least wearing your shoes, and you’ll end up having to replace them more quickly. 
+ 
+
+But what does money have to do with travel time? 
+ 
+
+To obtain money, you (or someone else for you) has to work to gain it, and working takes time. So, the time of your travel is not only the time you spend travelling, it’s also the time you spend earning the money necessary for travelling. 
+ 
+
+For example, take a car. On average a car costs, all expenses included, 350 euros a month. The amount of work that you have to put in monthly to pay that car, add it to your travel time of the trips for that month. That’s your virtual travel time. 
+ 
+
+If you're fortunate, you might say that working is not loss of time, because you love working. And you might also say the same about travelling to work, maybe. Yes, that makes the issue even more complicated. 
+ 
+
+How fo you see it? Share your thoughts with us :-)
+ 
+https://www.facebook.com/MotivProject.eu/ 
+
+https://twitter.com/MoTiV_Project
+"</string>
+
+    <!-- new string in mobility coach -->
+    <!-- mobility coach -->
+    <string name="Your_Mobility_Journey">"Verhalen en lessen"</string>
+
+    <!-- new string to translate in home module -->
+    <!-- home module -->
+    <string name="You_have_trips_to_validate">"Je hebt reistrajecten om te valideren."</string>
+
+    <!-- (story) Coming tomorrow -->
+    <string name="Coming_Tomorrow">"Morgen"</string>
+
+    <!-- Story (1, 2, 3, 4...) -->
+    <string name="Story">"Verhaal %d"</string>
+
+    <!-- profile and settings -->
+    <string name="Marital_Partnership">"Geregistreerd partnerschap"</string>
+
+    <!-- profile and settings  -->
+    <string name="Labour_Pensioner">"Gepensioneerd"</string>
+
+    <!-- Notification shown when a trip has started  -->
+    <string name="Trip_Has_Started_At">"Traject gestart om %s"</string>
+
+    <!-- Notification shown when a trip has ended -->
+    <string name="Trip_Has_Ended_At">"Traject gestopt om %s"</string>
+    <string name="Trip_Has_Ended">"Traject afgelopen!"</string>
+    <string name="engagement_notification_1_title">"Woorti heeft net je eerste reistraject opgenomen!"</string>
+    <string name="engagement_notification_1_content">"Open de App en vertel erover! "</string>
+    <string name="engagement_notification_2_title">"Je hebt een verhaal om te lezen."</string>
+    <string name="engagement_notification_2_content">"Als je het vandaag leest, kan je morgen nog één lezen."</string>
+    <string name="engagement_notification_3_title">"Er is een nieuw verhaal!"</string>
+    <string name="engagement_notification_3_content">"Denk eraan je laatste traject te waarderen"</string>
+    <string name="Language_Changed_Popup_Content">"Start de App opnieuw om dit proces te vervolledigen."</string>
+    <string name="Language_Changed_Popup_Title">"Taal veranderd"</string>
+
+    <!-- Predictability of travel time -->
+    <string name="Predictability_Of_Travel_Time">"Voorspelbaarheid van reistijd"</string>
+    <string name="Urban_Scenery_Atmosphere">"Stedelijke omgeving en atmosfeer"</string>
+    <string name="While_You_Are_There">"Terwijl je daar bent"</string>
+    <string name="Begin">"Begin"</string>
+    <string name="engagement_notification_4_title">"Heb je je reistijdstatistieken al gecheckt?"</string>
+    <string name="engagement_notification_4_content">"Tap om je dashboard te zien."</string>
+    <string name="engagement_notification_5_title">"Je reistijd-waardevolheid tot nu toe is %d"</string>
+    <string name="engagement_notification_5_content">"Heb je opgemerkt hoe het varieert met de trips die je maakt?"</string>
+    <string name="engagement_notification_6_title">"Rapporteer je laatste traject."</string>
+    <string name="engagement_notification_6_content">"Vul je data in en check je statistieken."</string>
+    <string name="engagement_notification_7_title">"%d minuten"</string>
+    <string name="engagement_notification_7_content">"is de tijd die je deze week onderweg bent geweest"</string>
+    <string name="engagement_notification_8_title">"Blijf reistijdkwaliteitsonderzoek steunen."</string>
+    <string name="engagement_notification_8_content">"Dank je om je trajecten door te geven! Tap hier."</string>
+    <string name="engagement_notification_9_title">"Rapporteer je laatste traject."</string>
+    <string name="engagement_notification_9_content">"Vul je data in en check je statistieken."</string>
+
+    <!-- when referencing campaigns -->
+    <string name="Campaigns">"Campagnes"</string>
+
+    <!-- Welcome to your trips board, %NAME_USER% ! -->
+    <string name="Welcome_To_Your_Trips_Board_Username">"Welkom bij je trajecten-overzicht, %s!"</string>
+
+    <!-- You have X trips left to report in the last 3 days -->
+    <string name="You_Have_X_Trips_Left_3_Days">"Je hebt %d trips om te waarderen in de laatste 3 dagen."</string>
+
+    <!-- These are the trips you have made! Reporting on them helps our research, and allows you to monitor your travel time. After reporting each trip, find out your travel time worthwhileness statistics in the Dashboard! Press the ‘!’ mark to report. -->
+    <string name="These_Are_The_Trips_You_Have_Made">"Dit zijn de trajecten die je hebt afgelegd! Ze valideren op kwaliteit helpt ons onderzoek, en helpt jou je reistijd te monitoren. Na elk traject kan je je 'reistijdwaardevolheid'-statistieken in het Dashboard bekijken. Tap op '!' om te valideren."</string>
+
+    <!-- Now that you have a reported trip, you can check your first travel time statistics in the Dashboard. -->
+    <string name="Now_That_You_Have_A_Reported_Trip_Popup_Text">"Nu dat je een gevalideerd traject hebt, kan je je eerste reistijdstatistieken checken in het Dashboard."</string>
+
+    <!-- Go to dashboard -->
+    <string name="Go_To_Dashboard">"Ga naar dashboard"</string>
+
+    <!-- Report trips -->
+    <string name="Report_Trips">"Valideer trajecten"</string>
+
+    <!-- This is your Dashboard. It shows how worthwhile your travel time is.  For your trip stats to appear here, report your trips -->
+    <string name="This_Is_Your_Dashboard_Popup_Text">"Dit is je Dashboard. Het toons hoe waardevol jij jouw reistijd vindt. 
+Wil je dat jouw statistieken hier verschijnen, valideer dan je trajecten."</string>
+
+    <!-- See dashboard -->
+    <string name="See_Dashboard">"Zie dashboard."</string>
+
+    <!-- profile and settings -->
+    <string name="Campaign_Scores">"Campagnescores"</string>
+
+    <!-- when iOS user is redirected and asked to authorize GPS in phone settings after denying permissions in On-boarding -->
+    <string name="GPS_Link_Phone_Settings">"Instellingen"</string>
+
+    <!-- when iOS user is asked to authorize GPS in phone settings and selects back to dismiss this dialogue -->
+    <string name="GPS_Go_Back">"Terug"</string>
+
+    <!-- Days -->
+    <string name="Days">"Dagen"</string>
+
+    <!-- trips -->
+    <string name="Trips">"Trajecten"</string>
+
+    <!-- Issue form -->
+    <string name="Issue_Form">"Probleemmeldingsformulier"</string>
+
+    <!-- Thank you for reporting an issue -->
+    <string name="Thank_You_For_Reporting_An_Issue">"Bedankt om een probleem te melden!"</string>
+
+    <!-- Submit log -->
+    <string name="Submit_Log">"Invul-logboek"</string>
+
+    <!-- Send log -->
+    <string name="Send_Log">"Verzend logboek"</string>
+
+    <!-- No log needed for this issue. Skip. -->
+    <string name="No_Log_Needed_For_This_Issue_Skip">"Geen registratie nodig voor dit probleem. Sla over."</string>
+
+    <!-- Targets & Rewards -->
+    <string name="Targets_And_Rewards">"Doelen &amp; beloningen"</string>
+
+    <!-- Tasks -->
+    <string name="Tasks">"Taken"</string>
+
+    <!-- To analise the issue, we would like to receive a log with information of the app activity. Please send the email that will be generated. If you like, you can also attach printscreens or a longer description of the issue to the email. -->
+    <string name="To_Analyse_This_Issue">"To analyse the issue, we would like to receive a log with information of the app activity. Please send the email that will be generated. If you like, you can also attach printscreens or a longer description of the issue to the email."</string>
+
+    <!-- points -->
+    <string name="Points">"Punten"</string>
+
+    <!-- Progress (Reward progress) -->
+    <string name="Progress">"Voortgang"</string>
+
+    <!-- %1$s days left -->
+    <string name="days_left_reward">"dagen over"</string>
+
+    <!-- user registration -->
+    <string name="Password_Length_Message">"Maak een paswoord tussen 6 en 16 karakters."</string>
+
+    <!-- Onboarding -->
+    <string name="How_Productive_Are_You">"How productive are you"</string>
+
+    <!-- Woorti is running in the background -->
+    <string name="Woorti_Is_Running">"Woorti is running in the background"</string>
+
+    <!-- Continue -->
+    <string name="Continue">"Continue"</string>
+
+    <!-- Hurray!!! -->
+    <string name="Hurray">"Hurray!!!"</string>
+
+    <!-- You have completed your target for NAME_REWARD! -->
+    <string name="You_Have_Completed_Your_Target">"You have completed your target for %s !"</string>
+
+    <!-- Keep reporting your trips to monitor your stats to see your evolution and help this research  -->
+    <string name="Keep_Reporting_Your_Trips_Reward_Completed_Popup">"Keep reporting your trips to monitor your stats to see your evolution and help this research"</string>
+
+    <!-- Woorti just detected that you started a trip -->
+    <string name="Woorti_Just_Detected_Start_Trip">"Woorti just detected that you started a trip"</string>
+
+    <!-- Your  trip has ended.\nYou can now report about it in Woorti -->
+    <string name="Your_Trip_As_Ended">"Your trip has ended"</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Successful">"Onboarding Successfully Completed"</string>
+
+    <!-- Trip validation tutorial -->
+    <string name="Trip_Validation_Tutorial">"Trip validation tutorial"</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Duplicated">"Onboarding was already completed before. Logging in."</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Error">"An error has occurred during Onboarding. Please try completing Onboarding again."</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Attempt">"Attempting to submit trip information"</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Successful">"Trip information submitted successfully"</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Not_Submitted">"Trip not submitted - reconnect later"</string>
+
+    <!-- You can now report about it in Woorti -->
+    <string name="You_Can_Now_Report_About_It_In_Woorti">"You can now report about it in Woorti"</string>
+
+    <!-- Complete until dd/mm/yyyy -->
+    <string name="Complete_Until">"Complete until %s"</string>
+
+    <!-- You have a new survey (notification) -->
+    <string name="You_Have_A_New_Survey">"You have a new survey."</string>
+
+    <!-- Fill it in and earn %d points. (notification -> fill survey) -->
+    <string name="Fill_It_And_Earn_XX_Points">"Fill it in and earn %d points"</string>
+
+    <!-- Is your phone blocking trip detection? -->
+    <string name="Is_Your_Phone_Blocking_Trip_Detection">"Is your phone blocking trip detection?"</string>
+
+    <!-- Woorti gives you 25 points for each additional information item you fill in your profile. -->
+    <string name="Woorti_Gives_You_Points_For_Each_Info">"Woorti gives you 25 points for each additional information item you fill in your profile."</string>
+
+    <!-- If that is the case, fortunately there is a solution. Get the instructions for your phone brand by pressing  the button below. -->
+    <string name="If_Thats_The_Case_Fortunately_There_Is_Solution">"If that is the case, fortunately there is a solution. Get the instructions for your phone brand by pressing  the button below."</string>
+
+    <!-- Enable app activity -->
+    <string name="Enable_App_Activity">"Enable app activity"</string>
+
+    <!-- Do not show again -->
+    <string name="Do_Not_Show_Again">"Do not show again"</string>
+
+    <!-- If your trips are frequently not being recorded, your phone might be blocking this app’s activity. -->
+    <string name="If_Your_Trips_Are_Frequently_Not_Being_Recorded">"If your trips are frequently not being recorded, your phone might be blocking this app’s activity."</string>
+
+    <!-- Tell us more about yourself -->
+    <string name="Tell_Us_More_About_Yourself">"Tell us more about yourself"</string>
+
+    <!-- Your data is anonymised. -->
+    <string name="Your_Data_Is_Anonymised">"Jouw data worden geanonimiseerd"</string>
+
+    <!-- Fill in profile -->
+    <string name="Fill_In_Profile">"Vul profiel in"</string>
+
+    <!-- Later -->
+    <string name="Later">"Later"</string>
+
+    <!-- Point all time -->
+    <string name="Points_All_Time">"Alle punten"</string>
+
+    <!-- Days with trips all time -->
+    <string name="Days_All_Time">"Alle dagen met trajecten"</string>
+
+    <!-- Trips all time -->
+    <string name="Trips_All_Time">"Alle trajecten"</string>
+
+    <!-- temporary text without link to battery optimization site not endorsed by motiv. -->
+    <string name="If_Your_Trips_Are_Frequently_Not_Being_Recorded_No_Link_To_Site">"If your trips are frequently not being recorded, your phone might be blocking this app’s activity. Check your battery optimization settings in Android to unblock Woorti."</string>
+
+    <!-- Dashboard_You -->
+    <string name="Dashboard_You">"Jij"</string>
+
+    <!-- Dashboard_Community -->
+    <string name="Dashboard_Community">"Community"</string>
+
+    <!-- Dashboard_Citizens -->
+    <string name="Dashboard_Citizens">"Citizens"</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Balloon_Text_Worthwhile_From_Onboarding">"These results reflect either default scores or the scores you have stated in the onboarding, per mode of transport . You may always change the applicable scores in the app’s Settings."</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Balloon_Text_Worthwhile_From_Leg_Info_Recorded">"Deze resultaten tonen hoe waardevol jij jouw deeltrajecten vindt van de reis waarover je rapporteert."</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Your_Whole_Trips">"Your whole trips"</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Your_Reported_Legs">"Je gerapporteerde deeltrajecten"</string>
+
+    <!-- Dashboard -->
+    <string name="Time_Spent_In_Travel">"Time Spent in Travel"</string>
+
+    <!-- Dashboard -->
+    <string name="Travelled_Distance">"Travelled Distance"</string>
+
+    <!-- Dashboard -->
+    <string name="CO2_Emissions">"CO2 Emissions"</string>
+
+    <!-- Dashboard -->
+    <string name="Calories">"CO2-uitstoot"</string>
+
+    <!-- Dashboard -->
+    <string name="The_Community_Trips">"The community's trips"</string>
+
+    <!-- Dashboard -->
+    <string name="The_Community_Validated_Legs">"De deeltrajecten van de community"</string>
+
+    <!-- Dashboard -->
+    <string name="Compared_To_Your_Scores">"(compared to your scores)"</string>
+
+    <!-- Dashboard -->
+    <string name="Worthwhileness">"Waardevolheid"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Title">"Hallo reiziger!"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Text_Part_1">"Report your %d detected trips in the last "</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Text_Part_2">"to see your complete real stats in the dashboard."</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Report_Trips">"REPORT TRIPS"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_See_Dashboard">"SEE DASHBOARD"</string>
+
+    <!-- MyTrips -->
+    <string name="Pop_Up_Split_Merge_Delete_Text">"Uitzonderlijk gebeurt het dat een traject niet perfect wordt gedetecteerd. Om je reis op te delen in deeltrajecten of delen te wissen, klik hier."</string>
+
+    <!-- MyTrips -->
+    <string name="Pop_Up_Split_Merge_Delete_Button">"Begrepen!"</string>
+
+    <!-- Home module travel report -->
+    <string name="Seven_Day_Travel_Report">"7-day travel report"</string>
+
+    <!-- Home (travel report link to Dashboard) -->
+    <string name="Learn_More">"Meer hierover"</string>
+
+    <!-- please retranslate to make clear statistics are average calories per day. thank you. LV. -->
+    <!-- Dashboard -->
+    <string name="In_Total_Users_Spent_Calories">"On average, per day, each user in the community have burned %1s."</string>
+
+    <!-- Dashboard -->
+    <string name="And_This_Counted_Carbon_Footprint_Users">"On average, the community spent %1s of their sustainable carbon footprint."</string>
+
+    <!-- People from "campaign/city/country" on average have spent "3 min more/less" travelling a distance of "3km more/less" than you per day. -->
+    <string name="People_From_Place_Have_Spent_On_Average">"People from %1s on average have spent %2s travelling a distance of %3s than you, per day."</string>
+
+    <!-- "3 km more" -->
+    <string name="Number_Km_More">"%d km more"</string>
+
+    <!-- "3 km less" -->
+    <string name="Number_Km_Less">"%d km less"</string>
+
+    <!-- "3 min more" -->
+    <string name="Number_Min_More">"%d min more"</string>
+
+    <!-- "3 min less" -->
+    <string name="Number_Min_Less">"%d min less"</string>
+
+    <!-- Dashboard -->
+    <string name="Community_Trips_Overall_Percentage_Worthwhile">"The community's trips worthwhileness (compared to your scores)"</string>
+
+    <!-- These results reflect either default scores or the scores you have stated in the onboarding, per mode of transport . You may always change the applicable scores in the app’s Settings. -->
+    <string name="Dashboard_Worthwhileness_Popup_Text">"These results reflect either default scores or the scores you have stated in the onboarding, per mode of transport . You may always change the applicable scores in the app’s Settings."</string>
+
+    <!-- What is the carbon budget? -->
+    <string name="What_Is_The_Carbon_Budget">"What is the carbon budget?"</string>
+
+    <!-- The carbon budget is the amount of CO2 that can be emitted per person for a sustainable lifestyle.  A person’s yearly mobility carbon budget is 500kg -->
+    <string name="The_Carbon_Budget_Is">"The carbon budget is the amount of CO2 that can be emitted per person for a sustainable lifestyle. \n \n A person’s yearly mobility carbon budget is 500kg"</string>
+
+    <!-- City/Region -->
+    <string name="City_Region">"Stad/ regio"</string>
+
+    <!-- You -->
+    <string name="You">"Jij"</string>
+
+    <!-- should translate according to "Min per user per day" -->
+    <!-- Average minutes -->
+    <string name="Avg_Minutes">"Min per user per day"</string>
+
+    <!-- please retranslate following "Km per user per day", because we are showing daily averages per individual (average) user of the community. -->
+    <!-- Average kilometers -->
+    <string name="Avg_Kilometers">"Km per user per day"</string>
+
+    <!-- need to translate according to "Kg CO2 per user per day" -->
+    <!-- Average kilograms -->
+    <string name="Avg_Kilograms">"Kg CO2 per user per day"</string>
+
+    <!-- need to retranslate for "Calories per user per day" -->
+    <!-- Average calories -->
+    <string name="Avg_Calories">"Calories per user per day"</string>
+
+    <!-- Hours -->
+    <string name="Hours">"Uren"</string>
+
+    <!-- Dashboard - unable to show some global stats (e.g. always disconnected) -->
+    <string name="Unable_Show_Stats">"Unable to retrieve community statistics."</string>
+
+    <!-- CO2 budget popu -->
+    <string name="CO2_Budget_Example">"500kg is equivalent to a return flight between Brussels and Madrid, or 1500 km travelled by car."</string>
+
+    <!-- CO2 budget popup - no need to translate -->
+    <string name="CO2_Budget_Link_URL">"https://motivproject.eu/data-collection/woorti-app-faqs.html"</string>
+
+    <!-- CO2 budget popup -->
+    <string name="CO2_Budget_Link_Text">"See more"</string>
+
+    <!-- worthwhileness - travel wasted rating of trip -->
+    <string name="Travel_Time_Wasted_Question_Text_Second_Paragraph">"Refer to your journey, not to your activities at your destination."</string>
+
+    <!-- Onboarding and login -->
+    <string name="Failed_To_Connect_Check_Connectivity_Error">"Failed to connect. Please check your internet connection."</string>
+
+    <!-- "Requested permissions denied by the user. The app requires these and network connectivity to complete the onboarding. Please retry and complete the onboarding." -->
+    <string name="Onboarding_Warning_Permissions_Denied_Retry">"Requested permissions denied by the user. The app requires these and network connectivity to complete the onboarding. Please retry and complete the onboarding."</string>
+
+    <!-- "In order for the app to work properly, you must allow it to access location information to record trips and read/write files from/to external storage to manage trip information." -->
+    <string name="Onboarding_Dialog_Box_Ask_Location_Storage_Permissions">"In order for the app to work properly, you must allow it to access location information to record trips and read/write files from/to external storage to manage trip information."</string>
+
+    <!-- You have no trips -->
+    <string name="You_Have_No_Trips">"You have no trips"</string>
+
+    <!-- You must choose at least one trip to delete -->
+    <string name="You_Must_Choose_One_Trip_To_Delete">"You must choose at least one trip to delete"</string>
+
+    <!-- Trip/s deleted successfully! -->
+    <string name="Trips_Deleted_Successfuly">"Trip/s deleted successfully!"</string>
+
+    <!-- You must choose at least one leg to delete -->
+    <string name="You_Must_Choose_One_Leg_To_Delete">"You must choose at least one leg to delete"</string>
+
+    <!-- You cannot delete all the trip's legs -->
+    <string name="You_Cannot_Delete_All_Trips_Legs">"You cannot delete all the trip's legs"</string>
+
+    <!-- You must choose consecutive legs to delete -->
+    <string name="You_Must_Choose_Consecutive_Legs_To_Delete">"You must choose consecutive legs to delete"</string>
+
+    <!-- You must choose at least two legs to merge -->
+    <string name="You_Must_Choose_Two_Legs_To_Merge">"You must choose at least two legs to merge"</string>
+
+    <!-- You must choose consecutive legs to merge -->
+    <string name="You_Must_Choose_Consecutive_Legs_To_Merge">"You must choose consecutive legs to merge"</string>
+
+    <!-- The leg you are trying to split is too small to be split -->
+    <string name="The_Leg_Is_Too_Small_To_Be_Split">"The leg you are trying to split is too small to be split"</string>
+
+    <!-- Error splitting leg -->
+    <string name="Error_Splitting_Leg">"Error splitting leg"</string>
+
+    <!-- Trips_Merged_Successfully -->
+    <string name="Trips_Merged_Successfully">"Trips merged successfully!"</string>
+
+    <!-- Trip splitted successfully! -->
+    <string name="Trip_Splitted_Successfully">"Trip split successfully!"</string>
+
+    <!-- "Please choose another leg/transfer other than the last" -->
+    <string name="Please_Choose_Other_Leg_Transfer_Not_Last">"Please choose another leg/transfer other than the last"</string>
+
+    <!-- "Please choose a leg/transfer to split" -->
+    <string name="Please_Choose_Leg_Transfer_To_Split">"Please choose a leg/transfer to split"</string>
+
+    <!-- "You must choose consecutive trips to merge" -->
+    <string name="You_Must_Choose_Consecutive_Trips_To_Merge">"You must choose consecutive trips to merge"</string>
+
+    <!-- "You must choose at least two legs to merge" -->
+    <string name="You_Must_Choose_Two_Trips_To_Merge">"You must choose at least two legs to merge"</string>
+</resources>

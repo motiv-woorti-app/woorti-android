@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gu.android:toolargetool-0.1.3">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/toolargetool-0.1.3.aar/0ba315bc2c28f7f789287f3994b58a35/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/toolargetool-0.1.3.aar/0ba315bc2c28f7f789287f3994b58a35/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gu.android/toolargetool/0.1.3/b27bd647facae691217b39f9b9ef057c3801e343/toolargetool-0.1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="70dp"
+android:background="#FBE5CD">
+
+    <View
+        android:layout_width="3dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="47dp"
+        android:background="#ED7E03"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout18">
+
+    </View>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/my_trips_split_trip_part_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/legTransportIconImageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mytrips_navigation_transfer" />
+
+        <Button
+            android:id="@+id/deleteLegRadioButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_baseline_chevron_right_24px"
+            app:layout_constraintBottom_toBottomOf="@+id/transportInfoTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/transportInfoTextView" />
+
+        <TextView
+            android:id="@+id/transportInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/Transfer"
+            android:textColor="#979797"
+            app:layout_constraintBottom_toBottomOf="@+id/legTransportIconImageView"
+            app:layout_constraintStart_toEndOf="@+id/legTransportIconImageView"
+            app:layout_constraintTop_toTopOf="@+id/legTransportIconImageView" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

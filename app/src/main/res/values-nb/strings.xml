@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Drawer titles -->
+    <string name="Drawer_Title_Home">"Hjem"</string>
+    <string name="Drawer_Title_Route_Planner">"Ruteplanlegger"</string>
+    <string name="Drawer_Title_My_Trips">"Mine reiser"</string>
+    <string name="Drawer_Title_Dashboard">"Oversikt"</string>
+    <string name="Drawer_Title_Mobility_Coach">"Motivasjon"</string>
+    <string name="Drawer_Title_Profile">"Profil"</string>
+    <string name="Drawer_Title_Settings">"Profil og innstilling"</string>
+    <string name="Drawer_Title_Report_Issue">"Send tilbakemelding"</string>
+    <string name="Drawer_Title_Finish_Log_Out">"Logg ut"</string>
+    <string name="login_what_is_email_address">"Hva er e-postadressen din?"</string>
+    <string name="login_enter_your_password">"Fyll inn passord"</string>
+
+    <!-- Profile and settings options -->
+    <string name="Edit_Profile">"Rediger profil"</string>
+    <string name="Set_Home_And_Work">"Fyll inn hjemsted og arbeidssted"</string>
+    <string name="Demographic_Info">"Demografisk informasjon"</string>
+    <string name="Worthwhileness_Settings">"Verdi-innstillinger"</string>
+    <string name="Tutorials">"Gjennomgang"</string>
+    <string name="Transport_Preferences">"Reiseønsker"</string>
+
+    <!-- <string name="APP_PERMISSIONS">App permissions</string> -->
+    <string name="App_Language">"App-språk"</string>
+    <string name="Change_Password">"Endre passord"</string>
+    <string name="Feedback">"Tilbakemelding"</string>
+    <string name="Log_Out">"Logg ut"</string>
+
+    <!-- Education labels -->
+    <string name="Education_8th_Grade">"Grunnskole"</string>
+    <string name="Education_Some_Highschool">"Noe videregående"</string>
+
+    <!-- Fuzzy -->
+    <string name="Education_Highschool">"Vidergående"</string>
+    <string name="Education_Some_College">"Høyere utdanning uten grad"</string>
+    <string name="Education_Training">"Teknisk- eller yrkesudanning"</string>
+    <string name="Education_Bachelor">"Bachelorgrad eller tilsvarende"</string>
+    <string name="Education_Master">"Mastergrad eller tilsvarende"</string>
+
+    <!-- Maybe "professor" -->
+    <string name="Education_Professional">"Profesjonell grad"</string>
+    <string name="Education_Doctorate">"Doktorgrad"</string>
+
+    <!-- Not familiar with that term -->
+    <string name="Education_Associate">"Høyskolekandidat"</string>
+    <string name="Education_No_Schooling">"Ingen utdanning"</string>
+
+    <!-- Demographic option -->
+    <string name="Demographic_Option_General">"Generelt"</string>
+
+    <!-- <string name="DEMOGRAPHIC_OPTION_HOUSEHOLD_DATA">Household data</string>
+<string name="DEMOGRAPHIC_OPTION_MOBILITY_CAPABILITIES">Mobility capabilities</string>
+<string name="DEMOGRAPHIC_OPTION_MOBILITY_PREFERENCES">Mobility preferences</string>
+<string name="DEMOGRAPHIC_OPTION_EXPERIENCE_FACTORS">Experience factors</string>
+ General suboptions -->
+    <string name="Age">"Alder"</string>
+
+    <!-- message: Gender -->
+    <string name="Gender">"Kjønn"</string>
+    <string name="Education">"Utdanning"</string>
+    <string name="Country">"Land"</string>
+    <string name="City">"Kommune"</string>
+
+    <!-- Tutorial options -->
+    <string name="Tutorial_Option_What_Is_Worthwhileness">"Hva er verdifullt"</string>
+
+    <!-- Productivity -->
+    <string name="Productivity_Percentage">"Produktivitet %1$s%%"</string>
+    <string name="Mind_Percentage">"Fornøyelse %1$s%%"</string>
+    <string name="Body_Percentage">"Trening %1$s%%"</string>
+
+    <!-- Main menu options
+<string name="NEW_INTERFACE_TEXT">New interface</string>
+ My trips module -->
+    <string name="My_Trips">"Mine reiser"</string>
+    <string name="Start_Trip">"Start reise"</string>
+    <string name="End_Trip">"Avslutt reise"</string>
+    <string name="Trip_Being_Recorded">"En reise registeres nå"</string>
+
+    <!-- Edit trips -->
+    <string name="Select_Trips_To_Merge">"Velg reiser du vil slå sammen"</string>
+    <string name="Confirm_Trips_To_Merge">"Bekreft å slå sammen valgte reiser"</string>
+    <string name="Select_Trips_To_Split">"Velg en reise du vil dele opp"</string>
+    <string name="Move_The_Map_To_Split">"Beveg kartet for å dele opp reise"</string>
+    <string name="Select_Trips_To_Delete">"Velg en reise du vil fjerne"</string>
+    <string name="Split">"Del opp"</string>
+    <string name="Merge">"Slå sammen"</string>
+    <string name="Delete">"Fjern"</string>
+    <string name="Select_Legs_To_Split">"Velg etapper og/eller overganger fra listen under for å dele"</string>
+    <string name="Move_The_Map_To_Split_The_Leg">"Beveg kartet og velg hvor du vil dele reisen"</string>
+    <string name="Edited">"Endret"</string>
+    <string name="Select_Legs_To_Merge">"Velg etapper og/eller overganger fra listen under for å slå sammen"</string>
+    <string name="Confirm_The_Legs_To_Merge">"Bekreft at du vil slå sammen etapper og/eller overganger"</string>
+    <string name="Rate_Your_Edited_Trips">"Vurder reisen du har endret"</string>
+    <string name="Select_Legs_To_Delete">"Velg etapper du vil fjerne"</string>
+    <string name="Confirm_The_Legs_To_delete">"Bekreft at du vil fjerne etapper og/eller overganger"</string>
+
+    <!-- Leg validation -->
+    <string name="Validated">"Godkjennt"</string>
+    <string name="How_Did_You_Travel">"Hvordan reiste du?"</string>
+
+    <!-- message: Public Transport -->
+    <string name="Public_Transport">"Kollektivt"</string>
+    <string name="Active_Semi_Active">"Mosjon"</string>
+    <string name="Private_Motorised">"Motorisert"</string>
+    <string name="Not_Sure">"Usikker"</string>
+    <string name="Lousy">"Dårlig"</string>
+    <string name="Overall_Feel_About_Trip">"Hva synes du om reisen i sin helhet?"</string>
+    <string name="Great">"Super"</string>
+    <string name="Travel_Time_Wasted_Min_Text">"All tid var bortkasta"</string>
+    <string name="Travel_Time_Wasted_Question_Text">"Fikk du noe verdifullt ut av reisetiden?"</string>
+    <string name="Travel_Time_Wasted_Max_Text">"All tid var verdifull"</string>
+
+    <!-- please update translation from new english text -->
+    <string name="Which_Factors_Most_Contributed">"Velg faktorene som i størst grad påvirket kvaliteten på reisetiden"</string>
+    <string name="Unfold_All_That_Apply">"Velg (+) for positive opplevelser og (-) for negative"</string>
+
+    <!-- Factors -->
+    <string name="Infrastructure_And_Services">"Infrastruktur og tjenester"</string>
+    <string name="Comfort_And_Pleasantness">"Komfort og hygge"</string>
+    <string name="Getting_There">"Navigering"</string>
+    <string name="Tables">"Bord"</string>
+    <string name="Toilets">"Toalett"</string>
+    <string name="Food_Drink_Allowed">"Kan nyte medbrakt"</string>
+    <string name="Food_Drink_Available">"Salg av mat og drikke"</string>
+    <string name="Shopping_Retail">"Mulighet å handle"</string>
+    <string name="Entertainment">"Underholdning"</string>
+    <string name="Noise_Level">"Støynivå"</string>
+    <string name="Cleanliness">"Renslighet"</string>
+    <string name="Scenery">"Omgivelsene"</string>
+    <string name="Todays_Weather">"Været"</string>
+    <string name="Privacy">"Privatliv"</string>
+    <string name="Traffic_Signals_Crossings">"Lyskryss/fotgjengerfelt"</string>
+    <string name="Crowding_Congestion">"Trengsel"</string>
+    <string name="Traffic_Congestion_Delays">"Køer/forsinkelser"</string>
+    <string name="Others_Comments">"Annet/kommentarer"</string>
+
+    <!-- Activities -->
+    <string name="What_Did_You_Do_And_Value">"Hva spesifikt verdsatte du?"</string>
+    <string name="Driving_Cycling_Walking">"Kjøre/Sykle/Gå"</string>
+    <string name="Relaxing_Sleeping">"Slappe av eller sove"</string>
+    <string name="Browsing_Social_Media">"Nyheter eller sosiale medier"</string>
+    <string name="Reading_Writing_Paper">"Lese / skrive (analog)"</string>
+    <string name="Reading_Writing_Device">"Lese / skrive (digitalt)"</string>
+    <string name="Listening_To_Audio">"Bruke hodetelefoner"</string>
+    <string name="Walking_Video_Gaming">"Se video eller spille"</string>
+    <string name="Talking_Including_Phone">"Snakke (også i telefon)"</string>
+    <string name="Accompanying_Someone">"Reisefølge"</string>
+    <string name="Eating_Drinking">"Spise / drikke"</string>
+    <string name="Personal_Caring">"Personlig pleie"</string>
+    <string name="Thinking">"Fundere"</string>
+
+    <!-- Value this part of the trip -->
+    <string name="What_Value_Take_From_Part">"Hvilken verdi fikk du ut av denne delen av turen?"</string>
+    <string name="Paid_Work">"Betalt arbeid"</string>
+    <string name="Personal_Tasks">"Personlige gjøremål"</string>
+
+    <!-- message: Enjoyment -->
+    <string name="Enjoyment">"Hygge"</string>
+
+    <!-- message: Fitness -->
+    <string name="Fitness">"Trening"</string>
+    <string name="None">"Ingen"</string>
+    <string name="Some">"Noe"</string>
+    <string name="High">"Mye"</string>
+
+    <!-- Thinking about trip as a whole -->
+    <string name="Thinking_About_Your_Trip_Title">"Ville du helst brukt reisetiden til ... ?"</string>
+
+    <!-- message: Productivity -->
+    <string name="Productivity">"Produktivitet"</string>
+    <string name="Anything_Else_Like_To_Share">"Vil du tilføye noe annet?"</string>
+
+    <!-- message: I would like to share... -->
+    <string name="Would_Like_To_Share">"Jeg vil tilføye..."</string>
+    <string name="Today">"I dag"</string>
+    <string name="Yesterday">"I går"</string>
+    <string name="Validate_Your_Trip">"En ny tur er registrert! Godkjenn den og tjen %d poeng!"</string>
+    <string name="What_Was_Purpose">"Hva var hensikten med turen?"</string>
+    <string name="Mark_All_That_Apply">"Marker de som passer"</string>
+
+    <!-- Trip purposes -->
+    <string name="Work">"Arbeid"</string>
+    <string name="School_Education">"Skole/Utdanning"</string>
+    <string name="Home">"Hjem"</string>
+    <string name="Everyday_Shopping">"Handle dagligvarer"</string>
+    <string name="Business_Trip">"Tjenestereise"</string>
+    <string name="Leisure_Hobby">"Fritid/Hobby"</string>
+    <string name="Pick_Up_Drop_Off">"Hente/Levere noen"</string>
+    <string name="Personal_Tasks_Errands">"Personlig ærend"</string>
+    <string name="Trip_Itself">"Selve reisen"</string>
+
+    <!-- message: Other -->
+    <string name="Other">"Annen"</string>
+    <string name="Arrive_At_Fixed_Time">"Måtte du komme fram til et bestemt tidspunkt?"</string>
+    <string name="How_Often_Make_This_Trip">"Hvor ofte tar du denne reisen?"</string>
+    <string name="Regularly">"Jevnlig"</string>
+    <string name="Occasionally">"Innimellom"</string>
+    <string name="First_Time">"Første gang"</string>
+    <string name="Select_Part_Of_Trip_Feedback">"Velg en del av turen og gi videre tilbakemelding"</string>
+
+    <!-- <string name="objective_other_hint">Where you travelled and why</string> -->
+    <string name="Confirm_Modes_Of_Your_Trips">"Bekreft reisemåte"</string>
+
+    <!-- message: Transfer -->
+    <string name="Transfer">"Overgang"</string>
+    <string name="Auto_Detected">"Automatisk gjenkjenning"</string>
+
+    <!-- message: were you %s ? -->
+    <string name="Were_You_Walking_Or_Running">"%s du?"</string>
+
+    <!-- message: Did you go by %s ? -->
+    <string name="Did_You_Go_The_Mode">"Reiste du med %s?"</string>
+
+    <!-- modes of transport -->
+    <string name="Walking">"Gikk"</string>
+    <string name="Jogging_Running">"Jogge/Løpe"</string>
+    <string name="Bicycle">"Sykkel / Vanlig sykkel"</string>
+    <string name="Car_Driver">"Bil (Sjåfør)"</string>
+    <string name="Bus_Trolley_Bus">"Buss"</string>
+    <string name="Tram">"Trikk"</string>
+    <string name="Metro">"T-bane"</string>
+    <string name="Urban_Train">"Lokaltog"</string>
+    <string name="Regional_Intercity_Train">"Regiontog"</string>
+    <string name="Ferry_Boat">"Ferge/Båt"</string>
+    <string name="Motorcycle">"Motorsykkel"</string>
+    <string name="Moped">"Moped"</string>
+    <string name="Electric_Bike">"Elektrisk sykkel"</string>
+    <string name="Bike_Sharing">"Sykkeldeling"</string>
+    <string name="Car_Passenger">"Bil (Passasjer)"</string>
+    <string name="Taxi_Ride_Hailing">"Taxi/bestilt reise"</string>
+    <string name="Car_Sharing_Rental_Driver">"Bildeling/Leiebil (sjåfør)"</string>
+    <string name="Car_Sharing_Rental_Passenger">"Bildeling/Leiebil (passasjer)"</string>
+    <string name="car_pooling">"Samkjøring"</string>
+    <string name="Plane">"Fly"</string>
+    <string name="high_speed_train">"Hurtigtog"</string>
+    <string name="Coach_Long_Distance_Bus">"Turbuss"</string>
+    <string name="Micro_Scooter">"Løpehjul"</string>
+    <string name="Skate">"Rullebrett"</string>
+    <string name="Electric_Wheelchair_Cart">"Elektrisk rullestol"</string>
+    <string name="Wheelchair">"Rullestol"</string>
+    <string name="Cargo_Bike">"Lastesykkel"</string>
+    <string name="Other_Public_Transport">"Annen offentlig transport"</string>
+
+    <!-- Fuzzy -->
+    <string name="Other_Active_Semi_Active">"Annen mosjon"</string>
+    <string name="Other_Private_Motorised">"Annen motorisert"</string>
+
+    <!-- Misc -->
+    <string name="Yes">"Ja"</string>
+    <string name="No">"Nei"</string>
+    <string name="Save">"Lagre"</string>
+    <string name="Confirm_All">"Bekreft alt"</string>
+
+    <!-- message text of \"Next\" button message: Next -->
+    <string name="Next">"Neste"</string>
+    <string name="Done">"Ferdig"</string>
+    <string name="End">"Slutt"</string>
+
+    <!-- Factors Wasted Time -->
+    <string name="Skip">"Hopp over"</string>
+
+    <!-- title for the info pages message: A Little About You -->
+    <string name="A_Little_About_You">"Litt om deg"</string>
+
+    <!-- message: Active/Semi-active -->
+    <!-- Fuzzy -->
+    <string name="Active_Semi_active">"Mosjon"</string>
+
+    <!-- message: Thanks! To record your trips we need your permission to let Woorti access to your location at all times.
+
+It should not excessively consume your battery. -->
+    <string name="Ask_location_permission_String">"Takk. For å kunne registerer turene dine må du gi Woorti tilgang til posisjonene din til enhver tid.
+
+Vi ønsker ikke spesifikt å spise av batteriet."</string>
+
+    <!-- message: Sorry! For Woorti to function properly we really need that you allow it to access your location at all times. -->
+    <string name="Ask_location_permission_String_when_user_has_denied">"Beklager! For at Woorti skal fungere skikkelig trenger vi at du gir tillatelse til å se posisjonen \"Alltid\"."</string>
+
+    <!-- message: Lastly, we will be asking you questions regarding your experiences as you travel. Your opinion really matters to us! 
+
+ To do this we need to be able to send you notifications -->
+    <string name="Ask_notification_permission_String">"Til slutt vil vi stille noen spørsmål om opplevelsene dine mens du reiser. Dine erfaringer er viktig for oss. For at vi skal kunne samarbeide, må du tillate oss å sende deg varsler."</string>
+
+    <!-- message: BACK TO LOGIN -->
+    <string name="Back_To_Login">"Tilbake til innlogging"</string>
+
+    <!-- change language screen title message: Change Language -->
+    <string name="Change_Language">"Endre språk"</string>
+
+    <!-- message: Correct exams -->
+    <string name="Correct_Exams">"Korrekt_Eksamen"</string>
+
+    <!-- title for the first onboarding pages message: Data Protection -->
+    <string name="Data_Protection">"Personvern og datasikkerhet"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Didnt_sign_up_yet">"Glemt passordet?"</string>
+
+    <!-- rating prefered modes of transport message: Doesn't improve my fitness -->
+    <string name="Doesnt_Improve_My_Fitness">"Jeg blir ikke sprekere"</string>
+
+    <!-- email message -->
+    <string name="Email">"Epost"</string>
+
+    <!-- message shown when clcicking to reset a password message: If %s has an account with Woorti, you will be receiving an email to reset your password -->
+    <string name="Email_Has_Been_Sent">"Vi har sendt deg en epost"</string>
+
+    <!-- rating prefered modes of transport message: Enjoying -->
+    <string name="Enjoying">"Hygge"</string>
+
+    <!-- message: Relaxing or having fun; taking time to listen to music, rest or meditate; engaging in social media; observing the surroundings… -->
+    <string name="Enjoyment_Worthwhile_Description_Score">"Slappe av eller more seg; Høre på musikk, hvile eller meditere; engasjere seg i sosiale medier; følge med på omgivelsene"</string>
+
+    <!-- message: When I travel, 
+I chill -->
+    <string name="Enjoyment_Worthwhile_High_Score">"Når jeg reiser
+slapper jeg av"</string>
+
+    <!-- placeholder for email in login/register -->
+    <string name="Enter_Your_Email_Address">"Fyll inn epostadresse"</string>
+
+    <!-- name Placeholder message: Enter your name -->
+    <string name="Enter_Your_Name">"Fyll inn navn"</string>
+
+    <!-- placeholder for password in login/register -->
+    <string name="Enter_Your_Password">"Velg passord (minst 6 tegn)"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Enter_Your_Password_Again">"Gjenta passord"</string>
+
+    <!-- error shown to the user when log in failed -->
+    <string name="Error_Log_In">"Feil ved pålogging. Prøv igjen, eller \"Endre passord\""</string>
+
+    <!-- message: Female -->
+    <string name="Female">"Kvinne"</string>
+
+    <!-- message: Did you know that a person spends about 2 years of her whole life commuting?
+
+Woorti will help you explore your travel time! -->
+    <!-- Fuzzy -->
+    <string name="First_Onboarding_Screen_Welcome_Description_Text">"Visste du at en person bruker to år av livet sitt på pendling?
+
+Woorti hjelper deg å finne ut av DIN reisetid!"</string>
+
+    <!-- message: Your travel time is an important part of your life! -->
+    <string name="First_Onboarding_Screen_Welcome_Title">"Tiden du bruker på pendling er en viktig del av livet ditt!"</string>
+
+    <!-- message: message: Travelling is not at all relaxing -->
+    <string name="FitnesEnjoyment_Worthwhile_Low_Scores">"Pendling er overhode ikke avslappende"</string>
+
+    <!-- message: When you walk, cycle, or even run on your travels, you’re getting exercise and staying in shape. -->
+    <string name="Fitness_Worthwhile_Description_Score">"Når du går, sykler eller løper når du pendler, får du bedre holdning og ser bedre ut."</string>
+
+    <!-- message: Travel time is a great way to feel the burn -->
+    <string name="Fitness_Worthwhile_High_Score">"Pendling er en fin måte å øke pulsen"</string>
+
+    <!-- message: Exercise is in the gym/field -->
+    <string name="Fitness_Worthwhile_Low_Score">"Trening gjør man på treningsstudio"</string>
+
+    <!-- Forgot Password -->
+    <string name="Forgot_Password">"Glemt passord"</string>
+
+    <!-- placeholder for password when registering only -->
+    <string name="Forgot_Your_Password">"Har du glemt passordet?"</string>
+
+    <!-- message: Everyone defines what is a worthwhile travel time in his or her different way.
+
+Let's see what that means to you! -->
+    <string name="Fourth_Onboarding_Screen_Description">"Alle har sin definisjon av \"verdifull\" pendling.
+
+Hva er din definisjon?"</string>
+
+    <!-- message: I accept MoTiV data protection conditions -->
+    <string name="GRPD_Accept">"Jeg er enig med MoTiVs datalagringsbetingelser."</string>
+
+    <!-- message: For the European MoTiV project research on travel time, this app collects anonymised data on:
+1. Your trips (time, location and transport used)
+2. Your expressed preferences and searches within the app -->
+    <string name="GRPD_Description">"For Det europeiske MoTiV forskningsprosjektet om pendling, samler denne appen anonyme data om:
+
+1. Dine reiser (tid, sted og reisemåte)
+2. Dine vanlige valg og søk i appen"</string>
+
+    <!-- message: MoTiV privacy policy is compliant with EU GDPR. Read More -->
+    <string name="GRPD_Read_Policy">"MoTiVs personvernregler er kompatibelt med EUs GDPR. Les mer"</string>
+
+    <!-- rating prefered modes of transport message: Improves my fitness -->
+    <string name="Improves_My_Fitness">"Jeg blir sprekere"</string>
+
+    <!-- splash screen start now button message -->
+    <!-- Fuzzy -->
+    <string name="Log_In">"Returnerende bruker"</string>
+
+    <!-- login with google button message -->
+    <string name="Log_In_With_Google">"Logg inn med Google"</string>
+
+    <!-- message: Male -->
+    <string name="Male">"Mann"</string>
+
+    <!-- message: No worries! Enter your email address below and we will send you a email to reset your password. -->
+    <string name="No_Worries_Message">"Alt i orden! Fyll inn epostadressen din i feltet under og vi sender en epost slik at du kan endre passordet."</string>
+
+    <!-- rating prefered modes of transport message: Not Enjoying -->
+    <string name="Not_Enjoying">"Liker ikke"</string>
+
+    <!-- %s not filled -->
+    <string name="Not_Filled">"%s ikke utfyllt"</string>
+
+    <!-- rating prefered modes of transport message: Not Productive -->
+    <string name="Not_Productive">"Ikke produsiv"</string>
+
+    <!-- message: NOW YOU! -->
+    <string name="Now_You">"Over til DEG!"</string>
+
+    <!-- message: Ok cool -->
+    <string name="Ok_Cool">"Ok"</string>
+
+    <!-- password message -->
+    <string name="Password">"passord"</string>
+
+    <!-- register button message -->
+    <string name="Passwords_Dont_Match">"Registrer"</string>
+
+    <!-- title for the first onboarding pages message: Permissions -->
+    <string name="Permissions">"Tillatelser"</string>
+
+    <!-- message: Private Motirized -->
+    <string name="Private_Motirized">"Motorisert"</string>
+
+    <!-- message: Proceed to Enjoyment -->
+    <string name="Proceed_To_Enjoyment">"Fortsett til Hygge"</string>
+
+    <!-- message: Proceed to Fitness -->
+    <string name="Proceed_To_Fitness">"Forstsett til Mosjon"</string>
+
+    <!-- proceed to productivity button message: Proceed to Productivity -->
+    <string name="Proceed_To_Productivity">"Fortsett til Produktivitet"</string>
+
+    <!-- rating prefered modes of transport message: Productive -->
+    <string name="Productive">"Produktiv"</string>
+
+    <!-- message: Using travel time to get things done, not only for work or study, but also personal things like managing home or family stuff… -->
+    <string name="Productivity_Worthwhile_Description_Score">"Bruke pendling til å få ting unna, ikke bare jobb eller studier, men også personlige ting som å planlegge hverdagen.."</string>
+
+    <!-- message: I used my  trip to get stuff done! -->
+    <string name="Productivity_Worthwhile_High_Score">"Jeg brukte tiden til å få ting unna!"</string>
+
+    <!-- message: I don’t work when I travel -->
+    <string name="Productivity_Worthwhile_Low_Score">"Jeg jobber ikke mens jeg pendler"</string>
+
+    <!-- message: How important are the travel time worthwhileness elements for you, when you travel? -->
+    <string name="Rate_Worthwhileness_Screen_Title">"Hvor verdifulle er følgende påstander for deg når du pendler?"</string>
+
+    <!-- message: How much enjoyment do you get from your your travel time by: -->
+    <string name="Rating_Prefered_Mot_Enj_Title">"Hvor mye glede fikk du fra reisetiden av å:"</string>
+
+    <!-- message: How does your travel time contribute to your fitness when you travel by: -->
+    <string name="Rating_Prefered_Mot_Fit_Title">"Hvordan påvirker reisetiden din opplevelse av helse og velvære?"</string>
+
+    <!-- message: How productive are you when you travel by: -->
+    <string name="Rating_Prefered_Mot_Prod_Title">"Hvor produktiv er du når du reiser med:"</string>
+
+    <!-- register button message -->
+    <string name="Register">"Registrer"</string>
+
+    <!-- message: Which modes of transport do you use regularly? -->
+    <string name="Regualr_Modes_Of_Transport_Title">"Hvilke transportmåter bruker du jevnlig?"</string>
+
+    <!-- Reset Password -->
+    <string name="Reset_Password">"Endre passord"</string>
+
+    <!-- message: Check out $@ for more information -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Check_Out_Site">"Les %s for mer informasjon"</string>
+
+    <!-- message: With the information you provide, Woorti will gather knowledge for better transport solutions and share it with researchers, transport operators and local authorities around Europe. -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Description">"Woorti samler kunnskap for bedre transportløsninger ved å bruke informasjonen du gir. Dette deler vi med forskere, transportoperatører og lokale myndigheter i Europa"</string>
+
+    <!-- The message for this text was incorrect, the real message in English is: Help research for better transport
+When possible please retranslate this message. -->
+    <string name="Second_Onboarding_Screen_Help_Reseach_Title">"Hjelp forskningen for bedre fremkommelighet"</string>
+
+    <!-- sign in button message -->
+    <string name="Sign_In">"Lag bruker"</string>
+
+    <!-- splash screen start now button message -->
+    <string name="Start_Now">"Start nå"</string>
+
+    <!-- message: While some like to study or work when they travel, others like to relax and disconnect. Some take the opportunity to exercise. While others jumpstart their day with music. -->
+    <string name="Third_Onboarding_Screen_Description">"Noen forbereder seg til jobb eller studier mens de pendler, andre lukker øynenen og kobler av. Noen benytter anledningen til å trene, mens andre digger sin favorittmusikk."</string>
+
+    <!-- error shown to the user when registering with a already signed in email account -->
+    <string name="User_Already_Signed_In">"%s er allerede registrert som bruker. Vil du logge inn?"</string>
+
+    <!-- title that appears on the top of the login page -->
+    <string name="Welcome_Back">"Velkommen tilbake"</string>
+
+    <!-- title for the first onboarding page message: What is a worthwhile trip -->
+    <string name="What_Is_A_Worthwhile_Trip">"Hva gjør en tur verdifull?"</string>
+
+    <!-- message: What is your age? -->
+    <string name="What_Is_Your_Age">"Hvor gammel er du?"</string>
+
+    <!-- message: What is your name? -->
+    <string name="What_Is_Your_Name">"Hva heter du?"</string>
+
+    <!-- message: Where do you live? -->
+    <string name="Where_Do_You_Live">"Hvor bor du?"</string>
+
+    <!-- you've got mail! -->
+    <string name="Youve_Got_Mail">"Du har fått en epost!"</string>
+    <string name="No_Ongoing_Trip_To_Show">"Ingen pågående reiser å vise"</string>
+    <string name="Your_Trip">"Din reise"</string>
+    <string name="Click_On_The_Marker_To_Split_The_Trip">"Trykk på linjen for å dele reisen"</string>
+    <string name="Security_Boarding_Process">"Sikkerhets- og ombordstigingsproblem"</string>
+    <string name="Other_Activity">"Annen aktivitet"</string>
+    <string name="Cycling">"Sykle"</string>
+    <string name="Riding">"Selve turen"</string>
+    <string name="Skating">"Selve skatingen"</string>
+    <string name="Driving">"Selve kjøringen"</string>
+    <string name="Running">"Selve løpeturen"</string>
+
+    <!-- message: Please wait while Woorti searches for local studies -->
+    <string name="Wait_While_Searching_Local_Studies">"Vennligst vent mens Woorti leter etter lokale undersøkelser"</string>
+
+    <!-- message: There are these studies going near you. Which one(s) do you want to contribute with data to? -->
+    <string name="Studies_Title">"Disse undersøkelsene foregår i nærheten av deg. Hvilke(n) vil du dele data med?"</string>
+    <string name="Menu">"Meny"</string>
+    <string name="Set_Home">"Velg hjemsted"</string>
+    <string name="Set_Work">"Velg arbeidssted"</string>
+    <string name="Change_Photo">"Endre bilde"</string>
+    <string name="Name">"Navn"</string>
+    <string name="Define_Home_Location">"Velg hvor du bor
+"</string>
+    <string name="Define_Work_Location">"Velg hvor du jobber"</string>
+    <string name="Edit">"Endre"</string>
+    <string name="Educational_Background">"Studiebakgrunn"</string>
+    <string name="Activities">"Aktiviteter"</string>
+    <string name="While_You_Ride">"Mens du reiser"</string>
+
+    <!-- Fuzzy -->
+    <string name="Ability_To_Do_What_I_Wanted">"Mulighet til å gjøre hva jeg vil mens jeg reiser"</string>
+    <string name="Simplicity_Difficulty_Of_The_Route">"Rutens kompleksitet"</string>
+    <string name="Schedule_Reliability">"Pålitelig ruteplan"</string>
+    <string name="Security_And_Safety">"Sikkerhet og trygghet"</string>
+    <string name="Space_Onboard_For_Lugagge_Pram_Bicycle">"Plass til bagasje/barnevogn/sykkel o.l."</string>
+    <string name="Ability_To_Take_Pets_Along">"Mulighet å ta med kjæledyr"</string>
+    <string name="Payment_And_Tickets">"Betaling og billetter"</string>
+    <string name="Convenient_Access_Lifts_Boarding">"Behagelig på-/avstiging (heis, ombordstigning, osv.)"</string>
+    <string name="Route_Planning_Navigation_Tools">"Planleggings- og navigeringsverktøy"</string>
+    <string name="Information_And_Signs">"Informasjon og skilter"</string>
+    <string name="Checkin_Security_And_Boarding">"Innsjekk, sikkerhet og ombordstiging"</string>
+    <string name="Crowdedness_Seating">"Plass/ledige seter"</string>
+    <string name="Internet_Connectivity">"Internettilgang"</string>
+    <string name="Ability_To_Do_The_Things_I_Want">"Mulighet å gjøre ting jeg liker"</string>
+    <string name="Charging_Opportunity">"Lademuligheter"</string>
+    <string name="Car_Bike_Parking_At_Transfer_Point">"Bil-/sykkeparkering på overgangsstedet"</string>
+    <string name="Vehicle_Ride_Smoothness">"Sømløs kjøring"</string>
+    <string name="Seating_Quality_Personal_Space">"Sitter behagelig/intimsfære"</string>
+    <string name="Other_People">"Andre mennesker"</string>
+    <string name="Air_Quality_Temperature">"Luftkvalitet/temperatur"</string>
+    <string name="General_Atmosphere_Design">"Bylandskap og -miljø"</string>
+    <string name="Road_Path_Availability_And_Safety">"Trygge og tilgjengelige veier/stier"</string>
+    <string name="Accessibility_Escalators_Lifts_Ramps_Stairs_Etc">"God tilgjegelighet (rulletrapp, heis, ramper, trapper osv)"</string>
+    <string name="Ability_To_Carry_Bags_Luggage_Etc">"Mulighet å ta med vesker, bagasje osv"</string>
+    <string name="Ability_To_Take_Kids_Or_Pets_Along">"Mulighet til å ta med barn eller kjæledyr"</string>
+    <string name="Benches_Toilets_Etc">"Benker/toalett osv"</string>
+    <string name="Facilities_Shower_Lockers">"Fasiliteter (dusj, skap)"</string>
+    <string name="Parking_At_End_Points">"Parkering på endestoppet"</string>
+    <string name="Road_Path_Quality">"Veikvalitet"</string>
+    <string name="Road_Path_Directness">"Få omveier"</string>
+    <string name="Air_Quality">"Luftkvalitet"</string>
+    <string name="Lighting_Visibility">"Veilys/synlighet"</string>
+    <string name="Cars_Other_Vehicles">"Biler/andre kjøretøy"</string>
+    <string name="Space_For_Luggage_Pram_Bicycle_Etc">"Plass til bagasje/barnevogn/sykkel o.l."</string>
+    <string name="Road_Quality_Vehicle_Ride_Smoothness">"Veikvalitet/behagelig kjøretøy"</string>
+    <string name="Vehicle_Quality">"Kjøretøyets kvalitet"</string>
+    <string name="Seat_Comfort">"Behagelig sete"</string>
+    <string name="Other_Passengers">"Andre passasjerer"</string>
+    <string name="Other_Cars_Vehicles">"Andre biler/kjøretøy"</string>
+
+    <!-- Button text on second onboarding page -->
+    <string name="Lets_Get_Started">"La oss begynne"</string>
+
+    <!-- Report issue -->
+    <string name="Thank_You_For_Submitting_This_Issue">"Takk for at du gjorde oss oppmerksom. Bekreft innlevering eller fortsett til et annet problem"</string>
+    <string name="Confirm_And_Leave">"Bekreft og avslutt"</string>
+    <string name="Confirm_And_Submit_More">"Bekreft og send inn mer"</string>
+    <string name="Where_City">"Hvor i %s?"</string>
+    <string name="OtherCountry">"Annet land"</string>
+    <string name="OtherCity">"Anne by"</string>
+    <string name="Sign_Up_Error">"Feil ved registering"</string>
+    <string name="Sign_Up">"Registrer"</string>
+    <string name="How_Important_Are_The_Following_Factors">"Hvor viktig er følgende påstander for deg relatert til tiden du bruker på pendling?"</string>
+    <string name="Modes_Of_Transport">"Måter å reise"</string>
+    <string name="Help_Research_For_Better_Transport">"Hjelp forskningen for bedre transportopplevelser"</string>
+    <string name="Already_Signed_Up_Log_In_Here">"Allerede registert? Logg in her"</string>
+    <string name="Welcome">"Velkommen"</string>
+    <string name="Refresh_Surveys">"oppdater underøskelser"</string>
+
+    <!-- This string has the text for the data regarding Activities (e.g., for the walk itself) and *not* the walking mode of transport -->
+    <string name="The_Walk_Itself">"Selve spaseringen"</string>
+    <string name="Education_Highshool">"Videregående skole"</string>
+
+    <!-- TODO new strings 
+ New education strings according to specs -->
+    <string name="Education_Basic">"Grunnskole"</string>
+    <string name="Education_University">"Universitet"</string>
+
+    <!-- Ocupation options -->
+    <string name="Occupation">"Arbeid"</string>
+    <string name="Ocupation_Student">"Student"</string>
+    <string name="Ocupation_Schedule_Worker">"Skiftarbeider"</string>
+    <string name="Ocupation_Flexible_worker">"Deltidsansatt"</string>
+    <string name="Ocupation_Selfemployed">"Selvstending næringsdrivende"</string>
+    <string name="Ocupation_Seeking_Work">"Jobbsøker"</string>
+    <string name="Ocupation_Inactive">"Pensjonist"</string>
+    <string name="Ocupation_Maternity">"Foreldrepermisjon"</string>
+    <string name="Ocupation_Military">"Militær-/silviltjeneste"</string>
+
+    <!-- Marital status -->
+    <string name="Marital_Status">"Sivilstand"</string>
+    <string name="Marital_Single">"Enslig"</string>
+    <string name="Marital_Married">"Gift"</string>
+    <string name="Matital_Significant_Other">"Annet forhold"</string>
+    <string name="Marital_Divorced">"Sklit"</string>
+    <string name="Marital_Widowed">"Enke/-mann"</string>
+    <string name="Driver_License">"Førerkort"</string>
+    <string name="Household_Yearly_Income">"Husholdningens nettoinntekt"</string>
+    <string name="Number_People_Household">"Antall personer i husholdningen"</string>
+    <string name="Number_Children_household">"Antall barn i husholdingen"</string>
+    <string name="Number_Cars_Household">"Antall biler i husholdningen"</string>
+    <string name="Nationality">"Nasjonalietet"</string>
+
+    <!-- TODO NEW STRING -->
+    <!-- Fuzzy -->
+    <string name="No_Trips_Text">"På denne siden/skjermen finner du reisene dine og du kan også registrere dem her. Kom tilbake etter at du har tatt deg en tur... \n
+Woorti gjør sitt beste for å få med seg alle reiser, men om du vil være helt sikker på at de blir registrert kan du trykke på knappen over her ved starten av turen... \n
+Husk å sjekke at du satt på GPS."</string>
+
+    <!-- Dashboard -->
+    <!-- you have spent %1s travelling a distance of %2s in %3s. -->
+    <string name="You_Have_Spent_Complete">"har du brukt %1s på å reise %2s i %3s."</string>
+    <string name="In_Total_You_Spent_Calories">"Du her brukt tilsammen %1s."</string>
+    <string name="And_This_Counted_Carbon_Footprint">"Og dette tilsvarer %1s av ditt bærekraftige karbonavtrykk."</string>
+    <string name="Your_Trips_Overall_Percentage_Worthwhile">"Dine reiser har vært %s verdifulle"</string>
+
+    <!-- What does %2s refer to here? Could someone show me the context where you see this sentence? -->
+    <string name="While_Traveling_Activities">"Mens du reiste brukte du %1s på å %2s."</string>
+    <string name="Do_You_Want_To_Set_This_Location_Home">"Er dette din hjemmeadresse?"</string>
+    <string name="Do_You_Want_To_Set_This_Location_Work">"Er dette din jobbadresse?"</string>
+    <string name="Privacy_Policy">"Personvern"</string>
+
+    <!-- day -->
+    <string name="Day">"Dag"</string>
+
+    <!-- 3 days -->
+    <string name="Days_3">"3 dager"</string>
+
+    <!-- week -->
+    <string name="Week">"Uke"</string>
+
+    <!-- month -->
+    <string name="Month">"Måned"</string>
+
+    <!-- year -->
+    <string name="Year">"År"</string>
+
+    <!-- era -->
+    <string name="Era">"Tidsalder"</string>
+
+    <!-- worthwhile -->
+    <string name="Worthwhile">"Verdifull"</string>
+
+    <!-- TODO new strings 
+ New education strings according to specs -->
+    <string name="Other_Activities">"Andre aktiviteter"</string>
+
+    <!-- Marital status -->
+    <string name="Household_Marital">"Sivilstand"</string>
+    <string name="Household_Years_Residence">"Antall år bosatt i landet"</string>
+    <string name="Household_Labour_Status">"Arbeidsforhold"</string>
+    <string name="Labour_Student">"Student"</string>
+    <string name="Labour_Employed_Full_Time">"Heltidsansatt"</string>
+    <string name="Labour_Employed_Part_Time">"Deltidsansatt"</string>
+    <string name="Labour_Unemployed">"Arbeidsledig"</string>
+    <string name="Years_Residence_Less_Than_One">"Mindre enn 1"</string>
+    <string name="Years_Residence_One_To_Five">"1 til 5"</string>
+    <string name="Years_Residence_More_Than_Five">"Mer enn 5"</string>
+    <string name="Walk_For_Distance">"Gå i %s"</string>
+    <string name="Household">"Husholdning"</string>
+    <string name="Total_Points">"Antall poeng"</string>
+    <string name="Todays_Travel_Report">"Dagens reiserapport"</string>
+
+    <!-- link to page with privacy policy specific to each language -->
+    <string name="Url_Privacy_Policy">"https://motivproject.eu/data-collection/data-protection/norway.html"</string>
+
+    <!-- %d questions -->
+    <string name="N_Questions">"%d spørsmål"</string>
+
+    <!-- New survey -->
+    <string name="New_Survey">"Ny måling"</string>
+
+    <!-- Minutes more -->
+    <string name="Minutes_More">"Flere minutter"</string>
+
+    <!-- Minutes less -->
+    <string name="Minutes_Less">"færre minutter"</string>
+
+    <!-- Kilometers more -->
+    <string name="Km_More">"Flere km"</string>
+
+    <!-- Kilometers less -->
+    <string name="Km_Less">"færre km"</string>
+
+    <!-- Trip validation -->
+    <string name="Trip_Validation">"Godkjenn reise"</string>
+
+    <!-- Latest story -->
+    <string name="Latest_Story">"Fortellinger"</string>
+    <string name="Household_Data">"Informasjon om husholdet"</string>
+
+    <!-- new text for battery warning pop up in mytrips (so that people are remembered to disable battery optimizations that undermine the app working in background) -->
+    <!-- battery warning popup text -->
+    <string name="Alert_Battery_Content">"Woorti samler inn reisedata i bakgrunnen. Pass på at telefonens batterisparingsfunksjon ikke gjelder Woorti, slik at appen ikke blir skrudd av."</string>
+
+    <!-- "In the last" start message of DashBoard, Please use sentence that fits any number of days -->
+    <!-- Dashboard -->
+    <string name="In_The_Last">"I løpet av de siste"</string>
+
+    <!-- stories -->
+    <string name="story_1_title_chiaras_new_train_ride">"Chiaras nye togtur"</string>
+    <string name="story_1_text_chiaras_train_ride">"Chiara, hennes mann og to barn flyttet nylig fra sentrum av Brüssel til utkanten av byen. Hun leverte barna til barnehagen og skolen med en lastesykkel, som hun så syklet videre med til togstasjonen. Herfra var det en 25 minutters togtur til jobben hennes i sentrum. Dette medførte store endringer i hennes pendling, og Chiara var ikke tilfreds med å bruke mer tid til og fra jobb. Men etterhvert satte hun pris på tiden på toget, hvor hun kunne sitte for seg selv og slappe av eller gjøre ting hun ellers ikke fikk gjort.
+
+Chiara begynte å lese bok på toget. Hun skjønte fort at 25 minutter lesing var for kort tid å komme inn i historien.
+
+Så leste hun blader. Siden hun helst leser lange dybdeartikler, følte hun at dette heller ikke passet.
+
+Deretter tok hun frem Facebook. Siden hun ble så engasjert i det hun leste, hendte det at hun nesten glemte å gå av toget på riktig stasjon. Charia fant ut at hun ikke ville starte dagen med noe som tok såpass av hennes oppmerksomhet.
+
+Tilslutt fant hun noe hun syntes fungerte. Siden familien hadde flyttet til et nederlandstalende område, ønsket hun å lære spåket. Hun lastet ned en app for å lære språk, og hver togtur var nok til to eller tre økter. Dette er også den anbefalte måten å lære språk: litt øving hver dag la grunnlaget for at hun fikk bedre kontakt med de nye naboene sine.
+
+Charia fikk best utbytte av å bruke tiden hun hadde til rådighet til noe som passet hennes fase i livet.
+
+Hva med deg? Hvordan får du mest ut av pendletiden?"</string>
+    <string name="story_2_title_the_best_way_to_get_great_ideas_while_moving_p1">"Den beste måten å få nye idèer mens man reiser"</string>
+    <string name="story_2_text_the_best_way_to_get_great_ideas_while_moving_p1">"La du merke til noen aktiviteter som gjør at nye, interressante idèer blomstrer opp? Da Elon Musk ble intervjuet om hva som var den mest produktive delen av dagen hans, svarte han: \"når jeg tar en dusj\". Han er ikke alene; en hel haug av mennesker rapporterer at de får de beste ideene sine mens de står i dusjen!
+
+
+Hva med når vi beveger oss? Er det noen øyeblikk som ofte påvirker oss til å bli mer produktive?
+
+
+Faktisk er det en måte å bevege seg på fra et sted til et annet som ser ut til å fungere ekstra godt om du leter etter nye idèer. Mange store tenkere later til å ha oppdaget denne fordelen og har brukt denne bevegelsesmetoden bevisst når de grublet på noe.
+
+
+Hint: noen av dem, som Beethoven, Dickens og Darwin, levde før det fantes motoriserte kjøretøy...
+
+
+Hint 2: Det er en form for bevgelse som aktiviserer hjernen.
+
+
+Hva tror du det er? Sjekk det ut i morgen i vår neste historie... :)"</string>
+    <string name="story_3_title_the_best_way_to_get_great_ideas_while_moving_p2">"Den beste måten å få nye idèer mens man reiser - del 2"</string>
+
+    <!-- Fuzzy -->
+    <string name="story_3_text_the_best_way_to_get_great_ideas_while_moving_p2">"Så, hvilken form for bevegelse brukte alle de store tenkerne, som vi nevnte i forrige historie, for å få bedre idèer?
+
+
+Vandring!
+
+
+Nyere tids tenkere, som Steve Jobs, gikk ensomme turer rundt Apples kontor i Palo Alto bare for å kunne tenke bedre. Han foretok også møtene sine på denne måten. I stedet for å møtes på kontoret, tok han partene med på en spasertur.
+
+
+Så er spørsmålet: er det egentlig noe vitenskapelig grunnlag for dette, eller er det bare et tilfeldig fenomen?
+
+
+Vel, det finnes studier som viser at deler av hjernen blir mer aktiv mens vi går.  En studie utført som en morgentest på skolebarn, viste tydelig at barn som ankom skolen til fots hadde en mye mer aktiv hjerne enn barn som ankom med bil.
+
+
+Det ser også ut til å være viktig at det ikke er store, oppmerksomhetskrevende  forstyrrelser i miljøet vi går i, som trafikk, hindrer og mye støy, for at hjernen skal kunne være fri til å skape idèer mens vi går. Byer bygd for et bedre gå-miljø er byer som bygger opp nye, gode idèer.
+
+
+For å fremheve produktive vandre-møter fikk noen en lys idè (kanskje hun gikk en tur eller dusja, vi vet egentlig ikke!): Å bygge en app som definerer ruter i byen som egner seg spesielt godt til vandrende møter. Denne appen heter \"Weeting\" og har gode ruter for vandre-møter til mange av byene i Nederland.
+
+
+Hvor gode er vandrerutene dine for grubling?"</string>
+    <string name="story_4_title_the_7_shades_of_pedros_cycling_time">"Pedros sykkelerfaring i 7 trinn"</string>
+
+    <!-- Fuzzy -->
+    <string name="story_4_text_the_7_shades_of_pedros_cycling_time">"1. Pedro gjorde det som en deklarasjon. Han begynte å sykle på en tid der det i Lisbon fremdeles ble sett på som veldig merkelig. Når han passerte gamle menn skrek de etter ham \"heia, sykkelmann, kjør på\" som om han var med i en turnè. Bilister tutet \"KOM DEG UT AV VEGEN\".
+
+
+Han syntes at folk burde kunne bruke sykkelen sin til å navigere byen og følte seg som en pioner, en helt som går forran som et eksempel på fremtidens sykkelpendlere.
+
+
+Han ville også bevise at det går raskt å sykle, derfor begynte han å ta de raskeste rutene, selv om de hadde mye traffikk, bare for å kunne spare fem minutter.
+
+
+2. Ettersom deklarasjonseffekten bleknet begynte han å legge mer merke til stressfaktorene og den midletidige svetten. Han bestemte seg for å skru ned tempoet, men han var så vant til å sykle på at det tok ham et helt år å bli vant til et mer rolig tempo. Han begynte å sette pris på den nederlanske, avslappede sykkelstilen. Han gikk tilbake til de rolige, mindretraffikerte rutene.
+
+
+3. Etter å ha fått barn tok han hver av dem med til barnehagen før han startet på den 35 minutter lange turen til jobb. Det eneste gode alternativet til sykkel var bil, noe som ikke var aktuelt for Pedro, så han begynte å gå lei av å ikke ha noen valgmuligheter. \"Jeg savner tiden jeg kunne ta T-banen og slappe av\". Så han startet å ta T-banen de dagene han ikke trengte å levere barna.
+
+
+4. Da kona hans igjen kunne ta ungene på noen av dagene, fikk fraværet av forpliktelser ham til å gjenoppdage noen av gledene ved sykling. Men, det føltes fremdeles som om det spiste tiden hans på en uproduktiv måte, spesielt etter at han var blitt så vant til å kunne bruke reisetiden på å lese og tenke.
+
+
+5. En dag, mens han lagde middag, bestemte Pedro seg for å høre på en podcast. Det likte han svært godt og han tenkte på hvor mye kjekkere det var å lage mat mens han lærte ting og hørte historier fra andre mennesker. Plutselig ble matlaging en fornøyelig tid av dagen.
+
+
+Etter det tok det ham enda et år før han skjønte at han jo kunne gjøre det samme med tiden på sykkelsetet. Med podcastene på øret gikk tempoet ned samtidig som rutene ble enda lengre enn de hadde vært før. Hvert minutt ekstra betydde mer podcast-morro.
+
+
+6. Pedro skiftet etterhvert jobb og begynte å jobbe hjemmefra. Magen økte plutselig i omfang ettersom han nå hadde sluttet med den 45 minutter lange sykkeløkten til jobb. Mens han studerte den voksende magen innså han hvor mye sykkelturen til jobb hadde bidrat med for kroppen og helsen hans. Han grep så enhver anledningen han kunne, som å dra på møter, til å sykle.
+
+
+7. Sykkeltiden hans var i ferd med å øke enda mer. I det barna hans ble eldre innså han at sykkelturene med dem til og fra skolen var blant de beste minnene han hadde. Barna viste at de gledet seg over å dra sammen med ham, spurte hundrevis av spørsmål og fortalte ham om det siste som skjedde på skolen. Det gav sykkelturene mer glede enn noe annet."</string>
+    <string name="story_5_title_stopping_or_not_stopping_in_a_moving_walkway">"Gå eller stå på et rullebånd?"</string>
+
+    <!-- Fuzzy -->
+    <string name="story_5_text_stopping_or_not_stopping_in_a_moving_walkway">"Har du lagt merke til at noen folk stopper opp i rulletrapper og på rullebaner, mens andre fortsetter å gå?
+
+Hva tror du er årsaken til denne markante oppførselen?
+
+
+Foretrekker du at andre går eller står stille?
+
+
+Hvis det første svaret du tenkte på virker åpenbart, tenk igjen. Det er kanskje ikke så enkelt.
+
+
+Prøv å observere folk som blir stående neste gang du går i en rulletrapp. Bare ved å se på dem vil du antakelig få en idè om hvorfor. Om du fortsetter å fantasere vil du kanskje også få en reise inn hva som kanskje er personenes livshistorie. Det er gøy!
+
+
+Å stoppe eller ikke stoppe i rulletrappa? Les vår fulle historie her (Kun på Engelsk):
+
+https://motivproject.eu/news/detail/stopping-or-not-stopping-in-a-moving-walkway.html"</string>
+    <string name="story_6_title_virtual_travel_time">"Virtuell reisetid"</string>
+
+    <!-- Fuzzy -->
+    <string name="story_6_text_virtual_travel_time">"Har du hørt om den \"virtuelle reisetiden\"?
+
+
+Nei, det handler ikke om å reise i en virtuell virkelighet, men om noe som er litt mer håndfast.
+
+
+Hvor mye tid bruker du egentlig på å reise fra punkt A til punkt B? Du svarer antakelig noe sånt som: tida det tar å reise såklart!
+
+
+Vel, fra et visst synspunkt så stemmer ikke det helt. Det kan faktisk være mer, mye mer, enn det...
+
+
+Tenk på det: 
+
+IKKE FERDIG"</string>
+
+    <!-- new string in mobility coach -->
+    <!-- mobility coach -->
+    <string name="Your_Mobility_Journey">"Fortellinger"</string>
+
+    <!-- new string to translate in home module -->
+    <!-- home module -->
+    <string name="You_have_trips_to_validate">"Godkjenn reiser nå!"</string>
+
+    <!-- (story) Coming tomorrow -->
+    <string name="Coming_Tomorrow">"Kommer i morgen"</string>
+
+    <!-- Story (1, 2, 3, 4...) -->
+    <string name="Story">"Fortelling %d"</string>
+
+    <!-- profile and settings -->
+    <string name="Marital_Partnership">"Partnerskap"</string>
+
+    <!-- profile and settings  -->
+    <string name="Labour_Pensioner">"Pensionist"</string>
+
+    <!-- Notification shown when a trip has started  -->
+    <string name="Trip_Has_Started_At">"Turen har startet på %s"</string>
+
+    <!-- Notification shown when a trip has ended -->
+    <string name="Trip_Has_Ended_At">"Turen endte på %s"</string>
+    <string name="Trip_Has_Ended">"Turen er avsluttet!"</string>
+    <string name="engagement_notification_1_title">"Woorti har registrert din første tur."</string>
+    <string name="engagement_notification_1_content">"\"Åpne appen og fortell ham om den!\""</string>
+    <string name="engagement_notification_2_title">"Du har en historie å lese."</string>
+    <string name="engagement_notification_2_content">"Hvis du leser den i dag vil en ny historie bli låst opp i morgen."</string>
+    <string name="engagement_notification_3_title">"En ny historie er ute!"</string>
+    <string name="engagement_notification_3_content">"Og husk å rapportere din siste tur"</string>
+    <string name="Language_Changed_Popup_Content">"Vennligst omstart appen for å fullføre prosessen"</string>
+    <string name="Language_Changed_Popup_Title">"Språk endret!"</string>
+
+    <!-- Predictability of travel time -->
+    <string name="Predictability_Of_Travel_Time">"Forutsigbar reisetid"</string>
+    <string name="Urban_Scenery_Atmosphere">"Urbant landskap og atmosfære"</string>
+    <string name="While_You_Are_There">"Mens du venter"</string>
+    <string name="Begin">"Begynn"</string>
+    <string name="engagement_notification_4_title">"Har du sett reisetids-statistikken din?"</string>
+    <string name="engagement_notification_4_content">"Klikk for å se ditt Dashbord"</string>
+
+    <!-- Fuzzy -->
+    <string name="engagement_notification_5_title">"Din reisetidsverdi så langt er %d."</string>
+    <string name="engagement_notification_5_content">"Har du merket hvordan det varierer med turene dine?"</string>
+    <string name="engagement_notification_6_title">"Registrer din nyeste tur."</string>
+    <string name="engagement_notification_6_content">"Send inn data og sjekk statistikken din."</string>
+    <string name="engagement_notification_7_title">"%d minutter"</string>
+    <string name="engagement_notification_7_content">"er tiden du brukte på å reise sist uke"</string>
+    <string name="engagement_notification_8_title">"Fortsett å hjelpe med reisetid-undersøkelsen."</string>
+    <string name="engagement_notification_8_content">"Takk for at du registrerer turene dine. Trykk her."</string>
+
+    <!-- Fuzzy -->
+    <string name="engagement_notification_9_title">"Registrer din nyeste reise."</string>
+
+    <!-- Fuzzy -->
+    <string name="engagement_notification_9_content">"Send inn dine data og sjekk statistikken din."</string>
+
+    <!-- when referencing campaigns -->
+    <string name="Campaigns">"Kampanjer"</string>
+
+    <!-- Welcome to your trips board, %NAME_USER% ! -->
+    <!-- Fuzzy -->
+    <string name="Welcome_To_Your_Trips_Board_Username">"Velkommen til oppslagstavlen for reisene dine, %s!"</string>
+
+    <!-- You have X trips left to report in the last 3 days -->
+    <!-- Fuzzy -->
+    <string name="You_Have_X_Trips_Left_3_Days">"Du har %d turer igjen å registrere de 3 siste dagene"</string>
+
+    <!-- These are the trips you have made! Reporting on them helps our research, and allows you to monitor your travel time. After reporting each trip, find out your travel time worthwhileness statistics in the Dashboard! Press the ‘!’ mark to report. -->
+    <!-- Fuzzy -->
+    <string name="These_Are_The_Trips_You_Have_Made">"Dette er turene du har tatt! Å registrere dem hjelper undersøkelsen vår og gir deg muligheten til å følge med på/overvåke reisetiden din."</string>
+
+    <!-- Now that you have a reported trip, you can check your first travel time statistics in the Dashboard. -->
+    <!-- Fuzzy -->
+    <string name="Now_That_You_Have_A_Reported_Trip_Popup_Text">"Nå som du har en registrert reise kan du også sjekke statistikken over tiden du har brukt på dashbordet."</string>
+
+    <!-- Go to dashboard -->
+    <!-- Fuzzy -->
+    <string name="Go_To_Dashboard">"Gå til dashbord"</string>
+
+    <!-- Report trips -->
+    <!-- Fuzzy -->
+    <string name="Report_Trips">"Registrer reise"</string>
+
+    <!-- This is your Dashboard. It shows how worthwhile your travel time is.  For your trip stats to appear here, report your trips -->
+    <!-- Fuzzy -->
+    <string name="This_Is_Your_Dashboard_Popup_Text">"Dette er ditt dashbord. Det viser deg hva du får ut av reisetiden din.
+\n
+For å se statistikk over reisene dine her må du registrere reisene"</string>
+
+    <!-- See dashboard -->
+    <!-- Fuzzy -->
+    <string name="See_Dashboard">"Se dashbord"</string>
+
+    <!-- profile and settings -->
+    <!-- Fuzzy -->
+    <string name="Campaign_Scores">"Kampanjeresultater"</string>
+
+    <!-- when iOS user is redirected and asked to authorize GPS in phone settings after denying permissions in On-boarding -->
+    <string name="GPS_Link_Phone_Settings">"Innstillinger"</string>
+
+    <!-- when iOS user is asked to authorize GPS in phone settings and selects back to dismiss this dialogue -->
+    <string name="GPS_Go_Back">"Tilbake"</string>
+
+    <!-- Days -->
+    <string name="Days">"Dager"</string>
+
+    <!-- trips -->
+    <string name="Trips">"Turer"</string>
+
+    <!-- Issue form -->
+    <string name="Issue_Form">"Issue form"</string>
+
+    <!-- Thank you for reporting an issue -->
+    <string name="Thank_You_For_Reporting_An_Issue">"Takk for at du rapporterte et problem"</string>
+
+    <!-- Submit log -->
+    <string name="Submit_Log">"Send logg"</string>
+
+    <!-- Send log -->
+    <string name="Send_Log">"Send logg"</string>
+
+    <!-- No log needed for this issue. Skip. -->
+    <string name="No_Log_Needed_For_This_Issue_Skip">"Vi trenger ikke en logg. Hopp over."</string>
+
+    <!-- Targets & Rewards -->
+    <string name="Targets_And_Rewards">"Mål &amp; Premier"</string>
+
+    <!-- Tasks -->
+    <string name="Tasks">"Oppgaver"</string>
+
+    <!-- To analise the issue, we would like to receive a log with information of the app activity. Please send the email that will be generated. If you like, you can also attach printscreens or a longer description of the issue to the email. -->
+    <string name="To_Analyse_This_Issue">"To analyse the issue, we would like to receive a log with information of the app activity. Please send the email that will be generated. If you like, you can also attach printscreens or a longer description of the issue to the email."</string>
+
+    <!-- points -->
+    <string name="Points">"Poeng"</string>
+
+    <!-- Progress (Reward progress) -->
+    <string name="Progress">"Framdrift"</string>
+
+    <!-- %1$s days left -->
+    <string name="days_left_reward">"%1$s dager igjen"</string>
+
+    <!-- user registration -->
+    <string name="Password_Length_Message">"Vennligst velg et passord mellom 6 og 16 karakterer."</string>
+
+    <!-- Onboarding -->
+    <string name="How_Productive_Are_You">"Hvor produktiv er du"</string>
+
+    <!-- Woorti is running in the background -->
+    <string name="Woorti_Is_Running">"Woorti jobber i bakgrunnen"</string>
+
+    <!-- Continue -->
+    <string name="Continue">"Fortsett"</string>
+
+    <!-- Hurray!!! -->
+    <string name="Hurray">"Hurra!"</string>
+
+    <!-- You have completed your target for NAME_REWARD! -->
+    <string name="You_Have_Completed_Your_Target">"Du har nådd ditt mål for %s !"</string>
+
+    <!-- Keep reporting your trips to monitor your stats to see your evolution and help this research  -->
+    <string name="Keep_Reporting_Your_Trips_Reward_Completed_Popup">"Keep reporting your trips to monitor your stats to see your evolution and help this research"</string>
+
+    <!-- Woorti just detected that you started a trip -->
+    <string name="Woorti_Just_Detected_Start_Trip">"Woorti registrer at du har startet en reise"</string>
+
+    <!-- Your  trip has ended.\nYou can now report about it in Woorti -->
+    <string name="Your_Trip_As_Ended">"Turen din er over"</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Successful">"Registrerings-prosessen er fullført"</string>
+
+    <!-- Trip validation tutorial -->
+    <string name="Trip_Validation_Tutorial">"Trip validation tutorial"</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Duplicated">"Registrerings-prosessen fullført tidligere. Logger inn."</string>
+
+    <!-- Onboarding -->
+    <string name="Onboarding_Error">"An error has occurred during Onboarding. Please try completing Onboarding again."</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Attempt">"Forsøker å sende inn info om turen"</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Successful">"Info om turen sendt inn"</string>
+
+    <!-- Trip submission notifications (in background communication) -->
+    <string name="Trip_Submission_Not_Submitted">"Reise ikke registrert – Prøver igjen senere"</string>
+
+    <!-- You can now report about it in Woorti -->
+    <string name="You_Can_Now_Report_About_It_In_Woorti">"You can now report about it in Woorti"</string>
+
+    <!-- Complete until dd/mm/yyyy -->
+    <string name="Complete_Until">"Complete until %s"</string>
+
+    <!-- You have a new survey (notification) -->
+    <string name="You_Have_A_New_Survey">"You have a new survey."</string>
+
+    <!-- Fill it in and earn %d points. (notification -> fill survey) -->
+    <string name="Fill_It_And_Earn_XX_Points">"Fill it in and earn %d points"</string>
+
+    <!-- Is your phone blocking trip detection? -->
+    <string name="Is_Your_Phone_Blocking_Trip_Detection">"Blokkerer telefonen din registrering av reiser?"</string>
+
+    <!-- Woorti gives you 25 points for each additional information item you fill in your profile. -->
+    <string name="Woorti_Gives_You_Points_For_Each_Info">"Woorti gives you 25 points for each additional information item you fill in your profile."</string>
+
+    <!-- If that is the case, fortunately there is a solution. Get the instructions for your phone brand by pressing  the button below. -->
+    <string name="If_Thats_The_Case_Fortunately_There_Is_Solution">"If that is the case, fortunately there is a solution. Get the instructions for your phone brand by pressing  the button below."</string>
+
+    <!-- Enable app activity -->
+    <string name="Enable_App_Activity">"Enable app activity"</string>
+
+    <!-- Do not show again -->
+    <string name="Do_Not_Show_Again">"Ikke vis dette igjen"</string>
+
+    <!-- If your trips are frequently not being recorded, your phone might be blocking this app’s activity. -->
+    <string name="If_Your_Trips_Are_Frequently_Not_Being_Recorded">"Vis dine turer stadig ikke blir registrert kan det være at telefonen din blokkerer denne appens aktiviteter"</string>
+
+    <!-- Tell us more about yourself -->
+    <string name="Tell_Us_More_About_Yourself">"Fortell oss mer om deg selv"</string>
+
+    <!-- Your data is anonymised. -->
+    <string name="Your_Data_Is_Anonymised">"Dine data anonymiseres"</string>
+
+    <!-- Fill in profile -->
+    <string name="Fill_In_Profile">"Fyll ut profil"</string>
+
+    <!-- Later -->
+    <string name="Later">"Senere"</string>
+
+    <!-- Point all time -->
+    <string name="Points_All_Time">"Poeng, tilsammen"</string>
+
+    <!-- Days with trips all time -->
+    <string name="Days_All_Time">"Dager med reiser, tilsammen"</string>
+
+    <!-- Trips all time -->
+    <string name="Trips_All_Time">"Turer tilsammen"</string>
+
+    <!-- temporary text without link to battery optimization site not endorsed by motiv. -->
+    <string name="If_Your_Trips_Are_Frequently_Not_Being_Recorded_No_Link_To_Site">"Hvis Woorti ofte ikke merker at du reiser kan det være at telefonen blokkerer denne appen sine aktiviteter. Sjekk batteri-innstillingene i Android."</string>
+
+    <!-- Dashboard_You -->
+    <string name="Dashboard_You">"Du"</string>
+
+    <!-- Dashboard_Community -->
+    <string name="Dashboard_Community">"Fellesskap"</string>
+
+    <!-- Dashboard_Citizens -->
+    <string name="Dashboard_Citizens">"Borgere"</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Balloon_Text_Worthwhile_From_Onboarding">"These results reflect either default scores or the scores you have stated in the onboarding, per mode of transport . You may always change the applicable scores in the app’s Settings."</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Balloon_Text_Worthwhile_From_Leg_Info_Recorded">"These results reflect the worthwhileness assessment of the legs of the trip that you’ve chosen to report in your trip reports."</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Your_Whole_Trips">"Your whole trips"</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard_Your_Reported_Legs">"Dine rapporterte etapper"</string>
+
+    <!-- Dashboard -->
+    <string name="Time_Spent_In_Travel">"Tid brukt på reise"</string>
+
+    <!-- Dashboard -->
+    <string name="Travelled_Distance">"Avstand du har reist"</string>
+
+    <!-- Dashboard -->
+    <string name="CO2_Emissions">"CO2-utslipp"</string>
+
+    <!-- Dashboard -->
+    <string name="Calories">"Kalorier"</string>
+
+    <!-- Dashboard -->
+    <string name="The_Community_Trips">"Turene til fellesskapet"</string>
+
+    <!-- Dashboard -->
+    <string name="The_Community_Validated_Legs">"Fellesskapets godkjente turer"</string>
+
+    <!-- Dashboard -->
+    <string name="Compared_To_Your_Scores">"(sammenlignet med dine poeng)"</string>
+
+    <!-- Dashboard -->
+    <string name="Worthwhileness">"Worthwhileness"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Title">"Hei, du!"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Text_Part_1">"Rapporter dine %d registrerte reiser de siste "</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Text_Part_2">"to see your complete real stats in the dashboard."</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_Report_Trips">"RAPPORTER TURER"</string>
+
+    <!-- Dashboard -->
+    <string name="Pop_Up_Hey_There_Unreported_Trips_See_Dashboard">"SEE DASHBOARD"</string>
+
+    <!-- MyTrips -->
+    <string name="Pop_Up_Split_Merge_Delete_Text">"Innimellom kan reiser bli registrert feil. For å redigere strukturen på reisen klikk ikonet over for å splitte, slå sammen eller slette reiser eller etapper av en reise."</string>
+
+    <!-- MyTrips -->
+    <string name="Pop_Up_Split_Merge_Delete_Button">"DEN ER GREI!"</string>
+
+    <!-- Home module travel report -->
+    <string name="Seven_Day_Travel_Report">"Siste 7 dager"</string>
+
+    <!-- Home (travel report link to Dashboard) -->
+    <string name="Learn_More">"Lær mer"</string>
+
+    <!-- please retranslate to make clear statistics are average calories per day. thank you. LV. -->
+    <!-- Dashboard -->
+    <string name="In_Total_Users_Spent_Calories">"Gjennomsnittlig har hver bruker i fellesskapet forbrent %1s kalorier hver dag."</string>
+
+    <!-- Dashboard -->
+    <string name="And_This_Counted_Carbon_Footprint_Users">"On average, the community spent %1s of their sustainable carbon footprint."</string>
+
+    <!-- People from "campaign/city/country" on average have spent "3 min more/less" travelling a distance of "3km more/less" than you per day. -->
+    <string name="People_From_Place_Have_Spent_On_Average">"People from %1s on average have spent %2s travelling a distance of %3s than you, per day."</string>
+
+    <!-- "3 km more" -->
+    <string name="Number_Km_More">"%d flere km"</string>
+
+    <!-- "3 km less" -->
+    <string name="Number_Km_Less">"%d færre km"</string>
+
+    <!-- "3 min more" -->
+    <string name="Number_Min_More">"%d flere min"</string>
+
+    <!-- "3 min less" -->
+    <string name="Number_Min_Less">"%d færre min"</string>
+
+    <!-- Dashboard -->
+    <string name="Community_Trips_Overall_Percentage_Worthwhile">"The community's trips worthwhileness (compared to your scores)"</string>
+
+    <!-- These results reflect either default scores or the scores you have stated in the onboarding, per mode of transport . You may always change the applicable scores in the app’s Settings. -->
+    <string name="Dashboard_Worthwhileness_Popup_Text">"These results reflect either default scores or the scores you have stated in the onboarding, per mode of transport . You may always change the applicable scores in the app’s Settings."</string>
+
+    <!-- What is the carbon budget? -->
+    <string name="What_Is_The_Carbon_Budget">"Hva er karbonbudsjettet?"</string>
+
+    <!-- The carbon budget is the amount of CO2 that can be emitted per person for a sustainable lifestyle.  A person’s yearly mobility carbon budget is 500kg -->
+    <string name="The_Carbon_Budget_Is">"The carbon budget is the amount of CO2 that can be emitted per person for a sustainable lifestyle. \n \n A person’s yearly mobility carbon budget is 500kg"</string>
+
+    <!-- City/Region -->
+    <string name="City_Region">"By/region"</string>
+
+    <!-- You -->
+    <string name="You">"Du"</string>
+
+    <!-- should translate according to "Min per user per day" -->
+    <!-- Average minutes -->
+    <string name="Avg_Minutes">"Min pr bruker pr dag"</string>
+
+    <!-- please retranslate following "Km per user per day", because we are showing daily averages per individual (average) user of the community. -->
+    <!-- Average kilometers -->
+    <string name="Avg_Kilometers">"Km pr bruker pr dag"</string>
+
+    <!-- need to translate according to "Kg CO2 per user per day" -->
+    <!-- Average kilograms -->
+    <string name="Avg_Kilograms">"Kg CO2 pr bruker pr dag"</string>
+
+    <!-- need to retranslate for "Calories per user per day" -->
+    <!-- Average calories -->
+    <string name="Avg_Calories">"Kalorier pr bruker pr dag"</string>
+
+    <!-- Hours -->
+    <string name="Hours">"Timer"</string>
+
+    <!-- Dashboard - unable to show some global stats (e.g. always disconnected) -->
+    <string name="Unable_Show_Stats">"Klarer ikke få tak i statistikk fra fellesskapet"</string>
+
+    <!-- CO2 budget popu -->
+    <string name="CO2_Budget_Example">"500 kg tilsvarer en flytur mellom Brüssel og Madrid, eller å kjøre en bil 1500 km."</string>
+
+    <!-- CO2 budget popup - no need to translate -->
+    <string name="CO2_Budget_Link_URL">"https://motivproject.eu/data-collection/woorti-app-faqs.html"</string>
+
+    <!-- CO2 budget popup -->
+    <string name="CO2_Budget_Link_Text">"Lær mer"</string>
+
+    <!-- worthwhileness - travel wasted rating of trip -->
+    <string name="Travel_Time_Wasted_Question_Text_Second_Paragraph">"Refer to your journey, not to your activities at your destination."</string>
+
+    <!-- Onboarding and login -->
+    <string name="Failed_To_Connect_Check_Connectivity_Error">"Failed to connect. Please check your internet connection."</string>
+
+    <!-- "Requested permissions denied by the user. The app requires these and network connectivity to complete the onboarding. Please retry and complete the onboarding." -->
+    <string name="Onboarding_Warning_Permissions_Denied_Retry">"Requested permissions denied by the user. The app requires these and network connectivity to complete the onboarding. Please retry and complete the onboarding."</string>
+
+    <!-- "In order for the app to work properly, you must allow it to access location information to record trips and read/write files from/to external storage to manage trip information." -->
+    <string name="Onboarding_Dialog_Box_Ask_Location_Storage_Permissions">"In order for the app to work properly, you must allow it to access location information to record trips and read/write files from/to external storage to manage trip information."</string>
+
+    <!-- You have no trips -->
+    <string name="You_Have_No_Trips">"Du har ingen reiser"</string>
+
+    <!-- You must choose at least one trip to delete -->
+    <string name="You_Must_Choose_One_Trip_To_Delete">"Du må velge minst én reise å slette"</string>
+
+    <!-- Trip/s deleted successfully! -->
+    <string name="Trips_Deleted_Successfuly">"Reise(r) slettet!"</string>
+
+    <!-- You must choose at least one leg to delete -->
+    <string name="You_Must_Choose_One_Leg_To_Delete">"Du må velge minst én del å slette"</string>
+
+    <!-- You cannot delete all the trip's legs -->
+    <string name="You_Cannot_Delete_All_Trips_Legs">"Du kan ikke slette alle delene av reisen"</string>
+
+    <!-- You must choose consecutive legs to delete -->
+    <string name="You_Must_Choose_Consecutive_Legs_To_Delete">"Du må velge deler etterhverandre å slette"</string>
+
+    <!-- You must choose at least two legs to merge -->
+    <string name="You_Must_Choose_Two_Legs_To_Merge">"Du må velge minst to deler å slå sammen"</string>
+
+    <!-- You must choose consecutive legs to merge -->
+    <string name="You_Must_Choose_Consecutive_Legs_To_Merge">"Du må slå sammen deler som er etterhverandre"</string>
+
+    <!-- The leg you are trying to split is too small to be split -->
+    <string name="The_Leg_Is_Too_Small_To_Be_Split">"Delen du prøver å splitte er for liten til å splittes"</string>
+
+    <!-- Error splitting leg -->
+    <string name="Error_Splitting_Leg">"Det skjedde en feil"</string>
+
+    <!-- Trips_Merged_Successfully -->
+    <string name="Trips_Merged_Successfully">"Reisene ble slått sammen!"</string>
+
+    <!-- Trip splitted successfully! -->
+    <string name="Trip_Splitted_Successfully">"Reisen ble splittet!"</string>
+
+    <!-- "Please choose another leg/transfer other than the last" -->
+    <string name="Please_Choose_Other_Leg_Transfer_Not_Last">"Vennligst velg en annen del/overgang enn den siste"</string>
+
+    <!-- "Please choose a leg/transfer to split" -->
+    <string name="Please_Choose_Leg_Transfer_To_Split">"Vennligst velg en del/overgang å splitte"</string>
+
+    <!-- "You must choose consecutive trips to merge" -->
+    <string name="You_Must_Choose_Consecutive_Trips_To_Merge">"Du må velge reiser etterhverandre å slå sammen"</string>
+
+    <!-- "You must choose at least two legs to merge" -->
+    <string name="You_Must_Choose_Two_Trips_To_Merge">"Du må velge minst to deler å slå sammen"</string>
+</resources>

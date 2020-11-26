@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBE5CD"
+    tools:context=".mobilityCoach.fragments.SetMobilityGoalFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout34"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/mobility_coach_set_goal_graph_wrapper"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/yourScoreTextView" />
+
+        <TextView
+            android:id="@+id/yourScoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Your productivity score"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/graph"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50%"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+
+            app:layout_constraintBottom_toBottomOf="@+id/yourScoreTextView"
+            app:layout_constraintEnd_toEndOf="@+id/graph"
+            app:layout_constraintTop_toTopOf="@+id/yourScoreTextView" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout37"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/mobility_coach_set_goal_bottom_layout_wrapper"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout34"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout34"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout34">
+
+        <ImageView
+            android:id="@+id/squirrelImageView"
+            android:layout_width="60dp"
+            android:layout_height="78dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mobility_coach_squirrel_setgoal_bottom_productivity"
+            app:layout_constraintEnd_toStartOf="@+id/goalMessageTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/goalMessageTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Set a productivity goal of 80% and we will help you gain up to 30 mins of productivity per day."
+            android:textColor="#70706D"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="@+id/squirrelImageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/squirrelImageView"
+            app:layout_constraintTop_toTopOf="@+id/squirrelImageView" />
+
+
+        <SeekBar
+            android:id="@+id/currentScoreSeekBar"
+            android:layout_width="0dp"
+            android:layout_height="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:max="100"
+            android:progress="50"
+            android:theme="@style/WorthwhilenessSeekBarColor"
+            android:thumb="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="@+id/goalMessageTextView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/squirrelImageView"
+            app:layout_constraintTop_toBottomOf="@+id/textView95" />
+
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Your current score:"
+            android:textColor="#B8B7B6"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/squirrelImageView"
+            app:layout_constraintTop_toBottomOf="@+id/squirrelImageView" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="50%"
+            android:textColor="#B8B7B6"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView95"
+            app:layout_constraintStart_toEndOf="@+id/textView95"
+            app:layout_constraintTop_toTopOf="@+id/textView95" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Your goal:"
+            android:textColor="#70706D"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/squirrelImageView"
+            app:layout_constraintTop_toBottomOf="@+id/currentScoreSeekBar" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="50%"
+            android:textColor="#70706D"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView98"
+            app:layout_constraintStart_toEndOf="@+id/textView98"
+            app:layout_constraintTop_toTopOf="@+id/textView98" />
+
+        <SeekBar
+            android:id="@+id/seekBarGoal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginTop="16dp"
+            android:max="100"
+            android:progress="50"
+            android:theme="@style/WorthwhilenessSeekBarColor"
+            android:thumb="@drawable/thumb_seekbar_worthwhileness"
+            app:layout_constraintEnd_toEndOf="@+id/goalMessageTextView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/squirrelImageView"
+            app:layout_constraintTop_toBottomOf="@+id/textView98" />
+
+        <TextView
+            android:id="@+id/gainInTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Gain in productivity (mins)"
+            app:layout_constraintStart_toStartOf="@+id/seekBarGoal"
+            app:layout_constraintTop_toBottomOf="@+id/seekBarGoal" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="30 minutes"
+            app:layout_constraintBottom_toBottomOf="@+id/gainInTextView"
+            app:layout_constraintEnd_toEndOf="@+id/seekBarGoal"
+            app:layout_constraintTop_toTopOf="@+id/gainInTextView" />
+
+        <Button
+            android:id="@+id/setGoalButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/mobility_coach_set_goal_button_shape"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/set_a_goal_for_productivity"
+
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/goalMessageTextView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/squirrelImageView"
+            app:layout_constraintTop_toBottomOf="@+id/gainInTextView" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

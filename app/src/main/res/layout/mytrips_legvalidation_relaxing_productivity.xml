@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FBE5CD">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="4dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="50dp"
+        android:background="#ED7E03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout15" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/top_gradient_shape"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/legTransportIconImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_directions_walk_black_24dp" />
+
+        <TextView
+            android:id="@+id/legTimeIntervalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="8:00"
+            app:layout_constraintBottom_toBottomOf="@+id/legTransportIconImageView"
+            app:layout_constraintStart_toEndOf="@+id/legTransportIconImageView"
+            app:layout_constraintTop_toTopOf="@+id/legTransportIconImageView" />
+
+        <TextView
+            android:id="@+id/transportInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Walk 200m"
+            android:textColor="#979797"
+            app:layout_constraintBottom_toBottomOf="@+id/legTransportIconImageView"
+            app:layout_constraintStart_toEndOf="@+id/legTimeIntervalTextView"
+            app:layout_constraintTop_toTopOf="@+id/legTransportIconImageView" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="[ AUTO-DETECTED ]"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="9sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="@+id/transportInfoTextView"
+            app:layout_constraintStart_toEndOf="@+id/transportInfoTextView"
+            app:layout_constraintTop_toTopOf="@+id/transportInfoTextView" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/bottom_gradient_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout7">
+
+
+        <com.whinc.widget.ratingbar.RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="151dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:rb_click_rating="true"
+            app:rb_count="3"
+            app:rb_empty="@drawable/empty"
+            app:rb_fill="@drawable/fill"
+            app:rb_max_count="5"
+            app:rb_space="10dp"
+            app:rb_touch_rating="true" />
+
+        <TextView
+            android:id="@+id/modalityQuestionValidationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Productivity"
+            app:layout_constraintEnd_toEndOf="@+id/ratingBar"
+            app:layout_constraintStart_toStartOf="@+id/ratingBar"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.whinc.widget.ratingbar.RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="151dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/modalityQuestionValidationTextView"
+            app:rb_click_rating="true"
+            app:rb_count="3"
+            app:rb_empty="@drawable/empty"
+            app:rb_fill="@drawable/fill"
+            app:rb_max_count="5"
+            app:rb_space="10dp"
+            app:rb_touch_rating="true" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Relaxing"
+            app:layout_constraintEnd_toEndOf="@+id/ratingBar2"
+            app:layout_constraintStart_toStartOf="@+id/ratingBar2"
+            app:layout_constraintTop_toTopOf="@+id/modalityQuestionValidationTextView" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>
